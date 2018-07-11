@@ -1,0 +1,32 @@
+{
+  "name": "bumps-reults-tools",
+  "version": "0.1.0",
+  "description": "Read and write bumps results",
+  "keywords": [
+    "bumps"
+  ],
+  "homepage": "https://github.com/johnwalley/bumps-results-tools/",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "John Walley",
+    "url": "http://www.walley.org.uk/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnwalley/bumps-results.tools.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "website-results": "node scripts/generate_website_results.js",
+    "results": "node scripts/generate_results.js"
+  },
+  "dependencies": {
+    "d3": "^5.5.0",
+    "d3-array": "^1.2.1",
+    "d3-dsv": "^1.0.8",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
