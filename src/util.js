@@ -225,8 +225,10 @@ function abbreviateCrew(crew, set) {
       throw 'Unrecognised set: ' + set;
   }
 
-  if (findKey(abbrev, club => club === name) !== undefined) {
-    return findKey(abbrev, club => club === name) + (num > 1 ? num : '');
+  const key = findKey(abbrev, club => club === name);
+
+  if (key !== undefined) {
+    return key + (num > 1 ? num : '');
   } else {
     return crew;
   }
