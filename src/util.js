@@ -1553,8 +1553,10 @@ Year,${event.year}
 `;
   }
 
-  ret += `
+  if (event.divisions.length > 0) {
+    ret += `
 `;
+  }
 
   for (let div = 0; div < event.divisions.length; div++) {
     ret += 'Division';
@@ -1566,10 +1568,12 @@ Year,${event.year}
 `;
   }
 
-  ret += `
+  if (event.results.length > 0) {
+    ret += `
 Results
 ${event.results}
 `;
+  }
 
   return ret;
 }
@@ -1648,6 +1652,11 @@ function write_ad(event) {
 module.exports = {
   read_tg: read_tg,
   write_tg: write_tg,
+  read_ad: read_ad,
+  write_ad: write_ad,
+  read_flat: read_flat,
+  write_flat: write_flat,
   transformData: transformData,
   joinEvents: joinEvents,
-}
+  abbreviate: abbreviate,
+};

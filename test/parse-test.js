@@ -1,9 +1,10 @@
-var tape = require('tape');
-var bumps = require('../');
+var assert = require('assert');
+var utils = require('../src/util');
 
-tape('read_flat() returns a correct intermediate object.', function(test) {
-  var data =
-    'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
+describe('utils', function() {
+  it('read_flat() returns a correct intermediate object.', function() {
+    var data =
+      'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
 2013,Cantabs,M,1,1,1,1,1\n\
 2013,Cantabs,M,2,1,1,4,1\n\
 2013,Cantabs,M,3,1,1,5,1\n\
@@ -26,8 +27,64 @@ tape('read_flat() returns a correct intermediate object.', function(test) {
 2013,Champs,M,2,1,7,7,3\n\
 2013,Champs,M,3,1,7,7,3\n';
 
-  var expected = [
-    {
+    var expected = [
+      {
+        completed: [[true, true, true], [true, true, true], [true, true, true]],
+        days: 3,
+        divisions: [
+          ['Cantabs 1', 'City 1', 'Rob Roy 1', '99 1'],
+          ['Cantabs 2', 'City 2'],
+          ['Champs 1'],
+        ],
+        finish: [
+          ['99 1', 'Rob Roy 1', 'City 1', 'City 2'],
+          ['Cantabs 1', 'Cantabs 2'],
+          ['Champs 1'],
+        ],
+        gender: 'M',
+        move: [
+          [[0, 0, 0, 0], [0, -1], [1]],
+          [[-3, -1, 1, 3], [0, -1], [1]],
+          [[0, 0, 0, -1], [-1, 2], [0]],
+        ],
+        result: '',
+        results: 'r ur rrrrr\n\
+r ur ro3u\n\
+r ru urrr\n',
+        set: 'Town Bumps',
+        small: 'Short',
+        year: 2013,
+      },
+    ];
+
+    var actual = utils.read_flat(data);
+
+    assert.deepEqual(actual, expected);
+  });
+
+  it('read_tg() returns a correct intermediate object.', function() {
+    var data =
+      'Set,Town Bumps\n\
+Short,Short\n\
+Gender,M\n\
+Year,2013\n\
+Days,3\n\n\
+Division,Cantabs 1,City 1,Rob Roy 1,99 1\n\
+Division,Cantabs 2,City 2\n\
+Division,Champs 1\n\
+\n\
+Results\n\
+ r\n\
+ ur\n\
+ rrrrr\n\
+ r\n\
+ ur\n\
+ ro3u\n\
+ r\n\
+ ru\n\
+ urrr\n';
+
+    var expected = {
       completed: [[true, true, true], [true, true, true], [true, true, true]],
       days: 3,
       divisions: [
@@ -49,78 +106,20 @@ tape('read_flat() returns a correct intermediate object.', function(test) {
       result: '',
       results: 'r ur rrrrr\n\
 r ur ro3u\n\
-r ru urrr\n',
+r ru urrr',
       set: 'Town Bumps',
       small: 'Short',
       year: 2013,
-    },
-  ];
+    };
 
-  var actual = bumps.read_flat(data);
+    var actual = utils.read_tg(data);
 
-  test.deepEqual(actual, expected);
-  test.end();
-});
+    assert.deepEqual(actual, expected);
+  });
 
-tape('read_tg() returns a correct intermediate object.', function(test) {
-  var data =
-    'Set,Town Bumps\n\
-Short,Short\n\
-Gender,M\n\
-Year,2013\n\
-Days,3\n\n\
-Division,Cantabs 1,City 1,Rob Roy 1,99 1\n\
-Division,Cantabs 2,City 2\n\
-Division,Champs 1\n\
-\n\
-Results\n\
- r\n\
- ur\n\
- rrrrr\n\
- r\n\
- ur\n\
- ro3u\n\
- r\n\
- ru\n\
- urrr\n';
-
-  var expected = {
-    completed: [[true, true, true], [true, true, true], [true, true, true]],
-    days: 3,
-    divisions: [
-      ['Cantabs 1', 'City 1', 'Rob Roy 1', '99 1'],
-      ['Cantabs 2', 'City 2'],
-      ['Champs 1'],
-    ],
-    finish: [
-      ['99 1', 'Rob Roy 1', 'City 1', 'City 2'],
-      ['Cantabs 1', 'Cantabs 2'],
-      ['Champs 1'],
-    ],
-    gender: 'M',
-    move: [
-      [[0, 0, 0, 0], [0, -1], [1]],
-      [[-3, -1, 1, 3], [0, -1], [1]],
-      [[0, 0, 0, -1], [-1, 2], [0]],
-    ],
-    result: '',
-    results: 'r ur rrrrr\n\
-r ur ro3u\n\
-r ru urrr',
-    set: 'Town Bumps',
-    small: 'Short',
-    year: 2013,
-  };
-
-  var actual = bumps.read_tg(data);
-
-  test.deepEqual(actual, expected);
-  test.end();
-});
-
-tape('read_ad() returns a correct intermediate object.', function(test) {
-  var data =
-    "EIGHTS 2016\n\
+  it('read_ad() returns a correct intermediate object.', function() {
+    var data =
+      "EIGHTS 2016\n\
  4  3  7   = NDay, NDiv, NCrew\n\
  3  Men's Div I (6.45)\n\
 Oriel                       0   0   0   0\n\
@@ -133,51 +132,48 @@ Pembroke IV                 0   1   0   1\n\
  1  Men's Div III (4.45)\n\
 Exeter                      0   0   1   0\n";
 
-  var expected = {
-    completed: [
-      [true, true, true],
-      [true, true, true],
-      [true, true, true],
-      [true, true, true],
-    ],
-    days: 4,
-    divisions: [
-      ['Oriel 1', 'Christ Church 1', 'Pembroke 1'],
-      ['Osler-Green 1', "St Catherine's 1", 'Pembroke 4'],
-      ['Exeter 1'],
-    ],
-    finish: [
-      ['Oriel 1', "St Catherine's 1", 'Christ Church 1'],
-      ['Pembroke 4', 'Pembroke 1', 'Exeter 1'],
-      ['Osler-Green 1'],
-    ],
-    gender: 'Men',
-    move: [
-      [[0, 0, -1], [-1, 2, 0], [0]],
-      [[0, -1, 1], [0, -1, 1], [0]],
-      [[0, 0, 0], [0, 0, -1], [1]],
-      [[0, 0, 0], [-1, 1, 0], [0]],
-    ],
-    result: '',
-    results: 'r rru urr\n\
+    var expected = {
+      completed: [
+        [true, true, true],
+        [true, true, true],
+        [true, true, true],
+        [true, true, true],
+      ],
+      days: 4,
+      divisions: [
+        ['Oriel 1', 'Christ Church 1', 'Pembroke 1'],
+        ['Osler-Green 1', "St Catherine's 1", 'Pembroke 4'],
+        ['Exeter 1'],
+      ],
+      finish: [
+        ['Oriel 1', "St Catherine's 1", 'Christ Church 1'],
+        ['Pembroke 4', 'Pembroke 1', 'Exeter 1'],
+        ['Osler-Green 1'],
+      ],
+      gender: 'Men',
+      move: [
+        [[0, 0, -1], [-1, 2, 0], [0]],
+        [[0, -1, 1], [0, -1, 1], [0]],
+        [[0, 0, 0], [0, 0, -1], [1]],
+        [[0, 0, 0], [-1, 1, 0], [0]],
+      ],
+      result: '',
+      results: 'r rru urr\n\
 r rur rur\n\
 r urr rrrr\n\
 r rru rrrr\n',
-    set: 'Summer Eights',
-    small: 'Eights',
-    year: 2016,
-  };
+      set: 'Summer Eights',
+      small: 'Eights',
+      year: 2016,
+    };
 
-  var actual = bumps.read_ad(data);
+    var actual = utils.read_ad(data);
 
-  test.deepEqual(actual, expected);
-  test.end();
-});
+    assert.deepEqual(actual, expected);
+  });
 
-tape('read_ad() returns a correct intermediate object for Torpids.', function(
-  test
-) {
-  var data = `TORPIDS 2017
+  it('read_ad() returns a correct intermediate object for Torpids.', function() {
+    var data = `TORPIDS 2017
  4  5  61   = NDay, NDiv, NCrew
  12  Women's Div I (4.30)
 Magdalen                   -4  -4  -1  -2
@@ -247,206 +243,208 @@ Merton II                   1   1  -3   1
 L.M.H. II                   0   1   2   1
 `;
 
-  var expected = {
-    set: 'Torpids',
-    small: 'Torpids',
-    gender: 'Women',
-    result: '',
-    year: 2017,
-    days: 4,
-    divisions: [
-      [
-        'Magdalen 1',
-        'Oriel 1',
-        'Pembroke 1',
-        'Christ Church 1',
-        'Wadham 1',
-        'University 1',
-        'Wolfson 1',
-        'Hertford 1',
-        'New College 1',
-        "St John's 1",
-        'Balliol 1',
-        'Keble 1',
+    var expected = {
+      set: 'Torpids',
+      small: 'Torpids',
+      gender: 'Women',
+      result: '',
+      year: 2017,
+      days: 4,
+      divisions: [
+        [
+          'Magdalen 1',
+          'Oriel 1',
+          'Pembroke 1',
+          'Christ Church 1',
+          'Wadham 1',
+          'University 1',
+          'Wolfson 1',
+          'Hertford 1',
+          'New College 1',
+          "St John's 1",
+          'Balliol 1',
+          'Keble 1',
+        ],
+        [
+          'S.E.H. 1',
+          'Lincoln 1',
+          'Trinity 1',
+          'Jesus 1',
+          "St Catherine's 1",
+          'Somerville 1',
+          'Linacre 1',
+          'Green Templeton 1',
+          'Worcester 1',
+          "St Anne's 1",
+          "St Hugh's 1",
+          'Brasenose 1',
+        ],
+        [
+          'L.M.H. 1',
+          'Mansfield 1',
+          'Corpus Christi 1',
+          'Wolfson 2',
+          'Wadham 2',
+          'Exeter 1',
+          "Queen's 1",
+          "St Hilda's 1",
+          "St Peter's 1",
+          'Merton 1',
+          "St Antony's 1",
+          'New College 2',
+        ],
+        [
+          "St John's 2",
+          'Pembroke 2',
+          "Regent's Park 1",
+          'Lincoln 2',
+          'Oriel 2',
+          'Worcester 2',
+          'University 2',
+          'Wolfson 3',
+          'Somerville 2',
+          'Jesus 2',
+          'Magdalen 2',
+          'Linacre 2',
+        ],
+        [
+          'Balliol 2',
+          'Lincoln 3',
+          'Christ Church 2',
+          'Hertford 2',
+          'Trinity 2',
+          'Wadham 3',
+          "St Anne's 2",
+          'Mansfield 2',
+          "St Hilda's 2",
+          'Keble 2',
+          'Exeter 2',
+          'Merton 2',
+          'L.M.H. 2',
+        ],
       ],
-      [
-        'S.E.H. 1',
-        'Lincoln 1',
-        'Trinity 1',
-        'Jesus 1',
-        "St Catherine's 1",
-        'Somerville 1',
-        'Linacre 1',
-        'Green Templeton 1',
-        'Worcester 1',
-        "St Anne's 1",
-        "St Hugh's 1",
-        'Brasenose 1',
-      ],
-      [
-        'L.M.H. 1',
-        'Mansfield 1',
-        'Corpus Christi 1',
-        'Wolfson 2',
-        'Wadham 2',
-        'Exeter 1',
-        "Queen's 1",
-        "St Hilda's 1",
-        "St Peter's 1",
-        'Merton 1',
-        "St Antony's 1",
-        'New College 2',
-      ],
-      [
-        "St John's 2",
-        'Pembroke 2',
-        "Regent's Park 1",
-        'Lincoln 2',
-        'Oriel 2',
-        'Worcester 2',
-        'University 2',
-        'Wolfson 3',
-        'Somerville 2',
-        'Jesus 2',
-        'Magdalen 2',
-        'Linacre 2',
-      ],
-      [
-        'Balliol 2',
-        'Lincoln 3',
-        'Christ Church 2',
-        'Hertford 2',
-        'Trinity 2',
-        'Wadham 3',
-        "St Anne's 2",
-        'Mansfield 2',
-        "St Hilda's 2",
-        'Keble 2',
-        'Exeter 2',
-        'Merton 2',
-        'L.M.H. 2',
-      ],
-    ],
-    results: `re1e-1e1e-1e1e1e1e1e1e-5rr e2e2e-1e1e1e1e-6e1e2re-3e2e-1 re-1re1e-1re1e-1e1e1e-2rr e1e1e-2e1e-1e2re1e-3e1e-1rr re1e-1e1e-1e1e1e-2e1e2re1e-4
+      results: `re1e-1e1e-1e1e1e1e1e1e-5rr e2e2e-1e1e1e1e-6e1e2re-3e2e-1 re-1re1e-1re1e-1e1e1e-2rr e1e1e-2e1e-1e2re1e-3e1e-1rr re1e-1e1e-1e1e1e-2e1e2re1e-4
 e1e-1e1e-1e1e-1e1e2re1e-4e2e-1 re-1e1e1e-2e1e1e1e-3re1e2e-2 re-1rre1e1e1e1e-4re1e2e-2 re2re1e1e-5e1e1e1e-3e1e2e-2 re-1e1e-1e2re1e1e-4e1e-1rr
 e2e2e-1e-3re1e1e1e-3e1e1e1e-3 rrre2re-2e1e1e1e1e-4e3e-1 rre2re-4rre1e-1e1e-1e2e-1 re1e-2e1e-1e1e1e-2e1e1e-2e2e-1 re1e-2e1e-1rrre1e-1e1e-1r
 e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r re1e1e-2e1e-1re1e-1e1e1e-2r re1e1e-2e2re1e2re-5rrr`,
-    move: [
-      [
-        [-4, 1, 0, 2, 1, -2, 1, 1, -1, 1, -1, 1],
-        [0, 0, -1, 1, -3, 1, 0, 2, -1, 1, -2, 1],
-        [1, 0, -2, 1, 1, -1, 1, 0, -1, 1, 0, -1],
-        [-1, 2, -3, 0, 2, 1, -6, 1, 1, 1, -1, 2],
-        [2, 0, -5, 1, 1, 1, 1, 1, -1, 1, -1, 1, 0],
+      move: [
+        [
+          [-4, 1, 0, 2, 1, -2, 1, 1, -1, 1, -1, 1],
+          [0, 0, -1, 1, -3, 1, 0, 2, -1, 1, -2, 1],
+          [1, 0, -2, 1, 1, -1, 1, 0, -1, 1, 0, -1],
+          [-1, 2, -3, 0, 2, 1, -6, 1, 1, 1, -1, 2],
+          [2, 0, -5, 1, 1, 1, 1, 1, -1, 1, -1, 1, 0],
+        ],
+        [
+          [0, 0, -1, 1, -4, 1, 1, 0, 2, -1, 1, -1],
+          [-2, 2, 1, -3, 1, 1, 1, -5, 1, 1, 0, 2],
+          [-2, 2, 1, 0, -4, 1, 1, 1, 1, 0, 0, -1],
+          [-2, 2, 1, 0, -3, 1, 1, 1, -2, 1, 1, -1],
+          [-1, 2, -4, 1, 0, 2, 1, -1, 1, -1, 1, -1, 1],
+        ],
+        [
+          [0, -1, 1, -1, 1, 0, 0, 0, -1, 1, -2, 1],
+          [-1, 2, -2, 1, 1, -2, 1, 1, -1, 1, -2, 1],
+          [-1, 2, -1, 1, -1, 1, 0, 0, -4, 0, 2, 0],
+          [-1, 3, -4, 1, 1, 1, 1, -2, 0, 2, 0, 0],
+          [-3, 1, 1, 1, -3, 1, 1, 1, 0, -3, -1, 2, 2],
+        ],
+        [
+          [0, 0, 0, -5, 0, 2, 1, 0, 2, -2, 1, 1],
+          [0, -2, 1, 1, -1, 1, 0, -1, 1, -2, 1, 1],
+          [0, -1, 1, -1, 1, 0, 0, 0, 0, -1, 1, -1],
+          [-1, 2, -3, 1, 0, 2, -2, 1, 1, -3, 1, 0],
+          [-1, 3, 0, -3, 1, 0, 2, 0, -1, 1, -2, 1, 1],
+        ],
       ],
-      [
-        [0, 0, -1, 1, -4, 1, 1, 0, 2, -1, 1, -1],
-        [-2, 2, 1, -3, 1, 1, 1, -5, 1, 1, 0, 2],
-        [-2, 2, 1, 0, -4, 1, 1, 1, 1, 0, 0, -1],
-        [-2, 2, 1, 0, -3, 1, 1, 1, -2, 1, 1, -1],
-        [-1, 2, -4, 1, 0, 2, 1, -1, 1, -1, 1, -1, 1],
+      finish: [
+        [
+          'Oriel 1',
+          'Wadham 1',
+          'Christ Church 1',
+          'Hertford 1',
+          'Pembroke 1',
+          "St John's 1",
+          'Keble 1',
+          'University 1',
+          'Wolfson 1',
+          'Lincoln 1',
+          'Jesus 1',
+          'Magdalen 1',
+        ],
+        [
+          'New College 1',
+          'Somerville 1',
+          'Green Templeton 1',
+          'Balliol 1',
+          'Trinity 1',
+          'S.E.H. 1',
+          "St Anne's 1",
+          'L.M.H. 1',
+          'Linacre 1',
+          'Mansfield 1',
+          'Wolfson 2',
+          'Worcester 1',
+        ],
+        [
+          'Brasenose 1',
+          'Wadham 2',
+          "St Catherine's 1",
+          'Exeter 1',
+          "St Hugh's 1",
+          "Queen's 1",
+          "St Hilda's 1",
+          'Merton 1',
+          "St Antony's 1",
+          'Oriel 2',
+          "St Peter's 1",
+          'Pembroke 2',
+        ],
+        [
+          "St John's 2",
+          'Corpus Christi 1',
+          "Regent's Park 1",
+          'Somerville 2',
+          'Wolfson 3',
+          'Lincoln 2',
+          'Balliol 2',
+          'Linacre 2',
+          'New College 2',
+          'Jesus 2',
+          'Trinity 2',
+          'Lincoln 3',
+        ],
+        [
+          'Worcester 2',
+          'University 2',
+          "St Anne's 2",
+          'Mansfield 2',
+          'Keble 2',
+          'Hertford 2',
+          'Magdalen 2',
+          'Wadham 3',
+          'L.M.H. 2',
+          'Christ Church 2',
+          "St Hilda's 2",
+          'Merton 2',
+          'Exeter 2',
+        ],
       ],
-      [
-        [0, -1, 1, -1, 1, 0, 0, 0, -1, 1, -2, 1],
-        [-1, 2, -2, 1, 1, -2, 1, 1, -1, 1, -2, 1],
-        [-1, 2, -1, 1, -1, 1, 0, 0, -4, 0, 2, 0],
-        [-1, 3, -4, 1, 1, 1, 1, -2, 0, 2, 0, 0],
-        [-3, 1, 1, 1, -3, 1, 1, 1, 0, -3, -1, 2, 2],
+      completed: [
+        [true, true, true, true, true],
+        [true, true, true, true, true],
+        [true, true, true, true, true],
+        [true, true, true, true, true],
       ],
-      [
-        [0, 0, 0, -5, 0, 2, 1, 0, 2, -2, 1, 1],
-        [0, -2, 1, 1, -1, 1, 0, -1, 1, -2, 1, 1],
-        [0, -1, 1, -1, 1, 0, 0, 0, 0, -1, 1, -1],
-        [-1, 2, -3, 1, 0, 2, -2, 1, 1, -3, 1, 0],
-        [-1, 3, 0, -3, 1, 0, 2, 0, -1, 1, -2, 1, 1],
-      ],
-    ],
-    finish: [
-      [
-        'Oriel 1',
-        'Wadham 1',
-        'Christ Church 1',
-        'Hertford 1',
-        'Pembroke 1',
-        "St John's 1",
-        'Keble 1',
-        'University 1',
-        'Wolfson 1',
-        'Lincoln 1',
-        'Jesus 1',
-        'Magdalen 1',
-      ],
-      [
-        'New College 1',
-        'Somerville 1',
-        'Green Templeton 1',
-        'Balliol 1',
-        'Trinity 1',
-        'S.E.H. 1',
-        "St Anne's 1",
-        'L.M.H. 1',
-        'Linacre 1',
-        'Mansfield 1',
-        'Wolfson 2',
-        'Worcester 1',
-      ],
-      [
-        'Brasenose 1',
-        'Wadham 2',
-        "St Catherine's 1",
-        'Exeter 1',
-        "St Hugh's 1",
-        "Queen's 1",
-        "St Hilda's 1",
-        'Merton 1',
-        "St Antony's 1",
-        'Oriel 2',
-        "St Peter's 1",
-        'Pembroke 2',
-      ],
-      [
-        "St John's 2",
-        'Corpus Christi 1',
-        "Regent's Park 1",
-        'Somerville 2',
-        'Wolfson 3',
-        'Lincoln 2',
-        'Balliol 2',
-        'Linacre 2',
-        'New College 2',
-        'Jesus 2',
-        'Trinity 2',
-        'Lincoln 3',
-      ],
-      [
-        'Worcester 2',
-        'University 2',
-        "St Anne's 2",
-        'Mansfield 2',
-        'Keble 2',
-        'Hertford 2',
-        'Magdalen 2',
-        'Wadham 3',
-        'L.M.H. 2',
-        'Christ Church 2',
-        "St Hilda's 2",
-        'Merton 2',
-        'Exeter 2',
-      ],
-    ],
-    completed: [
-      [true, true, true, true, true],
-      [true, true, true, true, true],
-      [true, true, true, true, true],
-      [true, true, true, true, true],
-    ],
-  };
+    };
 
-  var actual = bumps.read_ad(data);
+    var actual = utils.read_ad(data);
 
-  test.deepEqual(actual, expected);
-  test.end();
+    assert.deepEqual(actual, expected);
+  });
 });
+
+/*
 
 tape(
   'read_ad() returns a correct intermediate object for Torpids when no racing occured.',
@@ -1943,3 +1941,5 @@ r ru urrr\n';
   test.equal(actual, expected);
   test.end();
 });
+
+*/

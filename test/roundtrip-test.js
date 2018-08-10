@@ -2,8 +2,8 @@ var fs = require('fs');
 var assert = require('assert');
 var utils = require('../src/util');
 
-describe('utils', function() {
-  describe('#read_tg()', function() {
+describe('round-trip', function() {
+  describe('write_tg(read_tg())', function() {
     var files = fs.readdirSync('./results/tg_format/');
 
     files.forEach(function(file) {
