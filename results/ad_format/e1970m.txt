@@ -1,6 +1,6 @@
 EIGHTS 1970
  4  9  110   = NDay, NDiv, NCrew
- 12  undefined Div I
+ 12  Men's Div I
 Keble                       0   0   0   0
 Christ Church               0   0   0   0
 S.E.H.                     -1  -1  -1  -1

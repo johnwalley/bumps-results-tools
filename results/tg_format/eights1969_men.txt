@@ -1,6 +1,6 @@
 Set,Summer Eights
 Short,Eights
-Gender,Gender
+Gender,Men
 Year,1969
 
 Division,K,SE,O,Ch,Mt,B,SJ,N,U,Br,Q,Lc

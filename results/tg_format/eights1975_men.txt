@@ -1,6 +1,6 @@
 Set,Summer Eights
 Short,Eights
-Gender,Gender
+Gender,Men
 Year,1975
 
 Division,Ch,O,B,Mg,K,U,SE,Wh,Lc,SJ,Wt,N

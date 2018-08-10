@@ -1,6 +1,6 @@
 Set,Summer Eights
 Short,Eights
-Gender,Gender
+Gender,Men
 Year,1972
 
 Division,Ch,K,O,U,Q,B,SJ,SE,Wh,Mt,J,SC

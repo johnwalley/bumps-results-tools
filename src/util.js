@@ -1360,7 +1360,7 @@ function read_ad(input) {
   let event = {
     set: 'Set',
     small: 'Short',
-    gender: 'Gender',
+    gender: 'Men',
     result: '',
     year: 1970,
     days: 1,

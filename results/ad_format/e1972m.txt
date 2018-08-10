@@ -1,6 +1,6 @@
 EIGHTS 1972
  4  9  110   = NDay, NDiv, NCrew
- 12  undefined Div I
+ 12  Men's Div I
 Christ Church               0   0   0  -1
 Keble                       0   0   0   1
 Oriel                       0   0   0   0

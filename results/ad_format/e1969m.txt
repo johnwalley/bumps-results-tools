@@ -1,6 +1,6 @@
 EIGHTS 1969
  4  9  109   = NDay, NDiv, NCrew
- 12  undefined Div I
+ 12  Men's Div I
 Keble                       0   0   0   0
 S.E.H.                      0  -1   0   0
 Oriel                      -1   0   0   0
