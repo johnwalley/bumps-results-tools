@@ -1,6 +1,6 @@
 TORPIDS 1957
-  4  5 53   = NDay, NDiv, NCrew
- 12  Men's Div I (5.00)
+ 4  5  53   = NDay, NDiv, NCrew
+ 12  Men's Div I
 Balliol                    -1  -1   0   0
 Queen's                     1   0   0   0
 Worcester                   0   1   0   0
@@ -13,7 +13,7 @@ Exeter                      0   0   1   1
 Oriel                       0   0   0   1
 Wadham                     -1  -1  -1   0
 New College                 1   0  -1  -1
- 12  Men's Div II (4.00)
+ 12  Men's Div II
 Trinity                    -1  -1   0   0
 Hertford                    1   1   1   0
 Brasenose                  -1  -1  -1  -1
@@ -26,7 +26,7 @@ Corpus Christi             -1  -1   0   0
 St Catherine's              1   1   1   1
 Balliol II                 -1  -1  -1  -1
 Keble                       1   1   1   1
- 12  Men's Div III (3.00)
+ 12  Men's Div III
 Magdalen II                -1  -1  -1  -1
 St Peter's II               1   1   0   0
 Christ Church II           -1   0   1   1
@@ -39,7 +39,7 @@ Balliol III                 1   0  -1  -1
 Lincoln II                 -1  -1   0   1
 St John's II                1   1   1   1
 Queen's II                  0   1   1   1
- 12  Men's Div IV (2.00)
+ 12  Men's Div IV
 Brasenose II                0   0   0  -1
 Corpus Christi II          -1  -1  -1  -1
 Christ Church III           1   0  -1  -1
@@ -52,7 +52,7 @@ Wadham II                   0   0  -1  -1
 St Catherine's II           0  -1  -1   0
 Oriel III                  -1  -1  -1   0
 Jesus II                    1   1   1   1
-  5  Men's Div V (1.00)
+ 5  Men's Div V
 St Peter's III              0   1   1   1
 Magdalen III                0   0   1   0
 Wadham III                  0  -1  -1   0

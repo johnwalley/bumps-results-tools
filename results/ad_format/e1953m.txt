@@ -1,6 +1,6 @@
 EIGHTS 1953
  6  7  85   = NDay, NDiv, NCrew
- 12  Men's Div I (6.30)
+ 12  Men's Div I
 Balliol                     0   0   0   0   0  -1
 Merton                      0   0   0   0  -1   0
 New College                -1   0   0   0   0   0
@@ -13,7 +13,7 @@ University                  1   1   1   0   0   1
 Lincoln                     0   0   0   1   0  -1
 Brasenose                  -1  -1  -1  -1  -1   0
 Jesus                       1   0   0  -1   0   1
- 12  Men's Div II (5.30)
+ 12  Men's Div II
 St John's                  -1  -1  -1  -1   0  -1
 St Peter's                  1   1  -1   0  -1  -1
 Pembroke                   -1   0   1   1   1   0
@@ -26,7 +26,7 @@ Corpus Christi              0  -1  -1   0   0  -1
 Exeter                     -1   0   1   0   0   0
 Wadham                      1   1   1   1   1   1
 New College II              0   0   0   0  -1   0
- 12  Men's Div III (4.30)
+ 12  Men's Div III
 Keble                       0   0   0   0  -1   0
 Pembroke II                 0  -1  -1  -1  -1   0
 Brasenose II               -1  -1  -1  -1   0  -1
@@ -39,7 +39,7 @@ University II              -1   0  -1  -1  -1  -1
 Oriel II                    1   1   1   1   1   1
 St Catherine's II           0  -1  -1  -1  -1  -1
 St Peter's II              -1  -1  -1  -1  -1  -1
- 12  Men's Div IV (3.45)
+ 12  Men's Div IV
 Lincoln II                 -1   1   1   1   1   1
 Balliol II                  2   1   1   1   1   1
 Keble II                   -1  -1  -1  -1  -1  -1
@@ -52,7 +52,7 @@ Hertford II                 1   0   0   0   1   0
 Balliol III                 0  -1  -1   0  -1  -1
 St Catherine's III         -1  -1  -1  -1  -1  -1
 Brasenose III               1   1   1   0  -1   0
- 12  Men's Div V (3.00)
+ 12  Men's Div V
 Keble III                  -1   0   1   0  -1   1
 New College III             1   1   1   1   1   1
 Merton III                 -1  -1  -1  -1  -1  -1
@@ -65,7 +65,7 @@ New College IV             -1  -1  -1  -1  -1  -1
 University IV               1   1   1   1   1   1
 Wadham II                  -1  -1   0   1   1   1
 S.E.H. III                  1   1   1   1   1   1
- 12  Men's Div VI (2.15)
+ 12  Men's Div VI
 Pembroke III                0  -1  -1  -1  -1   0
 St Peter's III             -1  -1  -1  -1   0  -1
 Corpus Christi II           1   2   1   1   1   1
@@ -78,7 +78,7 @@ Wadham III                 -1  -1  -1  -1  -1  -1
 Keble IV                    1   0  -1  -1  -1  -1
 Brasenose IV               -1  -1  -1  -1  -1  -1
 Pembroke IV                 1   1   1   1   1   1
- 13  Men's Div VII (1.30)
+ 13  Men's Div VII
 Worcester III              -1  -1  -1  -1  -1  -1
 Balliol IV                  1   1   1   1   0  -1
 Jesus IV                    0   1   1   1   1   1

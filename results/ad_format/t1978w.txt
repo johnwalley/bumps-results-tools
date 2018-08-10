@@ -1,6 +1,6 @@
-TORPIDS 1978        
-  4  1 10   = NDay, NDiv, NCrew
- 10  Women's Div I (4.30)
+TORPIDS 1978
+ 4  1  10   = NDay, NDiv, NCrew
+ 10  Women's Div I
 L.M.H.                      0   0   0   0
 Somerville                 -1   0   0   0
 Jesus                       1   0   0   0

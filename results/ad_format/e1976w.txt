@@ -1,6 +1,6 @@
 EIGHTS 1976
  4  1  12   = NDay, NDiv, NCrew
- 12  Women's Div I (3.25)
+ 12  Women's Div I
 L.M.H.                      0  -1   0   0
 St Hugh's                  -1   0   0   0
 Wadham                      1   1   0   0

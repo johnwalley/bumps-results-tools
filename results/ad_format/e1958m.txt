@@ -1,6 +1,6 @@
 EIGHTS 1958
  4  7  85   = NDay, NDiv, NCrew
- 12  Men's Div I (6.30)
+ 12  Men's Div I
 Queen's                     0  -1   0   0
 Merton                     -1   0   0   0
 Christ Church               1   1   0   0
@@ -13,7 +13,7 @@ Trinity                     0  -1  -1  -1
 Lincoln                     0   1   1   0
 Hertford                    0  -1   0   1
 Brasenose                  -1   0   0   0
- 12  Men's Div II (5.30)
+ 12  Men's Div II
 Oriel                      -1  -1   0   0
 Worcester                   2   1   1   1
 University                 -1   0   0   0
@@ -26,7 +26,7 @@ St John's                   1   1   1   1
 Corpus Christi              0   1   1   1
 Balliol II                 -1   0   0   0
 Keble                       1   0   1   1
- 12  Men's Div III (4.30)
+ 12  Men's Div III
 Lincoln II                  0   0   0   0
 Oriel II                   -1  -1  -1  -1
 Queen's II                  1   0   0   0
@@ -39,7 +39,7 @@ St Peter's II               1   0  -1   0
 Jesus II                    0   1   1   0
 St John's II               -1   0   0   1
 New College II              1   0   1   0
- 12  Men's Div IV (3.45)
+ 12  Men's Div IV
 Pembroke II                 0   0   0   0
 Balliol III                -1   0  -1   0
 Worcester II                1   0   0   0
@@ -52,7 +52,7 @@ S.E.H. III                  1   0   0   1
 Wadham II                   0   1   0   0
 St Catherine's II          -1  -1  -1  -1
 University III              1   0   1   0
- 12  Men's Div V (3.00)
+ 12  Men's Div V
 Magdalen III               -1  -1  -1  -1
 Keble II                    1   1   0   1
 Lincoln III                 0   1   1   0
@@ -65,7 +65,7 @@ Pembroke III               -1  -1  -1  -1
 St Catherine's III          1   0   1   1
 Queen's III                -1  -1   0  -1
 Worcester III               1   1   0   1
- 12  Men's Div VI (2.15)
+ 12  Men's Div VI
 Oriel III                   0  -1  -1  -1
 Merton III                 -1  -1  -1  -1
 Exeter III                  1   2   1   0
@@ -78,7 +78,7 @@ St John's III               0   1   1   0
 Balliol V                   0  -1  -1  -1
 St Peter's V               -1  -1  -1   0
 Corpus Christi III          1   1   1   1
- 13  Men's Div VII (1.30)
+ 13  Men's Div VII
 S.E.H. IV                   0  -1   1   1
 Pembroke IV                 0   2   1   1
 Christ Church IV            0   0   0   0
