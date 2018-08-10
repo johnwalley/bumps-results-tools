@@ -13,7 +13,7 @@ Wadham                      1   1   0   1
 Merton                     -1   0  -1  -1
 Jesus                       1   1   1   0
 St Catherine's             -1  -1  -1  -1
- 12  undefined Div II
+ 12  Men's Div II
 Lincoln                     1  -1   0  -1
 Brasenose                  -1  -1   0   1
 Magdalen                    1   2   1   1
@@ -26,7 +26,7 @@ Christ Church II            1   0   0   1
 Pembroke                    3   0   1   0
 Keble II                    0  -1  -1  -1
 S.E.H. II                  -1   0  -1   1
- 12  undefined Div III
+ 12  Men's Div III
 Corpus Christi             -1  -1  -1   0
 New College II              2   1   1   1
 Oriel II                    0   1   2   1
@@ -39,7 +39,7 @@ Queen's II                  1   1   1   1
 Pembroke II                 0   1  -3  -1
 Brasenose II                0   0   1   0
 St Catherine's II          -1  -1  -1  -1
- 12  undefined Div IV
+ 12  Men's Div IV
 Christ Church III           1  -1   0  -1
 Merton II                  -1  -1  -1  -1
 Wadham II                   1   2   3   1
@@ -52,7 +52,7 @@ St Peter's II               0   1   1   0
 Merton III                 -1   0  -1  -1
 University III              1   0   1   1
 Trinity II                 -1  -1  -1   0
- 12  undefined Div V
+ 12  Men's Div V
 Worcester II                1  -1   0  -1
 Magdalen II                -3  -1  -1  -1
 Pembroke III                1   2   1   1
@@ -65,7 +65,7 @@ Jesus II                    1   1   1   1
 Keble IV                    0   1   1   1
 S.E.H. IV                  -1  -1  -1  -1
 Exeter III                  1   0   1   1
- 12  undefined Div VI
+ 12  Men's Div VI
 Oriel III                  -1  -1   0   1
 St John's III               1   1  -1   0
 Mansfield                   0   1   2   1
@@ -78,7 +78,7 @@ Jesus III                   1   0  -1  -1
 S.E.H. V                   -3   1  -1   0
 St John's IV               -1  -1  -1   0
 Queen's III                 1   0   1   1
- 12  undefined Div VII
+ 12  Men's Div VII
 Hertford III               -1  -1   0  -1
 Osler House                 4   1   1   1
 S.E.H. VI                  -1  -1  -1   1
@@ -91,7 +91,7 @@ Balliol IV                  0   1   1   0
 Lincoln IV                  0  -3  -1  -1
 Jesus IV                    0  -1   0  -1
 University V               -1  -1   1   1
- 12  undefined Div VIII
+ 12  Men's Div VIII
 Worcester IV                1   1   0   1
 Trinity III                -1   0  -1  -3
 St Peter's IV               1   4   1   1
@@ -104,7 +104,7 @@ Wolfson                     1   1   1   1
 Regent's Park               0  -1  -1   0
 Balliol V                  -1  -1  -1  -1
 St John's V                 1   1   1   1
- 14  undefined Div IX
+ 14  Men's Div IX
 Exeter IV                   0  -1   1   0
 Pembroke V                 -3   1   0  -1
 Merton IV                  -1  -1  -1  -1
