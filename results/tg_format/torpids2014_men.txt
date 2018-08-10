@@ -2,6 +2,3 @@ Set,Torpids
 Short,Torpids
 Gender,Men
 Year,2014
-
-
-Results

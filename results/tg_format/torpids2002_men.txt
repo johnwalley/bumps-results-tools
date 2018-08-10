@@ -3,6 +3,3 @@ Short,Torpids
 Gender,Men
 Year,2002
 Days,0
-
-
-Results

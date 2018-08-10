@@ -3,6 +3,3 @@ Short,Torpids
 Gender,Women
 Year,2000
 Days,0
-
-
-Results

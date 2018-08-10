@@ -10,7 +10,6 @@ Division,T4,Cl3,Cu3,K2,Cu4,E3,T5,F4,CC3,SS3,Cr3,Pb4,L5,Ca3,D4,Ph3
 Division,E4,Cu5,M2,M3,Cl4,S3,S4,E5,T6,Cr4,T7,F5,L6,SC4,K3,L7
 
 Results
-
 urrurrrrurur rrrruuurrrrur uuruuuurur ro3uuururrrrr urrurrrrruuu
 rrrurururuu uruuurruuu ruruuurrruu rururrruuurr ruurrrrruurrr
 ruuurrrruur ruruurrrrrrur urrruurrruur uruuruurrur rruuruuurur

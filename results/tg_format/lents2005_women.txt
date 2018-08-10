@@ -8,7 +8,7 @@ Division,J2,R,SS,M,F,E2,Dw,K,CT,Ph,N2,W,L2,SE,NH2,H,SC2
 Division,Q2,CC,Ca2,CH,Pb2,G2,LC,TH2,D2,Cl2,J3,T2,Pb3,H2,N3,N4,Cu2,L3
 
 Results
-ruurrrrurruut   rurrururuurut rurruururut
-urrururruruut   uuuurrurrut   rrrrrrururrrut
-rrurrrruurrrrut rurruuuurrut  rrrurro3urrrrut
+ruurrrrurruut rurrururuurut rurruururut
+urrururruruut uuuurrurrut rrrrrrururrrut
+rrurrrruurrrrut rurruuuurrut rrrurro3urrrrut
 rurrrrrurrrrrut uurrrruuurrut rrrrrrrururrut
