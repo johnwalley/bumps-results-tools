@@ -1,6 +1,6 @@
 TORPIDS 1976
  4  6  57   = NDay, NDiv, NCrew
- 7  undefined Div I
+ 7  Men's Div I
 Oriel                       0   0   0   0
 Balliol                     0   0   0   0
 Christ Church               0   0   0   0
@@ -8,7 +8,7 @@ University                  0   0   0   0
 Worcester                  -1  -2   0  -2
 New College                 1   0   0   0
 Keble                       0   1   0   0
- 10  undefined Div II
+ 10  Men's Div II
 S.E.H.                      0   1   0   0
 Jesus                      -3  -1  -2  -2
 Lincoln                     1   0   0   1
@@ -19,7 +19,7 @@ Wadham                      0   0   1   0
 Queen's                     0   0   1   0
 Brasenose                   0   0  -1   1
 St John's                   0  -1  -1   0
- 10  undefined Div III
+ 10  Men's Div III
 Exeter                      0   1   1   1
 Pembroke                    0   0   1   0
 St Catherine's              0  -1   0   0
@@ -30,7 +30,7 @@ Corpus Christi              1   1   0   0
 University II               0   0  -1   0
 S.E.H. II                   0  -1  -1   0
 Christ Church II            0  -1  -1  -1
- 10  undefined Div IV
+ 10  Men's Div IV
 Lincoln II                 -1  -1   0   1
 St Peter's II              -4  -2  -3  -1
 Hertford                    2   2   1   1
@@ -41,7 +41,7 @@ Wadham II                  -2  -2  -1  -1
 Oriel III                   1   1   0   0
 Keble II                    1   1   0   0
 Jesus II                    0   1   1  -1
- 10  undefined Div V
+ 10  Men's Div V
 Mansfield                   0   1   1  -1
 St John's II               -8   0  -1  -1
 St Catherine's II          -1  -1  -1  -1
@@ -52,7 +52,7 @@ Exeter II                   2  -2  -1  -1
 Merton II                   2   2   1   2
 Trinity II                  2  -1  -1  -1
 Queen's III                 2   2   1   0
- 10  undefined Div VI
+ 10  Men's Div VI
 Corpus Christi II           0   2   2   1
 Oriel IV                   -3   2   0   2
 Corpus Christi III          1   0   2   2
