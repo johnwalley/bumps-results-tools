@@ -445,97 +445,92 @@ e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r
 
     assert.deepEqual(actual, expected);
   });
-});
 
-/*
-
-tape(
-  'read_ad() returns a correct intermediate object for Torpids when no racing occured.',
-  function(test) {
+  it('read_ad() returns a correct intermediate object for Torpids when no racing occured.', function() {
     var data = `TORPIDS 2000                   0 days                                           
-  STARTING ORDER - NO RACING     6 divisions                                      
-    MEN'S DIV I                 12 crews                                          
-  Pembroke                                                                        
-  Oriel                                                                           
-  New College                                                                     
-  Exeter                                                                          
-  Christ Church                                                                   
-  Worcester                                                                       
-  Magdalen                                                                        
-  Brasenose                                                                       
-  Queen's                                                                         
-  St. Catherine's                                                                 
-  Lincoln                                                                         
-  Merton                                                                          
-    MEN'S DIV II                12 crews                                          
-  Oriel II                                                                        
-  Wadham                                                                          
-  L.M.H.                                                                          
-  St. Peter's                                                                     
-  Trinity                                                                         
-  S.E.H.                                                                          
-  St. John's                                                                      
-  Keble                                                                           
-  Balliol                                                                         
-  University                                                                      
-  Jesus                                                                           
-  Hertford                                                                        
-    MEN'S DIV III               12 crews                                          
-  Mansfield                                                                       
-  Osler-Green                                                                     
-  Wolfson                                                                         
-  Corpus Christi                                                                  
-  Christ Church II                                                                
-  St. Anne's                                                                      
-  Linacre                                                                         
-  Magdalen II                                                                     
-  Pembroke II                                                                     
-  Somerville                                                                      
-  St. Hugh's                                                                      
-  Keble II                                                                        
-    MEN'S DIV IV                12 crews                                          
-  Oriel III                                                                       
-  Balliol II                                                                      
-  Lincoln II                                                                      
-  St. John's II                                                                   
-  Brasenose II                                                                    
-  New College II                                                                  
-  Exeter II                                                                       
-  S.E.H. II                                                                       
-  University II                                                                   
-  L.M.H. II                                                                       
-  St. Catherine's II                                                              
-  Wadham II                                                                       
-    MEN'S DIV V                 12 crews                                          
-  Jesus II                                                                        
-  St. Anne's II                                                                   
-  Queen's II                                                                      
-  St. Peter's II                                                                  
-  Magdalen III                                                                    
-  Hertford II                                                                     
-  Trinity II                                                                      
-  Merton II                                                                       
-  St. Benet's Hall                                                                
-  Wolfson II                                                                      
-  University III                                                                  
-  Regent's Park                                                                   
-    MEN'S DIV VI                13 crews                                          
-  Worcester II                                                                    
-  Wolfson III                                                                     
-  Pembroke III                                                                    
-  Balliol III                                                                     
-  Linacre II                                                                      
-  Mansfield II                                                                    
-  University IV                                                                   
-  Christ Church III                                                               
-  Somerville II                                                                   
-  Keble III                                                                       
-  Christ Church IV                                                                
-  S.E.H. III                                                                      
-  Oriel IV                                                                        
-  `;
+ STARTING ORDER - NO RACING     6 divisions                                      
+   MEN'S DIV I                 12 crews                                          
+ Pembroke                                                                        
+ Oriel                                                                           
+ New College                                                                     
+ Exeter                                                                          
+ Christ Church                                                                   
+ Worcester                                                                       
+ Magdalen                                                                        
+ Brasenose                                                                       
+ Queen's                                                                         
+ St. Catherine's                                                                 
+ Lincoln                                                                         
+ Merton                                                                          
+   MEN'S DIV II                12 crews                                          
+ Oriel II                                                                        
+ Wadham                                                                          
+ L.M.H.                                                                          
+ St. Peter's                                                                     
+ Trinity                                                                         
+ S.E.H.                                                                          
+ St. John's                                                                      
+ Keble                                                                           
+ Balliol                                                                         
+ University                                                                      
+ Jesus                                                                           
+ Hertford                                                                        
+   MEN'S DIV III               12 crews                                          
+ Mansfield                                                                       
+ Osler-Green                                                                     
+ Wolfson                                                                         
+ Corpus Christi                                                                  
+ Christ Church II                                                                
+ St. Anne's                                                                      
+ Linacre                                                                         
+ Magdalen II                                                                     
+ Pembroke II                                                                     
+ Somerville                                                                      
+ St. Hugh's                                                                      
+ Keble II                                                                        
+   MEN'S DIV IV                12 crews                                          
+ Oriel III                                                                       
+ Balliol II                                                                      
+ Lincoln II                                                                      
+ St. John's II                                                                   
+ Brasenose II                                                                    
+ New College II                                                                  
+ Exeter II                                                                       
+ S.E.H. II                                                                       
+ University II                                                                   
+ L.M.H. II                                                                       
+ St. Catherine's II                                                              
+ Wadham II                                                                       
+   MEN'S DIV V                 12 crews                                          
+ Jesus II                                                                        
+ St. Anne's II                                                                   
+ Queen's II                                                                      
+ St. Peter's II                                                                  
+ Magdalen III                                                                    
+ Hertford II                                                                     
+ Trinity II                                                                      
+ Merton II                                                                       
+ St. Benet's Hall                                                                
+ Wolfson II                                                                      
+ University III                                                                  
+ Regent's Park                                                                   
+   MEN'S DIV VI                13 crews                                          
+ Worcester II                                                                    
+ Wolfson III                                                                     
+ Pembroke III                                                                    
+ Balliol III                                                                     
+ Linacre II                                                                      
+ Mansfield II                                                                    
+ University IV                                                                   
+ Christ Church III                                                               
+ Somerville II                                                                   
+ Keble III                                                                       
+ Christ Church IV                                                                
+ S.E.H. III                                                                      
+ Oriel IV                                                                        
+ `;
 
-    var expected = {
+    const expected = {
       set: 'Torpids',
       small: 'Torpids',
       gender: 'Men',
@@ -549,17 +544,13 @@ tape(
       completed: [],
     };
 
-    var actual = bumps.read_ad(data);
+    var actual = utils.read_ad(data);
 
-    test.deepEqual(actual, expected);
-    test.end();
-  }
-);
+    assert.deepEqual(actual, expected);
+  });
 
-tape(
-  'read_ad() returns a correct intermediate object for Summer Eights.',
-  function(test) {
-    var data = `EIGHTS 2016
+  it('read_ad() returns a correct intermediate object for Summer Eights.', function() {
+    const data = `EIGHTS 2016
  4  7  92   = NDay, NDiv, NCrew
  13  Men's Div I (6.45)
 Oriel                       0   0   0   0
@@ -662,7 +653,7 @@ Balliol IV                  1   1   2   1
 Corpus Christi III          0   1   0   1
 `;
 
-    var expected = {
+    const expected = {
       set: 'Summer Eights',
       small: 'Eights',
       gender: 'Men',
@@ -777,8 +768,11 @@ Corpus Christi III          0   1   0   1
           'Corpus Christi 3',
         ],
       ],
-      results:
-        'ruo3urruur urruuruur uue2e-1e-1rurrrr uuruurrur rururruuu uuurrrruu rrrurururrr\nuurruuuu ruuuruuu urruruurrr ruruuuuu urrrrrrrurrr ruuurruur rrurururrrr\nrrre2e-1e-1rrruur rruuuruur ruurrurrrrr uruuuruu ruurrruuu rruurruurr rrrruruurrr\nruro5uuuu uruurrrrru uuurrurru rruuurrrur rrurruurur rrrurruurrr rrruurrrurr\n',
+      results: `ruo3urruur urruuruur uue2e-1e-1rurrrr uuruurrur rururruuu uuurrrruu rrrurururrr
+uurruuuu ruuuruuu urruruurrr ruruuuuu urrrrrrrurrr ruuurruur rrurururrrr
+rrre2e-1e-1rrruur rruuuruur ruurrurrrrr uruuuruu ruurrruuu rruurruurr rrrruruurrr
+ruro5uuuu uruurrrrru uuurrurru rruuurrrur rrurruurur rrrurruurrr rrruurrrurr
+`,
       move: [
         [
           [0, 0, 0, -1, 1, 0, -1, 1, 0, -1, 1, 0, 0],
@@ -933,17 +927,13 @@ Corpus Christi III          0   1   0   1
       ],
     };
 
-    var actual = bumps.read_ad(data);
+    const actual = utils.read_ad(data);
 
-    test.deepEqual(actual, expected);
-    test.end();
-  }
-);
+    assert.deepEqual(actual, expected);
+  });
 
-tape(
-  'read_ad() returns a correct intermediate object for Summer Eights (second example).',
-  function(test) {
-    var data = `EIGHTS 2014
+  it('read_ad() returns a correct intermediate object for Summer Eights (second example).', function() {
+    const data = `EIGHTS 2014
  4  6  79   = NDay, NDiv, NCrew
  13  Women's Div I (6.15)
 St John's                   0  -1   0   0
@@ -1032,7 +1022,7 @@ St Anne's III              -1   0   0   0
 St Peter's II               1   1   1   1
 `;
 
-    var expected = {
+    const expected = {
       set: 'Summer Eights',
       small: 'Eights',
       gender: 'Women',
@@ -1132,8 +1122,11 @@ St Peter's II               1   1   1   1
           "St Peter's 2",
         ],
       ],
-      results:
-        'urururrrur uurruuurr ruuurrruu uuruururr urrurururr ruurruurrr\nrururruuu ruuuuurrr uuuuruur ruurururu rrurrururrr rruurrrrrru\nrruruo3uur uuuuurru rre1e1e-2rrruurr uurrrrurur ro3uuruurr ruurrrrurrr\nruururruu ruurruurrr rurruuuur ruurrururr urrururrur urrrrrrrrrrrr\n',
+      results: `urururrrur uurruuurr ruuurrruu uuruururr urrurururr ruurruurrr
+rururruuu ruuuuurrr uuuuruur ruurururu rrurrururrr rruurrrrrru
+rruruo3uur uuuuurru rre1e1e-2rrruurr uurrrrurur ro3uuruurr ruurrrrurrr
+ruururruu ruurruurrr rurruuuur ruurrururr urrururrur urrrrrrrrrrrr
+`,
       move: [
         [
           [0, 0, 0, -1, 1, -1, 1, 0, 0, -1, 1, -1, 1],
@@ -1269,17 +1262,13 @@ St Peter's II               1   1   1   1
       ],
     };
 
-    var actual = bumps.read_ad(data);
+    const actual = utils.read_ad(data);
 
-    test.deepEqual(actual, expected);
-    test.end();
-  }
-);
+    assert.deepEqual(actual, expected);
+  });
 
-tape(
-  'read_ad() returns a correct intermediate object for Summer Eights (third example).',
-  function(test) {
-    var data = `EIGHTS 2013
+  it('read_ad() returns a correct intermediate object for Summer Eights (third example).', function() {
+    const data = `EIGHTS 2013
  4  6  79   = NDay, NDiv, NCrew
  13  Women's Div I (6.15)
 Pembroke                    0  -1  -1  -1
@@ -1468,8 +1457,11 @@ St John's IV                1   1   1   1
           "St John's 4",
         ],
       ],
-      results:
-        'uuurruurr rururuurrr uurrruuru urrruuruu rurrrrruurr rrurruurur\nruuuururr uruuruuu ruruururu ruruuruur rrrurruuur rurrrruuru\nuuurro3uu rruuurrrrrr e2e-1e5rrue-6urur uruurrrurr ururrruuu urururrrur\nuruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr\n',
+      results: `uuurruurr rururuurrr uurrruuru urrruuruu rurrrrruurr rrurruurur
+ruuuururr uruuruuu ruruururu ruruuruur rrrurruuur rurrrruuru
+uuurro3uu rruuurrrrrr e2e-1e5rrue-6urur uruurrrurr ururrruuu urururrrur
+uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr
+`,
       move: [
         [
           [0, -1, 1, 0, -1, 1, -1, 1, 0, 0, -1, 1, 0],
@@ -1605,16 +1597,52 @@ St John's IV                1   1   1   1
       ],
     };
 
-    var actual = bumps.read_ad(data);
+    const actual = utils.read_ad(data);
 
-    test.deepEqual(actual, expected);
-    test.end();
-  }
-);
+    assert.deepEqual(actual, expected);
+  });
 
-tape('write_flat() returns the correct flat format output.', function(test) {
-  var events = [
-    {
+  it('write_flat() returns the correct flat format output.', function() {
+    const events = [
+      {
+        completed: [],
+        days: 2,
+        divisions: [
+          ['Cantabs 1', 'City 1'],
+          ['Cantabs 2', 'City 2'],
+          ['Champs 1'],
+        ],
+        finish: [],
+        gender: 'M',
+        move: [[[0, 0], [0, -1], [1]], [[0, 0], [0, 0], [0]]],
+        result: '',
+        results: 'r rrr rrr\nr rrr rrr\n',
+        set: 'Town Bumps',
+        small: 'Short',
+        year: '2013',
+      },
+    ];
+
+    const expected = `Year,Club,Sex,Day,Crew,Start position,Position,Division
+2013,Cantabs,M,1,1,1,1,1
+2013,Cantabs,M,2,1,1,1,1
+2013,City,M,1,1,2,2,1
+2013,City,M,2,1,2,2,1
+2013,Cantabs,M,1,2,3,3,2
+2013,Cantabs,M,2,2,3,3,2
+2013,City,M,1,2,4,5,2
+2013,City,M,2,2,4,5,2
+2013,Champs,M,1,1,5,4,3
+2013,Champs,M,2,1,5,4,3
+`;
+
+    const actual = utils.write_flat(events);
+
+    assert.equal(actual, expected);
+  });
+
+  it('write_tg() returns the correct Tim Grainger output.', function() {
+    const event = {
       completed: [],
       days: 2,
       divisions: [
@@ -1626,122 +1654,92 @@ tape('write_flat() returns the correct flat format output.', function(test) {
       gender: 'M',
       move: [[[0, 0], [0, -1], [1]], [[0, 0], [0, 0], [0]]],
       result: '',
-      results: 'r rrr rrr\nr rrr rrr\n',
+      results: `r ur rrr
+r rrr rrr`,
       set: 'Town Bumps',
       small: 'Short',
       year: '2013',
-    },
-  ];
+    };
 
-  var expected =
-    'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
-2013,Cantabs,M,1,1,1,1,1\n\
-2013,Cantabs,M,2,1,1,1,1\n\
-2013,City,M,1,1,2,2,1\n\
-2013,City,M,2,1,2,2,1\n\
-2013,Cantabs,M,1,2,3,3,2\n\
-2013,Cantabs,M,2,2,3,3,2\n\
-2013,City,M,1,2,4,5,2\n\
-2013,City,M,2,2,4,5,2\n\
-2013,Champs,M,1,1,5,4,3\n\
-2013,Champs,M,2,1,5,4,3\n';
+    const expected = `Set,Town Bumps
+Short,Short
+Gender,M
+Year,2013
+Days,2
 
-  var actual = bumps.write_flat(events);
+Division,Cantabs 1,City 1
+Division,Cantabs 2,City 2
+Division,Champs 1
 
-  test.equal(actual, expected);
-  test.end();
-});
+Results
+r ur rrr
+r rrr rrr
+`;
+    const actual = utils.write_tg(event);
 
-tape('write_tg() returns the correct Tim Grainger output.', function(test) {
-  var event = {
-    completed: [],
-    days: 2,
-    divisions: [['Cantabs 1', 'City 1'], ['Cantabs 2', 'City 2'], ['Champs 1']],
-    finish: [],
-    gender: 'M',
-    move: [[[0, 0], [0, -1], [1]], [[0, 0], [0, 0], [0]]],
-    result: '',
-    results: 'r ur rrr\nr rrr rrr\n',
-    set: 'Town Bumps',
-    small: 'Short',
-    year: '2013',
-  };
+    assert.equal(actual, expected);
+  });
 
-  var expected =
-    'Set,Town Bumps\n\
-Short,Short\n\
-Gender,M\n\
-Year,2013\n\
-Days,2\n\
-\n\
-Division,Cantabs 1,City 1\n\
-Division,Cantabs 2,City 2\n\
-Division,Champs 1\n\
-\n\
-Results\nr ur rrr\n\
-r rrr rrr\n';
-  var actual = bumps.write_tg(event);
+  it('write_ad() returns the correct Anu Dudhia output.', function() {
+    const event = {
+      completed: [],
+      days: 2,
+      divisions: [
+        ['Cantabs 1', 'City 1'],
+        ['Cantabs 2', 'City 2'],
+        ['Champs 1'],
+      ],
+      finish: [],
+      gender: 'Men',
+      move: [[[0, 0], [0, 0], [0]], [[0, 0], [0, -1], [1]]],
+      result: '',
+      results: `rr rrr
+rr rrr
+`,
+      set: 'Summer Eights',
+      small: 'Short',
+      year: '2013',
+    };
 
-  test.equal(actual, expected);
-  test.end();
-});
+    const expected = `EIGHTS 2013
+ 2  3  5   = NDay, NDiv, NCrew
+ 2  Men's Div I
+Cantabs                     0   0
+City                        0   0
+ 2  Men's Div II
+Cantabs II                  0   0
+City II                     0  -1
+ 1  Men's Div III
+Champs                      0   1
+`;
 
-tape('write_ad() returns the correct Anu Dudhia output.', function(test) {
-  var event = {
-    completed: [],
-    days: 2,
-    divisions: [['Cantabs 1', 'City 1'], ['Cantabs 2', 'City 2'], ['Champs 1']],
-    finish: [],
-    gender: 'Men',
-    move: [[[0, 0], [0, 0], [0]], [[0, 0], [0, -1], [1]]],
-    result: '',
-    results: 'rr rrr\nrr rrr\n',
-    set: 'Summer Eights',
-    small: 'Short',
-    year: '2013',
-  };
+    const actual = utils.write_ad(event);
 
-  var expected =
-    "EIGHTS 2013\n\
- 2  3  5   = NDay, NDiv, NCrew\n\
- 2  Men's Div I\n\
-Cantabs                     0   0\n\
-City                        0   0\n\
- 2  Men's Div II\n\
-Cantabs II                  0   0\n\
-City II                     0  -1\n\
- 1  Men's Div III\n\
-Champs                      0   1\n";
+    assert.equal(actual, expected);
+  });
 
-  var actual = bumps.write_ad(event);
+  it('round-trip flat format.', function() {
+    const data = `Year,Club,Sex,Day,Crew,Start position,Position,Division
+2013,Cantabs,M,1,1,1,1,1
+2013,Cantabs,M,2,1,1,1,1
+2013,City,M,1,1,2,2,1
+2013,City,M,2,1,2,2,1
+2013,Cantabs,M,1,2,3,3,2
+2013,Cantabs,M,2,2,3,3,2
+2013,City,M,1,2,4,5,2
+2013,City,M,2,2,4,5,2
+2013,Champs,M,1,1,5,4,3
+2013,Champs,M,2,1,5,4,3
+`;
 
-  test.equal(actual, expected);
-  test.end();
-});
+    const expected = data;
+    const actual = utils.write_flat(utils.read_flat(data));
 
-tape('round-trip flat format.', function(test) {
-  var data =
-    'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
-2013,Cantabs,M,1,1,1,1,1\n\
-2013,Cantabs,M,2,1,1,1,1\n\
-2013,City,M,1,1,2,2,1\n\
-2013,City,M,2,1,2,2,1\n\
-2013,Cantabs,M,1,2,3,3,2\n\
-2013,Cantabs,M,2,2,3,3,2\n\
-2013,City,M,1,2,4,5,2\n\
-2013,City,M,2,2,4,5,2\n\
-2013,Champs,M,1,1,5,4,3\n\
-2013,Champs,M,2,1,5,4,3\n';
+    assert.equal(actual, expected);
+  });
 
-  var expected = data;
-  var actual = bumps.write_flat(bumps.read_flat(data));
-
-  test.equal(actual, expected);
-  test.end();
-});
-
-tape('round-trip tg format.', function(test) {
-  var data = `Set,Town Bumps
+  it('round-trip tg format.', function() {
+    const data = `Set,Town Bumps
 Short,Town Bumps
 Gender,Men
 Year,2016
@@ -1755,17 +1753,17 @@ Results
 rrrurrru uruuruurrrur urrururrurrru o3urrurrrrrrrrrr
 urrurur ruruuruurrur rrruo3uruurur rrrurrurrrrurrr
 rrurrrru uuruururuur rrrrruo3uuruu uuurrrrrrrrrrrr
-rrurrrur ruruuurrrruu ruruurruurur ruuururrrrurr`;
+rrurrrur ruruuurrrruu ruruurruurur ruuururrrrurr
+`;
 
-  var expected = data;
-  var actual = bumps.write_tg(bumps.read_tg(data));
+    const expected = data;
+    const actual = utils.write_tg(utils.read_tg(data));
 
-  test.equal(actual, expected);
-  test.end();
-});
+    assert.equal(actual, expected);
+  });
 
-tape('round-trip ad format.', function(test) {
-  var data = `TORPIDS 2016
+  it('round-trip ad format.', function() {
+    const data = `TORPIDS 2016
  4  6  73   = NDay, NDiv, NCrew
  12  Men's Div I
 Pembroke                    0   0   0   0
@@ -1848,101 +1846,102 @@ Corpus Christi II           0   1   0  -2
 Balliol IV                  0   1  -1   1
 `;
 
-  var expected = data;
-  var actual = bumps.write_ad(bumps.read_ad(data));
+    const expected = data;
+    const actual = utils.write_ad(utils.read_ad(data));
 
-  test.equal(actual, expected);
-  test.end();
+    assert.equal(actual, expected);
+  });
+
+  it('round-trip from flat format to tg format.', function() {
+    const data = `Year,Club,Sex,Day,Crew,Start position,Position,Division
+2013,Cantabs,M,1,1,1,1,1
+2013,Cantabs,M,2,1,1,4,1
+2013,Cantabs,M,3,1,1,5,1
+2013,City,M,1,1,2,2,1
+2013,City,M,2,1,2,3,1
+2013,City,M,3,1,2,3,1
+2013,Rob Roy,M,1,1,3,3,1
+2013,Rob Roy,M,2,1,3,2,1
+2013,Rob Roy,M,3,1,3,2,1
+2013,99,M,1,1,4,4,1
+2013,99,M,2,1,4,1,1
+2013,99,M,3,1,4,1,1
+2013,Cantabs,M,1,2,5,5,2
+2013,Cantabs,M,2,2,5,5,2
+2013,Cantabs,M,3,2,5,6,2
+2013,City,M,1,2,6,7,2
+2013,City,M,2,2,6,6,2
+2013,City,M,3,2,6,4,2
+2013,Champs,M,1,1,7,6,3
+2013,Champs,M,2,1,7,7,3
+2013,Champs,M,3,1,7,7,3
+`;
+
+    const expected = `Set,Town Bumps
+Short,Short
+Gender,M
+Year,2013
+Days,3
+
+Division,Cantabs 1,City 1,Rob Roy 1,99 1
+Division,Cantabs 2,City 2
+Division,Champs 1
+
+Results
+r ur rrrrr
+r ur ro3u
+r ru urrr
+
+`;
+
+    const actual = utils.write_tg(utils.read_flat(data)[0]);
+
+    assert.equal(actual, expected);
+  });
+
+  it('round-trip from tg format to flat format.', function() {
+    const data = `Set,Town Bumps
+Short,Short
+Gender,M
+Year,2013
+Days,3
+
+Division,Cantabs 1,City 1,Rob Roy 1,99 1
+Division,Cantabs 2,City 2
+Division,Champs 1
+
+Results
+r ur rrrrr
+r ur ro3u
+r ru urrr
+`;
+
+    const expected = `Year,Club,Sex,Day,Crew,Start position,Position,Division
+2013,Cantabs,M,1,1,1,1,1
+2013,Cantabs,M,2,1,1,4,1
+2013,Cantabs,M,3,1,1,5,1
+2013,City,M,1,1,2,2,1
+2013,City,M,2,1,2,3,1
+2013,City,M,3,1,2,3,1
+2013,Rob Roy,M,1,1,3,3,1
+2013,Rob Roy,M,2,1,3,2,1
+2013,Rob Roy,M,3,1,3,2,1
+2013,99,M,1,1,4,4,1
+2013,99,M,2,1,4,1,1
+2013,99,M,3,1,4,1,1
+2013,Cantabs,M,1,2,5,5,2
+2013,Cantabs,M,2,2,5,5,2
+2013,Cantabs,M,3,2,5,6,2
+2013,City,M,1,2,6,7,2
+2013,City,M,2,2,6,6,2
+2013,City,M,3,2,6,4,2
+2013,Champs,M,1,1,7,6,3
+2013,Champs,M,2,1,7,7,3
+2013,Champs,M,3,1,7,7,3
+`;
+
+    const actual = utils.write_flat([utils.read_tg(data)]);
+
+    assert.equal(actual, expected);
+  });
 });
-
-tape('round-trip from flat format to tg format.', function(test) {
-  var data =
-    'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
-2013,Cantabs,M,1,1,1,1,1\n\
-2013,Cantabs,M,2,1,1,4,1\n\
-2013,Cantabs,M,3,1,1,5,1\n\
-2013,City,M,1,1,2,2,1\n\
-2013,City,M,2,1,2,3,1\n\
-2013,City,M,3,1,2,3,1\n\
-2013,Rob Roy,M,1,1,3,3,1\n\
-2013,Rob Roy,M,2,1,3,2,1\n\
-2013,Rob Roy,M,3,1,3,2,1\n\
-2013,99,M,1,1,4,4,1\n\
-2013,99,M,2,1,4,1,1\n\
-2013,99,M,3,1,4,1,1\n\
-2013,Cantabs,M,1,2,5,5,2\n\
-2013,Cantabs,M,2,2,5,5,2\n\
-2013,Cantabs,M,3,2,5,6,2\n\
-2013,City,M,1,2,6,7,2\n\
-2013,City,M,2,2,6,6,2\n\
-2013,City,M,3,2,6,4,2\n\
-2013,Champs,M,1,1,7,6,3\n\
-2013,Champs,M,2,1,7,7,3\n\
-2013,Champs,M,3,1,7,7,3\n';
-
-  var expected =
-    'Set,Town Bumps\n\
-Short,Short\n\
-Gender,M\n\
-Year,2013\n\
-Days,3\n\n\
-Division,Cantabs 1,City 1,Rob Roy 1,99 1\n\
-Division,Cantabs 2,City 2\n\
-Division,Champs 1\n\
-\n\
-Results\n\
-r ur rrrrr\n\
-r ur ro3u\n\
-r ru urrr\n';
-  var actual = bumps.write_tg(bumps.read_flat(data)[0]);
-
-  test.equal(actual, expected);
-  test.end();
-});
-
-tape('round-trip from tg format to flat format.', function(test) {
-  var data =
-    'Set,Town Bumps\n\
-Short,Short\n\
-Gender,M\n\
-Year,2013\n\
-Days,3\n\n\
-Division,Cantabs 1,City 1,Rob Roy 1,99 1\n\
-Division,Cantabs 2,City 2\n\
-Division,Champs 1\n\
-\n\
-Results\n\
-r ur rrrrr\n\
-r ur ro3u\n\
-r ru urrr\n';
-  var expected =
-    'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
-2013,Cantabs,M,1,1,1,1,1\n\
-2013,Cantabs,M,2,1,1,4,1\n\
-2013,Cantabs,M,3,1,1,5,1\n\
-2013,City,M,1,1,2,2,1\n\
-2013,City,M,2,1,2,3,1\n\
-2013,City,M,3,1,2,3,1\n\
-2013,Rob Roy,M,1,1,3,3,1\n\
-2013,Rob Roy,M,2,1,3,2,1\n\
-2013,Rob Roy,M,3,1,3,2,1\n\
-2013,99,M,1,1,4,4,1\n\
-2013,99,M,2,1,4,1,1\n\
-2013,99,M,3,1,4,1,1\n\
-2013,Cantabs,M,1,2,5,5,2\n\
-2013,Cantabs,M,2,2,5,5,2\n\
-2013,Cantabs,M,3,2,5,6,2\n\
-2013,City,M,1,2,6,7,2\n\
-2013,City,M,2,2,6,6,2\n\
-2013,City,M,3,2,6,4,2\n\
-2013,Champs,M,1,1,7,6,3\n\
-2013,Champs,M,2,1,7,7,3\n\
-2013,Champs,M,3,1,7,7,3\n';
-
-  var actual = bumps.write_flat([bumps.read_tg(data)]);
-
-  test.equal(actual, expected);
-  test.end();
-});
-
-*/

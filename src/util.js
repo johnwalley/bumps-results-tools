@@ -1588,6 +1588,15 @@ function write_ad(event) {
     case SET.TORPIDS:
       setStr = 'TORPIDS';
       break;
+    case SET.LENTS:
+      setStr = 'LENTS';
+      break;
+    case SET.MAYS:
+      setStr = 'MAYS';
+      break;
+    case SET.TOWN:
+      setStr = 'TOWN';
+      break;
   }
 
   const numCrews = event.divisions.reduce((sum, div) => (sum += div.length), 0);
