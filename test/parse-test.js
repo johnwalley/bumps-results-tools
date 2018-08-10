@@ -1,33 +1,33 @@
-var assert = require('assert');
-var utils = require('../src/util');
+const assert = require('assert');
+const utils = require('../src/util');
 
 describe('utils', function() {
   it('read_flat() returns a correct intermediate object.', function() {
-    var data =
-      'Year,Club,Sex,Day,Crew,Start position,Position,Division\n\
-2013,Cantabs,M,1,1,1,1,1\n\
-2013,Cantabs,M,2,1,1,4,1\n\
-2013,Cantabs,M,3,1,1,5,1\n\
-2013,City,M,1,1,2,2,1\n\
-2013,City,M,2,1,2,3,1\n\
-2013,City,M,3,1,2,3,1\n\
-2013,Rob Roy,M,1,1,3,3,1\n\
-2013,Rob Roy,M,2,1,3,2,1\n\
-2013,Rob Roy,M,3,1,3,2,1\n\
-2013,99,M,1,1,4,4,1\n\
-2013,99,M,2,1,4,1,1\n\
-2013,99,M,3,1,4,1,1\n\
-2013,Cantabs,M,1,2,5,5,2\n\
-2013,Cantabs,M,2,2,5,5,2\n\
-2013,Cantabs,M,3,2,5,6,2\n\
-2013,City,M,1,2,6,7,2\n\
-2013,City,M,2,2,6,6,2\n\
-2013,City,M,3,2,6,4,2\n\
-2013,Champs,M,1,1,7,6,3\n\
-2013,Champs,M,2,1,7,7,3\n\
-2013,Champs,M,3,1,7,7,3\n';
+    const data = `Year,Club,Sex,Day,Crew,Start position,Position,Division
+2013,Cantabs,M,1,1,1,1,1
+2013,Cantabs,M,2,1,1,4,1
+2013,Cantabs,M,3,1,1,5,1
+2013,City,M,1,1,2,2,1
+2013,City,M,2,1,2,3,1
+2013,City,M,3,1,2,3,1
+2013,Rob Roy,M,1,1,3,3,1
+2013,Rob Roy,M,2,1,3,2,1
+2013,Rob Roy,M,3,1,3,2,1
+2013,99,M,1,1,4,4,1
+2013,99,M,2,1,4,1,1
+2013,99,M,3,1,4,1,1
+2013,Cantabs,M,1,2,5,5,2
+2013,Cantabs,M,2,2,5,5,2
+2013,Cantabs,M,3,2,5,6,2
+2013,City,M,1,2,6,7,2
+2013,City,M,2,2,6,6,2
+2013,City,M,3,2,6,4,2
+2013,Champs,M,1,1,7,6,3
+2013,Champs,M,2,1,7,7,3
+2013,Champs,M,3,1,7,7,3
+`;
 
-    var expected = [
+    const expected = [
       {
         completed: [[true, true, true], [true, true, true], [true, true, true]],
         days: 3,
@@ -48,43 +48,45 @@ describe('utils', function() {
           [[0, 0, 0, -1], [-1, 2], [0]],
         ],
         result: '',
-        results: 'r ur rrrrr\n\
-r ur ro3u\n\
-r ru urrr\n',
+        results: `r ur rrrrr
+r ur ro3u
+r ru urrr
+`,
         set: 'Town Bumps',
         small: 'Short',
         year: 2013,
       },
     ];
 
-    var actual = utils.read_flat(data);
+    const actual = utils.read_flat(data);
 
     assert.deepEqual(actual, expected);
   });
 
   it('read_tg() returns a correct intermediate object.', function() {
-    var data =
-      'Set,Town Bumps\n\
-Short,Short\n\
-Gender,M\n\
-Year,2013\n\
-Days,3\n\n\
-Division,Cantabs 1,City 1,Rob Roy 1,99 1\n\
-Division,Cantabs 2,City 2\n\
-Division,Champs 1\n\
-\n\
-Results\n\
- r\n\
- ur\n\
- rrrrr\n\
- r\n\
- ur\n\
- ro3u\n\
- r\n\
- ru\n\
- urrr\n';
+    const data = `Set,Town Bumps
+Short,Short
+Gender,M
+Year,2013
+Days,3
 
-    var expected = {
+Division,Cantabs 1,City 1,Rob Roy 1,99 1
+Division,Cantabs 2,City 2
+Division,Champs 1
+
+Results
+ r
+ ur
+ rrrrr
+ r
+ ur
+ ro3u
+ r
+ ru
+ urrr
+ `;
+
+    const expected = {
       completed: [[true, true, true], [true, true, true], [true, true, true]],
       days: 3,
       divisions: [
@@ -104,35 +106,35 @@ Results\n\
         [[0, 0, 0, -1], [-1, 2], [0]],
       ],
       result: '',
-      results: 'r ur rrrrr\n\
-r ur ro3u\n\
-r ru urrr',
+      results: `r ur rrrrr
+r ur ro3u
+r ru urrr`,
       set: 'Town Bumps',
       small: 'Short',
       year: 2013,
     };
 
-    var actual = utils.read_tg(data);
+    const actual = utils.read_tg(data);
 
     assert.deepEqual(actual, expected);
   });
 
   it('read_ad() returns a correct intermediate object.', function() {
-    var data =
-      "EIGHTS 2016\n\
- 4  3  7   = NDay, NDiv, NCrew\n\
- 3  Men's Div I (6.45)\n\
-Oriel                       0   0   0   0\n\
-Christ Church               0  -1   0   0\n\
-Pembroke                   -1   0   0  -1\n\
- 3  Men's Div II (5.45)\n\
-Osler-Green                -1  -1  -1   0\n\
-St Catherine's              2   1   0   0\n\
-Pembroke IV                 0   1   0   1\n\
- 1  Men's Div III (4.45)\n\
-Exeter                      0   0   1   0\n";
+    const data = `EIGHTS 2016
+ 4  3  7   = NDay, NDiv, NCrew
+ 3  Men's Div I (6.45)
+Oriel                       0   0   0   0
+Christ Church               0  -1   0   0
+Pembroke                   -1   0   0  -1
+ 3  Men's Div II (5.45)
+Osler-Green                -1  -1  -1   0
+St Catherine's              2   1   0   0
+Pembroke IV                 0   1   0   1
+ 1  Men's Div III (4.45)
+Exeter                      0   0   1   0
+`;
 
-    var expected = {
+    const expected = {
       completed: [
         [true, true, true],
         [true, true, true],
@@ -158,22 +160,23 @@ Exeter                      0   0   1   0\n";
         [[0, 0, 0], [-1, 1, 0], [0]],
       ],
       result: '',
-      results: 'r rru urr\n\
-r rur rur\n\
-r urr rrrr\n\
-r rru rrrr\n',
+      results: `r rru urr
+r rur rur
+r urr rrrr
+r rru rrrr
+`,
       set: 'Summer Eights',
       small: 'Eights',
       year: 2016,
     };
 
-    var actual = utils.read_ad(data);
+    const actual = utils.read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
 
   it('read_ad() returns a correct intermediate object for Torpids.', function() {
-    var data = `TORPIDS 2017
+    const data = `TORPIDS 2017
  4  5  61   = NDay, NDiv, NCrew
  12  Women's Div I (4.30)
 Magdalen                   -4  -4  -1  -2
@@ -243,7 +246,7 @@ Merton II                   1   1  -3   1
 L.M.H. II                   0   1   2   1
 `;
 
-    var expected = {
+    const expected = {
       set: 'Torpids',
       small: 'Torpids',
       gender: 'Women',
@@ -438,7 +441,7 @@ e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r
       ],
     };
 
-    var actual = utils.read_ad(data);
+    const actual = utils.read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
