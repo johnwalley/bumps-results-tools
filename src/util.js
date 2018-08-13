@@ -976,7 +976,7 @@ function processBump(move, divNum, crew, up) {
   move[divNum - 1][crew - 1 - up] = -up;
   if (crew > move[divNum - 1].length) {
     // sandwich crew, need to find where it started
-    for (var p = 0; p < move[divNum].length; p++) {
+    for (let p = 0; p < move[divNum].length; p++) {
       if (p - move[divNum][p] == 0) {
         move[divNum][p] += up;
         break;
@@ -1058,8 +1058,15 @@ function processResults(event) {
     } else if (res[i].indexOf('e') === 0) {
       // exact move
       const up = parseInt(res[i].substring(1), 10);
+
       if (crew > move[divNum - 1].length) {
-        move[divNum][0] += up;
+        // sandwich crew, need to find where it started
+        for (let p = 0; p < move[divNum].length; p++) {
+          if (p - move[divNum][p] == 0) {
+            move[divNum][p] += up;
+            break;
+          }
+        }
       } else {
         move[divNum - 1][crew - 1] = up;
       }

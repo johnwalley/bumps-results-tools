@@ -119,6 +119,197 @@ r ru urrr`,
     assert.deepEqual(actual, expected);
   });
 
+  it('read_tg() returns a correct intermediate object given Torpids input', function() {
+    const data = `Set,Summer Eights
+Short,Eights
+Gender,Women
+Year,1985
+
+Division,SHu,Osler House 1,LM,SHu2,SC,SHi,J,S,Wt,SAn,Co,P
+Division,Wh,K,N,Br,Wf,LM2,L,Lc,H,B,U,T
+Division,Ch,S2,SHi2,SE,Q,SHu3,Br2,SC2,J2,T2,Mf,Mg
+Division,SHu4,Mt,SHi3,J3,K2,SJ,Wf2,N2,SP,SAn2,SHi4,Lc2
+Division,H2,SE2,SHu5,B2,E,Wh2,Wt2,R,U2,Br3,Ch2,SC3,Lc3
+
+Results
+rrurure1e1e1e-3r ruruo3urrr ruuururrr uuo3ururr uruuurru
+rruururru e1e1e1e1e1e1e1e-7rrrrr rruururru urrururur rruuururr
+rrururuur urrrruurrr uruuurrrr rro3urruru ruuururrr
+rrurrrrrurr rurruuuu rrrrrrrrurrr rrururrurr uuururrrr
+`;
+
+    const expected = {
+      set: 'Summer Eights',
+      small: 'Eights',
+      gender: 'Women',
+      result: '',
+      year: 1985,
+      days: 4,
+      divisions: [
+        [
+          'SHu',
+          'Osler House 1',
+          'LM',
+          'SHu2',
+          'SC',
+          'SHi',
+          'J',
+          'S',
+          'Wt',
+          'SAn',
+          'Co',
+          'P',
+        ],
+        ['Wh', 'K', 'N', 'Br', 'Wf', 'LM2', 'L', 'Lc', 'H', 'B', 'U', 'T'],
+        [
+          'Ch',
+          'S2',
+          'SHi2',
+          'SE',
+          'Q',
+          'SHu3',
+          'Br2',
+          'SC2',
+          'J2',
+          'T2',
+          'Mf',
+          'Mg',
+        ],
+        [
+          'SHu4',
+          'Mt',
+          'SHi3',
+          'J3',
+          'K2',
+          'SJ',
+          'Wf2',
+          'N2',
+          'SP',
+          'SAn2',
+          'SHi4',
+          'Lc2',
+        ],
+        [
+          'H2',
+          'SE2',
+          'SHu5',
+          'B2',
+          'E',
+          'Wh2',
+          'Wt2',
+          'R',
+          'U2',
+          'Br3',
+          'Ch2',
+          'SC3',
+          'Lc3',
+        ],
+      ],
+      results:
+        'rrurure1e1e1e-3r ruruo3urrr ruuururrr uuo3ururr uruuurru\nrruururru e1e1e1e1e1e1e1e-7rrrrr rruururru urrururur rruuururr\nrrururuur urrrruurrr uruuurrrr rro3urruru ruuururrr\nrrurrrrrurr rurruuuu rrrrrrrrurrr rrururrurr uuururrrr',
+      move: [
+        [
+          [-1, 1, 0, 0, -1, 1, -1, 1, -1, 1, 0, -1],
+          [1, 0, -1, 1, 0, -3, -1, 1, 3, -1, 1, -1],
+          [1, 0, 0, -1, 1, 0, -1, 1, -1, 1, -1, 1],
+          [0, 0, 0, -3, -1, 1, 3, -1, 1, 0, -1, 1],
+          [0, -3, 1, 1, 1, 0, -1, 1, 0, -1, 1, 0, 0],
+        ],
+        [
+          [0, 0, -1, 1, 0, -1, 1, -1, 1, -1, 1, 0],
+          [0, -1, 1, 0, -1, 1, 0, -1, 1, 0, 0, -1],
+          [-1, 2, 0, 0, -1, 1, 0, -1, 1, -1, 1, 0],
+          [0, 0, 0, 0, 0, -7, 1, 1, 1, 1, 1, 1],
+          [-1, 2, 0, 0, -1, 1, 0, -1, 1, -1, 1, 0, 0],
+        ],
+        [
+          [0, 0, 0, -1, 1, 0, -1, 1, -1, 1, -1, 1],
+          [-1, 1, 0, -1, 1, 0, 0, -3, -1, 1, 3, 0],
+          [0, 0, 0, 0, -1, 1, -1, 1, -1, 1, 0, -1],
+          [1, 0, 0, -1, 1, -1, 1, 0, 0, 0, 0, -1],
+          [1, -1, 1, -1, 1, 0, -1, 1, 0, -1, 1, 0, 0],
+        ],
+        [
+          [0, 0, 0, 0, -1, 1, 0, -1, 1, -1, 1, -1],
+          [1, 0, -1, 1, 0, 0, -1, 1, 0, -1, 1, 0],
+          [0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 0],
+          [-1, 1, -1, 1, -1, 1, -1, 1, 0, 0, -1, 1],
+          [0, 0, -1, 1, 0, 0, 0, 0, 0, -1, 1, 0, 0],
+        ],
+      ],
+      finish: [
+        [
+          'Osler House 1',
+          'SHu',
+          'SHu2',
+          'SHi',
+          'S',
+          'LM',
+          'SAn',
+          'Co',
+          'SC',
+          'Wh',
+          'J',
+          'Br',
+        ],
+        ['Wt', 'P', 'H', 'K', 'N', 'Wf', 'B', 'Lc', 'U', 'LM2', 'L', 'S2'],
+        [
+          'Ch',
+          'T',
+          'SHi2',
+          'SE',
+          'Q',
+          'SHu3',
+          'T2',
+          'SC2',
+          'Mg',
+          'Br2',
+          'J2',
+          'SHu4',
+        ],
+        [
+          'Mt',
+          'Mf',
+          'SJ',
+          'SHi3',
+          'SP',
+          'Wf2',
+          'N2',
+          'J3',
+          'SAn2',
+          'Lc2',
+          'K2',
+          'SHi4',
+        ],
+        [
+          'SHu5',
+          'B2',
+          'Wh2',
+          'H2',
+          'E',
+          'SE2',
+          'U2',
+          'R',
+          'Wt2',
+          'Br3',
+          'Ch2',
+          'SC3',
+          'Lc3',
+        ],
+      ],
+      completed: [
+        [true, true, true, true, true],
+        [true, true, true, true, true],
+        [true, true, true, true, true],
+        [true, true, true, true, true],
+      ],
+    };
+
+    const actual = utils.read_tg(data);
+
+    assert.deepEqual(actual, expected);
+  });
+
   it('read_ad() returns a correct intermediate object.', function() {
     const data = `EIGHTS 2016
  4  3  7   = NDay, NDiv, NCrew
