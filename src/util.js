@@ -264,7 +264,7 @@ function expandCrew(crew, set) {
 
 function renderName(name, set) {
   // College crews are stored as an abbrevation and we replace the number with Roman numerals
-  const sh = name.replace(/[0-9]/, '');
+  const sh = name.replace(/[0-9]+$/, '').trim();
   let abbrev;
   let type;
 
@@ -1389,6 +1389,18 @@ function read_ad(input) {
       event.set = SET.TORPIDS;
       event.small = 'Torpids';
       break;
+    case 'MAYS':
+      event.set = SET.MAYS;
+      event.small = 'Mays';
+      break;
+    case 'LENTS':
+      event.set = SET.LENTS;
+      event.small = 'Lents';
+      break;
+    case 'TOWN':
+      event.set = SET.TOWN;
+      event.small = 'Town';
+      break;
   }
 
   event.year = +info[1];
@@ -1430,8 +1442,9 @@ function read_ad(input) {
       currentDivision = [];
       event.divisions.push(currentDivision);
     } else {
-      const crewName = input[line].replace(/-?[0-9]+/g, '').trim();
+      const crewName = input[line].substring(0, 25).trim();
       const moves = input[line]
+        .substring(25)
         .replace(/([^\d- ]|-\D)/g, '')
         .trim()
         .split(/\s+/g);
