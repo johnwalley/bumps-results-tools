@@ -45,7 +45,7 @@ Univ Sports 4              -1  -1  -1  -1
 Rob Roy 3                   1   0   1   1
 Chemical Eng                0   1   0   1
 City 7                     -1  -1   0   0
-NN10                        1   0   1   0
+99 10                       1   0   1   0
 Macdonalds 2               -1   0   0  -1
 King's                      1   1   0   1
  12  Men's Div IV
@@ -54,10 +54,10 @@ Selwyn                      1   0   0   1
 Free Press 4                0   1   0  -1
 Telephones 3               -1   0  -1  -1
 City 8                      1   0   1   1
-NN11                        0  -1   0   1
+99 11                       0  -1   0   1
 Macdonalds 3               -1   0  -1   0
 Rob Roy 4                   1   1   1   1
 Free Press 5                0  -1   0  -1
 City 9                      0   1   1   0
-NN12                       -1   0   0   0
+99 12                      -1   0   0   0
 Rob Roy 5                   1   0   0   1

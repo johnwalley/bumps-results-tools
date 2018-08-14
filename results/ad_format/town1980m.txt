@@ -47,9 +47,9 @@ Telephones 4               -3  -1  -1  -1
 99 9                       -1   0  -1  -1
 Univ Sports 4               1   1   1   0
 City 7                      3  -1   0  -1
-NN10                        0   1   1   1
+99 10                       0   1   1   1
 City Ladies                 0  -1   0   1
-NN11                       -1   0   0   0
+99 11                      -1   0   0   0
 Univ Sports 5               1   1   1   1
 Rob Roy 5                  -1   0   0   0
 City Ladies 2               1   0   0   0

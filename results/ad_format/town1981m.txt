@@ -47,8 +47,8 @@ MacDonalds Ladies          -1  -1  -1  -1
 City 6                      1   0   1   1
 99 9                        3   1   1   0
 City 7                     -1   1   1   0
-NN10                        1  -1  -1   0
+99 10                       1  -1  -1   0
 City 8                      0   0   1   1
 Rob Roy 3                   0   0  -1   0
-NN11                       -1   1   1   0
+99 11                      -1   1   1   0
 Rob Roy Ladies              1  -1   0   0
