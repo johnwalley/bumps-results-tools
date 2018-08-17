@@ -1,17 +1,17 @@
 TOWN 2018
  4  3  46   = NDay, NDiv, NCrew
  17  Women's Div I
-Cantabs                     0   0   0   0
-City                        0   0   0   0
+Cantabs 1                   0   0   0   0
+City 1                      0   0   0   0
 Cantabs 2                   0   0   0   0
-X-Press                     0   0   0   0
-99                          0   0   0   0
-St Neots                    0   0   0   0
+X-Press 1                   0   0   0   0
+99 1                        0   0   0   0
+St Neots 1                  0   0   0   0
 Cantabs 3                   0   0   0   0
 City 2                      0   0   0  -1
-Rob Roy                    -1   0   0  -1
-Chesterton                  1   0   0   1
-Champs                     -1  -1  -1  -1
+Rob Roy 1                  -1   0   0  -1
+Chesterton 1                1   0   0   1
+Champs 1                   -1  -1  -1  -1
 Rob Roy 2                   1   0  -1  -1
 99 2                       -1   0   1   1
 Cantabs 4                   1   1   1   1
@@ -20,9 +20,9 @@ City 4                      0  -1  -1  -1
 Champs 2                   -1   0   1  -1
  17  Women's Div II
 99 3                        1   1   1   1
-St Radegund                -1  -1  -1  -1
+St Radegund 1              -1  -1  -1  -1
 City 5                      1   0  -1   0
-Isle of Ely                 0   1   1   2
+Isle of Ely 1               0   1   1   2
 Champs 3                    0  -1  -1  -1
 City 6                      0   1   1   0
 Champs 4                   -3  -1  -1  -1
