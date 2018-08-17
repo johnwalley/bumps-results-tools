@@ -1,5 +1,5 @@
 Set,Town Bumps
-Short,Town Bumps
+Short,Town
 Gender,Women
 Year,2016
 
