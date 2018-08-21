@@ -10,7 +10,7 @@ Division,SS2,Cu3,Q3,K2,HH,TH3,Dw,SS3,Pb3,M3,CT2,G3,Cr3,SC3,J4,SE,A
 Division,Ca3,W2,R3,Cu4,SS4,T4,Q4,L5,S3,D4,F3,TH4,T5,Ph3,T6,Dw2,T7,CT3
 
 Results
-uruuro3uuut ro3uruuruurut ruuuuuut ruuururrurut ururrurrruut
-uurruuruuut urrruuuruo3ut uuuuurrurrut uurrruurrurut ruruurrruuut
-rurruuruuuut ruuruuruut ruurruuuruut ruuruuuurut uururrruuut
-rrrururuuuut uruuuruuut uururuuurut uuuruuuruut ruurururruut
+uruuro3uuurr ro3uruuruuru ruuuuuurrrrr ruuururrurur ururrurrruurr
+uurruuruuur urrruuuruo3u uuuuurrurru uurrruurruru ruruurrruuur
+rurruuruuuu ruuruuruurrr ruurruuuruu ruuruuuurur uururrruuurr
+rrrururuuuur uruuuruuurr uururuuurur uuuruuuruu ruurururruur

@@ -9,7 +9,7 @@ Division,TH2,Dw,L3,Cl2,SC2,Pb2,T3,S2,G2,F2,J3,H,D3,SS2,Ca3,Ph2,CH
 Division,T4,CC2,HH,K2,Q3,W2,SE,Cr3,M2,Cu3,L4,Cl3,Pb3,TH3,Dw2,Ph3,R3,D4
 
 Results
-urrurrruuuut uurro3uuurrut uruurruruut rrruruurrut
-rurruruuuuut ruuurrurruut rruuurrrrruut rruururruut
-rrrrururruuut rruuuuuuut rurruuruuuut urrrrurruut
-ururururuuut ruuuurrurrrut urururrruuut rurrurrrut
+urrurrruuuur uurro3uuurru uruurruruurr rrruruurrurrrr
+rurruruuuuu ruuurrurruur rruuurrrrruur rruururruurrr
+rrrrururruuur rruuuuuuurr rurruuruuuu urrrrurruurrrr
+ururururuuu ruuuurrurrru urururrruuur rurrurrrurrrrrr

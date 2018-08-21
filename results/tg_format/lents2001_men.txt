@@ -9,7 +9,7 @@ Division,Q2,W,S2,R2,SC2,Cl2,F2,J3,G2,Dw,Ph2,D3,T3,CC2,SS2,H,K2
 Division,HH,Ca3,Q3,T4,Cr3,L4,TH3,SC3,R3,W2,Cl3,E3,T5,CT2,SE,SS3,Ca4,Pb3
 
 Results
-rruurruurrut urrrruuurruut ruuururrrrut ruuuruurrrut
-rurruuuurrrut ruuurrurrut uuuruuurrut uuruurrurrrut
-uurruuuurut rt rt rt
-rt rt rt rt
+rruurruurrurr urrrruuurruu ruuururrrrurr ruuuruurrrur
+rurruuuurrru ruuurrurrurrr uuuruuurrur uuruurrurrru
+uurruuuurur rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr
