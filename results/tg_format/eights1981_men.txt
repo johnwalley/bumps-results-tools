@@ -4,7 +4,7 @@ Gender,Men
 Year,1981
 
 Division,O,K,Ch,SE,B,Lc,Mg,E,Wh,N,P,U
-Division,Wt,Co,Mt,Q,T,SJ,Ch2,Osler House 1,SP,K2,J,O2
+Division,Wt,Co,Mt,Q,T,SJ,Ch2,Osler House,SP,K2,J,O2
 Division,SC,Br,H,SE2,U2,P2,B2,Mf,Mt2,Wf,Lc2,Q2
 Division,Wh2,Ch3,E2,Wt2,SJ2,O3,N2,SE3,K3,K4,Br2,SP2
 Division,H2,B3,SC2,Mg2,U3,E3,J2,Mt3,O4,Co2,Ch4,T2

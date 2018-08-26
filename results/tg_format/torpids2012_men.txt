@@ -8,7 +8,7 @@ Division,E,N,SE,SAn,T,SP,P2,Br,Lc,Q,J,U
 Division,K,SHu,Mt,S,Ch2,Mf,Co,Mg2,E2,Wh2,SAt,T2
 Division,N2,B2,L,H2,J2,Lc2,LM2,SJ2,U2,O2,Wt2,SAn2
 Division,SP2,SC2,Wf2,Wh3,Mt2,SHu2,R,SE2,Wt3,K2,Br2,SB
-Division,P3,Green Templeton 1,Wh4,T3,SHi,Ch3,Q2,SC3,SP3,Br3,N3,S2,J3
+Division,P3,Green Templeton,Wh4,T3,SHi,Ch3,Q2,SC3,SP3,Br3,N3,S2,J3
 
 Results
 e1e-1e1e2re1e1e1e-6rre2e-1 re-1re1e-1re1e-1e1e-1re3e-1 rre1e1e-4e1e-1e1e1e-2rrr re1e-1rrrrrrrrrr e1e-1rre1e1e1e-3e1e2re1e-4 rre1e-1re1e-1rrrre1e-1

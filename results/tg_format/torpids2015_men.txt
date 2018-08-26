@@ -6,7 +6,7 @@ Year,2015
 Division,P,Mg,Ch,B,SC,O,Wf,T,SJ,Wt,Wh,Lc
 Division,H,SAn,SE,LM,N,P2,Br,U,S,J,Q,E
 Division,SHu,Ch2,Mt,SP,Co,Mf,B2,Wh2,K,SAt,N2,O2
-Division,Mg2,T2,L,Wt2,SC2,Wf2,SJ2,Green Templeton 1,H2,J2,R,U2
+Division,Mg2,T2,L,Wt2,SC2,Wf2,SJ2,Green Templeton,H2,J2,R,U2
 Division,SHu2,Wh3,Lc2,K2,Br2,Mt2,P3,SE2,SHi,SAn2,T3,Green Templeton 2
 Division,Wf3,SJ3,SB,Mf2,B3,Q2,K3,J3,Mf3,LM2,SJ4,Wf4,H3
 

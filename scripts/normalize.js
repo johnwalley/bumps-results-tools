@@ -9,7 +9,7 @@ files.forEach(function(file) {
     var actual = utils.write_tg(utils.read_tg(contents));
 
     fs.writeFile(
-      './results/normalized_results/' + file,
+      './results/tg_format/' + file,
       actual,
       function() {
         console.log(

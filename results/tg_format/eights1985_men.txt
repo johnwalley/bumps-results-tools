@@ -4,7 +4,7 @@ Gender,Men
 Year,1985
 
 Division,O,Ch,N,SE,Mg,P,Wt,U,K,Lc,B,Wh
-Division,E,T,O2,SJ,Osler House 1,J,Q,Br,Co,SC,H,Mt
+Division,E,T,O2,SJ,Osler House,J,Q,Br,Co,SC,H,Mt
 Division,K2,SP,Wf,Ch2,U2,P2,Lc2,Mf,N2,SE2,E2,O3
 Division,LM,B2,Wt2,SJ2,Wh2,H2,Mt2,Br2,Ch3,Mg2,J2,SC2
 Division,T2,Q2,E3,K3,Mt3,B3,SE3,U3,SP2,L,P3,Wt3

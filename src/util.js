@@ -44,6 +44,7 @@ const abbrevCamCollege = {
   ME: 'Murray Edwards',
   N: 'Newnham',
   NH: 'New Hall',
+  P: 'P', // FIXME: Who is this?
   Pb: 'Pembroke',
   Ph: 'Peterhouse',
   Q: "Queens'",
@@ -227,7 +228,7 @@ function abbreviateCrew(crew, set) {
 
   const key = findKey(abbrev, club => club === name);
 
-  if (key !== undefined) {
+  if (key !== undefined && set !== SET.TOWN) {
     return key + (num > 1 ? num : '');
   } else {
     return crew;
@@ -308,8 +309,6 @@ function renderName(name, set) {
       }
 
       return name;
-    } else if (type === 'town' && name.substring(name.length - 2) === ' 1') {
-      return name.substring(0, name.length - 2);
     }
   }
 
@@ -318,7 +317,7 @@ function renderName(name, set) {
 
 function normalizeOxfordName(name) {
   const parts = name.split(/\s/);
-  let newName = name + ' 1';
+  let newName = name;
 
   roman.forEach((num, index) => {
     if (parts[parts.length - 1] === num) {
@@ -327,6 +326,10 @@ function normalizeOxfordName(name) {
   });
 
   return newName;
+}
+
+function normalizeTownName(name) {
+  return name;
 }
 
 function crewColor(name) {
@@ -700,8 +703,12 @@ function calculateResults(event) {
           case 2:
             if (crew === 1) {
               // Sandwich boat in next division
-              results += 'u';
-              crew -= 1;
+              if (m[crew - 1] !== -1) {
+                results += 'e1';
+              } else {
+                results += 'u';
+                crew -= 1;
+              }
             } else if (crew === 0) {
               // Top of division
               results += 'r';
@@ -744,15 +751,23 @@ function calculateResults(event) {
             }
             break;
           case 5:
-            if (crew === 1) {
-              // Sandwich boat in next division
-              results += 'u';
-              crew -= 1;
-            } else if (m[crew - 5] !== -5) {
-              // Not swapping places with crew five above
-              results += 'e5';
+            if (m[crew - 5] !== -5) {
+              if (crew === 0) {
+                // Top of division
+                results += 'r';
+              } else if (crew === 1) {
+                // Sandwich boat in next division
+                results += 'u';
+                crew -= 1;
+              } else if (crew === 2) {
+                // Sandwich boat in next division
+                results += 'e2';
+              } else {
+                // Not swapping places with crew three above
+                results += 'e5';
+              }
             } else {
-              // Double overbump
+              // Overbump
               results += 'o5';
             }
             break;
@@ -786,9 +801,15 @@ function calculateResults(event) {
               // Sandwich boat in next division
               results += 'u';
               crew -= 1;
+            } else if (crew === 3) {
+              // Sandwich boat in next division
+              results += 'o3';
             } else if (crew === 5) {
               // Sandwich boat in next division
               results += 'o5';
+            } else if (crew === 7) {
+              // Sandwich boat in next division
+              results += 'o7';
             } else {
               // Simple move
               results += 'e8';
@@ -803,7 +824,7 @@ function calculateResults(event) {
               // Not swapping places with crew nine above
               results += 'e9';
             } else {
-              // Double overbump
+              // Quadruple overbump
               results += 'o9';
             }
             break;
@@ -833,7 +854,7 @@ function calculateResults(event) {
             } else if (crew + 5 === m.length) {
               // Double overbumped by crew which was a successful sandwich boat
             } else if (m[crew + 5] !== 5) {
-              // Not swapping places with crew three below
+              // Not swapping places with crew five below
               results += 'e-5';
             }
             break;
@@ -846,7 +867,7 @@ function calculateResults(event) {
             } else if (crew + 7 === m.length) {
               // Overbumped by crew which was a successful sandwich boat
             } else if (m[crew + 7] !== 7) {
-              // Not swapping places with crew three below
+              // Not swapping places with crew seven below
               results += 'e-7';
             }
             break;
@@ -854,7 +875,14 @@ function calculateResults(event) {
             results += 'e-8';
             break;
           case -9:
-            results += 'e-9';
+            if (m[crew + 9] > 9 && crew === 0) {
+              // Overbumped by crew which went on to be a successful sandwich boat
+            } else if (crew + 9 === m.length) {
+              // Overbumped by crew which was a successful sandwich boat
+            } else if (m[crew + 9] !== 9) {
+              // Not swapping places with crew nine below
+              results += 'e-9';
+            }
             break;
           case -10:
             results += 'e-10';
@@ -885,7 +913,10 @@ function calculateResults(event) {
         results += ' ';
       }
     }
-    results += '\n';
+
+    if (dayNum < event.days - 1) {
+      results += '\n';
+    }
   }
 
   event.results = results;
@@ -1056,6 +1087,7 @@ function processResults(event) {
 
       crew--;
     } else if (res[i].indexOf('e') === 0) {
+      // TODO: Support two digit numbers
       // exact move
       const up = parseInt(res[i].substring(1), 10);
 
@@ -1248,10 +1280,10 @@ function read_flat(data) {
 function read_tg(input) {
   input = input.split('\n');
 
-  const event = {
-    set: 'Set',
-    small: 'Short',
-    gender: 'Gender',
+  let event = {
+    set: 'ERROR',
+    small: 'ERROR',
+    gender: 'ERROR',
     result: '',
     year: 1970,
     days: 4,
@@ -1358,6 +1390,11 @@ function read_tg(input) {
 
   processResults(event);
 
+  event =
+    event.set === 'Torpids'
+      ? calculateTorpidsResults(event)
+      : calculateResults(event);
+
   return event;
 }
 
@@ -1365,9 +1402,9 @@ function read_ad(input) {
   input = input.split('\n');
 
   let event = {
-    set: 'Set',
-    small: 'Short',
-    gender: 'Men',
+    set: 'ERROR',
+    small: 'ERROR',
+    gender: 'ERROR',
     result: '',
     year: 1970,
     days: 1,
@@ -1453,7 +1490,11 @@ function read_ad(input) {
         currentMove[day].push(+moves[day]);
       }
 
-      currentDivision.push(normalizeOxfordName(crewName));
+      currentDivision.push(
+        event.set === SET.TOWN
+          ? normalizeTownName(crewName)
+          : normalizeOxfordName(crewName)
+      );
       currentMove.push();
     }
   }

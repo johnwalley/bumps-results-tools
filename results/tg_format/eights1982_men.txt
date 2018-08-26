@@ -4,7 +4,7 @@ Gender,Men
 Year,1982
 
 Division,O,K,Ch,Lc,Mg,SE,N,P,B,Wt,E,Wh
-Division,Mt,T,U,Q,Co,SJ,Osler House 1,K2,O2,Ch2,Br,SP
+Division,Mt,T,U,Q,Co,SJ,Osler House,K2,O2,Ch2,Br,SP
 Division,H,J,SC,SE2,P2,Mf,U2,Mt2,Lc2,B2,Wh2,Wf
 Division,Wt2,O3,Q2,E2,Ch3,SJ2,N2,K3,Br2,SE3,SP2,H2
 Division,K4,Mg2,B3,U3,E3,SC2,J2,Mt3,T2,Ch4,O4,SP3

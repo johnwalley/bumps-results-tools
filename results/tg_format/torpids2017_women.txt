@@ -4,7 +4,7 @@ Gender,Women
 Year,2017
 
 Division,Mg,O,P,Ch,Wh,U,Wf,H,N,SJ,B,K
-Division,SE,Lc,T,J,SC,S,L,Green Templeton 1,Wt,SAn,SHu,Br
+Division,SE,Lc,T,J,SC,S,L,Green Templeton,Wt,SAn,SHu,Br
 Division,LM,Mf,Co,Wf2,Wh2,E,Q,SHi,SP,Mt,SAt,N2
 Division,SJ2,P2,R,Lc2,O2,Wt2,U2,Wf3,S2,J2,Mg2,L2
 Division,B2,Lc3,Ch2,H2,T2,Wh3,SAn2,Mf2,SHi2,K2,E2,Mt2,LM2

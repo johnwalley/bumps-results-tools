@@ -4,7 +4,7 @@ Gender,Men
 Year,1979
 
 Division,O,K,SE,N,B,Ch,Mt,Lc,U,E,Wh,Mg
-Division,Wt,P,SJ,Co,T,Q,Ch2,J,SC,SP,O2,Osler House 1
+Division,Wt,P,SJ,Co,T,Q,Ch2,J,SC,SP,O2,Osler House
 Division,Br,K2,SE2,U2,B2,P2,H,Mt2,E2,Q2,N2,Lc2
 Division,Wf,Mf,SJ2,Wh2,Ch3,SP2,Wt2,SE3,Br2,K3,Mg2,B3
 Division,O3,H2,E3,U3,J2,SC2,K4,Co2,O4,Mt3,SP3,Ch4

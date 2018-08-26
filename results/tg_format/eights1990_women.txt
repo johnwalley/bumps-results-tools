@@ -3,7 +3,7 @@ Short,Eights
 Gender,Women
 Year,1990
 
-Division,Osler House 1,Wh,S,P,LM,Br,SHu,N,Wf,J,U,SHi
+Division,Osler House,Wh,S,P,LM,Br,SHu,N,Wf,J,U,SHi
 Division,SC,SAn,Lc,Co,K,SHu2,Ch,S2,H,SE,Wt,Mg
 Division,SJ,B,L,Q,LM2,T,Br2,SP,Mt,SHu3,O,N2
 Division,Mf,E,SHi2,Wh2,SC2,U2,Wf2,H2,Osler House 2,O2,S3,P2

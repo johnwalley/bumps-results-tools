@@ -33,17 +33,15 @@ fs.readdir('./results/tg_format/', function(err, files) {
 
     const newFile = set + year + gender + '.txt';
 
-    if (+year < 1980) {
-      fs.writeFile(
-        './results/ad_format/' + newFile,
-        utils.write_ad(utils.abbreviate(event)),
-        function() {
-          console.log(
-            'Successfully converted ' + file + ' to produce ' + newFile
-          );
-        }
-      );
-    }
+    fs.writeFile(
+      './results/ad_format/' + newFile,
+      utils.write_ad(utils.abbreviate(event)),
+      function() {
+        console.log(
+          'Successfully converted ' + file + ' to produce ' + newFile
+        );
+      }
+    );
   });
 
   console.log(`Found ${numFiles} files`);

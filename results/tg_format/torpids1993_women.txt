@@ -3,7 +3,7 @@ Short,Torpids
 Gender,Women
 Year,1993
 
-Division,S,N,Wh,Osler House 1,Wf,U,SC,P,SHi,LM,Br,Wt
+Division,S,N,Wh,Osler House,Wf,U,SC,P,SHi,LM,Br,Wt
 Division,SAn,Ch,T,K,O,SJ,H,B,SHu,E,J,S2
 Division,SE,Lc,L,Mt,Q,Mg,SP,N2,O2,Osler House 2,P2,Wh2,Mf
 

@@ -4,7 +4,7 @@ Gender,Men
 Year,1980
 
 Division,O,B,Wt,K,E,Lc,Ch,Q,N,SE,U,Mg
-Division,J,T,Br,Osler House 1,O2,Wh,P,Mt,SC,H,SP,SJ
+Division,J,T,Br,Osler House,O2,Wh,P,Mt,SC,H,SP,SJ
 Division,Lc2,Q2,Q3,Co,P2,Wf,Ch2,SE2,U2,Mf,SJ2,K2
 Division,O3,E2,R,SP2,J2,O4,Wh2,SC2,Br2,Mt2,N2,Wt2
 Division,B2,O5,Co2,L,E3,K3,Wf2,H2,Q4,Co3,Osler House 2,T2

@@ -5,7 +5,7 @@ Year,2016
 
 Division,Wh,Mg,SJ,O,P,SE,U,Ch,Wf,B,H,Wt
 Division,N,Lc,LM,K,T,SC,Co,J,S,Wh2,Br,L
-Division,SAn,Q,Green Templeton 1,Mt,SHu,Mf,SJ2,Wf2,E,SP,P2,SHi
+Division,SAn,Q,Green Templeton,Mt,SHu,Mf,SJ2,Wf2,E,SP,P2,SHi
 Division,SAt,Green Templeton 2,U2,Lc2,N2,J2,O2,R,H2,SHu2,B2,Wf3
 Division,Mg2,L2,Lc3,Br2,U3,SAt2,SC2,Wh3,Br3,Ch2,P3,T2,Wf4
 

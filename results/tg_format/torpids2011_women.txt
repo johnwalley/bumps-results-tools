@@ -3,11 +3,11 @@ Short,Torpids
 Gender,Women
 Year,2011
 
-Division,Mg,SC,SE,Ch,O,N,Q,Wh,B,Osler House 1,P,K
+Division,Mg,SC,SE,Ch,O,N,Q,Wh,B,Osler House,P,K
 Division,E,SHi,Wt,H,U,S,Mf,SJ,Wf,SHu,Mt,T
 Division,L,J,SAn,Co,SAt,LM,Br,Lc,N2,Wh2,Wf2,H2
 Division,Wt2,B2,SJ2,E2,SP,T2,P2,SAn2,U2,T3,SC2,SP2
-Division,Ch2,LM2,Mt2,Green Templeton 1,L2,SE2,Lc2,LM3,Green Templeton 2,SP3,Mg2,J2,Lc3
+Division,Ch2,LM2,Mt2,Green Templeton,L2,SE2,Lc2,LM3,Green Templeton 2,SP3,Mg2,J2,Lc3
 
 Results
 e3e1e-1e1e1e-5e1e1e-2e2re-2r e1e-1re2e2e-1e1e-4re1e1e-2r e1e1e-2e1e1e1e-3e1e-1e1e-1e1e-1 rre2re-2e1e1e-2e1e-1e1e-1r e1e-1e1e-1e1e1e-2rrre1e-1r

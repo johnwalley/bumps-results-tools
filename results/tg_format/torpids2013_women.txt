@@ -6,7 +6,7 @@ Year,2013
 Division,Mg,Wh,N,SE,Ch,P,H,O,Wt,SJ,U,Q
 Division,SC,E,Wf,K,Mt,B,LM,Lc,Mf,S,J,SHi
 Division,SAn,SHu,Co,T,Wh2,SJ2,L,N2,Br,U2,Wt2,SAt
-Division,Green Templeton 1,SP,Wf2,H2,T2,SAn2,P2,E2,Mt2,Lc2,J2,LM2
+Division,Green Templeton,SP,Wf2,H2,T2,SAn2,P2,E2,Mt2,Lc2,J2,LM2
 Division,Green Templeton 2,O2,Br2,S2,SJ3,SAt2,SC2,SHu2,SP2,Wh3,SHi2,Co2,R
 
 Results
