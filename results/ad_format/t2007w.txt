@@ -1,2 +1,0 @@
-TORPIDS 2007
- 0  0  0   = NDay, NDiv, NCrew
