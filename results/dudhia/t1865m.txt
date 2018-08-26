@@ -1,6 +1,6 @@
 TORPIDS 1865 4-9 March
   5  1 15   = NDay, NDiv, NCrew
- 15  Division I
+ 15  Men's Division I
 Exeter                      0   0   0   0   0
 Brasenose                   0   0   0   0   0
 Christ Church              -1  -1  -1  -1   0

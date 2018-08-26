@@ -1,6 +1,6 @@
 EIGHTS 1854 23 May - 2 June
  8  1  12   = NDay, NDiv, NCrew
- 12  Division I
+ 12  Men's Division I
 Brasenose                   0   0   0   0   0   0   0   0
 Balliol                     0   0   0   0   0   0   0   0
 Worcester                   0   0   0  -1   0   0   0   0

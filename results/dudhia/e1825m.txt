@@ -1,6 +1,6 @@
 EIGHTS 1825 
  3  1   4   = NDay, NDiv, NCrew
-  4  Division I
+  4  Men's Division I
 Exeter                     -1  -1   1
 Christ Church               1   0   0
 Worcester                   0   1  -1

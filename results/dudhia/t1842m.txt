@@ -1,6 +1,6 @@
 TORPIDS 1842 
   6  1 10   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Trinity                     0  -1  -1  -1  -1  -1
 Brasenose                   0   1   0   0   0   0
 University                  0   0   1   0  -1   0

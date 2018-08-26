@@ -1,6 +1,6 @@
 TORPIDS 1846 8-19 June
   6  1  6   = NDay, NDiv, NCrew
-  6  Division I
+  6  Men's Division I
 Brasenose                  -1   1   0  -1   0  -1
 Worcester                   1  -1  -1 -99 -99 -99
 Christ Church               0  -1   0   0  -1   0

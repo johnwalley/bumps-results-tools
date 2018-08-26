@@ -1,6 +1,6 @@
 EIGHTS 1880 5-11 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Balliol                    -1  -1  -1  -1  -1  -1
 Magdalen                    1   0   0   0   0   0
 University                  0   1   0   0  -1   0
@@ -11,7 +11,7 @@ Christ Church              -1  -1  -1  -1  -1  -1
 Hertford                    1   0   1   0   1   0
 Keble                      -1  -1  -1  -1  -1  -1
 Exeter                      1   1   0   1   0   1
- 12  Division II
+ 12  Men's Division II
 Trinity                     0   1   1   0   1   0
 Corpus Christi              0   0   1   1   0  -1
 St John's                  -1   0   1   1   1   1

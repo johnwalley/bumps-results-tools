@@ -1,6 +1,6 @@
 TORPIDS 1857 13-20 March
   6  1 11   = NDay, NDiv, NCrew
- 11  Division I
+ 11  Men's Division I
 Exeter                      0   0   0   0   0   0
 Christ Church               0  -1   0   0   0   0
 Pembroke                    0   1   0   0   0   0

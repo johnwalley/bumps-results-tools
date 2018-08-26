@@ -1,6 +1,6 @@
 EIGHTS 1890 22-28 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Brasenose                   0   0   0   0   0   0
 New College                 0   0   0   0   0   0
 Magdalen                    0   0   0   0   0   0
@@ -11,7 +11,7 @@ Hertford                    1   0  -1   0   0   0
 Balliol                     0   1   1   0   0   0
 Trinity                     0   0  -1   0   0   0
 Queen's                     0  -1   0   0   0   0
- 12  Division II
+ 12  Men's Division II
 Merton                      0  -1   0   0   0   0
 Corpus Christi              0   2   1   0   0   0
 Exeter                     -1   0   0   0   0   0

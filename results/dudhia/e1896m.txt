@@ -1,6 +1,6 @@
 EIGHTS 1896 21-27 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Magdalen                   -1   0   0   0   0  -1
 New College                 1   0   0   0   0   0
 Trinity                     0   0   0   0   0   1
@@ -11,7 +11,7 @@ Brasenose                  -1   0  -1   0   0   0
 Balliol                     1   0   0   1   0   1
 Hertford                    0   0   1   0   0   0
 Queen's                     0   0   0   0   0   0
- 12  Division II
+ 12  Men's Division II
 Christ Church               0   0   0   0   0   0
 Keble                       0  -1   0   0   0  -1
 Pembroke                    0   1   0   0   0   0

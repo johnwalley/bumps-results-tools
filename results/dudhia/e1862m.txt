@@ -1,6 +1,6 @@
 EIGHTS 1862 28 May - 5 June
  8  1  16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Trinity                     0   0   0   0   0   0   0   0
 Balliol                     0   0   0   0   0   0   0   0
 Exeter                     -1  -1  -1   0  -1   0   0   0

@@ -1,6 +1,6 @@
 EIGHTS 1879 14-20 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 University                  0   0   0   0  -1  -1
 Brasenose                   0   0  -1  -1   0  -1
 Pembroke                    0  -1  -1   0   0   1
@@ -11,7 +11,7 @@ Corpus Christi             -1  -1  -1  -1  -1   0
 Christ Church               1   0   1   0  -1   0
 New College                 0   1   0   1   1   0
 St John's                  -1   0  -1  -1   0   0
- 12  Division II
+ 12  Men's Division II
 Queen's                    -1  -1  -1   0   0  -1
 Exeter                      2   0   1   0  -1   0
 Hertford                    0   1   1   1   1   1

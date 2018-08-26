@@ -1,6 +1,6 @@
 TORPIDS 1885 19-25 February
   6  2 27   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Corpus Christi              0   0   0   0   0   0
 Brasenose                   0   0   0   0   0   0
 New College                 0   0   0   0   0  -1
@@ -15,7 +15,7 @@ Pembroke                    0   0   0   1   0  -1
 Wadham                      0   0   0   0   0   0
 Lincoln                     0  -1  -1  -1  -1  -1
 Christ Church II            0   1   0   0   0   0
- 13  Division II
+ 13  Men's Division II
 Hertford                    0  -1  -1  -1   0   1
 Worcester                  -1  -1  -1   0   0   0
 St Catherine's              1   1   1   0   0   0

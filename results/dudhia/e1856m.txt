@@ -1,6 +1,6 @@
 EIGHTS 1856 28 Apr - 9 May
  8  1  14   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Balliol                     0   0  -1   0  -1   0   0   0
 Brasenose                   0  -1   0  -1  -1  -1  -1  -1
 Christ Church              -1   0  -1   0   1   0   0   0

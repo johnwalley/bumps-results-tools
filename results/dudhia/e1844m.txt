@@ -1,6 +1,6 @@
 EIGHTS 1844 4 Mar - 24 May
 10  1  18   = NDay, NDiv, NCrew
- 18  Division I
+ 18  Men's Division I
 University                 -1  -1   0  -1   0   0  -1  -1  -2   0
 Oriel                       1   0  -1   0   0   0   0   0  -1  -1
 Christ Church               0   1   1   0   0   0   0   0   0   0

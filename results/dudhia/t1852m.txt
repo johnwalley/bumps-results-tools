@@ -1,6 +1,6 @@
 TORPIDS 1852 6 - 17 March
   6  1 13   = NDay, NDiv, NCrew
- 13  Division I
+ 13  Men's Division I
 Brasenose                   0   0   0   0   0   0
 Lincoln                     0   0   0   0   0   0
 Christ Church              -1  -1   0   0  -1   0

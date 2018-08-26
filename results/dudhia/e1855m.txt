@@ -1,6 +1,6 @@
 EIGHTS 1855 14-25 May
  8  1  12   = NDay, NDiv, NCrew
- 12  Division I
+ 12  Men's Division I
 Brasenose                   0   0   0   0   0   0  -1   0
 Balliol                     0   0   0   0   0   0   1   0
 Christ Church               0   0   0   0   0   0   0   0

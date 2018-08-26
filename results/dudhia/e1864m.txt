@@ -1,6 +1,6 @@
 EIGHTS 1864 4 - 12 May
  8  1  19   = NDay, NDiv, NCrew
- 19  Division I
+ 19  Men's Division I
 Trinity                     0   0   0   0   0   0   0   0
 Brasenose                   0   0   0   0   0   0   0   0
 Balliol                    -1   0  -1  -1   0   0   0   0

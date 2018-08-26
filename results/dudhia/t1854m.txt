@@ -1,6 +1,6 @@
 TORPIDS 1854 10-18 March
   6  1 14   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Brasenose                   0   0   0  -1  -1   0
 Balliol                    -1   0  -1   0   0  -1
 Exeter                      1   0   0   1   0   0

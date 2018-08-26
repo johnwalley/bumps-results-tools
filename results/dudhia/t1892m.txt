@@ -1,6 +1,6 @@
 TORPIDS 1892 3-9 March
   6  2 27   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Brasenose                   0   0   0   0   0   0
 New College                 0   0   0   0   0   0
 Balliol                     0   0   0   0   0   0
@@ -15,7 +15,7 @@ Magdalen                    0   0   1   1   1   1
 Trinity                    -1   0   0  -1   0  -1
 St John's                   1   0   0   1   1   1
 New College II              0   0   0   1   0   0
- 13  Division II
+ 13  Men's Division II
 Hertford                    0   0   0   0  -1   0
 Pembroke                    0   0   0  -1   0  -1
 Brasenose II                0   0   0   1   1   1

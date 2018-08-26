@@ -1,6 +1,6 @@
 EIGHTS 1872 8-16 May
  8  1  19   = NDay, NDiv, NCrew
- 19  Division I
+ 19  Men's Division I
 University                  0   0  -1   0  -1  -1  -1   0
 Balliol                     0  -1   0   0   1   0   0   0
 Christ Church              -1  -1   0   0   0   0   1   0

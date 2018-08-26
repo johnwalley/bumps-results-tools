@@ -1,6 +1,6 @@
 EIGHTS 1834 27 May - ?
  5  1   7   = NDay, NDiv, NCrew
-  7  Division I
+  7  Men's Division I
 Queen's                    -1   0   0  -1   0
 Christ Church               1   0   0   0   0
 Jesus                       0   0  -1   0   0

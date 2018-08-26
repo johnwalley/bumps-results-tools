@@ -1,6 +1,6 @@
 TORPIDS 1876 9-15 March
   6  2 22   = NDay, NDiv, NCrew
- 11  Division I
+ 11  Men's Division I
 Brasenose                  -1   0   0  -1   0  -1
 Balliol                     1   0   0   0   0  -1
 Queen's                     0   0  -1   0  -1  -1
@@ -12,7 +12,7 @@ University                  0   0   0   1   0   0
 Wadham                      0  -1  -1  -1  -1  -1
 Oriel                      -1  -1  -1  -1  -1  -1
 Lincoln                     1   1   0  -1  -1  -1
- 11  Division II
+ 11  Men's Division II
 Magdalen                   -1  -1  -1   0   1   1
 Keble                       1   1   1   1   0   0
 Keble II                    0   1   1   1   1   0

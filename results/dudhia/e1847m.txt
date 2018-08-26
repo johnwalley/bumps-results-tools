@@ -1,6 +1,6 @@
 EIGHTS 1847 7-20 May
  8  1  15   = NDay, NDiv, NCrew
- 15  Division I
+ 15  Men's Division I
 Brasenose                   0   0   0   0   0   0  -1   0
 Christ Church               0   0   0   0   0   0   1   0
 St John's                   0   0  -1  -1  -1 -99 -99 -99

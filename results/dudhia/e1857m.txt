@@ -1,6 +1,6 @@
 EIGHTS 1857 18 - 28 May
  8  1  15   = NDay, NDiv, NCrew
- 15  Division I
+ 15  Men's Division I
 Wadham                     -1  -1  -1   0   0   0  -1  -1
 Exeter                      1   0   0   0   0   0   0   0
 Balliol                     0   1   0   0   0   0   0   0

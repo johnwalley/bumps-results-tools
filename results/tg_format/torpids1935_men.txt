@@ -1,0 +1,18 @@
+Set,Torpids
+Short,Torpids
+Gender,Men
+Year,1935
+Days,6
+
+Division,Mg,Ch,N,U,B,B2,SE,Wt,K,Co,Mt,O,E
+Division,Wh,Br,SJ,P,T,Mg2,SC,J,Lc,Q,SP,U2,N2
+Division,K2,Br2,H,SJ2,E2,Ch2,Wh2,Q2,O2,Mt2,N3,SP2,H2
+Division,B3,Wt2,Mg3,SE2,Co2,Mt3
+
+Results
+rre1e-1e2e-1 re-1e1e-1re1e-1rrrrre1e-1 re1e-1e1e-1re1e-1re1e-1re1e-1 rrre1e-1e1e-1e1e-1e1e-1e1e-1r
+rrre1e-1r rre1e-1e1e-1e1e-1rre1e-1rr e1e-1e1e-1re1e-1re1e-1re1e-1r rrre1e-1re1e-1e1e-1e1e-1e1e-1
+rrrre1e-1 re1e-1e1e-1e1e-1e1e-1rre1e-1r re1e-1re1e-1rrrre1e-1e2e-1 re-1rre1e-1rrre1e-1e1e-1r
+rre1e-1rr e1e-1e1e-1re1e-1re1e-1rre1e-1 rrre1e-1rrrre1e-1e1e-1r re1e-1e1e-1e1e-1rrre1e-1rr
+re1e-1re1e-1 re1e-1rre1e-1rre1e-1e1e-1r e1e-1rrrrrre1e-1rre2e-1 re-1e1e-1e1e-1e1e-1e1e-1rrrr
+rrrrrr e1e-1e1e-1e1e-1e1e-1rre1e-1rr rrrrrre1e-1rrrrrr re1e-1e1e-1rre1e-1rrrrr

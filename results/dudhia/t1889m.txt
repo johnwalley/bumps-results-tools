@@ -1,6 +1,6 @@
 TORPIDS 1889 14-21 February
   6  2 27   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Brasenose                   0   0   0   0   0   0
 Christ Church              -1   0  -1   0   0   0
 Balliol                     1   0   0  -1   0   0
@@ -15,7 +15,7 @@ Oriel                       0  -1  -1  -1   0   0
 Queen's                     0   1   0   1   1   0
 Merton                     -1   0  -1   0   0   0
 Trinity                     1   0   1   0   1   1
- 13  Division II
+ 13  Men's Division II
 Wadham                      0  -1   0   0   0   0
 University                 -1   0   0   0  -1   0
 St John's                   1   1   1   1   0   1

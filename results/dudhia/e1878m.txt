@@ -1,6 +1,6 @@
 EIGHTS 1878 22-26 May
  6  2  21   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 University                  0   0   0   0   0   0
 Pembroke                   -1   0   0   0   0   0
 Brasenose                   1   0   0   0   0   0
@@ -11,7 +11,7 @@ Exeter                     -1  -1  -1  -1   0  -1
 Christ Church               1   0   0   0  -1   0
 Corpus Christi              0   1   0   0   1   0
 St John's                   0   0   1   0   0  -1
- 11  Division II
+ 11  Men's Division II
 Trinity                    -1   0   0   0  -1  -1
 New College                 1   0   0   1   0   1
 Lincoln                    -1   0  -1  -1   0  -1

@@ -1,6 +1,6 @@
 EIGHTS 1899 18-24 May
  6  2  21   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 New College                 0   0   0   0   0   0
 Magdalen                    0   0   0   0   0   0
 Balliol                     0   0   0   0   0   0
@@ -11,7 +11,7 @@ Brasenose                  -1   1   0   0  -1   0
 Hertford                    1  -1  -1  -1   0  -1
 Merton                      0  -1   0   1   0   0
 Queen's                    -1  -1  -1  -1  -1  -1
- 11  Division II
+ 11  Men's Division II
 Exeter                     -1   1   0   0  -1  -1
 Worcester                   2   1   1   0   1   0
 St John's                  -1  -1  -1  -1  -1  -1

@@ -1,6 +1,6 @@
 EIGHTS 1845 28 Apr - 10 May
  8  1  16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Christ Church               0  -1   0   0   0   0   0   0
 Merton                     -1   0   0   0   0   0   0   0
 Brasenose                   1   1   0   0   0   0   0   0

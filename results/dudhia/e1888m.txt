@@ -1,6 +1,6 @@
 EIGHTS 1888 24-30 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 New College                -1   0   0   0   0  -1
 Magdalen                    1   0   0   0   0   0
 Brasenose                   0   0   0   0   0   1
@@ -11,7 +11,7 @@ Hertford                    0  -1   0   1   0   0
 Trinity                    -1   0   0   0   1   0
 St John's                   1   1   1   0   0   1
 Pembroke                   -1   0  -1   0   0  -1
- 12  Division II
+ 12  Men's Division II
 Exeter                     -1  -1  -1  -1  -1  -1
 Queen's                     2   0   0   0   0   1
 Oriel                      -1  -1  -1  -1  -1   0

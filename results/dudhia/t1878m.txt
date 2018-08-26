@@ -1,6 +1,6 @@
 TORPIDS 1878 7-13 March
   6  2 24   = NDay, NDiv, NCrew
- 12  Division I
+ 12  Men's Division I
 Pembroke                    0   0   0   0   0   0
 Balliol                    -1  -1  -1  -1  -1   0
 Trinity                     1   0   0   0   0   0
@@ -13,7 +13,7 @@ Keble II                   -1   0   0   0   0   0
 Queen's                     1   0   0   0   0   0
 Lincoln                     0   0  -1  -1   0   0
 St John's                   0  -1  -1  -1  -1  -1
- 12  Division II
+ 12  Men's Division II
 Merton                     -1  -1  -1  -1  -1  -1
 New College                 1   1   1   0   0   0
 Worcester                  -1  -1  -1  -1  -1   0

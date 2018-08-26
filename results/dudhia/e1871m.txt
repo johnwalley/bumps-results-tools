@@ -1,6 +1,6 @@
 EIGHTS 1871 11-19 May
  8  1  21   = NDay, NDiv, NCrew
- 21  Division I
+ 21  Men's Division I
 University                  0   0   0   0   0   0   0   0
 St John's                   0   0  -1   0  -1  -1  -1  -1
 Exeter                     -1  -1  -1  -1   0   0   0   1

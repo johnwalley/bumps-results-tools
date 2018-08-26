@@ -1,6 +1,6 @@
 EIGHTS 1835 
  3  1   4   = NDay, NDiv, NCrew
-  4  Division I
+  4  Men's Division I
 Christ Church               0   0   0
 Worcester                  -1   0 -99
 Exeter                      1   0   0

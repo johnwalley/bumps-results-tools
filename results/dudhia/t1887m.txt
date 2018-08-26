@@ -1,6 +1,6 @@
 TORPIDS 1887 16-22 February
   6  2 27   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Brasenose                   0   0   0   0   0   0
 Exeter                      0   0   0   0   0   0
 Christ Church               0   0   0   0   0   0
@@ -15,7 +15,7 @@ Trinity                    -1  -1   0   0   0   0
 Christ Church II            1   1   0   0   0   0
 Wadham                      0   1   1   0   0   0
 Hertford                    0   0   0   0   0   0
- 13  Division II
+ 13  Men's Division II
 Pembroke                    0   0  -1  -1   0   0
 Jesus                       0  -1  -1   0   0  -1
 Lincoln                    -1  -1   0   0   0   1

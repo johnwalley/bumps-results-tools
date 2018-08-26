@@ -1,6 +1,6 @@
 TORPIDS 1868 27 Feb - 4 Mar
   6  1 18   = NDay, NDiv, NCrew
- 18  Division I
+ 18  Men's Division I
 Exeter                      0   0   0   0   0   0
 University                  0   0   0   0   0   0
 Brasenose                   0   0   0  -1   0  -1

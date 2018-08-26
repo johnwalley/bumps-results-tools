@@ -1,6 +1,6 @@
 EIGHTS 1895 23-29 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Magdalen                    0   0   0   0   0   0
 New College                 0   0   0   0   0   0
 Brasenose                  -1  -1  -1   0  -1   0
@@ -11,7 +11,7 @@ University                  1   0   1   0   0   0
 Christ Church              -1  -1  -1   0   0   0
 St John's                   1   0   1   0   1   0
 Hertford                    0   1   0   0   0   0
- 12  Division II
+ 12  Men's Division II
 Queen's                     0   0   1   0   0   0
 Pembroke                   -1   0  -1   0   1   0
 Keble                       1   0   0   0   0   0

@@ -1,6 +1,6 @@
 TORPIDS 1891 18-24 February
   6  2 28   = NDay, NDiv, NCrew
- 15  Division I
+ 15  Men's Division I
 Brasenose                   0   0   0   0   0   0
 Balliol                    -1   0   0   0   0   0
 New College                 1   0   0   0   0   0
@@ -16,7 +16,7 @@ Merton                      1   1   0   0   0   0
 St John's                   0   0   0   0   0   0
 Hertford                   -1   0   0   0   0   0
 Oriel                      -1  -1  -1  -1  -1  -1
- 13  Division II
+ 13  Men's Division II
 New College II              2   0   0   0   0   0
 Brasenose II                0   1   0  -1   0   0
 Pembroke                    0   0   1   1   0   0

@@ -1,6 +1,6 @@
 EIGHTS 1869 7-15 May
  8  1  21   = NDay, NDiv, NCrew
- 21  Division I
+ 21  Men's Division I
 Corpus Christi              0  -1  -1  -1  -1  -1  -1   0
 Exeter                     -1   0   1   0   0   0   0   0
 University                  1   1   0   0   0   0   0   0

@@ -1,6 +1,6 @@
 EIGHTS 1838 7-19 June
  6  1  11   = NDay, NDiv, NCrew
- 11  Division I
+ 11  Men's Division I
 Balliol                    -1   0   0   0   0   0
 Exeter                      1   0   0   0   0   0
 St John's                   0  -1   0   0   0   0

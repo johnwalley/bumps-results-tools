@@ -1,6 +1,6 @@
 EIGHTS 1861 9-17 May
  8  1  16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Balliol                     0   0   0  -1   0   0   0   0
 Exeter                      0   0  -1   0   0   0   0   0
 Brasenose                   0  -1   0   0   0   0   0   0

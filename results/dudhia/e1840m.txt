@@ -1,6 +1,6 @@
 EIGHTS 1840 2 - 19 June
  9  1  14   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Brasenose                   0   0   0   0   0   0   0   0   0
 Balliol                     0   0  -1  -9   2   0   1   1   0
 Christ Church              -1   0  -1  -8   2   0   0   0   0

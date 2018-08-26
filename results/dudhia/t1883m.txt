@@ -1,6 +1,6 @@
 TORPIDS 1883 22-28 February
   6  2 23   = NDay, NDiv, NCrew
- 12  Division I
+ 12  Men's Division I
 New College                 0  -1  -1   0   0   0
 Keble                      -1  -1  -1   0  -1  -1
 Brasenose                   1   1   0   0  -1   0
@@ -13,7 +13,7 @@ Magdalen                    1   1   0   1   1   1
 Worcester                   0  -1   0   0   0   0
 Queen's                    -1  -1  -1   0   0   0
 Christ Church               1   1   1   1   1   1
- 11  Division II
+ 11  Men's Division II
 Balliol                     0   1   0   0   0   0
 University                  0   0   1   0   0   0
 Oriel                       0   0   0   0   0  -1

@@ -1,6 +1,6 @@
 TORPIDS 1863 4-10 March
   6  1 16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Brasenose                   0   0   0   0  -1   0
 Corpus Christi              0  -1  -1  -1  -1   0
 Christ Church               0   1   0  -1   0   0

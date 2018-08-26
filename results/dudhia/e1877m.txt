@@ -1,6 +1,6 @@
 EIGHTS 1877 9-17 May
  8  2  22   = NDay, NDiv, NCrew
- 11  Division I
+ 11  Men's Division I
 Brasenose                   0  -1   0  -1   0   0   0   0
 University                  0   1   0   0   0   0   0   0
 Pembroke                    0   0   0   1   0   0   0   0
@@ -12,7 +12,7 @@ Christ Church              -1   0   1   1   0  -1   0   0
 Magdalen                    1   1   1   1   0   0   0   0
 Trinity                    -1   0   0   0   0   0   0   0
 Lincoln                    -1   0   0   0   0   0   0  -1
- 11  Division II
+ 11  Men's Division II
 Keble                       2   0   0   1   1   1   1   0
 Oriel                       0   0   0   0   0   0  -1   0
 Worcester                   0   0   0   0   0  -1   0   0

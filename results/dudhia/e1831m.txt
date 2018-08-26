@@ -1,6 +1,6 @@
 EIGHTS 1831 27 May - ? June
  5  1   5   = NDay, NDiv, NCrew
-  5  Division I
+  5  Men's Division I
 Christ Church               0   0   0   0   0
 Balliol                     0   0  -1   0   0
 Worcester                   0  -1   0   0   0

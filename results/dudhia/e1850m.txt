@@ -1,6 +1,6 @@
 EIGHTS 1850 4 - 17 May
  8  1  19   = NDay, NDiv, NCrew
- 19  Division I
+ 19  Men's Division I
 Christ Church              -1   0  -1  -1  -1  -1  -1  -1
 Wadham                      1   0   0   0   0   0   0   0
 Worcester                  -1   0   0   1   0  -1  -1   1

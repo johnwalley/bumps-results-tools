@@ -1,6 +1,6 @@
 EIGHTS 1860 17-25 May
  8  1  16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Balliol                     0   0   0   0   0   0   0   0
 Exeter                      0   0   0   0   0   0   0   0
 University                  0  -1   0   0   0   0   0   0

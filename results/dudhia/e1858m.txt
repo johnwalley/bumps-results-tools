@@ -1,6 +1,6 @@
 EIGHTS 1858 12 -15  May
  8  1  14   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Exeter                      0   0   0   0   0   0   0   0
 Balliol                     0   0   0   0   0   0   0   0
 Oriel                       0   0   0   0   0   0   0   0

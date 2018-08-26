@@ -1,6 +1,6 @@
 EIGHTS 1873 15-23 May
  8  1  20   = NDay, NDiv, NCrew
- 20  Division I
+ 20  Men's Division I
 Pembroke                    0  -1   0   0   0   0   0   0
 Balliol                     0   1   0   0   0   0   0   0
 Brasenose                  -1   0   0  -1  -1  -1   0   0

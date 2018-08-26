@@ -1,6 +1,6 @@
 TORPIDS 1862 13-19 Feb
   6  1 11   = NDay, NDiv, NCrew
- 11  Division I
+ 11  Men's Division I
 Brasenose                   0   0   0   0   0   0
 Christ Church              -1   0   0   0   0   0
 Corpus Christi              1   0   0   0   0   0

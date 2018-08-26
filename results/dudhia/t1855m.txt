@@ -1,6 +1,6 @@
 TORPIDS 1855 14-20 March
   6  1  7   = NDay, NDiv, NCrew
-  7  Division I
+  7  Men's Division I
 Exeter                      0   0   0   0   0   0
 Brasenose                  -1   0   0  -1   0   0
 University                  1   0   0   0   0   0

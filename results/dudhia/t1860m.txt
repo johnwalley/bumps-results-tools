@@ -1,6 +1,6 @@
 TORPIDS 1860 1 - 7 March
   6  1 14   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Exeter                      0   0   0   0   0   0
 Brasenose                   0   0   0   0   0   0
 Pembroke                    0   0  -1   0  -1   0

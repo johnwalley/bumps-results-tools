@@ -1,0 +1,17 @@
+Set,Torpids
+Short,Torpids
+Gender,Men
+Year,1913
+Days,6
+
+Division,Mg,SJ,B,N,Ch,Co,T,Ch2,U,Br
+Division,Mg2,N2,O,P,B2,Mt,SJ2,K,E,Lc,Wt
+Division,H,Q,SE,J,Br2,U2,Wh,K2,Ch3,T2,SC,E2
+
+Results
+re1e-1rre1e-1re1e-1rr re1e-1rre1e-1rrrrr e1e-1rre1e-1e1e-1rrr
+e1e-1e1e-1rre1e-1rrrr rre1e-1e1e-1e1e-1e1e-1rr re1e-1e1e-1rre1e-1rr
+re1e-1e1e-1rre1e-1re1e-1 rrre1e-1e1e-1e1e-1re2e-1 re-1e1e-1re1e-1rrrr
+rre1e-1e1e-1rrrrrr e1e-1e1e-1e1e-1rrrre1e-1 re1e-1e1e-1rrrrrr
+rrre1e-1e1e-1re1e-1e1e-1 re1e-1e1e-1e1e-1rre1e-1r e1e-1e1e-1e1e-1rrrrr
+rrrrrrrrre1e-1r rre1e-1rre1e-1e1e-1e1e-1 re1e-1rre1e-1rrrr

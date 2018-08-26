@@ -1,6 +1,6 @@
 TORPIDS 1899 16-22 February
   6  3 28   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Balliol                     0   0   0   0   0   0
 New College                 0   0   0   0   0   0
 Trinity                     0   0  -1  -1   0   0
@@ -11,7 +11,7 @@ Hertford                    0   0   0  -1   0  -1
 Brasenose II               -1  -1  -1  -1  -1  -1
 Christ Church               1   0  -1  -1  -1   0
 Merton                      0   1   1   1   0   0
-  9  Division II
+  9  Men's Division II
 Balliol II                  0   0   1   1  -1   0
 St John's                  -1  -1  -1  -1  -1  -1
 Pembroke                    1   0   0   1   2   1
@@ -21,7 +21,7 @@ Corpus Christi              1   0   1   0   0   1
 Christ Church II            0   0   0   0   1   0
 Queen's                     0   0   0   0   0   1
 Exeter                     -1   0   0   0   0  -1
-  9  Division III
+  9  Men's Division III
 Oriel                       1   0   0   0   0   0
 Trinity II                  0   0   0  -1  -1  -1
 Lincoln                    -1  -1  -1  -1  -1   0

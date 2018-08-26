@@ -1,6 +1,6 @@
 EIGHTS 1849 12 - 24 May
  8  1  20   = NDay, NDiv, NCrew
- 20  Division I
+ 20  Men's Division I
 Christ Church               0   0   0   0   0   0   0   0
 Worcester                   0  -1   0   0   0   0   0   0
 Pembroke                   -1  -1  -1  -1  -1  -1  -1  -1

@@ -1,6 +1,6 @@
 EIGHTS 1865 24 May - 1 Jun
  8  1  18   = NDay, NDiv, NCrew
- 18  Division I
+ 18  Men's Division I
 Trinity                     0   0   0   0   0  -1   0  -1
 Brasenose                   0   0   0   0   0   1   0   0
 University                  0   0   0   0   0   0  -1  -1

@@ -1,0 +1,18 @@
+Set,Torpids
+Short,Torpids
+Gender,Men
+Year,1950
+Days,6
+
+Division,N,Ch,T,SE,B,Br,P,Mg,Wt,SJ,U,O
+Division,Lc,Co,Mt,Wh,SP,J,E,K,N2,SC,Br2,H
+Division,B2,SE2,Q,K2,P2,Ch2,Lc2,Mt2,E2,U2,T2,SJ2,SP2
+Division,O2,SC2,J2,Wt2,N3,Mg2,Br3,Q2,J3,H2,SJ3,O3,SC3
+
+Results
+rrre1e-1rrrrre1e-1r e3e1e-1e-3e1e-1re1e-1rre1e-1r re1e-1e1e-1rrre1e-1e1e-1r e1e-1e1e-1e1e-1e1e-1re1e-1rr
+e1e-1e1e-1e1e-1rrre1e-1e1e-1 re3e1e-1e-3re1e-1e1e-1rre2e-1 re-1e1e-1e1e-1rrre1e-1rr re1e-1rre1e-1e1e-1rrrr
+rrrrrrrre1e-1e1e-1r e1e-1e3e1e-1e-3re1e-1e1e-1e1e-1r re1e-1rre1e-1re1e-1e1e-1r e1e-1e1e-1e1e-1e1e-1e1e-1rrr
+re1e-1rre1e-1e1e-1e1e-1e4e-1 re1e-1e-3e1e-1rre1e-1e1e-1e1e-1 rre1e-1rrre1e-1rre2e-1 re-1re1e-1e1e-1e1e-1rrrr
+rrrrrrrre1e-1e1e-1r rrrrre1e-1rre1e-1e1e-1r rrre1e-1re1e-1rre1e-1r rre1e-1e1e-1e1e-1e1e-1rrr
+rrrrre1e-1rre1e-1e2e-1 re-1rre1e-1e1e-1e1e-1e1e-1e1e-1 rrrrre1e-1e1e-1e1e-1e1e-1 re1e-1e1e-1e1e-1e1e-1e1e-1rr

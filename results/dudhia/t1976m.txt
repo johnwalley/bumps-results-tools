@@ -1,6 +1,6 @@
 TORPIDS 1976
   4  6  57    =  NDay, NDiv, NCrew
-  7  Div I (4.30)
+  7  Men's Div I (4.30)
 Oriel                     0   0   0   0
 Balliol                   0   0   0   0
 Christ Church             0   0   0   0
@@ -8,7 +8,7 @@ University                0   0   0   0
 Worcester                -1  -2   0  -2
 New College               1   0   0   0
 Keble                     0   1   0   0
- 10  Div II (4.00)
+ 10  Men's Div II (4.00)
 S.E.H.                    0   1   0   0
 Jesus                    -3  -1  -2  -2
 Lincoln                   1   0   0   1

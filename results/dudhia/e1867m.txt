@@ -1,6 +1,6 @@
 EIGHTS 1867 29 May - 6 Jun
  8  1  20   = NDay, NDiv, NCrew
- 20  Division I
+ 20  Men's Division I
 Brasenose                   0   0   0   0   0   0   0   0
 Corpus Christi              0   0   0   0   0   0   0   0
 University                  0   0  -1   0   0   0   0   0

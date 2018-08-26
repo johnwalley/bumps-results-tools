@@ -1,6 +1,6 @@
 EIGHTS 1842 11-27 May
  7  1  14   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 University                 -1   0  -1   0   0   0   0
 Trinity                     1   0   0   0  -1   0   0
 Brasenose                   0  -1  -1  -1   0   1   0

@@ -1,6 +1,6 @@
 EIGHTS 1874 13-21 May
  8  2  20   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Balliol                     0   0  -1  -1  -1   0  -1  -1
 Pembroke                    0   0   1   0   0  -1  -1   0
 Christ Church              -1   0  -1  -1  -1  -1   0   0
@@ -11,7 +11,7 @@ Brasenose                   1   1   1   0   1   0   1   0
 Lincoln                    -1  -1   0   1   1   1   1   1
 Corpus Christi              1   1   1   1   0  -1  -1   0
 Wadham                      0  -1   0   0  -1  -1  -1   0
- 10  Division II
+ 10  Men's Division II
 Queen's                    -1   0  -1  -1  -1   0   0   0
 Oriel                       1   2   1   1   1   1   1   0
 New College                -1  -1  -1   0   0   0   0   0

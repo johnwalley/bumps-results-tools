@@ -1,6 +1,6 @@
 TORPIDS 1881 3-9 March
   6  2 24   = NDay, NDiv, NCrew
- 12  Division I
+ 12  Men's Division I
 Trinity                     0  -1  -1   0   0   0
 Keble                       0   1   0   0   0  -1
 Brasenose                   0   0   1   0   0   1
@@ -13,7 +13,7 @@ Balliol                     0   0   1   1   0  -1
 Oriel                      -1  -1  -1  -1  -1  -1
 Queen's                     1   0  -1   0   1   1
 Christ Church              -1   0   1   0   0   0
- 12  Division II
+ 12  Men's Division II
 Corpus Christi              1   1   1   1   1   1
 University                  0   0  -1   0   1   0
 New College II              0   0   1   1   0   0

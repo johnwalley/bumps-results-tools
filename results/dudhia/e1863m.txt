@@ -1,6 +1,6 @@
 EIGHTS 1863 28 May - 5 June
  8  1  18   = NDay, NDiv, NCrew
- 18  Division I
+ 18  Men's Division I
 Trinity                     0   0   0   0   0   0   0   0
 Balliol                    -1   0   0   0   0   0   0   0
 Brasenose                   1   0   0   0   0   0   0   0

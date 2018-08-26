@@ -1,6 +1,6 @@
 TORPIDS 1845 16-26 June
   6  1 10   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Oriel                       0  -1   0   0  -1  -1
 Wadham                      0   1   0   0   0  -1
 Worcester                   0   0   0  -1  -1 -99

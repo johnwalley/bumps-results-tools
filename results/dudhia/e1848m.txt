@@ -1,6 +1,6 @@
 EIGHTS 1848 23 May - 5 June
  8  1  10   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Christ Church               0   0   0   0   0   0   0   0
 Brasenose                   0  -1   0   0  -1   0  -1   0
 Pembroke                   -1   0   0   0   1   0   0   0

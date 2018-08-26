@@ -1,6 +1,6 @@
 TORPIDS 1898 17-23 February
   6  3 31   = NDay, NDiv, NCrew
- 11  Division I
+ 11  Men's Division I
 Balliol                     0   0   0   0   0   0
 Magdalen                    0   0  -1   0   0  -1
 Trinity                     0  -1   0   0   0   1
@@ -12,7 +12,7 @@ New College II             -1  -1  -1  -1  -1  -1
 University                  1   1   0   0   1   0
 Christ Church               0   1   1   0   0  -1
 Merton                      0   0  -1   1   1   0
- 10  Division II
+ 10  Men's Division II
 Corpus Christi              0  -1  -1   0  -1  -1
 Queen's                    -1  -1  -1  -1  -1   0
 Brasenose II                1   1   2   1   0   1
@@ -23,7 +23,7 @@ Keble                       0   0   1   1   0   1
 Christ Church II            0   0   0   1   1   0
 Oriel                       0   0   0   0   0  -1
 Exeter II                  -1  -1  -1  -1   0   0
- 10  Division III
+ 10  Men's Division III
 Jesus                       1   0  -1  -1  -1   0
 Trinity II                  0   1   1   0   0  -1
 Magdalen II                -1  -1   0   0   0   0

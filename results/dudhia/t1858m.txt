@@ -1,6 +1,6 @@
 TORPIDS 1858 24 Feb - 9 Mar
   6  1 13   = NDay, NDiv, NCrew
- 13  Division I
+ 13  Men's Division I
 Exeter                      0   0   0   0  -1  -1
 Pembroke                    0   0   0   0   1   0
 Christ Church               0   0  -1  -1   0   0

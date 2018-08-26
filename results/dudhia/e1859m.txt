@@ -1,6 +1,6 @@
 EIGHTS 1859 1 - 9 June
  8  1  16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Exeter                      0  -1   0   0   0   0   0   0
 Balliol                     0   1   0   0   0   0   0   0
 Oriel                       0   0   0   0   0  -1   0  -1

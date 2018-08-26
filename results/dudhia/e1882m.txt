@@ -1,6 +1,6 @@
 EIGHTS 1882 10-16 May
  6  2  21   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Hertford                    0  -1   0  -1   0   0
 Magdalen                    0   1   0   0  -1   0
 Brasenose                  -1   0   0   0   0   0
@@ -11,7 +11,7 @@ New College                 1   1   0  -1   0   1
 Corpus Christi              0   1   1   1   0  -1
 Balliol                     0  -1  -1   0  -1  -1
 Worcester                  -1   0  -1  -1  -1  -1
- 11  Division II
+ 11  Men's Division II
 Trinity                    -1  -1  -1   0   1   1
 Keble                       2   1   1   1   0   0
 Lincoln                    -1   0   1   1   1   0

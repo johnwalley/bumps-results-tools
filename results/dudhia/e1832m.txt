@@ -1,6 +1,6 @@
 EIGHTS 1832 
  5  1   7   = NDay, NDiv, NCrew
-  7  Division I
+  7  Men's Division I
 Christ Church               0   0   0   0   0
 Exeter                      0   0   0   0  -1
 Balliol                     0   0  -1   0   0

@@ -1,6 +1,6 @@
 TORPIDS 1890 13-19 February
   6  2 28   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Brasenose                   0   0   0   0   0   0
 New College                -1   0   0   0   0   0
 Balliol                     1   0   0   0   0   0
@@ -15,7 +15,7 @@ Magdalen                    0   0   0   0   0   1
 St John's                   0   0  -1   0   0   0
 Hertford                    0  -1   0   0   0   0
 Oriel                      -1   0   0   0   0   0
- 14  Division II
+ 14  Men's Division II
 Merton                      1   1   1   0   0   0
 Wadham                      0   0  -1  -1  -1   0
 Brasenose II                0   0   1   0  -1   0

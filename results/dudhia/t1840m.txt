@@ -1,6 +1,6 @@
 TORPIDS 1840 13 - 24 June
   4  1  6   = NDay, NDiv, NCrew
-  6  Division I
+  6  Men's Division I
 Oriel                       0   0 -99 -99
 Brasenose                  -1  -1   1 -99
 Exeter                      1   0   1 -99

@@ -1,6 +1,6 @@
 TORPIDS 1877 1-7 March
   6  2 20   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Trinity                     0  -1  -1   0   0   0
 Balliol                     0   1   0  -1   0   0
 Pembroke                    0   0   1   1   0   0
@@ -11,7 +11,7 @@ University                  0   1   0   1   0  -1
 Christ Church               0   0   0   1   1   1
 Keble                       0   0   0   0   1   1
 Keble II                    0   0   0   0   0   1
- 10  Division II
+ 10  Men's Division II
 St John's                   0   0  -1   0   0   0
 Lincoln                     0   0   1   0   0   0
 Magdalen                    0   0   0  -1  -1  -1

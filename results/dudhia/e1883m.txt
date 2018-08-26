@@ -1,6 +1,6 @@
 EIGHTS 1883 10-16 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Exeter                      0   0   0   0   0   0
 Magdalen                    0   0   0   0   0   0
 Hertford                   -1  -1   0   0  -1  -1
@@ -11,7 +11,7 @@ Keble                       0  -1   1   1   1   0
 St John's                  -1   0   0  -1  -1   0
 Pembroke                    1   1  -1   0   1   1
 University                 -1  -1   0  -1  -1  -1
- 12  Division II
+ 12  Men's Division II
 Lincoln                     1   0  -1   0  -1  -1
 Trinity                     0   1   1   1   0  -1
 Balliol                    -1  -1  -1   0   0   0

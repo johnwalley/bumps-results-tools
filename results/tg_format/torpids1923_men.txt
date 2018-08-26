@@ -1,0 +1,17 @@
+Set,Torpids
+Short,Torpids
+Gender,Men
+Year,1923
+Days,6
+
+Division,Wt,Mg,Ch,N,B,Br,N2,Mt,U,Co,Mg2
+Division,SJ,T,B2,Q,Wh,Ch2,P,K,Lc,O,E
+Division,SJ2,Br2,H,Wh2,Wt2,J,SC,Ch3,SE,Lc2,Mg3
+
+Results
+rre1e-1rre1e-1re1e-1 rrrrre1e-1rrrrr e1e-1rre1e-1rrrre1e-1
+re1e-1rre1e-1re1e-1r rrrre1e-1rrrre1e-1 re1e-1e1e-1rrrrrrr
+rrrrrrre1e-1e1e-1 rrre1e-1rre1e-1e1e-1r e1e-1e1e-1e1e-1rrrrrr
+rrrrrre1e-1e1e-1r rre1e-1re1e-1re1e-1e1e-1 re1e-1rrre1e-1rrrr
+e1e-1rrre1e-1rre1e-1 re1e-1rrre1e-1re1e-1r e1e-1e1e-1re1e-1e1e-1rrr
+e1e-1rre1e-1re1e-1rr e1e-1rrrrre1e-1re1e-1 re1e-1e1e-1re1e-1re1e-1r

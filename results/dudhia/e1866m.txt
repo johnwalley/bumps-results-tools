@@ -1,6 +1,6 @@
 EIGHTS 1866 9-17 May
  8  1  17   = NDay, NDiv, NCrew
- 17  Division I
+ 17  Men's Division I
 Brasenose                   0   0  -1   1   0   0   0   0
 Exeter                      0  -1  -1   0  -1  -1   0   0
 Trinity                    -1  -1  -1  -1  -1  -1   0   0

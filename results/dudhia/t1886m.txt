@@ -1,6 +1,6 @@
 TORPIDS 1886 25 Feb - 3 Mar
   6  2 27   = NDay, NDiv, NCrew
- 14  Division I
+ 14  Men's Division I
 Corpus Christi              0  -1   0   0  -1  -1
 Brasenose                   0   1   0   0   0   0
 Exeter                      0   0   0   0   1   0
@@ -15,7 +15,7 @@ Pembroke                    0  -1   0  -1  -1  -1
 Wadham                     -1   0   0   1   0  -1
 Christ Church II            1   1   0  -3   1   1
 St Catherine's             -1  -1  -1  -1  -1  -1
- 13  Division II
+ 13  Men's Division II
 Oriel                       1   0   0   3   1   0
 Jesus                       0   1   0  -1   0   0
 Hertford                    0   0   1   1   0   1

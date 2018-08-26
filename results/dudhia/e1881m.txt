@@ -1,6 +1,6 @@
 EIGHTS 1881 19-25 May
  6  2  22   = NDay, NDiv, NCrew
- 10  Division I
+ 10  Men's Division I
 Magdalen                    0   0   0  -1   0   0
 Brasenose                   0   0  -1   0   0   0
 University                  0  -1  -1   0   0  -1
@@ -11,7 +11,7 @@ Balliol                     0   0   0  -1   0  -1
 Trinity                     0  -1   0   0  -1  -1
 Pembroke                   -1   0  -1  -1  -1  -1
 St John's                   1   1   0   1   1   1
- 12  Division II
+ 12  Men's Division II
 Corpus Christi              0   0   1   0   1   1
 Worcester                   0   0   0   1   0   1
 Christ Church              -1  -1  -1  -1   0   0

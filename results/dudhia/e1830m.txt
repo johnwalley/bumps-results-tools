@@ -1,6 +1,6 @@
 EIGHTS 1830 8-20 June
  5  1   6   = NDay, NDiv, NCrew
-  6  Division I
+  6  Men's Division I
 Christ Church               0   0   0   0   0
 Brasenose                  -1   0   0   0   0
 Balliol                     1   0   0   0   0

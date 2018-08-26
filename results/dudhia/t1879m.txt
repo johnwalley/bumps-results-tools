@@ -1,6 +1,6 @@
 TORPIDS 1879 6-12 March
   6  2 26   = NDay, NDiv, NCrew
- 13  Division I
+ 13  Men's Division I
 Pembroke                    0   0   0   0   0   0
 Trinity                     0   0   0   0   0   0
 Keble                       0   0   0   0   0   0
@@ -14,7 +14,7 @@ Keble II                    0   0  -1   0   1   0
 New College                 0   0   1   1   0   0
 Magdalen                    0  -1   0   1   0   1
 Lincoln                    -1  -1   0  -1  -1   0
- 13  Division II
+ 13  Men's Division II
 Corpus Christi              1   1   0  -1   0  -1
 Oriel                       0   1   0   0  -1  -1
 Wadham                      0   0  -1  -1   0   0

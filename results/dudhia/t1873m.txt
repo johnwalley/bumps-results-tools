@@ -1,6 +1,6 @@
 TORPIDS 1873 6-12 March
   6  1 19   = NDay, NDiv, NCrew
- 19  Division I
+ 19  Men's Division I
 University                  0   0   0   0   0   0
 Christ Church               0   0   0   0   0   0
 Trinity                    -1  -1  -1  -1  -1  -1

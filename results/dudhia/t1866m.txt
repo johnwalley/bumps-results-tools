@@ -1,6 +1,6 @@
 TORPIDS 1866 22-28 February
   6  1 16   = NDay, NDiv, NCrew
- 16  Division I
+ 16  Men's Division I
 Exeter                     -1   0   0   0   0   0
 Brasenose                   1   0   0   0   0   0
 University                  0   0   0   0   0  -1

@@ -1,6 +1,6 @@
 EIGHTS 1839 15 May - 7 June
  7  1  13   = NDay, NDiv, NCrew
- 13  Division I
+ 13  Men's Division I
 Exeter                     -1  -1   0  -1   0  -1  -1
 Balliol                     1   0  -1   0  -1   0   1
 Merton                      0   1   1   0   0  -1  -1

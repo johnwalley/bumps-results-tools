@@ -1,6 +1,6 @@
 EIGHTS 1837 18-30 May
  7  1  12   = NDay, NDiv, NCrew
- 12  Division I
+ 12  Men's Division I
 Christ Church               0   0   0   0  -1   1 -99
 Jesus                      -1  -1  -1  -6   0   2   3
 Exeter                      1   0  -1  -1   0   0   1
