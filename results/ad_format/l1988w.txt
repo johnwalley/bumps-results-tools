@@ -53,5 +53,5 @@ Girton II                   0   1   1   0
 QMABC II                   -1  -1  -1   0
 St Catharine's II           1   0   1   1
 Girton III                  0   1   0   1
-P II                        0   0   1   0
+Pembroke II                 0   0   1   0
 Newnham III                 0   0   0   0
