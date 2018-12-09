@@ -1,6 +1,9 @@
 {
-  "name": "bumps-reults-tools",
+  "name": "bumps-results-tools",
   "version": "0.1.0",
+  "main": "dist/bumps-results-tools.cjs.js",
+  "module": "dist/bumps-results-tools.esm.js",
+  "browser": "dist/bumps-results-tools.umd.js",
   "description": "Read and write bumps results",
   "keywords": [
     "bumps"
@@ -16,17 +19,22 @@
     "url": "https://github.com/johnwalley/bumps-results.tools.git"
   },
   "scripts": {
+    "build": "rollup -c",
     "test": "mocha",
     "website-results": "node scripts/generate_website_results.js",
     "results": "node scripts/generate_results.js"
   },
   "dependencies": {
-    "d3": "^5.5.0",
-    "d3-array": "^1.2.1",
-    "d3-dsv": "^1.0.8",
-    "lodash": "^4.17.10"
+    "d3": "^5.7.0",
+    "d3-array": "^1.2.4",
+    "d3-bumps-chart": "^1.0.0",
+    "d3-dsv": "^1.0.10",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
   }
 }
