@@ -1,0 +1,16 @@
+Set,Torpids
+Short,Torpids
+Gender,Women
+Year,2018
+
+Division,O,Wh,Ch,H,P,SJ,K,U,Wf,Lc,J,Mg
+Division,N,S,Green Templeton,B,T,SE,SAn,LM,L,Mf,Wf2,Wt
+Division,Br,Wh2,SC,E,SHu,Q,SHi,Mt,SAt,O2,SP,P2
+Division,SJ2,Co,R,S2,Wf3,Lc2,B2,L2,N2,J2,T2,Wt2
+Division,SAn2,Mf2,H2,Mg2,Ch2,SHi2,Mt2,SHu2,Ch3,Co2,Br2,SC2,Green Templteton 2
+
+Results
+e1e-1e1e1e-2e1e-1e1e1e1e2re-5 e1e1e-2e1e3e1e2e-2e-5e1e-1e1e-1 e1e-1e2re-2e1e1e-2e1e1e1e-3r e1e-1e1e-1re1e1e1e1e1e1e-6r e2e2e-1e-3e1e-1e1e-1e1e-1rrr
+rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrrrrrrrrr
+rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrrrrrrrrr
+rrrrrrrrrrrrr rrrrrrrrrrrrr rrrrrre1e1e-2rre1e-1 re1e-1e1e-1re1e2re-3re1e-1 e1e-1e1e1e-2e1e-1e1e-1e1e-1rr
