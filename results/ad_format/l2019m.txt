@@ -45,8 +45,8 @@ St Catharine's II           0   1   0  -1
 1st and 3rd III            -1  -1  -1   0
 Magdalene II                1   0   1   1
 Trinity Hall II             0   1   0   1
-LMBC III                    0   0   1   0
-Clare Hall                  0  -1  -1   0
+LMBC III                   -1  -1  -1   0
+Clare Hall                  1   0   1   0
 Jesus III                  -3   1   0  -1
 Clare III                  -1  -1  -1  -1
 Churchill II                1   0   1   1
