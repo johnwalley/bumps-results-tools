@@ -31,7 +31,7 @@ describe('round-trip', function() {
     });
   });
 
-  describe('read_tg(write_ad())', function() {
+  describe('write_ad(read_tg())', function() {
     const dir = './results/tg_format/';
     const files = fs.readdirSync(dir);
 
@@ -67,7 +67,7 @@ describe('round-trip', function() {
     });
   });
 
-  describe('read_ad(write_tg())', function() {
+  describe('write_tg(read_ad())', function() {
     const dir = './results/ad_format/';
     const files = fs.readdirSync(dir);
 
@@ -115,26 +115,28 @@ describe('round-trip', function() {
           gender = file.slice(5, 6);
         }
 
-        if (gender === 'w') {
-          gender = 'women';
-        } else {
-          gender = 'men';
+        if (set !== 'torpids') {
+          if (gender === 'w') {
+            gender = 'women';
+          } else {
+            gender = 'men';
+          }
+
+          const newFile = set + year + '_' + gender + '.txt';
+
+          let intermediate = utils.read_ad(contents);
+
+          if (set !== 'town') {
+            intermediate = utils.abbreviate(intermediate);
+          }
+
+          const actual = utils.write_tg(intermediate);
+
+          assert.equal(
+            actual,
+            fs.readFileSync('./results/tg_format/' + newFile, 'utf8')
+          );
         }
-
-        const newFile = set + year + '_' + gender + '.txt';
-
-        let intermediate = utils.read_ad(contents);
-
-        if (set !== 'town') {
-          intermediate = utils.abbreviate(intermediate);
-        }
-
-        const actual = utils.write_tg(intermediate);
-
-        assert.equal(
-          actual,
-          fs.readFileSync('./results/tg_format/' + newFile, 'utf8')
-        );
       });
     });
   });
