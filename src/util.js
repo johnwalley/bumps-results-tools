@@ -44,7 +44,6 @@ const abbrevCamCollege = {
   ME: 'Murray Edwards',
   N: 'Newnham',
   NH: 'New Hall',
-  P: 'P', // FIXME: Who is this?
   Pb: 'Pembroke',
   Ph: 'Peterhouse',
   Q: "Queens'",
