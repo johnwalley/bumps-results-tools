@@ -32,7 +32,7 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
+    "mocha": "^6.2.1",
     "rollup": "^1.20.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0"
