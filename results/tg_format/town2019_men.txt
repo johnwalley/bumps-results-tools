@@ -9,8 +9,7 @@ Division,99 5,Isle of Ely 1,Champs 3,Cantabs 8,X-Press 4,99 6,Cantabs 9,City 9,C
 Division,St Radegund 2,Cantabs 12,City 12,99 7,X-Press 6,Cantabs 13,X-Press 7,X-Press 8,Cantabs 14,Cantabs 15,99 8,Cantabs 16,Champs 7,City 13,Cantabs 17,Camb Veterans 1,City 14
 
 Results
-
-rrruruurrrru rurruuurruurr rurruuuruurr ururrruruuru
+rrruruurrrrur urruuurruurr rurruuuruurr ururrruruuru
 rruururrrruu ruuuuuuuur rruuuuururu rruurrruruurr
 rrurruruurur uurrurrurrrrrr uruurrururur ruuurrrururrr
 rrrrrururrruu ruurruuuruu rrrrurrrrrururr uuurrururrrrr
