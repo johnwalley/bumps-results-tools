@@ -830,6 +830,28 @@ function calculateResults(event) {
               results += 'o9';
             }
             break;
+          case 10:
+            if (crew === 1) {
+              // Sandwich boat in next division
+              results += 'u';
+              crew -= 1;
+            } else if (crew === 3) {
+              // Sandwich boat in next division
+              results += 'o3';
+            } else if (crew === 5) {
+              // Sandwich boat in next division
+              results += 'o5';
+            } else if (crew === 7) {
+              // Sandwich boat in next division
+              results += 'o7';
+            } else if (crew === 9) {
+              // Sandwich boat in next division
+              results += 'o9';
+            } else {
+              // Simple move
+              results += 'e10';
+            }
+            break;
           case -1:
             // Should not get here if it's a simple position swap
             results += 'e-1';
