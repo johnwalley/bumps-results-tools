@@ -11,7 +11,7 @@ Use these tools to convert between formats and generate data suitable for use by
 1. **Build the tools.**
 
    ```shell
-   npm build
+   npm run build
    ```
 
 2. **Generate results file.**
