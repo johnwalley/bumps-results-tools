@@ -1733,4 +1733,6 @@ module.exports = {
   transformData: transformData,
   joinEvents: joinEvents,
   abbreviate: abbreviate,
+  GENDER: GENDER,
+  SET: SET,
 };
