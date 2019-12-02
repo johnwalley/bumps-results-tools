@@ -1,5 +1,7 @@
 # Bumps Results Tools
 
+![](https://github.com/johnwalley/bumps-results-tools/workflows/Node%20CI/badge.svg)
+
 Tools for manipulating bumps results data.
 
 Canonicial results data can be found at the [bumps-results](https://github.com/johnwalley/bumps-results) repository.
