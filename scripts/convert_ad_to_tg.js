@@ -9,7 +9,10 @@ fs.readdir('./results/ad_format_temp/', function(err, files) {
   if (err) throw err;
   let numFiles = 0;
   files.forEach(function(file) {
-    const contents = fs.readFileSync('./results/ad_format_temp/' + file, 'utf8');
+    const contents = fs.readFileSync(
+      './results/ad_format_temp/' + file,
+      'utf8'
+    );
     const event = utils.read_ad(contents);
     numFiles++;
 

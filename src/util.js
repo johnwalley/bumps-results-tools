@@ -536,9 +536,7 @@ function joinEvents(events, set, gender) {
 function transformData(event) {
   if (event.days !== event.completed.length) {
     throw new RangeError(
-      `Expected ${event.days} but found ${
-        event.completed.length
-      } completed days`
+      `Expected ${event.days} but found ${event.completed.length} completed days`
     );
   }
 
@@ -1157,9 +1155,9 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
           divisionSizes
         );
 
-        divisions[division][positionInDivision] = `${
-          crewsFirstDay[crew].Club
-        } ${crewsFirstDay[crew].Crew}`;
+        divisions[division][
+          positionInDivision
+        ] = `${crewsFirstDay[crew].Club} ${crewsFirstDay[crew].Crew}`;
         move[dayNum][division][positionInDivision] =
           +crewsFirstDay[crew]['Start position'] -
           +crewsAllDays[event.days * crew + dayNum].Position;
@@ -1191,9 +1189,9 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
             numDivisions,
             divisionSizes
           );
-          finish[division][positionInDivision] = `${crewsFirstDay[crew].Club} ${
-            crewsFirstDay[crew].Crew
-          }`;
+          finish[division][
+            positionInDivision
+          ] = `${crewsFirstDay[crew].Club} ${crewsFirstDay[crew].Crew}`;
         }
       }
     }

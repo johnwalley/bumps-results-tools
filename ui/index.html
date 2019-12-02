@@ -34,7 +34,6 @@
       grid-row: 1;
     }
 
-
     .input2 {
       grid-column: 2 / 3;
       grid-row: 1;
@@ -70,7 +69,9 @@
   <div id="editor">
     <div class="wrapper">
       <div class="controls">
-        <button v-on:click="generateResults">Generate next year start order</button>
+        <button v-on:click="generateResults">
+          Generate next year start order
+        </button>
         <select v-model="selected" @change="onSelectedChange">
           <option v-for="option in options" v-bind:value="option.value">
             {{ option.text }}
@@ -78,12 +79,13 @@
         </select>
         <span>Set: {{ set }}</span>
       </div>
-      <div class="input"><textarea :value="input" @input="update"></textarea></div>
+      <div class="input">
+        <textarea :value="input" @input="update"></textarea>
+      </div>
       <div class="input2"><textarea :value="input2"></textarea></div>
       <div class="chart">
         <div class="bumps-chart">
-          <svg width="100%" preserveAspectRatio="xMidYMin">
-          </svg>
+          <svg width="100%" preserveAspectRatio="xMidYMin"></svg>
         </div>
       </div>
     </div>
@@ -92,13 +94,14 @@
   <script>
     const utils = window.bumpsResultsTools;
 
-    const chart = d3.bumpsChart()
+    const chart = d3
+      .bumpsChart()
       .year(2018)
       .numYearsToView(1)
       .windowWidth(200)
-      .on("selectYear", (start, end) => console.log(start + '-' + end))
-      .on("highlightCrew", crew => console.log(crew))
-      .on("toggleSelectedCrew", crew => console.log(crew));
+      .on('selectYear', (start, end) => console.log(start + '-' + end))
+      .on('highlightCrew', crew => console.log(crew))
+      .on('toggleSelectedCrew', crew => console.log(crew));
 
     new Vue({
       el: '#editor',
@@ -120,14 +123,16 @@ ro3uurrur urruuo3urrrur urruuurrrrrrrr
 rruuuurr ruuro3urruurr rurrurrrrrrrrrrr
 rrrurruru urruurrruuur uuuurrrrrrrrrr
 rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
-`
+`,
       },
       computed: {
-        input2: function () {
+        input2: function() {
           return utils.write_ad(utils.read_tg(this.input));
         },
-        set: function () {
-          const res = this.input.match(/Town Bumps|May Bumps|Lent Bumps|Summer Eights|Torpids/g);
+        set: function() {
+          const res = this.input.match(
+            /Town Bumps|May Bumps|Lent Bumps|Summer Eights|Torpids/g
+          );
 
           if (res !== null) {
             return res[0];
@@ -135,7 +140,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             return 'Town Bumps';
           }
         },
-        gender: function () {
+        gender: function() {
           const res = this.input.match(/Women|Men/g);
 
           if (res !== null) {
@@ -143,11 +148,11 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           } else {
             return 'Women';
           }
-        }
+        },
       },
-      mounted: function () {
+      mounted: function() {
         const vm = this;
-        d3.json("./generated.json").then(function (json) {
+        d3.json('./generated.json').then(function(json) {
           vm.data = json;
 
           const options = [{ text: 'Blank', value: 0 }];
@@ -155,7 +160,10 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           let i = 0;
 
           for (let event of json) {
-            options.push({ text: `${event.year} ${event.small} ${event.gender}`, value: i++ })
+            options.push({
+              text: `${event.year} ${event.small} ${event.gender}`,
+              value: i++,
+            });
           }
 
           vm.options = options;
@@ -163,48 +171,68 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
 
         vm.selected = 0;
 
-        const data = utils.joinEvents([utils.transformData(utils.read_tg(this.input))],
-          utils.SET.TOWN, utils.GENDER.WOMEN)
+        const data = utils.joinEvents(
+          [utils.transformData(utils.read_tg(this.input))],
+          utils.SET.TOWN,
+          utils.GENDER.WOMEN
+        );
 
-
-        d3.select(".bumps-chart").datum(data).call(chart);
+        d3.select('.bumps-chart')
+          .datum(data)
+          .call(chart);
       },
       methods: {
-        update: _.debounce(function (e) {
+        update: _.debounce(function(e) {
           this.input = e.target.value;
 
-          const data = utils.joinEvents([utils.transformData(utils.read_tg(e.target.value))],
-            this.set, this.gender
+          const data = utils.joinEvents(
+            [utils.transformData(utils.read_tg(e.target.value))],
+            this.set,
+            this.gender
           );
 
-          d3.select(".bumps-chart").datum(data).call(chart);
+          d3.select('.bumps-chart')
+            .datum(data)
+            .call(chart);
         }, 300),
-        onSelectedChange: _.debounce(function (e) {
+        onSelectedChange: _.debounce(function(e) {
           const i = +e.target.value;
 
           this.input = utils.write_tg(this.data[i]);
-          data = utils.joinEvents([utils.transformData(this.data[i])], this.set, this.gender);
+          data = utils.joinEvents(
+            [utils.transformData(this.data[i])],
+            this.set,
+            this.gender
+          );
 
-          d3.select(".bumps-chart").datum(data).call(chart);
+          d3.select('.bumps-chart')
+            .datum(data)
+            .call(chart);
         }),
-        generateResults: function () {
+        generateResults: function() {
           var results = utils.read_tg(this.input);
 
           results.divisions = results.finish;
           results.year += 1;
           results.move = [];
-          results.results = "";
+          results.results = '';
           results.completed = results.completed.map(r => r.map(d => false));
 
           this.input = utils.write_tg(results);
 
-          data = utils.joinEvents([utils.transformData(results)], results.gender, results.set);
-          d3.select(".bumps-chart").datum(data).call(chart);
-        }
-      }
+          data = utils.joinEvents(
+            [utils.transformData(results)],
+            results.gender,
+            results.set
+          );
+          d3.select('.bumps-chart')
+            .datum(data)
+            .call(chart);
+        },
+      },
     });
 
-    const populate = d3.select("#populate").on("change", function (d) {
+    const populate = d3.select('#populate').on('change', function(d) {
       populateResults(JSON.parse(this.value));
     });
 

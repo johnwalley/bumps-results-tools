@@ -115,7 +115,7 @@ describe('utils', function() {
       ],
       divisions: [
         {
-          divisions: [{ size: 2, start: 0}],
+          divisions: [{ size: 2, start: 0 }],
           year: 2013,
           startDay: 0,
           numDays: 4,

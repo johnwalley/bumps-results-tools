@@ -29,7 +29,11 @@ describe('utils', function() {
 
     const expected = [
       {
-        completed: [[true, true, true], [true, true, true], [true, true, true]],
+        completed: [
+          [true, true, true],
+          [true, true, true],
+          [true, true, true],
+        ],
         days: 3,
         divisions: [
           ['Cantabs 1', 'City 1', 'Rob Roy 1', '99 1'],
@@ -86,7 +90,11 @@ Results
  `;
 
     const expected = {
-      completed: [[true, true, true], [true, true, true], [true, true, true]],
+      completed: [
+        [true, true, true],
+        [true, true, true],
+        [true, true, true],
+      ],
       days: 3,
       divisions: [
         ['Cantabs 1', 'City 1', 'Rob Roy 1', '99 1'],
@@ -2123,7 +2131,10 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
         ],
         finish: [],
         gender: 'M',
-        move: [[[0, 0], [0, -1], [1]], [[0, 0], [0, 0], [0]]],
+        move: [
+          [[0, 0], [0, -1], [1]],
+          [[0, 0], [0, 0], [0]],
+        ],
         result: '',
         results: 'r rrr rrr\nr rrr rrr\n',
         set: 'Town Bumps',
@@ -2161,7 +2172,10 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
       ],
       finish: [],
       gender: 'M',
-      move: [[[0, 0], [0, -1], [1]], [[0, 0], [0, 0], [0]]],
+      move: [
+        [[0, 0], [0, -1], [1]],
+        [[0, 0], [0, 0], [0]],
+      ],
       result: '',
       results: `r ur rrr
 r rrr rrr`,
@@ -2200,7 +2214,10 @@ r rrr rrr
       ],
       finish: [],
       gender: 'Men',
-      move: [[[0, 0], [0, 0], [0]], [[0, 0], [0, -1], [1]]],
+      move: [
+        [[0, 0], [0, 0], [0]],
+        [[0, 0], [0, -1], [1]],
+      ],
       result: '',
       results: `rr rrr
 rr rrr

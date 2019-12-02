@@ -155,7 +155,8 @@ r rrr rrrrr',
         [[0, 0, 0, 0], [0, 0], [0]],
       ],
       result: '',
-      results: 'r ur rrrrr\n\
+      results:
+        'r ur rrrrr\n\
 r ur ro3u\n\
 r ru urrr\n\
 r rrr rrrrr\n\
