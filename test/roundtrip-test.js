@@ -71,19 +71,6 @@ describe('round-trip', function() {
     const dir = './results/ad_format/';
     const files = fs.readdirSync(dir);
 
-    const setMap = {
-      eights: 'e',
-      torpids: 't',
-      mays: 'm',
-      lents: 'l',
-      town: 'town',
-    };
-
-    const genderMap = {
-      men: 'm',
-      women: 'w',
-    };
-
     files.forEach(function(file) {
       it('correctly round-trips ' + file, function() {
         const contents = fs.readFileSync(dir + file, 'utf8');
