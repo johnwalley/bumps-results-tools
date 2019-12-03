@@ -3,13 +3,13 @@ var fs = require('fs');
 
 const events = [];
 
-fs.readdir('./results/tg_format/', function(err, files) {
+fs.readdir('./results/ad_format/', function(err, files) {
   if (err) throw err;
   let numFiles = 0;
   files.forEach(function(file) {
     console.log(`Reading ${file}`);
-    const contents = fs.readFileSync('./results/tg_format/' + file, 'utf8');
-    const event = utils.read_tg(contents);
+    const contents = fs.readFileSync('./results/ad_format/' + file, 'utf8');
+    const event = utils.read_ad(contents);
     numFiles++;
     events.push(event);
   });
