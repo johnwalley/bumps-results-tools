@@ -1,6 +1,6 @@
 {
   "name": "bumps-results-tools",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "dist/bumps-results-tools.cjs.js",
   "module": "dist/bumps-results-tools.esm.js",
   "browser": "dist/bumps-results-tools.umd.js",
@@ -18,6 +18,11 @@
     "type": "git",
     "url": "https://github.com/johnwalley/bumps-results.tools.git"
   },
+  "files": [
+    "dist/**/*.js",
+    "scripts/**/*.js",
+    "src/**/*.js"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "mocha",
