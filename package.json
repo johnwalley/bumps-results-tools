@@ -1,6 +1,6 @@
 {
   "name": "bumps-results-tools",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "dist/bumps-results-tools.cjs.js",
   "module": "dist/bumps-results-tools.esm.js",
   "browser": "dist/bumps-results-tools.umd.js",
