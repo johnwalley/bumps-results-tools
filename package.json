@@ -37,7 +37,7 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "mocha": "^6.2.2",
+    "mocha": "^7.0.1",
     "prettier": "1.19.1",
     "rollup": "^1.27.6",
     "rollup-plugin-commonjs": "^10.1.0",
