@@ -24,8 +24,6 @@ Use these tools to convert between formats and generate data suitable for use by
 
 3. **Copy results file to ui directory.**
 
-   Next, move into your new site’s directory and start it up:
-
    ```shell
    cp ./generated.json ./ui
    ```
