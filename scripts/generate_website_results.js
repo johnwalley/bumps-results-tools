@@ -1,15 +1,22 @@
-var utils = require('../src/util');
-var fs = require('fs');
+#!/usr/bin/env node
+const utils = require('../src/util');
+const fs = require('fs');
+const path = require('path');
+const chalk = require('chalk');
 
 const events = [];
 const results = [];
 
-fs.readdir('./results/ad_format/', function(err, files) {
+const resultsInputDir = './results/ad_format/';
+const outputFilename = 'results.json';
+
+fs.readdir(resultsInputDir, function(err, files) {
   if (err) throw err;
   let numFiles = 0;
+
   files.forEach(function(file) {
-    console.log(`Reading ${file}`);
-    const contents = fs.readFileSync('./results/ad_format/' + file, 'utf8');
+    console.log(`Reading ${chalk.red(file)}`);
+    const contents = fs.readFileSync(path.join(resultsInputDir, file), 'utf8');
     const event = utils.read_ad(contents);
     numFiles++;
     events.push(event);
@@ -44,9 +51,19 @@ fs.readdir('./results/ad_format/', function(err, files) {
     });
   });
 
-  fs.writeFile('./website_results.json', JSON.stringify(results), function() {
-    console.log('Successfully wrote file to ./website_results.json');
+  fs.writeFile(`./${outputFilename}`, JSON.stringify(results), function(err) {
+    if (err) {
+      console.log(
+        `There was an error while writing file to ${chalk.red(
+          './' + outputFilename
+        )}`
+      );
+    }
+
+    console.log(
+      `Successfully wrote file to ${chalk.green('./' + outputFilename)}`
+    );
   });
 
-  console.log(`Found ${numFiles} files`);
+  console.log(`Found ${chalk.yellow(numFiles)} files`);
 });
