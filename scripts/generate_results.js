@@ -15,7 +15,7 @@ fs.readdir('./results/ad_format/', function(err, files) {
   });
 
   fs.writeFile('./generated.json', JSON.stringify(events), function() {
-    console.log('Scccessfully wrote file to ./generated.json');
+    console.log('Successfully wrote file to ./generated.json');
   });
 
   console.log(`Found ${numFiles} files`);
