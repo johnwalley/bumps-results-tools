@@ -100,8 +100,8 @@
       .numYearsToView(1)
       .windowWidth(200)
       .on('selectYear', (start, end) => console.log(start + '-' + end))
-      .on('highlightCrew', crew => console.log(crew))
-      .on('toggleSelectedCrew', crew => console.log(crew));
+      .on('highlightCrew', (crew) => console.log(crew))
+      .on('toggleSelectedCrew', (crew) => console.log(crew));
 
     new Vue({
       el: '#editor',
@@ -126,10 +126,10 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
 `,
       },
       computed: {
-        input2: function() {
+        input2: function () {
           return utils.write_ad(utils.read_tg(this.input));
         },
-        set: function() {
+        set: function () {
           const res = this.input.match(
             /Town Bumps|May Bumps|Lent Bumps|Summer Eights|Torpids/g
           );
@@ -140,7 +140,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             return 'Town Bumps';
           }
         },
-        gender: function() {
+        gender: function () {
           const res = this.input.match(/Women|Men/g);
 
           if (res !== null) {
@@ -150,9 +150,9 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           }
         },
       },
-      mounted: function() {
+      mounted: function () {
         const vm = this;
-        d3.json('./generated.json').then(function(json) {
+        d3.json('./generated.json').then(function (json) {
           vm.data = json;
 
           const options = [{ text: 'Blank', value: 0 }];
@@ -177,12 +177,10 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           utils.GENDER.WOMEN
         );
 
-        d3.select('.bumps-chart')
-          .datum(data)
-          .call(chart);
+        d3.select('.bumps-chart').datum(data).call(chart);
       },
       methods: {
-        update: _.debounce(function(e) {
+        update: _.debounce(function (e) {
           this.input = e.target.value;
 
           const data = utils.joinEvents(
@@ -191,11 +189,9 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             this.gender
           );
 
-          d3.select('.bumps-chart')
-            .datum(data)
-            .call(chart);
+          d3.select('.bumps-chart').datum(data).call(chart);
         }, 300),
-        onSelectedChange: _.debounce(function(e) {
+        onSelectedChange: _.debounce(function (e) {
           const i = +e.target.value;
 
           this.input = utils.write_tg(this.data[i]);
@@ -205,18 +201,16 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             this.gender
           );
 
-          d3.select('.bumps-chart')
-            .datum(data)
-            .call(chart);
+          d3.select('.bumps-chart').datum(data).call(chart);
         }),
-        generateResults: function() {
+        generateResults: function () {
           var results = utils.read_tg(this.input);
 
           results.divisions = results.finish;
           results.year += 1;
           results.move = [];
           results.results = '';
-          results.completed = results.completed.map(r => r.map(d => false));
+          results.completed = results.completed.map((r) => r.map((d) => false));
 
           this.input = utils.write_tg(results);
 
@@ -225,9 +219,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             results.gender,
             results.set
           );
-          d3.select('.bumps-chart')
-            .datum(data)
-            .call(chart);
+          d3.select('.bumps-chart').datum(data).call(chart);
         },
       },
     });

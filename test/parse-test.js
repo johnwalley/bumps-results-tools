@@ -1,8 +1,8 @@
 const assert = require('assert');
 const utils = require('../src/util');
 
-describe('utils', function() {
-  it('read_flat() returns a correct intermediate object.', function() {
+describe('utils', function () {
+  it('read_flat() returns a correct intermediate object.', function () {
     const data = `Year,Club,Sex,Day,Crew,Start position,Position,Division
 2013,Cantabs,M,1,1,1,1,1
 2013,Cantabs,M,2,1,1,4,1
@@ -66,7 +66,7 @@ r ru urrr`,
     assert.deepEqual(actual, expected);
   });
 
-  it('read_tg() returns a correct intermediate object.', function() {
+  it('read_tg() returns a correct intermediate object.', function () {
     const data = `Set,Town Bumps
 Short,Short
 Gender,M
@@ -126,7 +126,7 @@ r ru urrr`,
     assert.deepEqual(actual, expected);
   });
 
-  it('read_tg() returns a correct intermediate object given Torpids input', function() {
+  it('read_tg() returns a correct intermediate object given Torpids input', function () {
     const data = `Set,Summer Eights
 Short,Eights
 Gender,Women
@@ -317,7 +317,7 @@ rrurrrrrurr rurruuuu rrrrrrrrurrr rrururrurr uuururrrr
     assert.deepEqual(actual, expected);
   });
 
-  it('read_tg() returns a correct intermediate object given Eights input', function() {
+  it('read_tg() returns a correct intermediate object given Eights input', function () {
     const data = `Set,Summer Eights
 Short,Eights
 Gender,Men
@@ -640,7 +640,7 @@ urrrrrurru ruuuruur ruuuuuu ruuuruur ruuuuuu ruurrurrrr uuururur rururruru ruuur
     assert.deepEqual(actual, expected);
   });
 
-  it('read_ad() returns a correct intermediate object.', function() {
+  it('read_ad() returns a correct intermediate object.', function () {
     const data = `EIGHTS 2016
  4  3  7   = NDay, NDiv, NCrew
  3  Men's Div I (6.45)
@@ -695,7 +695,7 @@ r rru rrrr`,
     assert.deepEqual(actual, expected);
   });
 
-  it('read_ad() returns a correct intermediate object for Torpids.', function() {
+  it('read_ad() returns a correct intermediate object for Torpids.', function () {
     const data = `TORPIDS 2017
  4  5  61   = NDay, NDiv, NCrew
  12  Women's Div I (4.30)
@@ -966,7 +966,7 @@ e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r
     assert.deepEqual(actual, expected);
   });
 
-  it('read_ad() returns a correct intermediate object for Torpids when no racing occured.', function() {
+  it('read_ad() returns a correct intermediate object for Torpids when no racing occured.', function () {
     var data = `TORPIDS 2000                   0 days                                           
  STARTING ORDER - NO RACING     6 divisions                                      
    MEN'S DIV I                 12 crews                                          
@@ -1069,7 +1069,7 @@ e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r
     assert.deepEqual(actual, expected);
   });
 
-  it('read_ad() returns a correct intermediate object for Summer Eights.', function() {
+  it('read_ad() returns a correct intermediate object for Summer Eights.', function () {
     const data = `EIGHTS 2016
  4  7  92   = NDay, NDiv, NCrew
  13  Men's Div I (6.45)
@@ -1451,7 +1451,7 @@ ruro5uuuu uruurrrrru uuurrurru rruuurrrur rrurruurur rrrurruurrr rrruurrrurr`,
     assert.deepEqual(actual, expected);
   });
 
-  it('read_ad() returns a correct intermediate object for Summer Eights (second example).', function() {
+  it('read_ad() returns a correct intermediate object for Summer Eights (second example).', function () {
     const data = `EIGHTS 2014
  4  6  79   = NDay, NDiv, NCrew
  13  Women's Div I (6.15)
@@ -1785,7 +1785,7 @@ ruururruu ruurruurrr rurruuuur ruurrururr urrururrur urrrrrrrrrrrr`,
     assert.deepEqual(actual, expected);
   });
 
-  it('read_ad() returns a correct intermediate object for Summer Eights (third example).', function() {
+  it('read_ad() returns a correct intermediate object for Summer Eights (third example).', function () {
     const data = `EIGHTS 2013
  4  6  79   = NDay, NDiv, NCrew
  13  Women's Div I (6.15)
@@ -2119,7 +2119,7 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
     assert.deepEqual(actual, expected);
   });
 
-  it('write_flat() returns the correct flat format output.', function() {
+  it('write_flat() returns the correct flat format output.', function () {
     const events = [
       {
         completed: [],
@@ -2161,7 +2161,7 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
     assert.equal(actual, expected);
   });
 
-  it('write_tg() returns the correct Tim Grainger output.', function() {
+  it('write_tg() returns the correct Tim Grainger output.', function () {
     const event = {
       completed: [],
       days: 2,
@@ -2203,7 +2203,7 @@ r rrr rrr
     assert.equal(actual, expected);
   });
 
-  it('write_ad() returns the correct Anu Dudhia output.', function() {
+  it('write_ad() returns the correct Anu Dudhia output.', function () {
     const event = {
       completed: [],
       days: 2,
@@ -2244,7 +2244,7 @@ Champs                      0   1
     assert.equal(actual, expected);
   });
 
-  it('round-trip flat format.', function() {
+  it('round-trip flat format.', function () {
     const data = `Year,Club,Sex,Day,Crew,Start position,Position,Division
 2013,Cantabs,M,1,1,1,1,1
 2013,Cantabs,M,2,1,1,1,1
@@ -2264,7 +2264,7 @@ Champs                      0   1
     assert.equal(actual, expected);
   });
 
-  it('round-trip tg format.', function() {
+  it('round-trip tg format.', function () {
     const data = `Set,Town Bumps
 Short,Town
 Gender,Men
@@ -2288,7 +2288,7 @@ rrurrrur ruruuurrrruu ruruurruurur ruuururrrrurr
     assert.equal(actual, expected);
   });
 
-  it('round-trip ad format.', function() {
+  it('round-trip ad format.', function () {
     const data = `TORPIDS 2016
  4  6  73   = NDay, NDiv, NCrew
  12  Men's Div I
@@ -2378,7 +2378,7 @@ Balliol IV                  0   1  -1   1
     assert.equal(actual, expected);
   });
 
-  it('round-trip from flat format to tg format.', function() {
+  it('round-trip from flat format to tg format.', function () {
     const data = `Year,Club,Sex,Day,Crew,Start position,Position,Division
 2013,Cantabs,M,1,1,1,1,1
 2013,Cantabs,M,2,1,1,4,1
@@ -2424,7 +2424,7 @@ r ru urrr
     assert.equal(actual, expected);
   });
 
-  it('round-trip from tg format to flat format.', function() {
+  it('round-trip from tg format to flat format.', function () {
     const data = `Set,Town Bumps
 Short,Short
 Gender,M

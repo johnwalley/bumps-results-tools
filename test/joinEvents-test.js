@@ -1,8 +1,8 @@
 const assert = require('assert');
 const utils = require('../src/util');
 
-describe('utils', function() {
-  it('Join incomplete events correctly.', function() {
+describe('utils', function () {
+  it('Join incomplete events correctly.', function () {
     var data = [
       {
         crews: [
@@ -139,7 +139,7 @@ describe('utils', function() {
     assert.deepEqual(actual, expected);
   });
 
-  it('Join events with different numbers of days correctly.', function() {
+  it('Join events with different numbers of days correctly.', function () {
     var data = [
       {
         crews: [

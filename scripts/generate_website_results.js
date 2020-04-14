@@ -10,11 +10,11 @@ const results = [];
 const resultsInputDir = './results/ad_format/';
 const outputFilename = 'results.json';
 
-fs.readdir(resultsInputDir, function(err, files) {
+fs.readdir(resultsInputDir, function (err, files) {
   if (err) throw err;
   let numFiles = 0;
 
-  files.forEach(function(file) {
+  files.forEach(function (file) {
     console.log(`Reading ${chalk.red(file)}`);
     const contents = fs.readFileSync(path.join(resultsInputDir, file), 'utf8');
     const event = utils.read_ad(contents);
@@ -33,11 +33,11 @@ fs.readdir(resultsInputDir, function(err, files) {
 
   const smalls = ['Town', 'Lents', 'Mays', 'Torpids', 'Eights'];
 
-  genders.forEach(gender => {
+  genders.forEach((gender) => {
     sets.forEach((set, i) => {
       const transformedEvents = events
-        .filter(e => e.gender.toLowerCase() === gender.toLowerCase())
-        .filter(e => e.set === set)
+        .filter((e) => e.gender.toLowerCase() === gender.toLowerCase())
+        .filter((e) => e.set === set)
         .sort((a, b) => a.year - b.year)
         .map(utils.transformData);
 
@@ -51,7 +51,7 @@ fs.readdir(resultsInputDir, function(err, files) {
     });
   });
 
-  fs.writeFile(`./${outputFilename}`, JSON.stringify(results), function(err) {
+  fs.writeFile(`./${outputFilename}`, JSON.stringify(results), function (err) {
     if (err) {
       console.log(
         `There was an error while writing file to ${chalk.red(

@@ -1,8 +1,8 @@
 const assert = require('assert');
 const utils = require('../src/util');
 
-describe('utils', function() {
-  it('Transform data correctly.', function() {
+describe('utils', function () {
+  it('Transform data correctly.', function () {
     const data = {
       completed: [
         [true, true, true],
@@ -124,7 +124,7 @@ r rrr rrrrr',
     assert.deepEqual(actual, expected);
   });
 
-  it('Transform data with more than four days correctly.', function() {
+  it('Transform data with more than four days correctly.', function () {
     const data = {
       completed: [
         [true, true, true],
@@ -267,7 +267,7 @@ r rrr rrrrr',
     assert.deepEqual(actual, expected);
   });
 
-  it('Transform incomplete data correctly.', function() {
+  it('Transform incomplete data correctly.', function () {
     var data = {
       completed: [
         [true, true, true],

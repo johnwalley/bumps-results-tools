@@ -2,13 +2,13 @@ const fs = require('fs');
 const assert = require('assert');
 const utils = require('../src/util');
 
-describe('original fidelity', function() {
-  describe('dudhia format', function() {
+describe('original fidelity', function () {
+  describe('dudhia format', function () {
     const files = fs.readdirSync('./results/dudhia/');
 
-    files.forEach(function(file) {
+    files.forEach(function (file) {
       if (fs.existsSync('./results/ad_format/' + file)) {
-        it("correctly reads Dudhia's original result " + file, function() {
+        it("correctly reads Dudhia's original result " + file, function () {
           const inputContents = fs.readFileSync(
             './results/dudhia/' + file,
             'utf8'
@@ -25,12 +25,12 @@ describe('original fidelity', function() {
     });
   });
 
-  describe('mcshane format', function() {
+  describe('mcshane format', function () {
     const files = fs.readdirSync('./results/mcshane/');
 
-    files.forEach(function(file) {
+    files.forEach(function (file) {
       if (fs.existsSync('./results/tg_format/' + file)) {
-        it("correctly reads McShane's original result " + file, function() {
+        it("correctly reads McShane's original result " + file, function () {
           const inputContents = fs.readFileSync(
             './results/mcshane/' + file,
             'utf8'

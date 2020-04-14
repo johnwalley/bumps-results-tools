@@ -5,10 +5,10 @@ if (!fs.existsSync('./results/converted_tg_results/')) {
   fs.mkdirSync('./results/converted_tg_results/');
 }
 
-fs.readdir('./results/ad_format_temp/', function(err, files) {
+fs.readdir('./results/ad_format_temp/', function (err, files) {
   if (err) throw err;
   let numFiles = 0;
-  files.forEach(function(file) {
+  files.forEach(function (file) {
     const contents = fs.readFileSync(
       './results/ad_format_temp/' + file,
       'utf8'
@@ -24,7 +24,7 @@ fs.readdir('./results/ad_format_temp/', function(err, files) {
     fs.writeFile(
       './results/converted_tg_results/' + newFile,
       utils.write_tg(utils.abbreviate(event)),
-      function() {
+      function () {
         console.log(
           'Successfully converted ' + file + ' to produce ' + newFile
         );

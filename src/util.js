@@ -225,7 +225,7 @@ function abbreviateCrew(crew, set) {
       throw 'Unrecognised set: ' + set;
   }
 
-  const key = findKey(abbrev, club => club === name);
+  const key = findKey(abbrev, (club) => club === name);
 
   if (key !== undefined && set !== SET.TOWN) {
     return key + (num > 1 ? num : '');
@@ -446,13 +446,16 @@ function joinEvents(events, set, gender) {
   let crewNames = [];
   let day = 0;
 
-  events.forEach(event => {
-    const numDays = d3.max([...event.crews.map(crew => crew.values.length), 5]);
-    crewNames = crewNames.concat(event.crews.map(crew => crew.name));
+  events.forEach((event) => {
+    const numDays = d3.max([
+      ...event.crews.map((crew) => crew.values.length),
+      5,
+    ]);
+    crewNames = crewNames.concat(event.crews.map((crew) => crew.name));
     years.push(event.year);
     divisions.push({
       year: event.year,
-      divisions: event.divisions.map(d => ({
+      divisions: event.divisions.map((d) => ({
         start: d.start,
         size: d.size,
       })),
@@ -466,9 +469,9 @@ function joinEvents(events, set, gender) {
   const startYear = d3.min(years);
   const endYear = d3.max(years);
   const uniqueCrewNames = uniq(crewNames);
-  const maxCrews = d3.max(events.map(e => e.crews.length));
+  const maxCrews = d3.max(events.map((e) => e.crews.length));
 
-  uniqueCrewNames.forEach(crewName => {
+  uniqueCrewNames.forEach((crewName) => {
     const newCrew = {
       name: crewName,
       values: [],
@@ -477,13 +480,13 @@ function joinEvents(events, set, gender) {
 
     day = 0;
 
-    events.forEach(event => {
-      const match = event.crews.filter(c => c.name === crewName);
+    events.forEach((event) => {
+      const match = event.crews.filter((c) => c.name === crewName);
       const numDays =
-        d3.max([...event.crews.map(crew => crew.values.length), 5]) - 1;
+        d3.max([...event.crews.map((crew) => crew.values.length), 5]) - 1;
 
       if (match.length > 0) {
-        const values = match[0].values.map(v => ({
+        const values = match[0].values.map((v) => ({
           day: v.day + day,
           pos: v.pos,
         }));
@@ -494,7 +497,7 @@ function joinEvents(events, set, gender) {
 
         newCrew.values = newCrew.values.concat(values);
 
-        const positions = match[0].values.map(v => v.pos);
+        const positions = match[0].values.map((v) => v.pos);
 
         const blades = isBlades(positions);
         const spoons = isSpoons(positions, event.crews.length);
@@ -648,7 +651,7 @@ function calculatePositionInDivision(position, numDivisions, divisionSizes) {
 }
 
 function calculateDivisionBreaks(divisions) {
-  const divisionSizes = divisions.map(d => d.length);
+  const divisionSizes = divisions.map((d) => d.length);
 
   const divisionBreaks = divisionSizes.reduce((r, a) => {
     if (r.length > 0) {
@@ -1224,8 +1227,8 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
 
 function read_flat(data) {
   data = d3.csvParse(data);
-  const year = uniqBy(data.map(d => d.Year));
-  const gender = uniqBy(data.map(d => d.Sex));
+  const year = uniqBy(data.map((d) => d.Year));
+  const gender = uniqBy(data.map((d) => d.Sex));
   const events = [];
 
   for (let yearNum = 0; yearNum < year.length; yearNum++) {
@@ -1249,12 +1252,12 @@ function read_flat(data) {
       event.year = +year[yearNum];
 
       const crewsFirstDay = data.filter(
-        d => +d.Year === event.year && d.Sex === event.gender && d.Day === '1'
+        (d) => +d.Year === event.year && d.Sex === event.gender && d.Day === '1'
       );
       crewsFirstDay.sort((a, b) => +a['Start position'] - +b['Start position']);
 
       const crewsAllDays = data.filter(
-        d => +d.Year === event.year && d.Sex === event.gender
+        (d) => +d.Year === event.year && d.Sex === event.gender
       );
       crewsAllDays.sort((a, b) => {
         const equality = +a['Start position'] - +b['Start position'];
@@ -1264,14 +1267,14 @@ function read_flat(data) {
         return equality;
       });
 
-      event.days = uniqBy(crewsAllDays.map(c => c.Day)).length;
+      event.days = uniqBy(crewsAllDays.map((c) => c.Day)).length;
 
-      const numDivisions = uniqBy(crewsFirstDay.map(c => c.Division)).length;
+      const numDivisions = uniqBy(crewsFirstDay.map((c) => c.Division)).length;
       const divisionSizes = new Array(numDivisions);
 
       for (let division = 0; division < numDivisions; division++) {
         divisionSizes[division] = crewsFirstDay.filter(
-          c => +c.Division === division + 1
+          (c) => +c.Division === division + 1
         ).length;
       }
 
@@ -1380,14 +1383,14 @@ function read_tg(input) {
   }
 
   event.results
-    .filter(r => r !== '')
+    .filter((r) => r !== '')
     .map((r, i) =>
       results[Math.floor(i / event.divisions.length)].push(r.trim())
     );
 
   event.results = results
-    .filter(r => r.length > 0)
-    .map(r => r.join(' '))
+    .filter((r) => r.length > 0)
+    .map((r) => r.join(' '))
     .join('\n');
 
   if (curdiv.length > 0) {
@@ -1615,8 +1618,9 @@ function write_flat(events) {
 
           correctedPosition = divisionBreaks[correctedDivision] + position + 1;
 
-          ret += `${event.year},${club},${event.gender},${dayNum +
-            1},${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
+          ret += `${event.year},${club},${event.gender},${
+            dayNum + 1
+          },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
 `;
         }
       }
