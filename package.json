@@ -30,7 +30,7 @@
     "results": "node scripts/generate_results.js"
   },
   "dependencies": {
-    "d3": "^5.14.2",
+    "d3": "^5.15.1",
     "d3-array": "^2.4.0",
     "d3-bumps-chart": "^1.1.0",
     "d3-dsv": "^1.2.0",
@@ -38,9 +38,9 @@
   },
   "devDependencies": {
     "chalk": "^3.0.0",
-    "mocha": "^7.1.0",
+    "mocha": "^7.1.1",
     "prettier": "1.19.1",
-    "rollup": "^1.27.6",
+    "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0"
   }
