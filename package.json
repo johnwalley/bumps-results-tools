@@ -42,6 +42,6 @@
     "prettier": "2.1.1",
     "rollup": "^2.6.1",
     "@rollup/plugin-commonjs": "^14.0.0",
-    "@rollup/plugin-node-resolve": "^8.1.0"
+    "@rollup/plugin-node-resolve": "^9.0.0"
   }
 }
