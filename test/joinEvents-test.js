@@ -1,13 +1,13 @@
-const assert = require('assert');
-const utils = require('../src/util');
+const assert = require("assert");
+const utils = require("../src/util");
 
-describe('utils', function () {
-  it('Join incomplete events correctly.', function () {
+describe("utils", function () {
+  it("Join incomplete events correctly.", function () {
     var data = [
       {
         crews: [
           {
-            name: 'Cantabs 1',
+            name: "Cantabs 1",
             values: [
               { day: 0, pos: 1 },
               { day: 1, pos: 1 },
@@ -17,7 +17,7 @@ describe('utils', function () {
             ],
           },
           {
-            name: 'City 1',
+            name: "City 1",
             values: [
               { day: 0, pos: 2 },
               { day: 1, pos: 2 },
@@ -31,7 +31,7 @@ describe('utils', function () {
         year: 2013,
       },
       {
-        crews: [{ name: 'Cantabs 1', values: [{ day: 0, pos: 1 }] }],
+        crews: [{ name: "Cantabs 1", values: [{ day: 0, pos: 1 }] }],
         divisions: [{ start: 0, size: 1 }],
         year: 2014,
       },
@@ -40,7 +40,7 @@ describe('utils', function () {
     var expected = {
       crews: [
         {
-          name: 'Cantabs 1',
+          name: "Cantabs 1",
           values: [
             { day: 0, pos: 1 },
             { day: 1, pos: 1 },
@@ -57,7 +57,7 @@ describe('utils', function () {
             {
               blades: true,
               day: 0,
-              name: 'Cantabs 1',
+              name: "Cantabs 1",
               spoons: false,
               values: [
                 { day: 0, pos: 1 },
@@ -70,7 +70,7 @@ describe('utils', function () {
             {
               blades: true,
               day: 5,
-              name: 'Cantabs 1',
+              name: "Cantabs 1",
               spoons: true,
               values: [
                 { day: 5, pos: 1 },
@@ -83,7 +83,7 @@ describe('utils', function () {
           ],
         },
         {
-          name: 'City 1',
+          name: "City 1",
           values: [
             { day: 0, pos: 2 },
             { day: 1, pos: 2 },
@@ -100,7 +100,7 @@ describe('utils', function () {
             {
               blades: false,
               day: 0,
-              name: 'City 1',
+              name: "City 1",
               spoons: true,
               values: [
                 { day: 0, pos: 2 },
@@ -127,24 +127,24 @@ describe('utils', function () {
           numDays: 4,
         },
       ],
-      set: 'Lent Bumps',
-      gender: 'Women',
+      set: "Lent Bumps",
+      gender: "Women",
       endYear: 2014,
       maxCrews: 2,
       startYear: 2013,
     };
 
-    var actual = utils.joinEvents(data, 'Lent Bumps', 'Women');
+    var actual = utils.joinEvents(data, "Lent Bumps", "Women");
 
     assert.deepEqual(actual, expected);
   });
 
-  it('Join events with different numbers of days correctly.', function () {
+  it("Join events with different numbers of days correctly.", function () {
     var data = [
       {
         crews: [
           {
-            name: 'Cantabs 1',
+            name: "Cantabs 1",
             values: [
               { day: 0, pos: 1 },
               { day: 1, pos: 1 },
@@ -156,7 +156,7 @@ describe('utils', function () {
             ],
           },
           {
-            name: 'City 1',
+            name: "City 1",
             values: [
               { day: 0, pos: 2 },
               { day: 1, pos: 2 },
@@ -174,7 +174,7 @@ describe('utils', function () {
       {
         crews: [
           {
-            name: 'Cantabs 1',
+            name: "Cantabs 1",
             values: [
               { day: 0, pos: 1 },
               { day: 1, pos: 1 },
@@ -184,7 +184,7 @@ describe('utils', function () {
             ],
           },
           {
-            name: 'City 1',
+            name: "City 1",
             values: [
               { day: 0, pos: 2 },
               { day: 1, pos: 2 },
@@ -202,7 +202,7 @@ describe('utils', function () {
     var expected = {
       crews: [
         {
-          name: 'Cantabs 1',
+          name: "Cantabs 1",
           values: [
             { day: 0, pos: 1 },
             { day: 1, pos: 1 },
@@ -221,7 +221,7 @@ describe('utils', function () {
             {
               blades: true,
               day: 0,
-              name: 'Cantabs 1',
+              name: "Cantabs 1",
               spoons: false,
               values: [
                 { day: 0, pos: 1 },
@@ -236,7 +236,7 @@ describe('utils', function () {
             {
               blades: true,
               day: 7,
-              name: 'Cantabs 1',
+              name: "Cantabs 1",
               spoons: false,
               values: [
                 { day: 7, pos: 1 },
@@ -249,7 +249,7 @@ describe('utils', function () {
           ],
         },
         {
-          name: 'City 1',
+          name: "City 1",
           values: [
             { day: 0, pos: 2 },
             { day: 1, pos: 2 },
@@ -268,7 +268,7 @@ describe('utils', function () {
             {
               blades: false,
               day: 0,
-              name: 'City 1',
+              name: "City 1",
               spoons: true,
               values: [
                 { day: 0, pos: 2 },
@@ -283,7 +283,7 @@ describe('utils', function () {
             {
               blades: false,
               day: 7,
-              name: 'City 1',
+              name: "City 1",
               spoons: true,
               values: [
                 { day: 7, pos: 2 },
@@ -310,14 +310,14 @@ describe('utils', function () {
           numDays: 4,
         },
       ],
-      set: 'Lent Bumps',
-      gender: 'Women',
+      set: "Lent Bumps",
+      gender: "Women",
       endYear: 2014,
       maxCrews: 2,
       startYear: 2013,
     };
 
-    var actual = utils.joinEvents(data, 'Lent Bumps', 'Women');
+    var actual = utils.joinEvents(data, "Lent Bumps", "Women");
 
     assert.deepEqual(actual, expected);
   });

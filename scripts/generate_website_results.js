@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-const utils = require('../src/util');
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
+const utils = require("../src/util");
+const fs = require("fs");
+const path = require("path");
+const chalk = require("chalk");
 
 const events = [];
 const results = [];
 
-const resultsInputDir = './results/ad_format/';
-const outputFilename = 'results.json';
+const resultsInputDir = "./results/ad_format/";
+const outputFilename = "results.json";
 
 fs.readdir(resultsInputDir, function (err, files) {
   if (err) throw err;
@@ -16,22 +16,22 @@ fs.readdir(resultsInputDir, function (err, files) {
 
   files.forEach(function (file) {
     console.log(`Reading ${chalk.red(file)}`);
-    const contents = fs.readFileSync(path.join(resultsInputDir, file), 'utf8');
+    const contents = fs.readFileSync(path.join(resultsInputDir, file), "utf8");
     const event = utils.read_ad(contents);
     numFiles++;
     events.push(event);
   });
 
-  const genders = ['Men', 'Women'];
+  const genders = ["Men", "Women"];
   const sets = [
-    'Town Bumps',
-    'Lent Bumps',
-    'May Bumps',
-    'Torpids',
-    'Summer Eights',
+    "Town Bumps",
+    "Lent Bumps",
+    "May Bumps",
+    "Torpids",
+    "Summer Eights",
   ];
 
-  const smalls = ['Town', 'Lents', 'Mays', 'Torpids', 'Eights'];
+  const smalls = ["Town", "Lents", "Mays", "Torpids", "Eights"];
 
   genders.forEach((gender) => {
     sets.forEach((set, i) => {
@@ -55,13 +55,13 @@ fs.readdir(resultsInputDir, function (err, files) {
     if (err) {
       console.log(
         `There was an error while writing file to ${chalk.red(
-          './' + outputFilename
+          "./" + outputFilename
         )}`
       );
     }
 
     console.log(
-      `Successfully wrote file to ${chalk.green('./' + outputFilename)}`
+      `Successfully wrote file to ${chalk.green("./" + outputFilename)}`
     );
   });
 

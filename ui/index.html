@@ -14,7 +14,7 @@
     #editor {
       margin: 0;
       height: 100%;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-family: "Helvetica Neue", Arial, sans-serif;
       color: #333;
     }
 
@@ -59,7 +59,7 @@
       outline: none;
       background-color: #f6f6f6;
       font-size: 12px;
-      font-family: 'Monaco', courier, monospace;
+      font-family: "Monaco", courier, monospace;
       padding: 20px;
     }
   </style>
@@ -99,12 +99,12 @@
       .year(2018)
       .numYearsToView(1)
       .windowWidth(200)
-      .on('selectYear', (start, end) => console.log(start + '-' + end))
-      .on('highlightCrew', (crew) => console.log(crew))
-      .on('toggleSelectedCrew', (crew) => console.log(crew));
+      .on("selectYear", (start, end) => console.log(start + "-" + end))
+      .on("highlightCrew", (crew) => console.log(crew))
+      .on("toggleSelectedCrew", (crew) => console.log(crew));
 
     new Vue({
-      el: '#editor',
+      el: "#editor",
       data: {
         selected: 0,
         options: [],
@@ -137,7 +137,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           if (res !== null) {
             return res[0];
           } else {
-            return 'Town Bumps';
+            return "Town Bumps";
           }
         },
         gender: function () {
@@ -146,16 +146,16 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           if (res !== null) {
             return res[0];
           } else {
-            return 'Women';
+            return "Women";
           }
         },
       },
       mounted: function () {
         const vm = this;
-        d3.json('./generated.json').then(function (json) {
+        d3.json("./generated.json").then(function (json) {
           vm.data = json;
 
-          const options = [{ text: 'Blank', value: 0 }];
+          const options = [{ text: "Blank", value: 0 }];
 
           let i = 0;
 
@@ -177,7 +177,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           utils.GENDER.WOMEN
         );
 
-        d3.select('.bumps-chart').datum(data).call(chart);
+        d3.select(".bumps-chart").datum(data).call(chart);
       },
       methods: {
         update: _.debounce(function (e) {
@@ -189,7 +189,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             this.gender
           );
 
-          d3.select('.bumps-chart').datum(data).call(chart);
+          d3.select(".bumps-chart").datum(data).call(chart);
         }, 300),
         onSelectedChange: _.debounce(function (e) {
           const i = +e.target.value;
@@ -201,7 +201,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             this.gender
           );
 
-          d3.select('.bumps-chart').datum(data).call(chart);
+          d3.select(".bumps-chart").datum(data).call(chart);
         }),
         generateResults: function () {
           var results = utils.read_tg(this.input);
@@ -209,7 +209,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           results.divisions = results.finish;
           results.year += 1;
           results.move = [];
-          results.results = '';
+          results.results = "";
           results.completed = results.completed.map((r) => r.map((d) => false));
 
           this.input = utils.write_tg(results);
@@ -219,7 +219,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
             results.gender,
             results.set
           );
-          d3.select('.bumps-chart').datum(data).call(chart);
+          d3.select(".bumps-chart").datum(data).call(chart);
         },
       },
     });
