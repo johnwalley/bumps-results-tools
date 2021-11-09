@@ -1,24 +1,24 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import pkg from './package.json';
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import pkg from "./package.json";
 
 export default [
   // browser-friendly UMD build
   {
-    input: 'src/util.js',
+    input: "src/util.js",
     output: {
-      name: 'bumpsResultsTools',
+      name: "bumpsResultsTools",
       file: pkg.browser,
-      format: 'umd',
+      format: "umd",
     },
     plugins: [resolve(), commonjs()],
   },
   {
-    input: 'src/util.js',
-    external: ['lodash', 'd3'],
+    input: "src/util.js",
+    external: ["lodash", "d3"],
     output: [
-      { file: pkg.main, format: 'cjs' },
-      { file: pkg.module, format: 'es' },
+      { file: pkg.main, format: "cjs" },
+      { file: pkg.module, format: "es" },
     ],
   },
 ];

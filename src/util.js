@@ -383,7 +383,7 @@ function crewColor(name) {
     Champs: "#f57400",
     "Rob Roy": "#8b0000",
     Cantabs: "#00008b",
-    "99": "#5197ff",
+    99: "#5197ff",
     Chesterton: "#ffff00",
     Simoco: "#ffff00",
     Pye: "#ffff00",
