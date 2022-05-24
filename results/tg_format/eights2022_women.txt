@@ -1,7 +1,7 @@
 Set,Summer Eights
 Short,Eights
 Gender,Women
-Year,2020
+Year,2022
 
 Division,Wolfson,Pembroke,Wadham,University,Christ Church,S.E.H.,Keble,New College,Hertford,Oriel,Balliol,Magdalen
 Division,Jesus,St John's,Linacre,St Anne's,Somerville,St Catherine's,Trinity,Mansfield,Green Templeton,Lincoln,Wolfson 2,Merton
