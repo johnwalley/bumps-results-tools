@@ -1,0 +1,10 @@
+Set,Torpids
+Short,Torpids
+Gender,Women
+Year,2023
+
+Division,Wolfson,University,Wadham,Pembroke,Oriel,Christ Church,Keble,Hertford,Jesus,Trinity,Magdalen,New College
+Division,L.M.H.,Green Templeton,Brasenose,St Anne's,S.E.H.,Lincoln,Balliol,St Catherine's,Wolfson 2,Somerville,Mansfield,Corpus Christi
+Division,Linacre,St Antony's,Exeter,St Hugh's,St John's,St Peter's,Worcester,Merton,Wolfson 3,St Hilda's,Oriel 2,University 2
+Division,New College 2,Somerville 2,Christ Church 2,Linacre 2,Queen's,Regent's Park,Osler House,Worcester 2,Magdalen 2,Lincoln 2,St John's 2,Wadham 2
+Division,Mansfield 2,Wolfson 4,S.E.H. 2,Osler House 2,St Antony's 2,New College 3,Christ Church 3,Brasenose 2,Keble 2,Pembroke 2,Green Templeton 2,Merton 2,Wolfson 5
