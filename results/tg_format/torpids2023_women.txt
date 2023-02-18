@@ -6,5 +6,6 @@ Year,2023
 Division,Wolfson,University,Wadham,Pembroke,Oriel,Christ Church,Keble,Hertford,Jesus,Trinity,Magdalen,New College
 Division,L.M.H.,Green Templeton,Brasenose,St Anne's,S.E.H.,Lincoln,Balliol,St Catherine's,Wolfson 2,Somerville,Mansfield,Corpus Christi
 Division,Linacre,St Antony's,Exeter,St Hugh's,St John's,St Peter's,Worcester,Merton,Wolfson 3,St Hilda's,Oriel 2,University 2
-Division,New College 2,Somerville 2,Christ Church 2,Linacre 2,Queen's,Regent's Park,Osler House,Worcester 2,Magdalen 2,Lincoln 2,St John's 2,Wadham 2
-Division,Mansfield 2,Wolfson 4,S.E.H. 2,Osler House 2,St Antony's 2,New College 3,Christ Church 3,Brasenose 2,Keble 2,Pembroke 2,Green Templeton 2,Merton 2,Wolfson 5
+Division,New College 2,Christ Church 2,Linacre 2,Queen's,Regent's Park,Osler House,Worcester 2,Magdalen 2,Lincoln 2,St Hugh's 2,St John's 2,Wadham 2
+Division,Mansfield 2,Wolfson 4,S.E.H. 2,St Antony's 2,Christ Church 3,Brasenose 2,Keble 2,Pembroke 2,Green Templeton 2,Merton 2,St Hilda's 2,L.M.H. 2
+Division,Hertford 2,St Peter's 2,St Catherine's 2,Balliol 2,Keble 3,University 3,Green Templeton 3,Lincoln 3,Linacre 3,St Peter's 3,Queen's 2,Jesus 2,Exeter 2
