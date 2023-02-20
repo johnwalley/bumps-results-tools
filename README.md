@@ -19,7 +19,7 @@ Use these tools to convert between formats and generate data suitable for use by
 2. **Generate results file.**
 
    ```shell
-   npm run results
+   deno run --allow-all scripts/generate_results.ts
    ```
 
 3. **Copy results file to ui directory.**
