@@ -1,20 +1,67 @@
-const findKey = require("lodash/findKey");
-const uniq = require("lodash/uniq");
-const uniqBy = require("lodash/uniqBy");
-const padEnd = require("lodash/padEnd");
-const padStart = require("lodash/padStart");
-const d3 = require("d3");
+import * as d3 from "d3";
+import { findKey, padEnd, padStart, uniq } from "lodash";
 
-const {
+import {
   GENDER,
   ROMAN,
   SET,
   abbrevCamCollege,
   abbrevCamTown,
   abbrevOxCollege,
-} = require("./constants");
+} from "./constants";
 
-function abbreviate(event) {
+export interface RawEvent {
+  set: string;
+  small: string;
+  gender: string;
+  result: string;
+  year: number;
+  days: number;
+  divisions: string[][];
+  results: string;
+  move: number[][][];
+  finish: string[][];
+  completed: boolean[][];
+}
+
+interface Event {
+  year: number;
+  crews: {
+    name: string;
+    values: {
+      day: number;
+      pos: number;
+    }[];
+  }[];
+  divisions: {
+    start: number;
+    size: number;
+  }[];
+}
+
+interface JoinedEvent {
+  year: number;
+  crews: {
+    name: string;
+    values: {
+      day: number;
+      pos: number;
+    }[];
+    valuesSplit: {
+      name: any;
+      day: number;
+      blades: boolean;
+      spoons: boolean;
+      values: any;
+    }[];
+  }[];
+  divisions: {
+    start: number;
+    size: number;
+  }[];
+}
+
+export function abbreviate(event: RawEvent) {
   for (let div = 0; div < event.divisions.length; div++) {
     for (let pos = 0; pos < event.divisions[div].length; pos++) {
       event.divisions[div][pos] = abbreviateCrew(
@@ -36,7 +83,7 @@ function abbreviate(event) {
   return event;
 }
 
-function abbreviateCrew(crew, set) {
+function abbreviateCrew(crew: string, set: string) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
   let abbrev;
@@ -57,7 +104,7 @@ function abbreviateCrew(crew, set) {
       throw "Unrecognised set: " + set;
   }
 
-  const key = findKey(abbrev, (club) => club === name);
+  const key = findKey(abbrev, (club: any) => club === name);
 
   if (key !== undefined && set !== SET.TOWN) {
     return key + (num > 1 ? num : "");
@@ -66,10 +113,10 @@ function abbreviateCrew(crew, set) {
   }
 }
 
-function expandCrew(crew, set) {
+export function expandCrew(crew: string, set: string) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
-  let abbrev;
+  let abbrev: { [key: string]: string };
 
   switch (set) {
     case SET.LENTS:
@@ -94,10 +141,10 @@ function expandCrew(crew, set) {
   }
 }
 
-function renderName(name, set) {
+function renderName(name: string, set: string) {
   // College crews are stored as an abbrevation and we replace the number with Roman numerals
   const sh = name.replace(/[0-9]+$/, "").trim();
-  let abbrev;
+  let abbrev: { [key: string]: string };
   let type;
 
   switch (set) {
@@ -146,7 +193,7 @@ function renderName(name, set) {
   return name;
 }
 
-function normalizeOxfordName(name) {
+function normalizeOxfordName(name: string) {
   const parts = name.split(/\s/);
   let newName = name;
 
@@ -159,12 +206,12 @@ function normalizeOxfordName(name) {
   return newName;
 }
 
-function normalizeTownName(name) {
+function normalizeTownName(name: string) {
   return name;
 }
 
-function crewColor(name) {
-  const camCollegeColor = {
+export function crewColor(name: string) {
+  const camCollegeColor: { [key: string]: string } = {
     A: "#0000ff",
     AR: "#ffff00",
     Ca: "#afe9c6",
@@ -206,11 +253,11 @@ function crewColor(name) {
     W: "#5599ff",
   };
 
-  const oxCollegeColor = {
+  const oxCollegeColor: { [key: string]: string } = {
     Oriel: "#372e63",
   };
 
-  const townColor = {
+  const townColor: { [key: string]: string } = {
     City: "#f44336",
     Champs: "#f57400",
     "Rob Roy": "#8b0000",
@@ -248,7 +295,7 @@ function crewColor(name) {
   return "#f44336";
 }
 
-function isBlades(positions) {
+function isBlades(positions: number[]) {
   for (let i = 0; i < positions.length - 1; i++) {
     if (positions[i + 1] - positions[i] >= 0 && positions[i + 1] !== 1) {
       return false;
@@ -258,7 +305,7 @@ function isBlades(positions) {
   return true;
 }
 
-function isSpoons(positions, bottomPosition = Number.MAX_SAFE_INTEGER) {
+function isSpoons(positions: number[], bottomPosition = Number.MAX_SAFE_INTEGER) {
   for (let i = 0; i < positions.length - 1; i++) {
     if (
       positions[i + 1] - positions[i] <= 0 &&
@@ -271,23 +318,23 @@ function isSpoons(positions, bottomPosition = Number.MAX_SAFE_INTEGER) {
   return true;
 }
 
-function joinEvents(events, set, gender) {
-  const years = [];
-  const data = [];
-  const divisions = [];
-  let crewNames = [];
+export function joinEvents(events: Event[], set: string, gender: string) {
+  const years: number[] = [];
+  const data: Event["crews"] = [];
+  const divisions: { year: any; divisions: any; startDay: number; numDays: number; }[] = [];
+  let crewNames: string[] = [];
   let day = 0;
 
-  events.forEach((event) => {
+  events.forEach((event: { crews: any[]; year: any; divisions: any[]; }) => {
     const numDays = d3.max([
-      ...event.crews.map((crew) => crew.values.length),
+      ...event.crews.map((crew: { values: string | any[]; }) => crew.values.length),
       5,
-    ]);
-    crewNames = crewNames.concat(event.crews.map((crew) => crew.name));
+    ]) as number;
+    crewNames = crewNames.concat(event.crews.map((crew: { name: any; }) => crew.name));
     years.push(event.year);
     divisions.push({
       year: event.year,
-      divisions: event.divisions.map((d) => ({
+      divisions: event.divisions.map((d: { start: any; size: any; }) => ({
         start: d.start,
         size: d.size,
       })),
@@ -301,10 +348,10 @@ function joinEvents(events, set, gender) {
   const startYear = d3.min(years);
   const endYear = d3.max(years);
   const uniqueCrewNames = uniq(crewNames);
-  const maxCrews = d3.max(events.map((e) => e.crews.length));
+  const maxCrews = d3.max(events.map((e: { crews: string | any[]; }) => e.crews.length));
 
   uniqueCrewNames.forEach((crewName) => {
-    const newCrew = {
+    const newCrew: JoinedEvent["crews"][0] = {
       name: crewName,
       values: [],
       valuesSplit: [],
@@ -312,13 +359,13 @@ function joinEvents(events, set, gender) {
 
     day = 0;
 
-    events.forEach((event) => {
-      const match = event.crews.filter((c) => c.name === crewName);
+    events.forEach((event: { crews: any[]; }) => {
+      const match = event.crews.filter((c: { name: any; }) => c.name === crewName);
       const numDays =
-        d3.max([...event.crews.map((crew) => crew.values.length), 5]) - 1;
+        d3.max([...event.crews.map((crew: { values: string | any[]; }) => crew.values.length), 5]) as number - 1;
 
       if (match.length > 0) {
-        const values = match[0].values.map((v) => ({
+        const values = match[0].values.map((v: { day: number; pos: any; }) => ({
           day: v.day + day,
           pos: v.pos,
         }));
@@ -329,7 +376,7 @@ function joinEvents(events, set, gender) {
 
         newCrew.values = newCrew.values.concat(values);
 
-        const positions = match[0].values.map((v) => v.pos);
+        const positions = match[0].values.map((v: { pos: any; }) => v.pos);
 
         const blades = isBlades(positions);
         const spoons = isSpoons(positions, event.crews.length);
@@ -368,7 +415,7 @@ function joinEvents(events, set, gender) {
   };
 }
 
-function transformData(event) {
+export function transformData(event: RawEvent): Event {
   if (event.days !== event.completed.length) {
     throw new RangeError(
       `Expected ${event.days} but found ${event.completed.length} completed days`
@@ -419,7 +466,7 @@ function transformData(event) {
   return { year: event.year, crews: crews, divisions: divisions };
 }
 
-function calculateYearRange(current, data, desiredWidth) {
+export function calculateYearRange(current: { end: number; } | null | undefined, data: { end: number; start: number; }, desiredWidth: number) {
   let start;
   let end;
 
@@ -462,15 +509,17 @@ function calculateYearRange(current, data, desiredWidth) {
   return { start, end };
 }
 
-function calculateDivision(position, numDivisions, divisionBreaks) {
+function calculateDivision(position: number, numDivisions: number, divisionBreaks: number[]) {
   for (let divNum = 0; divNum < numDivisions; divNum++) {
     if (position < divisionBreaks[divNum]) {
       return divNum;
     }
   }
+
+  return -1;
 }
 
-function calculatePositionInDivision(position, numDivisions, divisionSizes) {
+function calculatePositionInDivision(position: number, numDivisions: number, divisionSizes: number[]) {
   for (let divNum = 0; divNum < numDivisions; divNum++) {
     if (position < divisionSizes[divNum]) {
       break;
@@ -482,10 +531,10 @@ function calculatePositionInDivision(position, numDivisions, divisionSizes) {
   return position;
 }
 
-function calculateDivisionBreaks(divisions) {
+function calculateDivisionBreaks(divisions: string[][]) {
   const divisionSizes = divisions.map((d) => d.length);
 
-  const divisionBreaks = divisionSizes.reduce((r, a) => {
+  const divisionBreaks = divisionSizes.reduce((r: any[], a: any) => {
     if (r.length > 0) {
       a += r[r.length - 1];
     }
@@ -497,7 +546,7 @@ function calculateDivisionBreaks(divisions) {
   return divisionBreaks;
 }
 
-function calculateResults(event) {
+function calculateResults(event: RawEvent) {
   let results = "";
   const move = event.move;
   const completed = event.completed;
@@ -783,7 +832,7 @@ function calculateResults(event) {
   return event;
 }
 
-function calculateTorpidsResults(event) {
+function calculateTorpidsResults(event: RawEvent) {
   let results = "";
   const move = event.move;
   const completed = event.completed;
@@ -837,7 +886,7 @@ function calculateTorpidsResults(event) {
   return event;
 }
 
-function addcrew(div, crew) {
+function addcrew(div: any[], crew: string | any[]) {
   if (crew.length === 0) {
     return;
   }
@@ -845,15 +894,15 @@ function addcrew(div, crew) {
   div.push(crew);
 }
 
-function processBump(move, divNum, crew, up) {
+function processBump(move: number[][], divNum: number, crew: number, up: number) {
   if (crew - up < 1) {
     console.error(
       "Bumping up above the top of the division: div " +
-        divNum +
-        ", crew " +
-        crew +
-        ", up " +
-        up
+      divNum +
+      ", crew " +
+      crew +
+      ", up " +
+      up
     );
     return false;
   }
@@ -879,7 +928,7 @@ function processBump(move, divNum, crew, up) {
   return true;
 }
 
-function processResults(event) {
+function processResults(event: { set?: string; small?: string; gender?: string; result?: string; year?: number; days: any; divisions: any; results: any; move: any; finish: any; completed: any; }) {
   let res = [];
 
   if (event.results.length > 0) {
@@ -994,7 +1043,7 @@ function processResults(event) {
   }
 }
 
-function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
+function calculateMoves(event: RawEvent, crewsFirstDay: string | any[], crewsAllDays: { Position: number; }[], divisionSizes: any[]) {
   const numDivisions = event.divisions.length;
   const divisions = event.divisions;
   const move = event.move;
@@ -1057,15 +1106,15 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
   return event;
 }
 
-function read_flat(data) {
-  data = d3.csvParse(data);
-  const year = uniqBy(data.map((d) => d.Year));
-  const gender = uniqBy(data.map((d) => d.Sex));
+export function read_flat(data: string) {
+  const parsedData: any = d3.csvParse(data);
+  const year = uniq(parsedData.map((d: any) => d.Year)) as string[];
+  const gender = uniq(parsedData.map((d: any) => d.Sex)) as string[];
   const events = [];
 
   for (let yearNum = 0; yearNum < year.length; yearNum++) {
     for (let genderNum = 0; genderNum < gender.length; genderNum++) {
-      let event = {
+      let event: RawEvent = {
         set: "Set",
         small: "Short",
         gender: "Gender",
@@ -1073,7 +1122,7 @@ function read_flat(data) {
         year: 1970,
         days: 4,
         divisions: [],
-        results: [],
+        results: "",
         move: [],
         finish: [],
         completed: [],
@@ -1083,15 +1132,15 @@ function read_flat(data) {
       event.gender = gender[genderNum];
       event.year = +year[yearNum];
 
-      const crewsFirstDay = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender && d.Day === "1"
+      const crewsFirstDay = parsedData.filter(
+        (d: any) => +d.Year === event.year && d.Sex === event.gender && d.Day === "1"
       );
-      crewsFirstDay.sort((a, b) => +a["Start position"] - +b["Start position"]);
+      crewsFirstDay.sort((a: any, b: any) => +a["Start position"] - +b["Start position"]);
 
-      const crewsAllDays = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender
+      const crewsAllDays = parsedData.filter(
+        (d: any) => +d.Year === event.year && d.Sex === event.gender
       );
-      crewsAllDays.sort((a, b) => {
+      crewsAllDays.sort((a: any, b: any) => {
         const equality = +a["Start position"] - +b["Start position"];
         if (equality === 0) {
           return +a.Day - +b.Day;
@@ -1099,14 +1148,14 @@ function read_flat(data) {
         return equality;
       });
 
-      event.days = uniqBy(crewsAllDays.map((c) => c.Day)).length;
+      event.days = uniq(crewsAllDays.map((c: any) => c.Day)).length;
 
-      const numDivisions = uniqBy(crewsFirstDay.map((c) => c.Division)).length;
+      const numDivisions = uniq(crewsFirstDay.map((c: any) => c.Division)).length;
       const divisionSizes = new Array(numDivisions);
 
       for (let division = 0; division < numDivisions; division++) {
         divisionSizes[division] = crewsFirstDay.filter(
-          (c) => +c.Division === division + 1
+          (c: any) => +c.Division === division + 1
         ).length;
       }
 
@@ -1136,10 +1185,10 @@ function read_flat(data) {
   return events;
 }
 
-function read_tg(input) {
-  input = input.split("\n");
+export function read_tg(input: string) {
+  const splitInput = input.split("\n");
 
-  let event = {
+  let event: RawEvent = {
     set: "ERROR",
     small: "ERROR",
     gender: "ERROR",
@@ -1147,18 +1196,20 @@ function read_tg(input) {
     year: 1970,
     days: 4,
     divisions: [],
-    results: [],
+    results: "",
     move: [],
     finish: [],
     completed: [],
   };
 
-  let curdiv = [];
+  const eventResults: string[] = [];
+
+  let curdiv: string | any[] = [];
   let inresults = 0;
   let indivision = 0;
 
-  for (let i = 0; i < input.length; i++) {
-    const m = input[i].split(",");
+  for (let i = 0; i < splitInput.length; i++) {
+    const m = splitInput[i].split(",");
     if (m[0] === "Set") {
       if (m.length > 1) {
         event.set = m[1];
@@ -1194,13 +1245,13 @@ function read_tg(input) {
 
       for (let j = 1; j < m.length; j++) {
         if (m[j].indexOf("#") !== 0) {
-          Array.prototype.push.apply(event.results, m[j].split(" "));
+          Array.prototype.push.apply(eventResults, m[j].split(" "));
         }
       }
     } else {
       for (let j = 0; j < m.length; j++) {
         if (inresults === 1 && m[j].indexOf("#") !== 0) {
-          Array.prototype.push.apply(event.results, m[j].split(" "));
+          Array.prototype.push.apply(eventResults, m[j].split(" "));
         } else if (indivision === 1) {
           addcrew(curdiv, m[j]);
         }
@@ -1208,17 +1259,18 @@ function read_tg(input) {
     }
   }
 
-  const results = [];
+  const results: any[][] = [];
 
   for (let i = 0; i < event.days; i++) {
     results.push([]);
   }
 
-  event.results
+  eventResults
     .filter((r) => r !== "")
     .map((r, i) =>
       results[Math.floor(i / event.divisions.length)].push(r.trim())
     );
+
 
   event.results = results
     .filter((r) => r.length > 0)
@@ -1257,10 +1309,10 @@ function read_tg(input) {
   return event;
 }
 
-function read_ad(input) {
-  input = input.split("\n");
+export function read_ad(input: string) {
+  const splitInput = input.split("\n");
 
-  let event = {
+  let event: RawEvent = {
     set: "ERROR",
     small: "ERROR",
     gender: "ERROR",
@@ -1268,13 +1320,13 @@ function read_ad(input) {
     year: 1970,
     days: 1,
     divisions: [],
-    results: [],
+    results: "",
     move: [],
     finish: [],
     completed: [],
   };
 
-  const info = input[0].split(/\s+/);
+  const info = splitInput[0].split(/\s+/);
 
   switch (info[0]) {
     case "EIGHTS":
@@ -1300,11 +1352,11 @@ function read_ad(input) {
   }
 
   event.year = +info[1];
-  const info2 = input[1].trim().split(/\s+/);
+  const info2 = splitInput[1].trim().split(/\s+/);
 
   const reNoRacing = /NO RACING/i;
 
-  if (reNoRacing.test(input[1])) {
+  if (reNoRacing.test(splitInput[1])) {
     event.days = 0;
   } else {
     event.days = +info2[0];
@@ -1312,9 +1364,9 @@ function read_ad(input) {
 
   const numDivisions = +info2[1];
   const numCrews = parseInt(info2[2], 10);
-  let currentDivision;
-  let currentMove = [];
-  let currentPos = [];
+  let currentDivision: string[] = [];
+  let currentMove: number[][] = [];
+  let currentPos: number[][] = [];
 
   for (let day = 0; day < event.days + 1; day++) {
     currentMove.push([]);
@@ -1327,19 +1379,19 @@ function read_ad(input) {
   const reMen = /men/i;
   const reWomen = /women/i;
 
-  if (reWomen.test(input[2])) {
+  if (reWomen.test(splitInput[2])) {
     event.gender = GENDER.WOMEN;
-  } else if (reMen.test(input[2])) {
+  } else if (reMen.test(splitInput[2])) {
     event.gender = GENDER.MEN;
   }
 
   for (let line = 2; line < numDivisions + numCrews + 2; line++) {
-    if (input[line][0] === " ") {
+    if (splitInput[line][0] === " ") {
       currentDivision = [];
       event.divisions.push(currentDivision);
     } else {
-      const crewName = input[line].substring(0, 25).trim();
-      const moves = input[line]
+      const crewName = splitInput[line].substring(0, 25).trim();
+      const moves = splitInput[line]
         .substring(25)
         .replace(/([^\d- ]|-\D)/g, "")
         .trim()
@@ -1381,7 +1433,7 @@ function read_ad(input) {
     }
   }
 
-  const initialPositions = [];
+  const initialPositions: string[] = [];
   for (let div = 0; div < numDivisions; div++) {
     for (let crew = 0; crew < event.divisions[div].length; crew++) {
       initialPositions.push(event.divisions[div][crew]);
@@ -1407,7 +1459,7 @@ function read_ad(input) {
   return event;
 }
 
-function write_flat(events) {
+export function write_flat(events: string | any[]) {
   let ret = "Year,Club,Sex,Day,Crew,Start position,Position,Division\n";
 
   for (let eventNum = 0; eventNum < events.length; eventNum++) {
@@ -1450,9 +1502,8 @@ function write_flat(events) {
 
           correctedPosition = divisionBreaks[correctedDivision] + position + 1;
 
-          ret += `${event.year},${club},${event.gender},${
-            dayNum + 1
-          },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
+          ret += `${event.year},${club},${event.gender},${dayNum + 1
+            },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
 `;
         }
       }
@@ -1462,7 +1513,7 @@ function write_flat(events) {
   return ret;
 }
 
-function write_tg(event) {
+export function write_tg(event: RawEvent) {
   let ret = `Set,${event.set}
 Short,${event.small}
 Gender,${event.gender}
@@ -1499,7 +1550,7 @@ ${event.results}
   return ret;
 }
 
-function write_ad(event) {
+export function write_ad(event: RawEvent) {
   let setStr;
 
   switch (event.set) {
@@ -1520,13 +1571,13 @@ function write_ad(event) {
       break;
   }
 
-  const numCrews = event.divisions.reduce((sum, div) => (sum += div.length), 0);
+  const numCrews = event.divisions.reduce((sum: any, div: string | any[]) => (sum += div.length), 0);
 
   let ret = `${setStr} ${event.year}
  ${event.days}  ${event.divisions.length}  ${numCrews}   = NDay, NDiv, NCrew
 `;
 
-  event.divisions.forEach((div, index) => {
+  event.divisions.forEach((div: any[], index: number) => {
     let genderStr;
     switch (event.gender) {
       case GENDER.MEN:
@@ -1538,7 +1589,7 @@ function write_ad(event) {
     }
 
     let currentMove = [];
-    let currentPos = [];
+    let currentPos: number[][] = [];
 
     for (let day = 0; day < event.days + 1; day++) {
       currentMove.push([]);
@@ -1550,13 +1601,13 @@ function write_ad(event) {
 
     let divStr = ` ${div.length}  ${genderStr} Div ${ROMAN[index]}\n`;
 
-    div.forEach((crew, crewIndex) => {
+    div.forEach((crew: any, crewIndex: any) => {
       let position = crewIndex;
       let currentDivision = index;
       divStr += `${padEnd(renderName(crew, event.set), 25)}`;
 
       for (let day = 0; day < event.days; day++) {
-        divStr += padStart(event.move[day][currentDivision][position], 4);
+        divStr += padStart(`${event.move[day][currentDivision][position]}`, 4);
         position -= event.move[day][currentDivision][position];
 
         if (position < 0) {
@@ -1579,16 +1630,3 @@ function write_ad(event) {
   return ret;
 }
 
-module.exports = {
-  read_tg: read_tg,
-  write_tg: write_tg,
-  read_ad: read_ad,
-  write_ad: write_ad,
-  read_flat: read_flat,
-  write_flat: write_flat,
-  transformData: transformData,
-  joinEvents: joinEvents,
-  abbreviate: abbreviate,
-  GENDER: GENDER,
-  SET: SET,
-};
