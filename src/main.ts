@@ -10,6 +10,8 @@ import {
   abbrevOxCollege,
 } from "./constants";
 
+export { SET, GENDER };
+
 export interface RawEvent {
   set: string;
   small: string;
