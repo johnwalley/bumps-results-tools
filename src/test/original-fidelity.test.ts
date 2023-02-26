@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { assert, describe, it } from "vitest";
-import { abbreviate, read_ad, read_tg, write_ad, write_tg } from "../main";
+import { read_ad, read_tg, write_ad, write_tg } from "../main";
 
 describe("original fidelity", function () {
   describe("dudhia format", function () {
