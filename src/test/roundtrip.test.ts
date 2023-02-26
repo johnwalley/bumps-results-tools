@@ -1,6 +1,8 @@
 import * as fs from "fs";
 import { assert, describe, it } from "vitest";
-import { abbreviate, read_ad, read_tg, write_ad, write_tg } from "../main";
+import { abbreviate } from "../main";
+import { write_ad, write_tg } from "../write";
+import { read_ad, read_tg } from "../read";
 
 describe("round-trip", function () {
   describe("write_tg(read_tg())", function () {

@@ -1,7 +1,8 @@
-import { assert, describe, it } from 'vitest';
+import { assert, describe, it } from "vitest";
 
-import { read_flat, read_ad, read_tg, write_ad, write_flat, write_tg, RawEvent } from '../main';
-
+import { write_ad, write_flat, write_tg } from "../write";
+import { read_flat, read_ad, read_tg } from "../read";
+import { RawEvent } from "../types";
 
 describe("utils", function () {
   it("read_flat() returns a correct intermediate object.", function () {
@@ -2141,7 +2142,7 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
         results: "r rrr rrr\nr rrr rrr\n",
         set: "Town Bumps",
         small: "Short",
-        year: "2013",
+        year: 2013,
       },
     ];
 
