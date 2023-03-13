@@ -1,0 +1,15 @@
+Set,Lent Bumps
+Short,Lents
+Gender,Men
+Year,2023
+
+Division,LMBC,Caius,Pembroke,Downing,Jesus,1st and 3rd,Magdalene,Trinity Hall,King's,Robinson,Clare,SC,Queens',Peterhouse,Emmanuel,LMBC 2,Christ's
+Division,Fitzwilliam,Selwyn,Churchill,Caius 2,Girton,Sidney Sussex,Homerton,Corpus Christi,Hughes Hall,1st and 3rd 2,Darwin,Pembroke 2,Wolfson,Emmanuel 2,Jesus 2,St Edmund's,Clare 2
+Division,Magdalene 2,Downing 2,Queens' 2,Christ's 2,Trinity Hall 2,SC2,Fitzwilliam 2,LMBC 3,Peterhouse 2,Clare Hall 2,Churchill 2,Selwyn 2,Lucy Cavendish,Girton 2,Caius 3,Emmanuel 3,Sidney Sussex 2
+Division,Wolfson 2,Corpus Christi 2,Magdalene 3,Jesus 3,Queens' 3,Trinity Hall 3
+
+Results
+rurrr uurururuuru rurro3uo3ururr rrruuurrururr
+rrurr rrruruo3uurur urrurrururrur rruuuuururrr
+rruu rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrr
+rrrrrr rrrrrrrrrrrrrrrrrr ruuuuurrruu uruuuuruurr
