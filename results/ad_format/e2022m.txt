@@ -10,8 +10,8 @@ Wadham                     -1   0   1   0
 Wolfson                     1   1   0   0
 Trinity                    -1  -1  -1  -1
 Balliol                     1   0   0   1
-St Catherine's             -1  -1   0   1
-University                  1   1   0   0
+St Catherine's              0   1   0   0
+University                  0  -1   0   1
 Magdalen                    0   1   1   0
  12  Men's Div II
 L.M.H.                     -1   0   0   0
