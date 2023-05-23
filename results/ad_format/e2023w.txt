@@ -73,7 +73,7 @@ Corpus Christi II           0   0   0   0
 University III              0   0   0   0
 Oriel III                   0   0   0   0
 St Peter's II               0   0   0   0
-Exter II                    0   0   0   0
+Exeter II                   0   0   0   0
 Merton II                   0   0   0   0
 Wolfson IV                  0   0   0   0
 Osler House II              0   0   0   0
