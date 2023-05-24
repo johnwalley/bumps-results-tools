@@ -1,5 +1,5 @@
-const assert = require("assert");
-const utils = require("../src/util");
+import { assert, describe, it } from "vitest";
+import { transformData } from "../main";
 
 describe("utils", function () {
   it("Transform data correctly.", function () {
@@ -29,7 +29,8 @@ describe("utils", function () {
         [[0, 0, 0, 0], [0, 0], [0]],
       ],
       result: "",
-      results: "r ur rrrrr\n\
+      results:
+        "r ur rrrrr\n\
 r ur ro3u\n\
 r ru urrr\n\
 r rrr rrrrr",
@@ -119,7 +120,7 @@ r rrr rrrrr",
       year: 2013,
     };
 
-    var actual = utils.transformData(data);
+    var actual = transformData(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -262,7 +263,7 @@ r rrr rrrrr",
       year: 2013,
     };
 
-    var actual = utils.transformData(data);
+    var actual = transformData(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -293,7 +294,8 @@ r rrr rrrrr",
         [[0, 0, 0, -1], [-1, 2], [0]],
       ],
       result: "",
-      results: "r ur rrrrr\n\
+      results:
+        "r ur rrrrr\n\
 r ur ro3u\n\
 r ru urrr\n\
 r rrr rrrrr",
@@ -376,7 +378,7 @@ r rrr rrrrr",
       year: 2013,
     };
 
-    var actual = utils.transformData(data);
+    var actual = transformData(data);
 
     assert.deepEqual(actual, expected);
   });

@@ -1,5 +1,5 @@
-const assert = require("assert");
-const utils = require("../src/util");
+import { assert, describe, it } from "vitest";
+import { joinEvents } from "../main";
 
 describe("utils", function () {
   it("Join incomplete events correctly.", function () {
@@ -134,7 +134,7 @@ describe("utils", function () {
       startYear: 2013,
     };
 
-    var actual = utils.joinEvents(data, "Lent Bumps", "Women");
+    var actual = joinEvents(data, "Lent Bumps", "Women");
 
     assert.deepEqual(actual, expected);
   });
@@ -317,7 +317,7 @@ describe("utils", function () {
       startYear: 2013,
     };
 
-    var actual = utils.joinEvents(data, "Lent Bumps", "Women");
+    var actual = joinEvents(data, "Lent Bumps", "Women");
 
     assert.deepEqual(actual, expected);
   });

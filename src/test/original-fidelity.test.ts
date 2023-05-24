@@ -1,6 +1,7 @@
-const fs = require("fs");
-const assert = require("assert");
-const utils = require("../src/util");
+import * as fs from "fs";
+import { assert, describe, it } from "vitest";
+import { read_ad, read_tg } from "../read";
+import { write_ad, write_tg } from "../write";
 
 describe("original fidelity", function () {
   describe("dudhia format", function () {
@@ -18,7 +19,7 @@ describe("original fidelity", function () {
             "utf8"
           );
 
-          const actual = utils.write_ad(utils.read_ad(inputContents));
+          const actual = write_ad(read_ad(inputContents));
           assert.equal(actual, outputContents);
         });
       }
@@ -40,7 +41,7 @@ describe("original fidelity", function () {
             "utf8"
           );
 
-          const actual = utils.write_tg(utils.read_tg(inputContents));
+          const actual = write_tg(read_tg(inputContents));
           assert.equal(actual, outputContents);
         });
       }

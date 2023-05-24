@@ -1,6 +1,8 @@
-const fs = require("fs");
-const assert = require("assert");
-const utils = require("../src/util");
+import * as fs from "fs";
+import { assert, describe, it } from "vitest";
+import { abbreviate } from "../main";
+import { write_ad, write_tg } from "../write";
+import { read_ad, read_tg } from "../read";
 
 describe("round-trip", function () {
   describe("write_tg(read_tg())", function () {
@@ -11,7 +13,7 @@ describe("round-trip", function () {
       it("correctly round-trips " + file, function () {
         const contents = fs.readFileSync(dir + file, "utf8");
 
-        const actual = utils.write_tg(utils.read_tg(contents));
+        const actual = write_tg(read_tg(contents));
         assert.equal(actual, contents);
       });
     });
@@ -25,7 +27,7 @@ describe("round-trip", function () {
       it("correctly round-trips " + file, function () {
         const contents = fs.readFileSync(dir + file, "utf8");
 
-        const actual = utils.write_ad(utils.read_ad(contents));
+        const actual = write_ad(read_ad(contents));
         assert.equal(actual, contents);
       });
     });
@@ -35,7 +37,7 @@ describe("round-trip", function () {
     const dir = "./results/tg_format/";
     const files = fs.readdirSync(dir);
 
-    const setMap = {
+    const setMap: { [key: string]: string } = {
       eights: "e",
       torpids: "t",
       mays: "m",
@@ -43,7 +45,7 @@ describe("round-trip", function () {
       town: "town",
     };
 
-    const genderMap = {
+    const genderMap: { [key: string]: string } = {
       men: "m",
       women: "w",
     };
@@ -51,11 +53,11 @@ describe("round-trip", function () {
     files.forEach(function (file) {
       it("correctly round-trips " + file, function () {
         const contents = fs.readFileSync(dir + file, "utf8");
-        const actual = utils.write_ad(utils.read_tg(contents));
+        const actual = write_ad(read_tg(contents));
 
-        const set = setMap[/^[a-z]+/g.exec(file)[0]];
-        const year = /[0-9]+/g.exec(file)[0];
-        const gender = genderMap[file.match(/[a-z]+/g)[1]];
+        const set = setMap[/^[a-z]+/g.exec(file)![0]];
+        const year = /[0-9]+/g.exec(file)![0];
+        const gender = genderMap[file.match(/[a-z]+/g)![1]];
 
         const newFile = set + year + gender + ".txt";
 
@@ -111,13 +113,13 @@ describe("round-trip", function () {
 
           const newFile = set + year + "_" + gender + ".txt";
 
-          let intermediate = utils.read_ad(contents);
+          let intermediate = read_ad(contents);
 
           if (set !== "town") {
-            intermediate = utils.abbreviate(intermediate);
+            intermediate = abbreviate(intermediate);
           }
 
-          const actual = utils.write_tg(intermediate);
+          const actual = write_tg(intermediate);
 
           assert.equal(
             actual,

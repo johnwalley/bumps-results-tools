@@ -1,5 +1,8 @@
-const assert = require("assert");
-const utils = require("../src/util");
+import { assert, describe, it } from "vitest";
+
+import { write_ad, write_flat, write_tg } from "../write";
+import { read_flat, read_ad, read_tg } from "../read";
+import { RawEvent } from "../types";
 
 describe("utils", function () {
   it("read_flat() returns a correct intermediate object.", function () {
@@ -61,7 +64,7 @@ r ru urrr`,
       },
     ];
 
-    const actual = utils.read_flat(data);
+    const actual = read_flat(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -121,7 +124,7 @@ r ru urrr`,
       year: 2013,
     };
 
-    const actual = utils.read_tg(data);
+    const actual = read_tg(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -312,7 +315,7 @@ rrurrrrrurr rurruuuu rrrrrrrrurrr rrururrurr uuururrrr
       ],
     };
 
-    const actual = utils.read_tg(data);
+    const actual = read_tg(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -635,7 +638,7 @@ urrrrrurru ruuuruur ruuuuuu ruuuruur ruuuuuu ruurrurrrr uuururur rururruru ruuur
       ],
     };
 
-    const actual = utils.read_tg(data);
+    const actual = read_tg(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -690,7 +693,7 @@ r rru rrrr`,
       year: 2016,
     };
 
-    const actual = utils.read_ad(data);
+    const actual = read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -961,7 +964,7 @@ e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r
       ],
     };
 
-    const actual = utils.read_ad(data);
+    const actual = read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -1064,7 +1067,7 @@ e1e1e-2e1e-1re2re1e-3re3e-1 rre1e-3e1e1e-2e2re1e-3e2e-1 re-1e1e-1rrrre1e-1e1e-1r
       completed: [],
     };
 
-    var actual = utils.read_ad(data);
+    var actual = read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -1446,7 +1449,7 @@ ruro5uuuu uruurrrrru uuurrurru rruuurrrur rrurruurur rrrurruurrr rrruurrrurr`,
       ],
     };
 
-    const actual = utils.read_ad(data);
+    const actual = read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -1780,7 +1783,7 @@ ruururruu ruurruurrr rurruuuur ruurrururr urrururrur urrrrrrrrrrrr`,
       ],
     };
 
-    const actual = utils.read_ad(data);
+    const actual = read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -2114,7 +2117,7 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
       ],
     };
 
-    const actual = utils.read_ad(data);
+    const actual = read_ad(data);
 
     assert.deepEqual(actual, expected);
   });
@@ -2139,7 +2142,7 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
         results: "r rrr rrr\nr rrr rrr\n",
         set: "Town Bumps",
         small: "Short",
-        year: "2013",
+        year: 2013,
       },
     ];
 
@@ -2156,13 +2159,13 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
 2013,Champs,M,2,1,5,4,3
 `;
 
-    const actual = utils.write_flat(events);
+    const actual = write_flat(events);
 
     assert.equal(actual, expected);
   });
 
   it("write_tg() returns the correct Tim Grainger output.", function () {
-    const event = {
+    const event: RawEvent = {
       completed: [],
       days: 2,
       divisions: [
@@ -2181,7 +2184,7 @@ uruuurrur ruuuurrru uuururuu uuuuurru uurrurrrru uruuruurr`,
 r rrr rrr`,
       set: "Town Bumps",
       small: "Short",
-      year: "2013",
+      year: 2013,
     };
 
     const expected = `Set,Town Bumps
@@ -2198,13 +2201,13 @@ Results
 r ur rrr
 r rrr rrr
 `;
-    const actual = utils.write_tg(event);
+    const actual = write_tg(event);
 
     assert.equal(actual, expected);
   });
 
   it("write_ad() returns the correct Anu Dudhia output.", function () {
-    const event = {
+    const event: RawEvent = {
       completed: [],
       days: 2,
       divisions: [
@@ -2224,7 +2227,7 @@ rr rrr
 `,
       set: "Summer Eights",
       small: "Short",
-      year: "2013",
+      year: 2013,
     };
 
     const expected = `EIGHTS 2013
@@ -2239,7 +2242,7 @@ City II                     0  -1
 Champs                      0   1
 `;
 
-    const actual = utils.write_ad(event);
+    const actual = write_ad(event);
 
     assert.equal(actual, expected);
   });
@@ -2259,7 +2262,7 @@ Champs                      0   1
 `;
 
     const expected = data;
-    const actual = utils.write_flat(utils.read_flat(data));
+    const actual = write_flat(read_flat(data));
 
     assert.equal(actual, expected);
   });
@@ -2283,7 +2286,7 @@ rrurrrur ruruuurrrruu ruruurruurur ruuururrrrurr
 `;
 
     const expected = data;
-    const actual = utils.write_tg(utils.read_tg(data));
+    const actual = write_tg(read_tg(data));
 
     assert.equal(actual, expected);
   });
@@ -2373,7 +2376,7 @@ Balliol IV                  0   1  -1   1
 `;
 
     const expected = data;
-    const actual = utils.write_ad(utils.read_ad(data));
+    const actual = write_ad(read_ad(data));
 
     assert.equal(actual, expected);
   });
@@ -2419,7 +2422,7 @@ r ur ro3u
 r ru urrr
 `;
 
-    const actual = utils.write_tg(utils.read_flat(data)[0]);
+    const actual = write_tg(read_flat(data)[0]);
 
     assert.equal(actual, expected);
   });
@@ -2465,7 +2468,7 @@ r ru urrr
 2013,Champs,M,3,1,7,7,3
 `;
 
-    const actual = utils.write_flat([utils.read_tg(data)]);
+    const actual = write_flat([read_tg(data)]);
 
     assert.equal(actual, expected);
   });
