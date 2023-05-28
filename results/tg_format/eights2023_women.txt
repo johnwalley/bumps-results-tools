@@ -9,4 +9,10 @@ Division,Exeter,Merton,St Peter's,Brasenose,Corpus Christi,St Hugh's,Worcester,U
 Division,Christ Church 2,Pembroke 2,Lincoln 2,Wadham 2,Magdalen 2,Linacre 2,St John's 2,Green Templeton 2,Wolfson 3,Oriel 2,Regent's Park,Brasenose 2
 Division,New College 2,St Hugh's 2,Hertford 2,Worcester 2,Somerville 2,Balliol 2,Trinity 2,Lincoln 3,Jesus 2,S.E.H. 2,St Catherine's 2,Keble 2
 Division,St Antony's 2,Mansfield 2,Christ Church 3,Corpus Christi 2,University 3,Oriel 3,St Peter's 2,Exeter 2,Merton 2,Wolfson 4,Osler House 2,Queen's 2
-Division,Linacre 3,Magdalen 3,Pembroke 3,St Peter's 3,L.M.H. 2,Wadham 3,Brasenose/St Peter's,Oriel 4,Worcester 3,Queen's 3,St Anne's/St Hilda's,Exeter 3,Lincoln 4,Lincoln 5
+Division,Linacre 3,Magdalen 3,St Peter's 3,L.M.H. 2,Wadham 3,Brasenose/St Peter's,Oriel 4,Worcester 3,Queen's 3,St Anne's/St Hilda's,Exeter 3,Lincoln 4,Lincoln 5
+
+Results
+rruurrruu rrruruuru rurruuuu ruurrruur uuurrrrur ruururrur uurrrrruu
+rrrrururru rurruuurr uuuurrur uuruuuu ruururrrrr urrurre1e1e-2u rurrruurrr
+rre1e1e-2rruurr uuuuurrr rrruuuuu urruuuru rruurrruu ro3uuurur urrrrruurr
+rrrrrrrrrrur rrruuuuu rrrre2e-1e1e-2e2e-1e-1rr rurruurur rurrurrrur rrrruuruu rurrruuur
