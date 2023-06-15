@@ -5,12 +5,12 @@ if (!fs.existsSync("./results/converted_tg_results/")) {
   fs.mkdirSync("./results/converted_tg_results/");
 }
 
-fs.readdir("./results/ad_format_temp/", function (err, files) {
+fs.readdir("./results/ad_format/", function (err, files) {
   if (err) throw err;
   let numFiles = 0;
   files.forEach(function (file) {
     const contents = fs.readFileSync(
-      "./results/ad_format_temp/" + file,
+      "./results/ad_format/" + file,
       "utf8"
     );
     const event = utils.read_ad(contents);
