@@ -1,0 +1,14 @@
+Set,May Bumps
+Short,Mays
+Gender,Men
+Year,2023
+
+Division,Caius,LMBC,Magdalene,Pembroke,Peterhouse,Emmanuel,Downing,King's,Clare,Queens',Jesus,LMBC 2,1st and 3rd,Hughes Hall,Robinson,Selwyn,Christ's
+Division,St Catharine's,Trinity Hall,Caius 2,Fitzwilliam,Wolfson,Girton,Churchill,Corpus Christi,St Edmund's,Sidney Sussex,Homerton,Emmanuel 2,Pembroke 2,Clare 2,Darwin,Downing 2,1st and 3rd 2
+Division,Jesus 2,Magdalene 2,Queens' 2,St Catharine's 2,Churchill 2,Robinson 2,Trinity Hall 2,Christ's 2,Emmanuel 3,LMBC 3,Jesus 3,Peterhouse 2,Clare Hall,Fitzwilliam 2,Selwyn 2,Hughes Hall 2,Caius 3
+Division,Queens' 3,1st and 3rd 3,Pembroke 3,King's 2,Corpus Christi 2,Girton 2,Clare 3,Sidney Sussex 2,Wolfson 2,Lucy Cavendish,Churchill 3,Magdalene 3,Darwin 2,St Catharine's 3,Homerton 2,Emmanuel 4,Christ's 3
+Division,Fitzwilliam 3,Jesus 4,Clare 4,LMBC 4,Magdalene 4,Caius 4,Clare Hall 2,King's 3,Pembroke 4
+
+Results
+rrruuu ururuo3urrurr ruuo3uuururr uurrrruurrrur ururruruurrrr
+rururur ruururruuur urrurruuurur ruuro3ururrru ro3urrruruurrr
