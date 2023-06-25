@@ -19,9 +19,9 @@ Isle of Ely 1               0   0   0
 Champs 2                    1   0  -1
 Rob Roy 2                  -1   0   1
  17  Women's Div II
-Champs 3                   -1  -1   0
+Champs 3                   -1  -1  -1
 City 3                      2   1   1
-City 4                     -1   0   0
+City 4                     -1   0   1
 Cantabs 5                   1   1   0
 City 5                      0   0   0
 99 4                       -1  -1  -1
@@ -32,8 +32,8 @@ City 6                      1   1   0
 Cantabs 6                   0   0   1
 Cantabs 7                   0   0   0
 City 7                      0  -1  -1
-X-Press 3                   0   1   0
-St Neots 2                  0   0   1
+St Neots 2                  0   1   0
+X-Press 3                   0   0   1
 Champs 4                    0  -1  -1
 Chesterton 3               -1  -1  -1
  18  Women's Div III
