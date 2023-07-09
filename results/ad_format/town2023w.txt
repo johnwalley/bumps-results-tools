@@ -29,7 +29,7 @@ City 5                      0   0   0   0
 X-Press 2                   0   0   0   0
 City 6                      0   0   0   0
 99 4                        0   0   0   0
-St Radegund                 0   0   0   0
+St Radegund 1               0   0   0   0
 99 5                        0   0   0   0
 Cantabs 6                   0   0   0   0
 Chesterton 2                0   0   0   0
