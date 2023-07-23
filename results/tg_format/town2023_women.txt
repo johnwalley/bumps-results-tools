@@ -8,7 +8,7 @@ Division,Rob Roy 3,Camb Vets 1,99 3,Cantabs 5,City 4,Champs 3,City 5,X-Press 2,C
 Division,Cantabs 8,99 6,Champs 4,Cantabs 9,Chesterton 3,Cantabs 10,Cantabs 11,City 8,City 9,Isle of Ely 2,Cantabs 12,Cantabs 13,St Radegund 2
 
 Results
-rrrurruur ruruurrrrururr ruurururrrrrrr
+rrrurruurr uruurrrrururr ruurururrrrrrr
 rrurruuur ruruuuuurur rruurruuurrrr
 ruurruuu uuruuuuuru uruuuurrrrrrr
 rrrrrurrrur ruuruurrurur ruruuururrrrr
