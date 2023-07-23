@@ -9,10 +9,7 @@ fs.readdir("./results/ad_format/", function (err, files) {
   if (err) throw err;
   let numFiles = 0;
   files.forEach(function (file) {
-    const contents = fs.readFileSync(
-      "./results/ad_format/" + file,
-      "utf8"
-    );
+    const contents = fs.readFileSync("./results/ad_format/" + file, "utf8");
     const event = utils.read_ad(contents);
     numFiles++;
 
@@ -26,9 +23,9 @@ fs.readdir("./results/ad_format/", function (err, files) {
       utils.write_tg(utils.abbreviate(event)),
       function () {
         console.log(
-          "Successfully converted " + file + " to produce " + newFile
+          "Successfully converted " + file + " to produce " + newFile,
         );
-      }
+      },
     );
   });
 

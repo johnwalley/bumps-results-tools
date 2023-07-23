@@ -40,9 +40,9 @@ fs.readdir("./results/tg_format/", function (err, files) {
         utils.write_ad(utils.abbreviate(event)),
         function () {
           console.log(
-            "Successfully converted " + file + " to produce " + newFile
+            "Successfully converted " + file + " to produce " + newFile,
           );
-        }
+        },
       );
     } catch (error) {
       console.error(error);
