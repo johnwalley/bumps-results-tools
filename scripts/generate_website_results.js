@@ -55,13 +55,13 @@ fs.readdir(resultsInputDir, function (err, files) {
     if (err) {
       console.log(
         `There was an error while writing file to ${chalk.red(
-          "./" + outputFilename
-        )}`
+          "./" + outputFilename,
+        )}`,
       );
     }
 
     console.log(
-      `Successfully wrote file to ${chalk.green("./" + outputFilename)}`
+      `Successfully wrote file to ${chalk.green("./" + outputFilename)}`,
     );
   });
 
