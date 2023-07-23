@@ -61,7 +61,7 @@ describe("round-trip", function () {
 
         assert.equal(
           actual,
-          fs.readFileSync("./results/ad_format/" + newFile, "utf8")
+          fs.readFileSync("./results/ad_format/" + newFile, "utf8"),
         );
       });
     });
@@ -121,7 +121,7 @@ describe("round-trip", function () {
 
           assert.equal(
             actual,
-            fs.readFileSync("./results/tg_format/" + newFile, "utf8")
+            fs.readFileSync("./results/tg_format/" + newFile, "utf8"),
           );
         }
       });
