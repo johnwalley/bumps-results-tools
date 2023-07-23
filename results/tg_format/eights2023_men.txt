@@ -3,13 +3,13 @@ Short,Eights
 Gender,Men
 Year,2023
 
-Division,Oriel,Christ Church,Keble,Pembroke,Wolfson,Wadham,Balliol,S.E.H.,St Catherine's,Magdalen,University,Trinity
-Division,Jesus,L.M.H.,New College,Queen's,Merton,Hertford,Lincoln,St Hugh's,Exeter,Mansfield,Oriel 2,Worcester
-Division,Brasenose,Christ Church 2,Somerville,Corpus Christi,St Peter's,St John's,Pembroke 2,Keble 2,Linacre,St Anne's,Green Templeton,St Antony's
-Division,University 2,Wadham 2,New College 2,S.E.H. 2,Balliol 2,Wolfson 2,Jesus 2,St Hilda's,St Catherine's 2,Magdalen 2,Lincoln 2,Regent's Park
-Division,Merton 2,Queen's 2,Brasenose 2,St Peter's 2,Exeter 2,Hertford 2,New College 3,Wolfson 3,Keble 3,L.M.H. 2,Oriel 3,Osler House
-Division,Worcester 2,University 3,Mansfield 2,Linacre 2,Oriel 4,Wolfson 4,Oriel 5,St Hugh's 2,Green Templeton 2,St Hilda's 2,Exeter 3,University 4
-Division,New College 4,St Hugh's 3,S.E.H. 3,St Antony's 2,Pembroke 3,Linacre 3,Corpus Christi 2,Queen's 3,Pembroke 4,St John's 2,Green Templeton 3,St Hugh's 4,St Peter's 3
+Division,O,Ch,K,P,Wf,Wh,B,SE,SC,Mg,U,T
+Division,J,LM,N,Q,Mt,H,Lc,SHu,E,Mf,O2,Wt
+Division,Br,Ch2,S,Co,SP,SJ,P2,K2,L,SAn,Green Templeton,SAt
+Division,U2,Wh2,N2,SE2,B2,Wf2,J2,SHi,SC2,Mg2,Lc2,R
+Division,Mt2,Q2,Br2,SP2,E2,H2,N3,Wf3,K3,LM2,O3,Osler House
+Division,Wt2,U3,Mf2,L2,O4,Wf4,O5,SHu2,Green Templeton 2,SHi2,E3,U4
+Division,N4,SHu3,SE3,SAt2,P3,L3,Co2,Q3,P4,SJ2,Green Templeton 3,SHu4,SP3
 
 Results
 ruo3uuurr rurrrururr rruruurur rrrre1e1e-2rrrur uuuro3urr rrurrrruru ururuurrr
