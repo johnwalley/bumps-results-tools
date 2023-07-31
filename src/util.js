@@ -19,7 +19,7 @@ function abbreviate(event) {
     for (let pos = 0; pos < event.divisions[div].length; pos++) {
       event.divisions[div][pos] = abbreviateCrew(
         event.divisions[div][pos],
-        event.set,
+        event.set
       );
     }
   }
@@ -28,7 +28,7 @@ function abbreviate(event) {
     for (let pos = 0; pos < event.finish[div].length; pos++) {
       event.finish[div][pos] = abbreviateCrew(
         event.finish[div][pos],
-        event.set,
+        event.set
       );
     }
   }
@@ -371,7 +371,7 @@ function joinEvents(events, set, gender) {
 function transformData(event) {
   if (event.days !== event.completed.length) {
     throw new RangeError(
-      `Expected ${event.days} but found ${event.completed.length} completed days`,
+      `Expected ${event.days} but found ${event.completed.length} completed days`
     );
   }
 
@@ -626,8 +626,20 @@ function calculateResults(event) {
             break;
           case 7:
             if (m[crew - 7] !== -7) {
-              // Not swapping places with crew seven above
-              results += "e7";
+              if (crew === 0) {
+                // Top of division
+                results += "r";
+              } else if (crew === 1) {
+                // Sandwich boat in next division
+                results += "u";
+                crew -= 1;
+              } else if (crew === 2) {
+                // Sandwich boat in next division
+                results += "e2";
+              } else {
+                // Not swapping places with crew three above
+                results += "e7";
+              }
             } else {
               // Triple overbump
               results += "o7";
@@ -853,7 +865,7 @@ function processBump(move, divNum, crew, up) {
         ", crew " +
         crew +
         ", up " +
-        up,
+        up
     );
     return false;
   }
@@ -909,7 +921,7 @@ function processResults(event) {
       if (divNum <= 1) {
         if (dayNum === event.days) {
           console.error(
-            "Run out of days of racing with more results still to go",
+            "Run out of days of racing with more results still to go"
           );
           return;
         }
@@ -1009,7 +1021,7 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
         const positionInDivision = calculatePositionInDivision(
           position,
           numDivisions,
-          divisionSizes,
+          divisionSizes
         );
 
         divisions[division][
@@ -1025,13 +1037,13 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
         let division = calculateDivision(
           position,
           numDivisions,
-          divisionBreaks,
+          divisionBreaks
         );
 
         let positionInDivision = calculatePositionInDivision(
           position,
           numDivisions,
-          divisionSizes,
+          divisionSizes
         );
         move[dayNum][division][positionInDivision] =
           +crewsAllDays[event.days * crew + dayNum - 1].Position -
@@ -1044,7 +1056,7 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
           positionInDivision = calculatePositionInDivision(
             position,
             numDivisions,
-            divisionSizes,
+            divisionSizes
           );
           finish[division][
             positionInDivision
@@ -1084,13 +1096,12 @@ function read_flat(data) {
       event.year = +year[yearNum];
 
       const crewsFirstDay = data.filter(
-        (d) =>
-          +d.Year === event.year && d.Sex === event.gender && d.Day === "1",
+        (d) => +d.Year === event.year && d.Sex === event.gender && d.Day === "1"
       );
       crewsFirstDay.sort((a, b) => +a["Start position"] - +b["Start position"]);
 
       const crewsAllDays = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender,
+        (d) => +d.Year === event.year && d.Sex === event.gender
       );
       crewsAllDays.sort((a, b) => {
         const equality = +a["Start position"] - +b["Start position"];
@@ -1107,7 +1118,7 @@ function read_flat(data) {
 
       for (let division = 0; division < numDivisions; division++) {
         divisionSizes[division] = crewsFirstDay.filter(
-          (c) => +c.Division === division + 1,
+          (c) => +c.Division === division + 1
         ).length;
       }
 
@@ -1218,7 +1229,7 @@ function read_tg(input) {
   event.results
     .filter((r) => r !== "")
     .map((r, i) =>
-      results[Math.floor(i / event.divisions.length)].push(r.trim()),
+      results[Math.floor(i / event.divisions.length)].push(r.trim())
     );
 
   event.results = results
@@ -1353,7 +1364,7 @@ function read_ad(input) {
       currentDivision.push(
         event.set === SET.TOWN
           ? normalizeTownName(crewName)
-          : normalizeOxfordName(crewName),
+          : normalizeOxfordName(crewName)
       );
       currentMove.push();
     }
@@ -1375,7 +1386,7 @@ function read_ad(input) {
       event.completed[day].push(true);
       for (let crew = 0; crew < event.divisions[div].length; crew++) {
         event.move[day][div].push(
-          currentMove[day][currentPos[day].indexOf(count)],
+          currentMove[day][currentPos[day].indexOf(count)]
         );
         count++;
       }
@@ -1394,7 +1405,7 @@ function read_ad(input) {
     event.finish.push([]);
     for (let crew = 0; crew < event.divisions[div].length; crew++) {
       event.finish[div].push(
-        initialPositions[currentPos[event.days].indexOf(count)],
+        initialPositions[currentPos[event.days].indexOf(count)]
       );
       count++;
     }
