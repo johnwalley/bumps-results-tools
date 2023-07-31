@@ -17,11 +17,11 @@ Rob Roy 2                  -1  -1  -1  -1
 City 3                      1   1   1   1
 Cantabs 5                  -1  -1   0   1
 City 4                      1   1   0  -1
-Champs 1                   -1  -1   0   0
+Champs 1                   -1  -1  -1  -1
  17  Men's Div II
 City 5                     -1   1   0   0
 99 4                        2   1   1   1
-X-Press 2                   0   0   0  -1
+X-Press 2                   0   0   1   0
 St Neots 1                  0   0  -1   0
 City 6                      0  -1  -1   0
 Chesterton 2               -1  -1   0   0
