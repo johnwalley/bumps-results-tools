@@ -1,4 +1,4 @@
-import { Event } from "./util";
+import { Event } from "./types";
 import { DataFrame } from "data-forge";
 
 function movdo(events: Event[]) {

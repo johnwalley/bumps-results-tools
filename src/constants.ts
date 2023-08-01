@@ -1,8 +1,3 @@
-export const GENDER = {
-  MEN: "Men",
-  WOMEN: "Women",
-};
-
 export const ROMAN = [
   "I",
   "II",
@@ -25,14 +20,6 @@ export const ROMAN = [
   "XIX",
   "XX",
 ];
-
-export const SET = {
-  EIGHTS: "Summer Eights",
-  TORPIDS: "Torpids",
-  LENTS: "Lent Bumps",
-  MAYS: "May Bumps",
-  TOWN: "Town Bumps",
-};
 
 export const abbrevCamCollege = {
   A: "Addenbrooke's",

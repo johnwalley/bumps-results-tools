@@ -1,36 +1,13 @@
 import { findKey, uniq, padEnd, padStart } from "lodash";
 import * as d3 from "d3";
+import { Event, Gender, Set } from "./types";
 
 import {
-  GENDER,
   ROMAN,
-  SET,
   abbrevCamCollege,
   abbrevCamTown,
   abbrevOxCollege,
 } from "./constants";
-
-export type Set =
-  | "Summer Eights"
-  | "Torpids"
-  | "Lent Bumps"
-  | "May Bumps"
-  | "Town Bumps"
-  | "ERROR";
-
-export type Event = {
-  completed: boolean[][];
-  days: number;
-  divisions: string[][];
-  finish: string[][];
-  gender: string;
-  move: number[][][];
-  result: string;
-  results: string;
-  set: Set;
-  small: string;
-  year: number;
-};
 
 export type InternalEvent = {
   crews: {
@@ -76,15 +53,15 @@ function abbreviateCrew(crew: string, set: Set) {
   let abbrev;
 
   switch (set) {
-    case SET.LENTS:
-    case SET.MAYS:
+    case Set.LENTS:
+    case Set.MAYS:
       abbrev = abbrevCamCollege;
       break;
-    case SET.TORPIDS:
-    case SET.EIGHTS:
+    case Set.TORPIDS:
+    case Set.EIGHTS:
       abbrev = abbrevOxCollege;
       break;
-    case SET.TOWN:
+    case Set.TOWN:
       abbrev = abbrevCamTown;
       break;
     default:
@@ -93,28 +70,28 @@ function abbreviateCrew(crew: string, set: Set) {
 
   const key = findKey(abbrev, (club: string) => club === name);
 
-  if (key !== undefined && set !== SET.TOWN) {
+  if (key !== undefined && set !== Set.TOWN) {
     return key + (num > 1 ? num : "");
   } else {
     return crew;
   }
 }
 
-function expandCrew(crew: string, set: unknown) {
+function expandCrew(crew: string, set: Set) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
   let abbrev: Record<string, string>;
 
   switch (set) {
-    case SET.LENTS:
-    case SET.MAYS:
+    case Set.LENTS:
+    case Set.MAYS:
       abbrev = abbrevCamCollege;
       break;
-    case SET.TORPIDS:
-    case SET.EIGHTS:
+    case Set.TORPIDS:
+    case Set.EIGHTS:
       abbrev = abbrevOxCollege;
       break;
-    case SET.TOWN:
+    case Set.TOWN:
       abbrev = abbrevCamTown;
       break;
     default:
@@ -128,24 +105,24 @@ function expandCrew(crew: string, set: unknown) {
   }
 }
 
-function renderName(name: string, set: unknown) {
+function renderName(name: string, set: Set) {
   // College crews are stored as an abbrevation and we replace the number with Roman numerals
   const sh = name.replace(/[0-9]+$/, "").trim();
   let abbrev: Record<string, string>;
   let type;
 
   switch (set) {
-    case SET.LENTS:
-    case SET.MAYS:
+    case Set.LENTS:
+    case Set.MAYS:
       abbrev = abbrevCamCollege;
       type = "college";
       break;
-    case SET.TORPIDS:
-    case SET.EIGHTS:
+    case Set.TORPIDS:
+    case Set.EIGHTS:
       abbrev = abbrevOxCollege;
       type = "college";
       break;
-    case SET.TOWN:
+    case Set.TOWN:
       abbrev = abbrevCamTown;
       type = "town";
       break;
@@ -1183,9 +1160,9 @@ function read_flat(_data: string) {
   for (let yearNum = 0; yearNum < year.length; yearNum++) {
     for (let genderNum = 0; genderNum < gender.length; genderNum++) {
       let event: Event = {
-        set: "ERROR",
+        set: Set.EIGHTS,
         small: "Short",
-        gender: "Gender",
+        gender: Gender.MEN,
         result: "",
         year: 1970,
         days: 4,
@@ -1197,7 +1174,7 @@ function read_flat(_data: string) {
       };
 
       event.set = "Town Bumps";
-      event.gender = gender[genderNum]!;
+      event.gender = gender[genderNum]! as Gender;
       event.year = +year[yearNum]!;
 
       const crewsFirstDay = data.filter(
@@ -1268,9 +1245,9 @@ function read_tg(_input: string): Event {
   const eventResults: string[] = [];
 
   let event: Event = {
-    set: "ERROR",
+    set: Set.EIGHTS,
     small: "ERROR",
-    gender: "ERROR",
+    gender: Gender.MEN,
     result: "",
     year: 1970,
     days: 4,
@@ -1294,7 +1271,7 @@ function read_tg(_input: string): Event {
     } else if (m[0] === "Short") {
       event.small = m[1];
     } else if (m[0] === "Gender") {
-      event.gender = m[1];
+      event.gender = m[1] as Gender;
     } else if (m[0] === "Year") {
       const year = parseInt(m[1], 10);
       if (!isNaN(year)) {
@@ -1389,9 +1366,9 @@ function read_ad(_input: string) {
   const input = _input.split("\n");
 
   let event: Event = {
-    set: "ERROR",
+    set: Set.EIGHTS,
     small: "ERROR",
-    gender: "ERROR",
+    gender: Gender.MEN,
     result: "",
     year: 1970,
     days: 1,
@@ -1406,23 +1383,23 @@ function read_ad(_input: string) {
 
   switch (info[0]) {
     case "EIGHTS":
-      event.set = SET.EIGHTS as Set;
+      event.set = Set.EIGHTS;
       event.small = "Eights";
       break;
     case "TORPIDS":
-      event.set = SET.TORPIDS as Set;
+      event.set = Set.TORPIDS;
       event.small = "Torpids";
       break;
     case "MAYS":
-      event.set = SET.MAYS as Set;
+      event.set = Set.MAYS;
       event.small = "Mays";
       break;
     case "LENTS":
-      event.set = SET.LENTS as Set;
+      event.set = Set.LENTS;
       event.small = "Lents";
       break;
     case "TOWN":
-      event.set = SET.TOWN as Set;
+      event.set = Set.TOWN;
       event.small = "Town";
       break;
   }
@@ -1456,9 +1433,9 @@ function read_ad(_input: string) {
   const reWomen = /women/i;
 
   if (reWomen.test(input[2])) {
-    event.gender = GENDER.WOMEN;
+    event.gender = Gender.WOMEN;
   } else if (reMen.test(input[2])) {
-    event.gender = GENDER.MEN;
+    event.gender = Gender.MEN;
   }
 
   for (let line = 2; line < numDivisions + numCrews + 2; line++) {
@@ -1478,7 +1455,7 @@ function read_ad(_input: string) {
       }
 
       currentDivision.push(
-        event.set === SET.TOWN
+        event.set === Set.TOWN
           ? normalizeTownName(crewName)
           : normalizeOxfordName(crewName)
       );
@@ -1631,19 +1608,19 @@ function write_ad(event: Event) {
   let setStr;
 
   switch (event.set) {
-    case SET.EIGHTS:
+    case Set.EIGHTS:
       setStr = "EIGHTS";
       break;
-    case SET.TORPIDS:
+    case Set.TORPIDS:
       setStr = "TORPIDS";
       break;
-    case SET.LENTS:
+    case Set.LENTS:
       setStr = "LENTS";
       break;
-    case SET.MAYS:
+    case Set.MAYS:
       setStr = "MAYS";
       break;
-    case SET.TOWN:
+    case Set.TOWN:
       setStr = "TOWN";
       break;
   }
@@ -1657,10 +1634,10 @@ function write_ad(event: Event) {
   event.divisions.forEach((div, index) => {
     let genderStr;
     switch (event.gender) {
-      case GENDER.MEN:
+      case Gender.MEN:
         genderStr = "Men's";
         break;
-      case GENDER.WOMEN:
+      case Gender.WOMEN:
         genderStr = "Women's";
         break;
     }
@@ -1720,6 +1697,6 @@ module.exports = {
   transformData: transformData,
   joinEvents: joinEvents,
   abbreviate: abbreviate,
-  GENDER: GENDER,
-  SET: SET,
+  GENDER: Gender,
+  SET: Set,
 };
