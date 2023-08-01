@@ -1,4 +1,4 @@
-var utils = require("../src/util");
+var utils = require("../src");
 var statistics = require("../src/stats");
 var fs = require("fs");
 

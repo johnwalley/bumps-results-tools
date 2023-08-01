@@ -1,5 +1,5 @@
 var fs = require("fs");
-var utils = require("../src/util");
+var utils = require("../src");
 
 var files = fs.readdirSync("./results/tg_format/");
 

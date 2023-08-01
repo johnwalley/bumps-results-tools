@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const utils = require("../src/util");
+const utils = require("../src");
 const fs = require("fs");
 const path = require("path");
 const chalk = require("chalk");

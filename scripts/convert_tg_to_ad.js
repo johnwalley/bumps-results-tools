@@ -1,4 +1,4 @@
-const utils = require("../src/util");
+const utils = require("../src");
 const fs = require("fs");
 
 if (!fs.existsSync("./results/ad_format/")) {

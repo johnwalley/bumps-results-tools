@@ -1,4 +1,4 @@
-var utils = require("../src/util");
+var utils = require("../src");
 var fs = require("fs");
 
 const events = [];
