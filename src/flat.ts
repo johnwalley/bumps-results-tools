@@ -1,9 +1,11 @@
-import { Event, Gender, Set } from "./types";
-import { calculateResults } from "./util";
-import { uniq } from "lodash";
 import * as d3 from "d3";
 
-export function read_flat(_data: string) {
+import { Event, Gender, Set } from "./types";
+
+import { calculateResults } from "./util";
+import { uniq } from "lodash";
+
+export function read_flat(text: string) {
   const data = d3.csvParse<
     | "Start position"
     | "Club"
@@ -13,7 +15,8 @@ export function read_flat(_data: string) {
     | "Position"
     | "Sex"
     | "Year"
-  >(_data);
+  >(text);
+
   const year = uniq(data.map((d) => d.Year));
   const gender = uniq(data.map((d) => d.Sex));
   const events = [];
@@ -42,6 +45,7 @@ export function read_flat(_data: string) {
         (d) =>
           +d.Year! === event.year && d.Sex === event.gender && d.Day === "1",
       );
+
       crewsFirstDay.sort(
         (a, b) => +a["Start position"]! - +b["Start position"]!,
       );
@@ -49,11 +53,14 @@ export function read_flat(_data: string) {
       const crewsAllDays = data.filter(
         (d) => +d.Year! === event.year && d.Sex === event.gender,
       );
+
       crewsAllDays.sort((a, b) => {
         const equality = +a["Start position"]! - +b["Start position"]!;
+
         if (equality === 0) {
           return +a.Day! - +b.Day!;
         }
+
         return equality;
       });
 
@@ -107,7 +114,9 @@ export function write_flat(events: Event[]) {
     const event = events[eventNum];
 
     const divisions = event.divisions.slice();
+
     divisions.unshift([]);
+
     const divisionBreaks = calculateDivisionBreaks(divisions);
 
     for (let divNum = 0; divNum < event.divisions.length; divNum++) {
@@ -143,9 +152,8 @@ export function write_flat(events: Event[]) {
 
           correctedPosition = divisionBreaks[correctedDivision] + position + 1;
 
-          ret += `${event.year},${club},${event.gender},${
-            dayNum + 1
-          },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
+          ret += `${event.year},${club},${event.gender},${dayNum + 1
+            },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
 `;
         }
       }
@@ -199,13 +207,16 @@ function calculateMoves(
         divisions[division][
           positionInDivision
         ] = `${crewsFirstDay[crew].Club} ${crewsFirstDay[crew].Crew}`;
+
         move[dayNum][division][positionInDivision] =
           +crewsFirstDay[crew]["Start position"] -
           +crewsAllDays[event.days * crew + dayNum].Position;
       } else {
         let position =
           +crewsAllDays[event.days * crew + dayNum - 1].Position - 1;
+
         const divisionBreaks = calculateDivisionBreaks(divisions);
+
         let division = calculateDivision(
           position,
           numDivisions,
@@ -217,6 +228,7 @@ function calculateMoves(
           numDivisions,
           divisionSizes,
         );
+
         move[dayNum][division][positionInDivision] =
           +crewsAllDays[event.days * crew + dayNum - 1].Position -
           +crewsAllDays[event.days * crew + dayNum].Position;
@@ -230,6 +242,7 @@ function calculateMoves(
             numDivisions,
             divisionSizes,
           );
+          
           finish[division][
             positionInDivision
           ] = `${crewsFirstDay[crew].Club} ${crewsFirstDay[crew].Crew}`;

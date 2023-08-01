@@ -120,19 +120,23 @@ export function read_ad(text: string) {
     let count = 0;
     event.move.push([]);
     event.completed.push([]);
+
     for (let div = 0; div < numDivisions; div++) {
       event.move[day].push([]);
       event.completed[day].push(true);
+
       for (let crew = 0; crew < event.divisions[div].length; crew++) {
         event.move[day][div].push(
           currentMove[day][currentPos[day].indexOf(count)],
         );
+
         count++;
       }
     }
   }
 
   const initialPositions = [];
+
   for (let div = 0; div < numDivisions; div++) {
     for (let crew = 0; crew < event.divisions[div].length; crew++) {
       initialPositions.push(event.divisions[div][crew]);
@@ -142,6 +146,7 @@ export function read_ad(text: string) {
   let count = 0;
   for (let div = 0; div < numDivisions; div++) {
     event.finish.push([]);
+
     for (let crew = 0; crew < event.divisions[div].length; crew++) {
       event.finish[div].push(
         initialPositions[currentPos[event.days].indexOf(count)],
@@ -202,6 +207,7 @@ export function write_ad(event: Event) {
     for (let day = 0; day < event.days + 1; day++) {
       currentMove.push([]);
       currentPos.push([]);
+
       for (let crew = 0; crew < numCrews; crew++) {
         currentPos[day].push(crew);
       }
@@ -219,6 +225,7 @@ export function write_ad(event: Event) {
           event.move[day][currentDivision][position].toString(),
           4,
         );
+        
         position -= event.move[day][currentDivision][position];
 
         if (position < 0) {

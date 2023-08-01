@@ -208,12 +208,14 @@ export function joinEvents(
 ): JoinedInternalEvents {
   const years: number[] = [];
   const crews: JoinedInternalEvents["crews"] = [];
+
   const divisions: {
     year: number;
     divisions: { start: number; size: number }[];
     startDay: number;
     numDays: number;
   }[] = [];
+
   let crewNames: string[] = [];
   let day = 0;
 
@@ -222,8 +224,10 @@ export function joinEvents(
       ...event.crews.map((crew) => crew.values.length),
       5,
     ]) as number;
+
     crewNames = crewNames.concat(event.crews.map((crew) => crew.name));
     years.push(event.year);
+
     divisions.push({
       year: event.year,
       divisions: event.divisions.map((d) => ({
@@ -253,6 +257,7 @@ export function joinEvents(
 
     events.forEach((event) => {
       const match = event.crews.filter((c) => c.name === crewName);
+
       const numDays =
         (d3.max([
           ...event.crews.map((crew) => crew.values.length),
@@ -283,9 +288,11 @@ export function joinEvents(
           spoons: spoons,
           values: values,
         };
+
         newCrew.valuesSplit.push(valuesSplit);
       } else {
         const emptyValues = [];
+
         for (let i = 0; i <= numDays; i++) {
           emptyValues.push({ day: i + day, pos: -1 });
         }
@@ -332,6 +339,7 @@ export function transformData(event: Event) {
 
       let c = crew;
       let d = div;
+
       for (let m = 0; m < event.days; m++) {
         if (event.completed[m][d] === false) {
           break;
@@ -343,10 +351,12 @@ export function transformData(event: Event) {
         position.push({ day: xpos, pos: ypos });
 
         c -= up;
+
         while (c < 0) {
           d--;
           c += event.divisions[d].length;
         }
+
         while (c >= event.divisions[d].length) {
           c -= event.divisions[d].length;
           d++;
@@ -685,6 +695,7 @@ export function calculateResults(event: Event): Event {
 
       sandwichSuccess = 0;
       crew = 0;
+
       while (crew < m.length) {
         if (m[crew] > crew) {
           // Sandwich boat
@@ -717,6 +728,7 @@ export function calculateTorpidsResults(event: Event): Event {
 
   for (let dayNum = 0; dayNum < event.days; dayNum++) {
     let sandwichSuccess = 0;
+    
     for (let divNum = numDivisions - 1; divNum >= 0; divNum--) {
       completed[dayNum][divNum] = true;
 

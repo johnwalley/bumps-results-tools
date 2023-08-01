@@ -36,6 +36,7 @@ export function read_tg(text: string): Event {
       event.gender = m[1] as Gender;
     } else if (m[0] === "Year") {
       const year = parseInt(m[1], 10);
+
       if (!isNaN(year)) {
         event.year = year;
       }
@@ -48,6 +49,7 @@ export function read_tg(text: string): Event {
         event.divisions.push(curdiv);
         curdiv = [];
       }
+
       for (let j = 1; j < m.length; j++) {
         addcrew(curdiv, m[j]);
       }
@@ -102,6 +104,7 @@ export function read_tg(text: string): Event {
 
     for (let d = 0; d < event.divisions.length; d++) {
       const mdd = new Array(event.divisions[d].length);
+
       for (let c = 0; c < event.divisions[d].length; c++) {
         mdd[c] = 0;
       }
@@ -143,10 +146,12 @@ Year,${event.year}
 
   for (let div = 0; div < event.divisions.length; div++) {
     ret += "Division";
+
     for (let c = 0; c < event.divisions[div].length; c++) {
       const name = event.divisions[div][c];
       ret += `,${name}`;
     }
+
     ret += `
 `;
   }
@@ -195,16 +200,19 @@ function processResults(event: Event): void {
           );
           return;
         }
+
         move = event.move[dayNum];
         dayNum += 1;
         divNum = event.divisions.length + 1;
       }
 
       divNum--;
+
       if (move === null) {
         console.error("No move found");
         return;
       }
+
       crew = move[divNum - 1].length;
       if (divNum < event.divisions.length) {
         crew++; // Sandwich crew
@@ -267,6 +275,7 @@ function processResults(event: Event): void {
     for (let crewPos = 0; crewPos < event.divisions[div].length; crewPos++) {
       let d = div;
       let c = crewPos;
+
       for (let m = 0; m < event.days; m++) {
         c = c - event.move[m][d][c];
 
@@ -274,6 +283,7 @@ function processResults(event: Event): void {
           d--;
           c += event.move[m][d].length;
         }
+
         while (c >= event.move[m][d].length) {
           c -= event.move[m][d].length;
           d++;
@@ -300,6 +310,7 @@ function processBump(
         ", up " +
         up,
     );
+
     return false;
   }
 
@@ -309,6 +320,7 @@ function processBump(
   }
 
   move[divNum - 1][crew - 1 - up] = -up;
+  
   if (crew > move[divNum - 1].length) {
     // sandwich crew, need to find where it started
     for (let p = 0; p < move[divNum].length; p++) {
