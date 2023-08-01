@@ -7,7 +7,7 @@ function movdo(events: Event[]) {
   for (const event of events) {
     const numCrews = event.divisions.reduce(
       (sum, div) => (sum += div.length),
-      0
+      0,
     );
 
     event.divisions.forEach((div, index) => {
@@ -64,7 +64,7 @@ function movup(events: Event[]) {
   for (const event of events) {
     const numCrews = event.divisions.reduce(
       (sum, div) => (sum += div.length),
-      0
+      0,
     );
 
     event.divisions.forEach((div, index) => {

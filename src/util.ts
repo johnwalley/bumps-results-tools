@@ -1,6 +1,12 @@
 import * as d3 from "d3";
 
-import { Event, Gender, InternalEvent, JoinedInternalEvents, Set } from "./types";
+import {
+  Event,
+  Gender,
+  InternalEvent,
+  JoinedInternalEvents,
+  Set,
+} from "./types";
 import { abbrevCamCollege, abbrevCamTown, abbrevOxCollege } from "./constants";
 import { findKey, uniq } from "lodash";
 
@@ -9,7 +15,7 @@ export function abbreviate(event: Event): Event {
     for (let pos = 0; pos < event.divisions[div].length; pos++) {
       event.divisions[div][pos] = abbreviateCrew(
         event.divisions[div][pos],
-        event.set
+        event.set,
       );
     }
   }
@@ -18,7 +24,7 @@ export function abbreviate(event: Event): Event {
     for (let pos = 0; pos < event.finish[div].length; pos++) {
       event.finish[div][pos] = abbreviateCrew(
         event.finish[div][pos],
-        event.set
+        event.set,
       );
     }
   }
@@ -181,7 +187,7 @@ function isBlades(positions: number[]): boolean {
 
 function isSpoons(
   positions: number[],
-  bottomPosition = Number.MAX_SAFE_INTEGER
+  bottomPosition = Number.MAX_SAFE_INTEGER,
 ): boolean {
   for (let i = 0; i < positions.length - 1; i++) {
     if (
@@ -198,7 +204,7 @@ function isSpoons(
 export function joinEvents(
   events: InternalEvent[],
   set: Set,
-  gender: Gender
+  gender: Gender,
 ): JoinedInternalEvents {
   const years: number[] = [];
   const crews: JoinedInternalEvents["crews"] = [];
@@ -307,7 +313,7 @@ export function joinEvents(
 export function transformData(event: Event) {
   if (event.days !== event.completed.length) {
     throw new RangeError(
-      `Expected ${event.days} but found ${event.completed.length} completed days`
+      `Expected ${event.days} but found ${event.completed.length} completed days`,
     );
   }
 
@@ -358,7 +364,7 @@ export function transformData(event: Event) {
 export function calculateYearRange(
   current: { end: number; start: number } | null | undefined,
   data: { end: number; start: number },
-  desiredWidth: number
+  desiredWidth: number,
 ): {
   start: number;
   end: number;

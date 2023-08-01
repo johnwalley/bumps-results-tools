@@ -50,7 +50,7 @@ export type JoinedInternalEvents = {
       name: string;
       spoons: boolean;
       values: { day: number; pos: number }[];
-    }[]
+    }[];
   }[];
   divisions: {
     divisions: { size: number; start: number }[];
@@ -63,4 +63,4 @@ export type JoinedInternalEvents = {
   endYear: number;
   maxCrews: number;
   startYear: number;
-}
+};
