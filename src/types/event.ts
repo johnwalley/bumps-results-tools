@@ -17,3 +17,19 @@ export type Event = {
   small: string;
   year: number;
 };
+
+export type InternalEvent = {
+    crews: {
+      name: string;
+      values: {
+        day: number;
+        pos: number;
+      }[];
+      valuesSplit: unknown[];
+    }[];
+    divisions: {
+      start: number;
+      size: number;
+    }[];
+    year: number;
+  };

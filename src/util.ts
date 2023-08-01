@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 
-import { Event, Gender, Set } from "./types";
+import { Event, Gender, InternalEvent, Set } from "./types";
 import {
   ROMAN,
   abbrevCamCollege,
@@ -8,22 +8,6 @@ import {
   abbrevOxCollege,
 } from "./constants";
 import { findKey, padEnd, padStart, uniq } from "lodash";
-
-export type InternalEvent = {
-  crews: {
-    name: string;
-    values: {
-      day: number;
-      pos: number;
-    }[];
-    valuesSplit: unknown[];
-  }[];
-  divisions: {
-    start: number;
-    size: number;
-  }[];
-  year: number;
-};
 
 function abbreviate(event: Event) {
   for (let div = 0; div < event.divisions.length; div++) {
@@ -902,11 +886,11 @@ function processBump(
   if (crew - up < 1) {
     console.error(
       "Bumping up above the top of the division: div " +
-        divNum +
-        ", crew " +
-        crew +
-        ", up " +
-        up
+      divNum +
+      ", crew " +
+      crew +
+      ", up " +
+      up
     );
     return false;
   }
@@ -1555,9 +1539,8 @@ function write_flat(events: Event[]) {
 
           correctedPosition = divisionBreaks[correctedDivision] + position + 1;
 
-          ret += `${event.year},${club},${event.gender},${
-            dayNum + 1
-          },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
+          ret += `${event.year},${club},${event.gender},${dayNum + 1
+            },${crewNumber},${startPosition},${correctedPosition},${divNum + 1}
 `;
         }
       }
