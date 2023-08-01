@@ -16,7 +16,6 @@ const {
 
 export type Event = {
   completed: boolean[][];
-  crews: { values: { day: number; pos: number }[] }[];
   days: number;
   divisions: string[][];
   finish: string[][];
@@ -26,6 +25,22 @@ export type Event = {
   results: string;
   set: unknown;
   small: string;
+  year: number;
+};
+
+export type InternalEvent = {
+  crews: {
+    name: string;
+    values: {
+      day: number;
+      pos: number;
+    }[];
+    valuesSplit: unknown[];
+  }[];
+  divisions: {
+    start: number;
+    size: number;
+  }[];
   year: number;
 };
 
@@ -179,7 +194,7 @@ function normalizeTownName(name: string) {
 }
 
 function crewColor(name: string) {
-  const camCollegeColor = {
+  const camCollegeColor: Record<string, string> = {
     A: "#0000ff",
     AR: "#ffff00",
     Ca: "#afe9c6",
@@ -221,11 +236,11 @@ function crewColor(name: string) {
     W: "#5599ff",
   };
 
-  const oxCollegeColor = {
+  const oxCollegeColor: Record<string, string> = {
     Oriel: "#372e63",
   };
 
-  const townColor = {
+  const townColor: Record<string, string> = {
     City: "#f44336",
     Champs: "#f57400",
     "Rob Roy": "#8b0000",
@@ -289,8 +304,8 @@ function isSpoons(
   return true;
 }
 
-function joinEvents(events: Event[], set: unknown, gender: unknown) {
-  const years: string[] = [];
+function joinEvents(events: InternalEvent[], set: unknown, gender: unknown) {
+  const years: number[] = [];
   const data: unknown[] = [];
   const divisions: {
     year: unknown;
@@ -323,11 +338,11 @@ function joinEvents(events: Event[], set: unknown, gender: unknown) {
 
   const startYear = d3.min(years);
   const endYear = d3.max(years);
-  const uniqueCrewNames = uniq(crewNames);
+  const uniqueCrewNames: string[] = uniq(crewNames);
   const maxCrews = d3.max(events.map((e) => e.crews.length));
 
   uniqueCrewNames.forEach((crewName) => {
-    const newCrew = {
+    const newCrew: InternalEvent["crews"][number] = {
       name: crewName,
       values: [],
       valuesSplit: [],
@@ -493,19 +508,21 @@ function calculateDivision(
   position: number,
   numDivisions: number,
   divisionBreaks: number[]
-) {
+): number {
   for (let divNum = 0; divNum < numDivisions; divNum++) {
     if (position < divisionBreaks[divNum]) {
       return divNum;
     }
   }
+
+  throw new Error("No division found");
 }
 
 function calculatePositionInDivision(
   position: number,
   numDivisions: number,
   divisionSizes: number[]
-) {
+): number {
   for (let divNum = 0; divNum < numDivisions; divNum++) {
     if (position < divisionSizes[divNum]) {
       break;
@@ -517,7 +534,7 @@ function calculatePositionInDivision(
   return position;
 }
 
-function calculateDivisionBreaks(divisions: unknown[][]) {
+function calculateDivisionBreaks(divisions: unknown[][]): number[] {
   const divisionSizes = divisions.map((d) => d.length);
 
   const divisionBreaks = divisionSizes.reduce((r: number[], a) => {
@@ -532,7 +549,7 @@ function calculateDivisionBreaks(divisions: unknown[][]) {
   return divisionBreaks;
 }
 
-function calculateResults(event: Event) {
+function calculateResults(event: Event): Event {
   let results = "";
   const move = event.move;
   const completed = event.completed;
@@ -884,7 +901,7 @@ function calculateTorpidsResults(event: Event): Event {
   return event;
 }
 
-function addcrew(div: unknown[], crew: string) {
+function addcrew(div: string[], crew: string): void {
   if (crew.length === 0) {
     return;
   }
@@ -897,7 +914,7 @@ function processBump(
   divNum: number,
   crew: number,
   up: number
-) {
+): boolean {
   if (crew - up < 1) {
     console.error(
       "Bumping up above the top of the division: div " +
@@ -931,7 +948,7 @@ function processBump(
   return true;
 }
 
-function processResults(event: Event) {
+function processResults(event: Event): void {
   const res = event.results.match(/r|t|u|o[0-9]*|e-?[0-9]*/g);
 
   if (res === null) {
@@ -941,7 +958,7 @@ function processResults(event: Event) {
   let dayNum = 0;
   let divNum = 0;
   let crew = 0;
-  let move = null;
+  let move: number[][] | null = null;
 
   for (let i = 0; i < res.length; i++) {
     while (
@@ -971,10 +988,19 @@ function processResults(event: Event) {
       }
 
       divNum--;
+      if (move === null) {
+        console.error("No move found");
+        return;
+      }
       crew = move[divNum - 1].length;
       if (divNum < event.divisions.length) {
         crew++; // Sandwich crew
       }
+    }
+
+    if (move === null) {
+      console.error("No move found");
+      return;
     }
 
     event.completed[dayNum - 1][divNum - 1] = true;
@@ -1048,9 +1074,27 @@ function processResults(event: Event) {
 
 function calculateMoves(
   event: Event,
-  crewsFirstDay: unknown[],
-  crewsAllDays: unknown[],
-  divisionSizes: unknown
+  crewsFirstDay: {
+    Club: string;
+    Crew: string;
+    Day: string;
+    Division: string;
+    Position: string;
+    Sex: string;
+    "Start position": string;
+    Year: string;
+  }[],
+  crewsAllDays: {
+    Club: string;
+    Crew: string;
+    Day: string;
+    Division: string;
+    Position: string;
+    Sex: string;
+    "Start position": string;
+    Year: string;
+  }[],
+  divisionSizes: number[]
 ) {
   const numDivisions = event.divisions.length;
   const divisions = event.divisions;
@@ -1115,7 +1159,16 @@ function calculateMoves(
 }
 
 function read_flat(_data: string) {
-  const data = d3.csvParse(_data);
+  const data: {
+    Club: string;
+    Crew: string;
+    Day: string;
+    Division: string;
+    Position: string;
+    Sex: string;
+    "Start position": string;
+    Year: string;
+  }[] = d3.csvParse(_data);
   const year = uniqBy(data.map((d) => d.Year));
   const gender = uniqBy(data.map((d) => d.Sex));
   const events = [];
@@ -1130,7 +1183,7 @@ function read_flat(_data: string) {
         year: 1970,
         days: 4,
         divisions: [],
-        results: [],
+        results: "",
         move: [],
         finish: [],
         completed: [],
@@ -1196,6 +1249,8 @@ function read_flat(_data: string) {
 function read_tg(_input: string): Event {
   const input = _input.split("\n");
 
+  const eventResults: string[] = [];
+
   let event: Event = {
     set: "ERROR",
     small: "ERROR",
@@ -1204,7 +1259,7 @@ function read_tg(_input: string): Event {
     year: 1970,
     days: 4,
     divisions: [],
-    results: [],
+    results: "",
     move: [],
     finish: [],
     completed: [],
@@ -1251,13 +1306,13 @@ function read_tg(_input: string): Event {
 
       for (let j = 1; j < m.length; j++) {
         if (m[j].indexOf("#") !== 0) {
-          Array.prototype.push.apply(event.results, m[j].split(" "));
+          Array.prototype.push.apply(eventResults, m[j].split(" "));
         }
       }
     } else {
       for (let j = 0; j < m.length; j++) {
         if (inresults === 1 && m[j].indexOf("#") !== 0) {
-          Array.prototype.push.apply(event.results, m[j].split(" "));
+          Array.prototype.push.apply(eventResults, m[j].split(" "));
         } else if (indivision === 1) {
           addcrew(curdiv, m[j]);
         }
@@ -1265,13 +1320,13 @@ function read_tg(_input: string): Event {
     }
   }
 
-  const results: unknown[] = [];
+  const results: string[][] = [];
 
   for (let i = 0; i < event.days; i++) {
     results.push([]);
   }
 
-  event.results
+  eventResults
     .filter((r) => r !== "")
     .map((r, i) =>
       results[Math.floor(i / event.divisions.length)].push(r.trim())
@@ -1325,7 +1380,7 @@ function read_ad(_input: string) {
     year: 1970,
     days: 1,
     divisions: [],
-    results: [],
+    results: "",
     move: [],
     finish: [],
     completed: [],
