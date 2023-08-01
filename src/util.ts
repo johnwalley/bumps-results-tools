@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 
-import { Event, Gender, InternalEvent, Set } from "./types";
+import { Event, Gender, InternalEvent, JoinedInternalEvents, Set } from "./types";
 import { abbrevCamCollege, abbrevCamTown, abbrevOxCollege } from "./constants";
 import { findKey, uniq } from "lodash";
 
@@ -199,9 +199,9 @@ export function joinEvents(
   events: InternalEvent[],
   set: Set,
   gender: Gender
-) {
+): JoinedInternalEvents {
   const years: number[] = [];
-  const data: unknown[] = [];
+  const crews: JoinedInternalEvents["crews"] = [];
   const divisions: {
     year: number;
     divisions: { start: number; size: number }[];
@@ -231,10 +231,10 @@ export function joinEvents(
     day += numDays;
   });
 
-  const startYear = d3.min(years);
-  const endYear = d3.max(years);
+  const startYear = d3.min(years) as number;
+  const endYear = d3.max(years) as number;
   const uniqueCrewNames: string[] = uniq(crewNames);
-  const maxCrews = d3.max(events.map((e) => e.crews.length));
+  const maxCrews = d3.max(events.map((e) => e.crews.length)) as number;
 
   uniqueCrewNames.forEach((crewName) => {
     const newCrew: InternalEvent["crews"][number] = {
@@ -290,13 +290,13 @@ export function joinEvents(
       day += numDays + 1;
     });
 
-    data.push(newCrew);
+    crews.push(newCrew);
   });
 
   return {
     set: set,
     gender: gender,
-    crews: data,
+    crews: crews,
     startYear: startYear,
     endYear: endYear,
     maxCrews: maxCrews,
