@@ -25,9 +25,10 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "results": "npx ts-node scripts/generate_results.js",
+    "stats": "npx ts-node scripts/generate_statistics.js",
     "test": "mocha --require ts-node/register",
-    "website-results": "node scripts/generate_website_results.js",
-    "results": "node scripts/generate_results.js"
+    "website-results": "npx ts-node scripts/generate_website_results.js"
   },
   "dependencies": {
     "d3": "^4",
