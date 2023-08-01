@@ -1,10 +1,10 @@
 import * as d3 from "d3";
 
-import { Event, InternalEvent, Set } from "./types";
+import { Event, Gender, InternalEvent, Set } from "./types";
 import { abbrevCamCollege, abbrevCamTown, abbrevOxCollege } from "./constants";
 import { findKey, uniq } from "lodash";
 
-export function abbreviate(event: Event) {
+export function abbreviate(event: Event): Event {
   for (let div = 0; div < event.divisions.length; div++) {
     for (let pos = 0; pos < event.divisions[div].length; pos++) {
       event.divisions[div][pos] = abbreviateCrew(
@@ -26,7 +26,7 @@ export function abbreviate(event: Event) {
   return event;
 }
 
-function abbreviateCrew(crew: string, set: Set) {
+function abbreviateCrew(crew: string, set: Set): string {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
   let abbrev;
@@ -56,7 +56,7 @@ function abbreviateCrew(crew: string, set: Set) {
   }
 }
 
-export function expandCrew(crew: string, set: Set) {
+export function expandCrew(crew: string, set: Set): string {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
   let abbrev: Record<string, string>;
@@ -84,7 +84,7 @@ export function expandCrew(crew: string, set: Set) {
   }
 }
 
-export function crewColor(name: string) {
+export function crewColor(name: string): string {
   const camCollegeColor: Record<string, string> = {
     A: "#0000ff",
     AR: "#ffff00",
@@ -169,7 +169,7 @@ export function crewColor(name: string) {
   return "#f44336";
 }
 
-function isBlades(positions: number[]) {
+function isBlades(positions: number[]): boolean {
   for (let i = 0; i < positions.length - 1; i++) {
     if (positions[i + 1] - positions[i] >= 0 && positions[i + 1] !== 1) {
       return false;
@@ -182,7 +182,7 @@ function isBlades(positions: number[]) {
 function isSpoons(
   positions: number[],
   bottomPosition = Number.MAX_SAFE_INTEGER
-) {
+): boolean {
   for (let i = 0; i < positions.length - 1; i++) {
     if (
       positions[i + 1] - positions[i] <= 0 &&
@@ -197,14 +197,14 @@ function isSpoons(
 
 export function joinEvents(
   events: InternalEvent[],
-  set: unknown,
-  gender: unknown
+  set: Set,
+  gender: Gender
 ) {
   const years: number[] = [];
   const data: unknown[] = [];
   const divisions: {
-    year: unknown;
-    divisions: unknown[];
+    year: number;
+    divisions: { start: number; size: number }[];
     startDay: number;
     numDays: number;
   }[] = [];
@@ -359,7 +359,10 @@ export function calculateYearRange(
   current: { end: number; start: number } | null | undefined,
   data: { end: number; start: number },
   desiredWidth: number
-) {
+): {
+  start: number;
+  end: number;
+} {
   let start;
   let end;
 
