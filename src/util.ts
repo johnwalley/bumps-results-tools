@@ -1,13 +1,13 @@
-import { findKey, uniq, padEnd, padStart } from "lodash";
 import * as d3 from "d3";
-import { Event, Gender, Set } from "./types";
 
+import { Event, Gender, Set } from "./types";
 import {
   ROMAN,
   abbrevCamCollege,
   abbrevCamTown,
   abbrevOxCollege,
 } from "./constants";
+import { findKey, padEnd, padStart, uniq } from "lodash";
 
 export type InternalEvent = {
   crews: {
