@@ -1,5 +1,5 @@
 const assert = require("assert");
-const utils = require("../src/util");
+const utils = require("../src");
 
 describe("utils", function () {
   it("read_flat() returns a correct intermediate object.", function () {

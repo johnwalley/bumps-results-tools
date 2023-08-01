@@ -1,5 +1,5 @@
 const assert = require("assert");
-const utils = require("../src/util");
+const utils = require("../src");
 
 describe("utils", function () {
   it("Transform data correctly.", function () {

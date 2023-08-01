@@ -1,6 +1,6 @@
 const fs = require("fs");
 const assert = require("assert");
-const utils = require("../src/util");
+const utils = require("../src");
 
 describe("round-trip", function () {
   describe("write_tg(read_tg())", function () {
@@ -61,7 +61,7 @@ describe("round-trip", function () {
 
         assert.equal(
           actual,
-          fs.readFileSync("./results/ad_format/" + newFile, "utf8"),
+          fs.readFileSync("./results/ad_format/" + newFile, "utf8")
         );
       });
     });
@@ -121,7 +121,7 @@ describe("round-trip", function () {
 
           assert.equal(
             actual,
-            fs.readFileSync("./results/tg_format/" + newFile, "utf8"),
+            fs.readFileSync("./results/tg_format/" + newFile, "utf8")
           );
         }
       });

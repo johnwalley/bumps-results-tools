@@ -6,7 +6,7 @@ import typescript from "@rollup/plugin-typescript";
 export default [
   // browser-friendly UMD build
   {
-    input: "src/util.ts",
+    input: "src/index.ts",
     output: {
       name: "bumpsResultsTools",
       file: pkg.browser,
@@ -15,7 +15,7 @@ export default [
     plugins: [resolve(), typescript(), commonjs()],
   },
   {
-    input: "src/util.ts",
+    input: "src/index.ts",
     external: ["lodash", "d3"],
     output: [
       { file: pkg.main, format: "cjs" },
