@@ -1,18 +1,22 @@
-const findKey = require("lodash/findKey");
-const uniq = require("lodash/uniq");
-const uniqBy = require("lodash/uniqBy");
-const padEnd = require("lodash/padEnd");
-const padStart = require("lodash/padStart");
-const d3 = require("d3");
+import { findKey, uniq, padEnd, padStart } from "lodash";
+import * as d3 from "d3";
 
-const {
+import {
   GENDER,
   ROMAN,
   SET,
   abbrevCamCollege,
   abbrevCamTown,
   abbrevOxCollege,
-} = require("./constants");
+} from "./constants";
+
+export type Set =
+  | "Summer Eights"
+  | "Torpids"
+  | "Lent Bumps"
+  | "May Bumps"
+  | "Town Bumps"
+  | "ERROR";
 
 export type Event = {
   completed: boolean[][];
@@ -23,7 +27,7 @@ export type Event = {
   move: number[][][];
   result: string;
   results: string;
-  set: unknown;
+  set: Set;
   small: string;
   year: number;
 };
@@ -66,7 +70,7 @@ function abbreviate(event: Event) {
   return event;
 }
 
-function abbreviateCrew(crew: string, set: unknown) {
+function abbreviateCrew(crew: string, set: Set) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
   let abbrev;
@@ -99,7 +103,7 @@ function abbreviateCrew(crew: string, set: unknown) {
 function expandCrew(crew: string, set: unknown) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
-  let abbrev;
+  let abbrev: Record<string, string>;
 
   switch (set) {
     case SET.LENTS:
@@ -127,7 +131,7 @@ function expandCrew(crew: string, set: unknown) {
 function renderName(name: string, set: unknown) {
   // College crews are stored as an abbrevation and we replace the number with Roman numerals
   const sh = name.replace(/[0-9]+$/, "").trim();
-  let abbrev;
+  let abbrev: Record<string, string>;
   let type;
 
   switch (set) {
@@ -320,7 +324,7 @@ function joinEvents(events: InternalEvent[], set: unknown, gender: unknown) {
     const numDays = d3.max([
       ...event.crews.map((crew) => crew.values.length),
       5,
-    ]);
+    ]) as number;
     crewNames = crewNames.concat(event.crews.map((crew) => crew.name));
     years.push(event.year);
     divisions.push({
@@ -353,7 +357,10 @@ function joinEvents(events: InternalEvent[], set: unknown, gender: unknown) {
     events.forEach((event) => {
       const match = event.crews.filter((c) => c.name === crewName);
       const numDays =
-        d3.max([...event.crews.map((crew) => crew.values.length), 5]) - 1;
+        (d3.max([
+          ...event.crews.map((crew) => crew.values.length),
+          5,
+        ]) as number) - 1;
 
       if (match.length > 0) {
         const values = match[0].values.map((v) => ({
@@ -1159,24 +1166,24 @@ function calculateMoves(
 }
 
 function read_flat(_data: string) {
-  const data: {
-    Club: string;
-    Crew: string;
-    Day: string;
-    Division: string;
-    Position: string;
-    Sex: string;
-    "Start position": string;
-    Year: string;
-  }[] = d3.csvParse(_data);
-  const year = uniqBy(data.map((d) => d.Year));
-  const gender = uniqBy(data.map((d) => d.Sex));
+  const data = d3.csvParse<
+    | "Start position"
+    | "Club"
+    | "Crew"
+    | "Day"
+    | "Division"
+    | "Position"
+    | "Sex"
+    | "Year"
+  >(_data);
+  const year = uniq(data.map((d) => d.Year));
+  const gender = uniq(data.map((d) => d.Sex));
   const events = [];
 
   for (let yearNum = 0; yearNum < year.length; yearNum++) {
     for (let genderNum = 0; genderNum < gender.length; genderNum++) {
       let event: Event = {
-        set: "Set",
+        set: "ERROR",
         small: "Short",
         gender: "Gender",
         result: "",
@@ -1190,33 +1197,36 @@ function read_flat(_data: string) {
       };
 
       event.set = "Town Bumps";
-      event.gender = gender[genderNum];
-      event.year = +year[yearNum];
+      event.gender = gender[genderNum]!;
+      event.year = +year[yearNum]!;
 
       const crewsFirstDay = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender && d.Day === "1"
+        (d) =>
+          +d.Year! === event.year && d.Sex === event.gender && d.Day === "1"
       );
-      crewsFirstDay.sort((a, b) => +a["Start position"] - +b["Start position"]);
+      crewsFirstDay.sort(
+        (a, b) => +a["Start position"]! - +b["Start position"]!
+      );
 
       const crewsAllDays = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender
+        (d) => +d.Year! === event.year && d.Sex === event.gender
       );
       crewsAllDays.sort((a, b) => {
-        const equality = +a["Start position"] - +b["Start position"];
+        const equality = +a["Start position"]! - +b["Start position"]!;
         if (equality === 0) {
-          return +a.Day - +b.Day;
+          return +a.Day! - +b.Day!;
         }
         return equality;
       });
 
-      event.days = uniqBy(crewsAllDays.map((c) => c.Day)).length;
+      event.days = uniq(crewsAllDays.map((c) => c.Day)).length;
 
-      const numDivisions = uniqBy(crewsFirstDay.map((c) => c.Division)).length;
+      const numDivisions = uniq(crewsFirstDay.map((c) => c.Division)).length;
       const divisionSizes = new Array(numDivisions);
 
       for (let division = 0; division < numDivisions; division++) {
         divisionSizes[division] = crewsFirstDay.filter(
-          (c) => +c.Division === division + 1
+          (c) => +c.Division! === division + 1
         ).length;
       }
 
@@ -1237,7 +1247,13 @@ function read_flat(_data: string) {
         }
       }
 
-      event = calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes);
+      event = calculateMoves(
+        event,
+        crewsFirstDay as any,
+        crewsAllDays as any,
+        divisionSizes
+      );
+
       event = calculateResults(event);
       events.push(event);
     }
@@ -1273,7 +1289,7 @@ function read_tg(_input: string): Event {
     const m = input[i].split(",");
     if (m[0] === "Set") {
       if (m.length > 1) {
-        event.set = m[1];
+        event.set = m[1] as Set;
       }
     } else if (m[0] === "Short") {
       event.small = m[1];
@@ -1390,23 +1406,23 @@ function read_ad(_input: string) {
 
   switch (info[0]) {
     case "EIGHTS":
-      event.set = SET.EIGHTS;
+      event.set = SET.EIGHTS as Set;
       event.small = "Eights";
       break;
     case "TORPIDS":
-      event.set = SET.TORPIDS;
+      event.set = SET.TORPIDS as Set;
       event.small = "Torpids";
       break;
     case "MAYS":
-      event.set = SET.MAYS;
+      event.set = SET.MAYS as Set;
       event.small = "Mays";
       break;
     case "LENTS":
-      event.set = SET.LENTS;
+      event.set = SET.LENTS as Set;
       event.small = "Lents";
       break;
     case "TOWN":
-      event.set = SET.TOWN;
+      event.set = SET.TOWN as Set;
       event.small = "Town";
       break;
   }
@@ -1668,7 +1684,10 @@ function write_ad(event: Event) {
       divStr += `${padEnd(renderName(crew, event.set), 25)}`;
 
       for (let day = 0; day < event.days; day++) {
-        divStr += padStart(event.move[day][currentDivision][position], 4);
+        divStr += padStart(
+          event.move[day][currentDivision][position].toString(),
+          4
+        );
         position -= event.move[day][currentDivision][position];
 
         if (position < 0) {
