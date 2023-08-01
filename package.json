@@ -40,12 +40,15 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/d3": "^7.4.0",
     "@types/lodash": "^4.14.196",
     "chalk": "^5.0.1",
     "mocha": "^10.0.0",
     "prettier": "3.0.0",
     "rollup": "^2.33.2",
     "ts-node": "^10.9.1",
+    "tslib": "^2.6.1",
     "typescript": "^5.1.6"
   }
 }
