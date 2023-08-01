@@ -1,20 +1,54 @@
-const findKey = require("lodash/findKey");
-const uniq = require("lodash/uniq");
-const uniqBy = require("lodash/uniqBy");
-const padEnd = require("lodash/padEnd");
-const padStart = require("lodash/padStart");
-const d3 = require("d3");
+import { findKey, uniq, padEnd, padStart } from "lodash";
+import * as d3 from "d3";
 
-const {
+import {
   GENDER,
   ROMAN,
   SET,
   abbrevCamCollege,
   abbrevCamTown,
   abbrevOxCollege,
-} = require("./constants");
+} from "./constants";
 
-function abbreviate(event) {
+export type Set =
+  | "Summer Eights"
+  | "Torpids"
+  | "Lent Bumps"
+  | "May Bumps"
+  | "Town Bumps"
+  | "ERROR";
+
+export type Event = {
+  completed: boolean[][];
+  days: number;
+  divisions: string[][];
+  finish: string[][];
+  gender: string;
+  move: number[][][];
+  result: string;
+  results: string;
+  set: Set;
+  small: string;
+  year: number;
+};
+
+export type InternalEvent = {
+  crews: {
+    name: string;
+    values: {
+      day: number;
+      pos: number;
+    }[];
+    valuesSplit: unknown[];
+  }[];
+  divisions: {
+    start: number;
+    size: number;
+  }[];
+  year: number;
+};
+
+function abbreviate(event: Event) {
   for (let div = 0; div < event.divisions.length; div++) {
     for (let pos = 0; pos < event.divisions[div].length; pos++) {
       event.divisions[div][pos] = abbreviateCrew(
@@ -36,7 +70,7 @@ function abbreviate(event) {
   return event;
 }
 
-function abbreviateCrew(crew, set) {
+function abbreviateCrew(crew: string, set: Set) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
   let abbrev;
@@ -57,7 +91,7 @@ function abbreviateCrew(crew, set) {
       throw "Unrecognised set: " + set;
   }
 
-  const key = findKey(abbrev, (club) => club === name);
+  const key = findKey(abbrev, (club: string) => club === name);
 
   if (key !== undefined && set !== SET.TOWN) {
     return key + (num > 1 ? num : "");
@@ -66,10 +100,10 @@ function abbreviateCrew(crew, set) {
   }
 }
 
-function expandCrew(crew, set) {
+function expandCrew(crew: string, set: unknown) {
   const name = crew.replace(/[0-9]+$/, "").trim();
   const num = +crew.substring(name.length);
-  let abbrev;
+  let abbrev: Record<string, string>;
 
   switch (set) {
     case SET.LENTS:
@@ -94,10 +128,10 @@ function expandCrew(crew, set) {
   }
 }
 
-function renderName(name, set) {
+function renderName(name: string, set: unknown) {
   // College crews are stored as an abbrevation and we replace the number with Roman numerals
   const sh = name.replace(/[0-9]+$/, "").trim();
-  let abbrev;
+  let abbrev: Record<string, string>;
   let type;
 
   switch (set) {
@@ -146,11 +180,11 @@ function renderName(name, set) {
   return name;
 }
 
-function normalizeOxfordName(name) {
+function normalizeOxfordName(name: string) {
   const parts = name.split(/\s/);
   let newName = name;
 
-  ROMAN.forEach((num, index) => {
+  ROMAN.forEach((num: string, index: number) => {
     if (parts[parts.length - 1] === num) {
       newName = parts.slice(0, parts.length - 1).join(" ") + " " + (index + 1);
     }
@@ -159,12 +193,12 @@ function normalizeOxfordName(name) {
   return newName;
 }
 
-function normalizeTownName(name) {
+function normalizeTownName(name: string) {
   return name;
 }
 
-function crewColor(name) {
-  const camCollegeColor = {
+function crewColor(name: string) {
+  const camCollegeColor: Record<string, string> = {
     A: "#0000ff",
     AR: "#ffff00",
     Ca: "#afe9c6",
@@ -206,11 +240,11 @@ function crewColor(name) {
     W: "#5599ff",
   };
 
-  const oxCollegeColor = {
+  const oxCollegeColor: Record<string, string> = {
     Oriel: "#372e63",
   };
 
-  const townColor = {
+  const townColor: Record<string, string> = {
     City: "#f44336",
     Champs: "#f57400",
     "Rob Roy": "#8b0000",
@@ -248,7 +282,7 @@ function crewColor(name) {
   return "#f44336";
 }
 
-function isBlades(positions) {
+function isBlades(positions: number[]) {
   for (let i = 0; i < positions.length - 1; i++) {
     if (positions[i + 1] - positions[i] >= 0 && positions[i + 1] !== 1) {
       return false;
@@ -258,7 +292,10 @@ function isBlades(positions) {
   return true;
 }
 
-function isSpoons(positions, bottomPosition = Number.MAX_SAFE_INTEGER) {
+function isSpoons(
+  positions: number[],
+  bottomPosition = Number.MAX_SAFE_INTEGER
+) {
   for (let i = 0; i < positions.length - 1; i++) {
     if (
       positions[i + 1] - positions[i] <= 0 &&
@@ -271,18 +308,23 @@ function isSpoons(positions, bottomPosition = Number.MAX_SAFE_INTEGER) {
   return true;
 }
 
-function joinEvents(events, set, gender) {
-  const years = [];
-  const data = [];
-  const divisions = [];
-  let crewNames = [];
+function joinEvents(events: InternalEvent[], set: unknown, gender: unknown) {
+  const years: number[] = [];
+  const data: unknown[] = [];
+  const divisions: {
+    year: unknown;
+    divisions: unknown[];
+    startDay: number;
+    numDays: number;
+  }[] = [];
+  let crewNames: string[] = [];
   let day = 0;
 
   events.forEach((event) => {
     const numDays = d3.max([
       ...event.crews.map((crew) => crew.values.length),
       5,
-    ]);
+    ]) as number;
     crewNames = crewNames.concat(event.crews.map((crew) => crew.name));
     years.push(event.year);
     divisions.push({
@@ -300,11 +342,11 @@ function joinEvents(events, set, gender) {
 
   const startYear = d3.min(years);
   const endYear = d3.max(years);
-  const uniqueCrewNames = uniq(crewNames);
+  const uniqueCrewNames: string[] = uniq(crewNames);
   const maxCrews = d3.max(events.map((e) => e.crews.length));
 
   uniqueCrewNames.forEach((crewName) => {
-    const newCrew = {
+    const newCrew: InternalEvent["crews"][number] = {
       name: crewName,
       values: [],
       valuesSplit: [],
@@ -315,7 +357,10 @@ function joinEvents(events, set, gender) {
     events.forEach((event) => {
       const match = event.crews.filter((c) => c.name === crewName);
       const numDays =
-        d3.max([...event.crews.map((crew) => crew.values.length), 5]) - 1;
+        (d3.max([
+          ...event.crews.map((crew) => crew.values.length),
+          5,
+        ]) as number) - 1;
 
       if (match.length > 0) {
         const values = match[0].values.map((v) => ({
@@ -368,7 +413,7 @@ function joinEvents(events, set, gender) {
   };
 }
 
-function transformData(event) {
+function transformData(event: Event) {
   if (event.days !== event.completed.length) {
     throw new RangeError(
       `Expected ${event.days} but found ${event.completed.length} completed days`
@@ -419,7 +464,11 @@ function transformData(event) {
   return { year: event.year, crews: crews, divisions: divisions };
 }
 
-function calculateYearRange(current, data, desiredWidth) {
+function calculateYearRange(
+  current: { end: number; start: number } | null | undefined,
+  data: { end: number; start: number },
+  desiredWidth: number
+) {
   let start;
   let end;
 
@@ -462,15 +511,25 @@ function calculateYearRange(current, data, desiredWidth) {
   return { start, end };
 }
 
-function calculateDivision(position, numDivisions, divisionBreaks) {
+function calculateDivision(
+  position: number,
+  numDivisions: number,
+  divisionBreaks: number[]
+): number {
   for (let divNum = 0; divNum < numDivisions; divNum++) {
     if (position < divisionBreaks[divNum]) {
       return divNum;
     }
   }
+
+  throw new Error("No division found");
 }
 
-function calculatePositionInDivision(position, numDivisions, divisionSizes) {
+function calculatePositionInDivision(
+  position: number,
+  numDivisions: number,
+  divisionSizes: number[]
+): number {
   for (let divNum = 0; divNum < numDivisions; divNum++) {
     if (position < divisionSizes[divNum]) {
       break;
@@ -482,10 +541,10 @@ function calculatePositionInDivision(position, numDivisions, divisionSizes) {
   return position;
 }
 
-function calculateDivisionBreaks(divisions) {
+function calculateDivisionBreaks(divisions: unknown[][]): number[] {
   const divisionSizes = divisions.map((d) => d.length);
 
-  const divisionBreaks = divisionSizes.reduce((r, a) => {
+  const divisionBreaks = divisionSizes.reduce((r: number[], a) => {
     if (r.length > 0) {
       a += r[r.length - 1];
     }
@@ -497,7 +556,7 @@ function calculateDivisionBreaks(divisions) {
   return divisionBreaks;
 }
 
-function calculateResults(event) {
+function calculateResults(event: Event): Event {
   let results = "";
   const move = event.move;
   const completed = event.completed;
@@ -795,7 +854,7 @@ function calculateResults(event) {
   return event;
 }
 
-function calculateTorpidsResults(event) {
+function calculateTorpidsResults(event: Event): Event {
   let results = "";
   const move = event.move;
   const completed = event.completed;
@@ -849,7 +908,7 @@ function calculateTorpidsResults(event) {
   return event;
 }
 
-function addcrew(div, crew) {
+function addcrew(div: string[], crew: string): void {
   if (crew.length === 0) {
     return;
   }
@@ -857,7 +916,12 @@ function addcrew(div, crew) {
   div.push(crew);
 }
 
-function processBump(move, divNum, crew, up) {
+function processBump(
+  move: number[][],
+  divNum: number,
+  crew: number,
+  up: number
+): boolean {
   if (crew - up < 1) {
     console.error(
       "Bumping up above the top of the division: div " +
@@ -891,17 +955,17 @@ function processBump(move, divNum, crew, up) {
   return true;
 }
 
-function processResults(event) {
-  let res = [];
+function processResults(event: Event): void {
+  const res = event.results.match(/r|t|u|o[0-9]*|e-?[0-9]*/g);
 
-  if (event.results.length > 0) {
-    res = event.results.match(/r|t|u|o[0-9]*|e-?[0-9]*/g);
+  if (res === null) {
+    return;
   }
 
   let dayNum = 0;
   let divNum = 0;
   let crew = 0;
-  let move = null;
+  let move: number[][] | null = null;
 
   for (let i = 0; i < res.length; i++) {
     while (
@@ -931,10 +995,19 @@ function processResults(event) {
       }
 
       divNum--;
+      if (move === null) {
+        console.error("No move found");
+        return;
+      }
       crew = move[divNum - 1].length;
       if (divNum < event.divisions.length) {
         crew++; // Sandwich crew
       }
+    }
+
+    if (move === null) {
+      console.error("No move found");
+      return;
     }
 
     event.completed[dayNum - 1][divNum - 1] = true;
@@ -1006,7 +1079,30 @@ function processResults(event) {
   }
 }
 
-function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
+function calculateMoves(
+  event: Event,
+  crewsFirstDay: {
+    Club: string;
+    Crew: string;
+    Day: string;
+    Division: string;
+    Position: string;
+    Sex: string;
+    "Start position": string;
+    Year: string;
+  }[],
+  crewsAllDays: {
+    Club: string;
+    Crew: string;
+    Day: string;
+    Division: string;
+    Position: string;
+    Sex: string;
+    "Start position": string;
+    Year: string;
+  }[],
+  divisionSizes: number[]
+) {
   const numDivisions = event.divisions.length;
   const divisions = event.divisions;
   const move = event.move;
@@ -1069,56 +1165,68 @@ function calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes) {
   return event;
 }
 
-function read_flat(data) {
-  data = d3.csvParse(data);
-  const year = uniqBy(data.map((d) => d.Year));
-  const gender = uniqBy(data.map((d) => d.Sex));
+function read_flat(_data: string) {
+  const data = d3.csvParse<
+    | "Start position"
+    | "Club"
+    | "Crew"
+    | "Day"
+    | "Division"
+    | "Position"
+    | "Sex"
+    | "Year"
+  >(_data);
+  const year = uniq(data.map((d) => d.Year));
+  const gender = uniq(data.map((d) => d.Sex));
   const events = [];
 
   for (let yearNum = 0; yearNum < year.length; yearNum++) {
     for (let genderNum = 0; genderNum < gender.length; genderNum++) {
-      let event = {
-        set: "Set",
+      let event: Event = {
+        set: "ERROR",
         small: "Short",
         gender: "Gender",
         result: "",
         year: 1970,
         days: 4,
         divisions: [],
-        results: [],
+        results: "",
         move: [],
         finish: [],
         completed: [],
       };
 
       event.set = "Town Bumps";
-      event.gender = gender[genderNum];
-      event.year = +year[yearNum];
+      event.gender = gender[genderNum]!;
+      event.year = +year[yearNum]!;
 
       const crewsFirstDay = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender && d.Day === "1"
+        (d) =>
+          +d.Year! === event.year && d.Sex === event.gender && d.Day === "1"
       );
-      crewsFirstDay.sort((a, b) => +a["Start position"] - +b["Start position"]);
+      crewsFirstDay.sort(
+        (a, b) => +a["Start position"]! - +b["Start position"]!
+      );
 
       const crewsAllDays = data.filter(
-        (d) => +d.Year === event.year && d.Sex === event.gender
+        (d) => +d.Year! === event.year && d.Sex === event.gender
       );
       crewsAllDays.sort((a, b) => {
-        const equality = +a["Start position"] - +b["Start position"];
+        const equality = +a["Start position"]! - +b["Start position"]!;
         if (equality === 0) {
-          return +a.Day - +b.Day;
+          return +a.Day! - +b.Day!;
         }
         return equality;
       });
 
-      event.days = uniqBy(crewsAllDays.map((c) => c.Day)).length;
+      event.days = uniq(crewsAllDays.map((c) => c.Day)).length;
 
-      const numDivisions = uniqBy(crewsFirstDay.map((c) => c.Division)).length;
+      const numDivisions = uniq(crewsFirstDay.map((c) => c.Division)).length;
       const divisionSizes = new Array(numDivisions);
 
       for (let division = 0; division < numDivisions; division++) {
         divisionSizes[division] = crewsFirstDay.filter(
-          (c) => +c.Division === division + 1
+          (c) => +c.Division! === division + 1
         ).length;
       }
 
@@ -1139,7 +1247,13 @@ function read_flat(data) {
         }
       }
 
-      event = calculateMoves(event, crewsFirstDay, crewsAllDays, divisionSizes);
+      event = calculateMoves(
+        event,
+        crewsFirstDay as any,
+        crewsAllDays as any,
+        divisionSizes
+      );
+
       event = calculateResults(event);
       events.push(event);
     }
@@ -1148,10 +1262,12 @@ function read_flat(data) {
   return events;
 }
 
-function read_tg(input) {
-  input = input.split("\n");
+function read_tg(_input: string): Event {
+  const input = _input.split("\n");
 
-  let event = {
+  const eventResults: string[] = [];
+
+  let event: Event = {
     set: "ERROR",
     small: "ERROR",
     gender: "ERROR",
@@ -1159,13 +1275,13 @@ function read_tg(input) {
     year: 1970,
     days: 4,
     divisions: [],
-    results: [],
+    results: "",
     move: [],
     finish: [],
     completed: [],
   };
 
-  let curdiv = [];
+  let curdiv: string[] = [];
   let inresults = 0;
   let indivision = 0;
 
@@ -1173,7 +1289,7 @@ function read_tg(input) {
     const m = input[i].split(",");
     if (m[0] === "Set") {
       if (m.length > 1) {
-        event.set = m[1];
+        event.set = m[1] as Set;
       }
     } else if (m[0] === "Short") {
       event.small = m[1];
@@ -1206,13 +1322,13 @@ function read_tg(input) {
 
       for (let j = 1; j < m.length; j++) {
         if (m[j].indexOf("#") !== 0) {
-          Array.prototype.push.apply(event.results, m[j].split(" "));
+          Array.prototype.push.apply(eventResults, m[j].split(" "));
         }
       }
     } else {
       for (let j = 0; j < m.length; j++) {
         if (inresults === 1 && m[j].indexOf("#") !== 0) {
-          Array.prototype.push.apply(event.results, m[j].split(" "));
+          Array.prototype.push.apply(eventResults, m[j].split(" "));
         } else if (indivision === 1) {
           addcrew(curdiv, m[j]);
         }
@@ -1220,13 +1336,13 @@ function read_tg(input) {
     }
   }
 
-  const results = [];
+  const results: string[][] = [];
 
   for (let i = 0; i < event.days; i++) {
     results.push([]);
   }
 
-  event.results
+  eventResults
     .filter((r) => r !== "")
     .map((r, i) =>
       results[Math.floor(i / event.divisions.length)].push(r.trim())
@@ -1269,10 +1385,10 @@ function read_tg(input) {
   return event;
 }
 
-function read_ad(input) {
-  input = input.split("\n");
+function read_ad(_input: string) {
+  const input = _input.split("\n");
 
-  let event = {
+  let event: Event = {
     set: "ERROR",
     small: "ERROR",
     gender: "ERROR",
@@ -1280,7 +1396,7 @@ function read_ad(input) {
     year: 1970,
     days: 1,
     divisions: [],
-    results: [],
+    results: "",
     move: [],
     finish: [],
     completed: [],
@@ -1290,23 +1406,23 @@ function read_ad(input) {
 
   switch (info[0]) {
     case "EIGHTS":
-      event.set = SET.EIGHTS;
+      event.set = SET.EIGHTS as Set;
       event.small = "Eights";
       break;
     case "TORPIDS":
-      event.set = SET.TORPIDS;
+      event.set = SET.TORPIDS as Set;
       event.small = "Torpids";
       break;
     case "MAYS":
-      event.set = SET.MAYS;
+      event.set = SET.MAYS as Set;
       event.small = "Mays";
       break;
     case "LENTS":
-      event.set = SET.LENTS;
+      event.set = SET.LENTS as Set;
       event.small = "Lents";
       break;
     case "TOWN":
-      event.set = SET.TOWN;
+      event.set = SET.TOWN as Set;
       event.small = "Town";
       break;
   }
@@ -1324,9 +1440,9 @@ function read_ad(input) {
 
   const numDivisions = +info2[1];
   const numCrews = parseInt(info2[2], 10);
-  let currentDivision;
-  let currentMove = [];
-  let currentPos = [];
+  let currentDivision: string[] = [];
+  let currentMove: number[][] = [];
+  let currentPos: number[][] = [];
 
   for (let day = 0; day < event.days + 1; day++) {
     currentMove.push([]);
@@ -1419,7 +1535,7 @@ function read_ad(input) {
   return event;
 }
 
-function write_flat(events) {
+function write_flat(events: Event[]) {
   let ret = "Year,Club,Sex,Day,Crew,Start position,Position,Division\n";
 
   for (let eventNum = 0; eventNum < events.length; eventNum++) {
@@ -1474,7 +1590,7 @@ function write_flat(events) {
   return ret;
 }
 
-function write_tg(event) {
+function write_tg(event: Event) {
   let ret = `Set,${event.set}
 Short,${event.small}
 Gender,${event.gender}
@@ -1511,7 +1627,7 @@ ${event.results}
   return ret;
 }
 
-function write_ad(event) {
+function write_ad(event: Event) {
   let setStr;
 
   switch (event.set) {
@@ -1550,7 +1666,7 @@ function write_ad(event) {
     }
 
     let currentMove = [];
-    let currentPos = [];
+    let currentPos: number[][] = [];
 
     for (let day = 0; day < event.days + 1; day++) {
       currentMove.push([]);
@@ -1568,7 +1684,10 @@ function write_ad(event) {
       divStr += `${padEnd(renderName(crew, event.set), 25)}`;
 
       for (let day = 0; day < event.days; day++) {
-        divStr += padStart(event.move[day][currentDivision][position], 4);
+        divStr += padStart(
+          event.move[day][currentDivision][position].toString(),
+          4
+        );
         position -= event.move[day][currentDivision][position];
 
         if (position < 0) {

@@ -1,9 +1,9 @@
-const GENDER = {
+export const GENDER = {
   MEN: "Men",
   WOMEN: "Women",
 };
 
-const ROMAN = [
+export const ROMAN = [
   "I",
   "II",
   "III",
@@ -26,7 +26,7 @@ const ROMAN = [
   "XX",
 ];
 
-const SET = {
+export const SET = {
   EIGHTS: "Summer Eights",
   TORPIDS: "Torpids",
   LENTS: "Lent Bumps",
@@ -34,7 +34,7 @@ const SET = {
   TOWN: "Town Bumps",
 };
 
-const abbrevCamCollege = {
+export const abbrevCamCollege = {
   A: "Addenbrooke's",
   AR: "Anglia Ruskin",
   Ca: "Caius",
@@ -76,7 +76,7 @@ const abbrevCamCollege = {
   W: "Wolfson",
 };
 
-const abbrevOxCollege = {
+export const abbrevOxCollege = {
   B: "Balliol",
   Br: "Brasenose",
   Ch: "Christ Church",
@@ -114,7 +114,7 @@ const abbrevOxCollege = {
   Wt: "Worcester",
 };
 
-const abbrevCamTown = {
+export const abbrevCamTown = {
   A: "Addenbrooke's",
   CB: "Camb Blue",
   CV: "Camb Veterans",
@@ -173,13 +173,4 @@ const abbrevCamTown = {
   VS: "Vet School",
   W: "Wolfson",
   X: "X-Press",
-};
-
-module.exports = {
-  abbrevCamCollege,
-  abbrevCamTown,
-  abbrevOxCollege,
-  GENDER,
-  ROMAN,
-  SET,
 };
