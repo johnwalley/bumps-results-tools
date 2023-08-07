@@ -1,8 +1,21 @@
 const utils = require("../src");
 const fs = require("fs");
 
-if (!fs.existsSync("./results/converted_tg_results/")) {
-  fs.mkdirSync("./results/converted_tg_results/");
+const setMap = {
+  e: "eights",
+  t: "torpids",
+  m: "mays",
+  l: "lents",
+  town: "town",
+};
+
+const genderMap = {
+  m: "men",
+  w: "women",
+};
+
+if (!fs.existsSync("./results/tg_format/")) {
+  fs.mkdirSync("./results/tg_format/");
 }
 
 fs.readdir("./results/ad_format/", function (err, files) {
@@ -13,19 +26,21 @@ fs.readdir("./results/ad_format/", function (err, files) {
     const event = utils.read_ad(contents);
     numFiles++;
 
-    const set = file[0] === "e" ? "eights" : "torpids";
-    const year = file.slice(1, 5);
-    const gender = file[5] === "w" ? "women" : "men";
+    const isTown = file.startsWith("town");
+
+    const set = isTown ? "town" : setMap[file[0]];
+    const year = isTown ? file.slice(4, 8) : file.slice(1, 5);
+    const gender = (isTown ? file[8] : file[5]) === "w" ? "women" : "men";
     const newFile = set + year + "_" + gender + ".txt";
 
     fs.writeFile(
-      "./results/converted_tg_results/" + newFile,
+      "./results/tg_format/" + newFile,
       utils.write_tg(utils.abbreviate(event)),
       function () {
         console.log(
-          "Successfully converted " + file + " to produce " + newFile,
+          "Successfully converted " + file + " to produce " + newFile
         );
-      },
+      }
     );
   });
 
