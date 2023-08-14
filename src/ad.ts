@@ -156,7 +156,7 @@ export function read_ad(text: string) {
   }
 
   event =
-    event.set === "Torpids"
+    event.set === Set.TORPIDS
       ? calculateTorpidsResults(event)
       : calculateResults(event);
 

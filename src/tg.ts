@@ -120,7 +120,7 @@ export function read_tg(text: string): Event {
   processResults(event);
 
   event =
-    event.set === "Torpids"
+    event.set === Set.TORPIDS
       ? calculateTorpidsResults(event)
       : calculateResults(event);
 
