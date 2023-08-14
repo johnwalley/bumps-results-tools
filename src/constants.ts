@@ -69,6 +69,7 @@ export const abbrevOxCollege = {
   Ch: "Christ Church",
   Co: "Corpus Christi",
   E: "Exeter",
+  GT: "Green Templeton",
   H: "Hertford",
   J: "Jesus",
   K: "Keble",
