@@ -1,0 +1,13 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Women
+Year,2007
+
+Division,N,N2,Ci,R,CV,Ca,Ci2,R2,Ch,Ci3,N3,Ca2,X,Ch2,ME,S,Ch3
+Division,X2,St Ives/Ely 1,Ci4,SR,Ch4,Ch5,Ci5,S2,Ca3,SR2,Ch6,Ci6,Ci7,X3,Ch7,Ci8,Ch8
+
+Results
+rurrruuuuru rurrrurrurrrur
+rruruuuurur urrrurruururr
+rrrruuuuruu urrurrrruruur
+rrruuuuruur ruurrrrurrrrru

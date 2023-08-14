@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1973
+
+Division,R,N,R2,Scouts,Ca,Ci,N2,ACUA,Churchill,N3,R3,Ci2,Ca2,N4,Leckhampton
+Division,Grammarians,Cambs High School,Churchill 2,R4,ACUA 2,King's,Fitzwilliam,Ca3,Scouts 2,Telephones,Ca4,Lady Somerset,Magdalene,Scouts 3,Consultant Owls
+Division,Ci3,ACUA 3,Grammarians 2,Telephones 2,Goldilocks,Bean Group,R5,Ca5
+
+Results
+rrrurrr rururururrrr rrruuuruurr
+rrrrurr ururrrruurrr rruurruruur
+rrrrrru rruuuuuuu ruuurrurrrrr
+rrrrrur ruuuurrrrur uururrrrrrrrr

@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1990
+
+Division,N,R,R2,Ci,Ca,Ci2,N2,F,N3,P,Ca2,Lady Somerset,Ca3,R3,F2,King's
+Division,N4,F3,Ci3,SI,N5,N6,F4,Ca4,Red Lion Toft,Wolfson,P2,Macdonalds,R4,Metallurgy,Ci4,F5,Old Spring
+Division,Christ's,Macdonalds 2,R5,Ci5,Cavendish Lab,Maximum Entropy,Leckhampton,N7,Ca5,SI2,Red Lion Toft 2,R6,Barclays Bank,N8,Ca6,Ci6,Ci7
+
+Results
+rruuruuruur rurrrrrrururrrr uuururrrrrrrr
+rrrrrururuurr uurrrruurrrrrr ruururrrrrrrrr
+rrrruurruuru ruurruururur uuuurrrrrrrrr
+rrruuuuurrrr uurruuurrrru rrruurrrrrrrrrr
