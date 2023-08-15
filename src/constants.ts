@@ -82,6 +82,7 @@ export const abbrevOxCollege = {
   N: "New College",
   O: "Oriel",
   OG: "Osler-Green",
+  OH: "Osler House",
   P: "Pembroke",
   Q: "Queen's",
   R: "Regent's Park",
