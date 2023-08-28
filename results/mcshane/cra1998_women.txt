@@ -1,0 +1,12 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Women
+Year,1998
+
+Division,Ci,F,R,Ci2,F2,N,Ci3,R2,Ca,F3,Ci4,Ci5,R3,Ca2,Ca3,R4,F4,R5,Ci6,N2,Ci7,F5,Ch,Domino
+
+Results
+urrrrrruurruuurru
+rrruuurrrruuurrur
+rruuurruuurruurr
+ruuururuuurrrrrrr

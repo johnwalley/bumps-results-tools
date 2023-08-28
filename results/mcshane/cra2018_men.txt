@@ -1,0 +1,15 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,2018
+
+Division,Ca,SN,R,N,R2,Ci,X,Ca2,Ci2,N2,Ct,Ca3,N3,Ca4,R3,Ci3,Peterborough
+Division,Ci4,Ch,Ci5,X2,Ca5,Ci6,SN2,X3,N4,Ci7,Ca6,Ch2,Ct2,SR,Ci8,Ca7,X4
+Division,Ca8,IE,Ch3,Ci9,Ci10,N5,N6,Ch4,Ca9,Ci11,Ca10,Ch5,X5,Ch6,N7,Ct3,Ca11
+Division,X6,Ci12,Ca12,X7,Ca13,Ca14,CV,Ca15,X8,Ca16,Ch7
+
+Results
+rrurrurrr ro3uuuururru urrruuurrrurr rrurruurruurr
+ruurruu ruruuuruuru rrrruuuururrr rurururruurrr
+rruurrur uruuuruuo3u uruuuururrrr ururuuurrrrrr
+ruuurru uuuuruururr rrrruuururrrrr rruurrrurrrrur

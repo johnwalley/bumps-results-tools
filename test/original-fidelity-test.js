@@ -28,8 +28,6 @@ describe("original fidelity", function () {
   describe("mcshane format", function () {
     const files = fs.readdirSync("./results/mcshane/");
 
-    console.log(utils);
-
     files.forEach(function (file) {
       if (fs.existsSync("./results/tg_format/" + file)) {
         it("correctly reads McShane's original result " + file, function () {

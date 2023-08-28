@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Women
+Year,2019
+
+Division,Ca,Ci,Ca2,X,N,Ca3,Ct,Ci2,Ca4,R,N2,N3,Ch,Ci3,IE,Ch2,Ci4
+Division,Ci5,Ci6,X2,Ca5,Ch3,Ca6,Ci7,N4,Ch4,Ct2,N5,Ca7,Ca8,X3,Ct3,Ci8,Ch5
+Division,Ca9,Ch6,Ca10,IE2,N6,N7,Ct4,N8,Ch7,N9
+
+Results
+rruruur rururruuro3ur rrruurrururrrr
+rrrrrrurr ururruuurrru uuuurrururrr
+ruuuur urrrruuuurur rurrrrurrrrrrrrr
+urruuu uuruuuuurrr rrurrrrurrrrrrrr

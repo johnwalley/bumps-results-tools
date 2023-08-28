@@ -1,0 +1,12 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Women
+Year,1995
+
+Division,R,N,Ci,Ci2,Ci3,Ci4,F,R2,Cam Consultants,Ca,Ci5,P,F2,Maximum Entropy,Ca2,F3,R3,Ca3,R4,F4,Ca4,F5
+
+Results
+uuro3rrurururrur
+ruuruuurruuurr
+rruuruuuuuuur
+rrruuruuurururr

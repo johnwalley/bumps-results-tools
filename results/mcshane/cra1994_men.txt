@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1994
+
+Division,R,Ci,N,Ci2,F,N2,R2,Ca,N3,R3,Ca2,F2,Ca3,N4,Ci3,Maximum Entropy,Red Lion Toft
+Division,Trinity Hall,N5,F3,R4,Ca4,Ci4,F4,R5,N6,F5,Old Spring,Ca5,Maximum Entropy 2,F6,Ca6,N7,F7
+Division,R6,Cam Consultants,Wolfson,F8,Marshalls,N8,Red Lion Toft 2,Ca7,F9,Ca8,Applied Psychology,Ca9,Ca10,Ca11,Ci5,R7,Ca12,Ci6,Ca13
+
+Results
+rrro3uuuruuur ruruuuuuurr urururrro3uur
+ruuo5uuurrurr uruurrrruuur rruurrurrurrrr
+rruruururrrrru rrurrruururru ruuuurrrrrrrrr
+ruururuo3urur rururrrurrrrur uuuurrrrrrrrrr

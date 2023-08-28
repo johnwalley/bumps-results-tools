@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1983
+
+Division,Ci,N,N2,R,Ci2,N3,Univ Sports,N4,Ca,F,Ci3,Churchill,Addenbrooke's,Lady Somerset,N5,Univ Sports 2,Telephones
+Division,Darwin,Ci4,N6,Macdonalds,R2,Leckhampton,F2,Ci5,N7,Univ Sports 3,Chemical Lab,N8,Ca2,F3,Ci6,Red Lion Toft,R3
+Division,Metallurgy,P,King's,Univ Sports 4,City/Netherhall 1,Macdonalds 2,F4,R4,Vaughan Cornish,R5,F5,Addenbrooke's 2,Hole in the Wall,Ca3,Barclays Bank,Red Lion Toft 2,P2,Ca4
+
+Results
+uruururrurrrr uuruurrrruru urrrurruururr
+rurururruuru ruruuurururr rururrurrrrrur
+rrruruuuuurr uruurrrurrrur ururruurrrrrrr
+rrruuuuuuru rruuuruuruu uuuurrrrrrrru

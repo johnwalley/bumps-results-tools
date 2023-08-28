@@ -1,0 +1,13 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Women
+Year,2002
+
+Division,R,X,Ci,R2,Ci2,Ca,N,S,X2,R3,Ch,Ci3,X3,Ca2,Ci4,Ch2,SI
+Division,X4,Ch3,Ca3,R4,SR,N2,Ch4
+
+Results
+ruuu rruurrurrurrrr
+uuur ruuuurruurrr
+ruurr urururrrrurrrr
+uuur rrruuurrrrurrr

@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1999
+
+Division,R,N,R2,N2,Ca,F,R3,N3,Ci,F2,Ci2,R4,Ca2,ME,Ca3,Ci3,R5
+Division,F3,N4,ME2,N5,F4,N6,Ca4,S,Ci4,Ca5,F5,SN,F6,Ca6,R6,Ca7,Ca8,F7,Ch
+Division,SI,R7,CV,F8,Ci5,F9,F10,Ca9,N7,R8,S2,N8,Ca10,R9,Ca11,F11,Ci6,N9,R10,Ch2
+
+Results
+ururruruuruur uuuurrururuu rurruuurrrrrrr
+uuuurrrurruru o3ururruruurrrr uuuurrururrr
+rrrrruururrrrrur rruuuuruuuru ruuurururrrrr
+uuuururururu uruuuruuurrrr urrururrrurrrr

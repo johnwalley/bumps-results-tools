@@ -1,0 +1,13 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1961
+
+Division,Ci,N,Ci2,R,Ca,Scouts,P,ACUA,Ca2,N2,Ci3,R2,Cambs High School,Scouts 2,Instrument Co,N3,Beehives
+Division,Ca3,Ci4,ACUA 2,N4,Scouts 3,R3,Cambs High School 2,Scouts 4,R4,Ci5,N5,Cam Grammar School
+
+Results
+uo3uruur rurrrurrrrrrurr
+rurrruuu uuruuurrurrr
+rrururrur ruruuuurrurr
+ruurrruu uuruuurrrrur

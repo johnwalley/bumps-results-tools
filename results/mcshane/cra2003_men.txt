@@ -1,0 +1,15 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,2003
+
+Division,R,N,R2,Ca,Ci,R3,R4,N2,Hornets,Ci2,N3,Ca2,Ca3,X,R5,S,N4
+Division,Ci3,Ca4,SN,Ca5,X2,ME,X3,X4,R6,N5,SI,Ch,Ca6,R7,CV,N6,R8
+Division,Ci4,Ca7,Ca8,Ch2,X5,Ch3,SR,S2,R9,Ca9,Ch4,R10,SI2,R11,Ch5,N7
+Division,Hornets 2,N8,Ca10,Ca11,Ca12,Ch6,N9,X6,SR2,X7,Ch7
+
+Results
+uururur urruuruuuu rururuurruur rrruururrrrurr
+ruurruu rrururrruuur rrurruuuurru uuururuurrrr
+rruuuur ruururururu urrurrururrrrr rrurrururrurrr
+rrruuurr rruurruro3uu rurrurruruurr rrrrrurrrrrrrrrrr

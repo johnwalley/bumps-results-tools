@@ -1,0 +1,13 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Women
+Year,2012
+
+Division,Ci,N,Ci2,CV,Ci3,SN,Ca,Ca2,R,X,Ch,N2,Ci4,Ch2,Ci5,Ct,N3
+Division,Ch3,Ch4,Ch5,Ca3,SR,IE,Ch6,Ci6,X2,SR2,Ch7,Ca4,Ci7,Ct2,Ci8,SN2,Ca5,Ca6,N4
+
+Results
+ruruo3urrururr uurrrrruurrrrr
+uruurruururu rurrrrruuurrrr
+rruuurruurrur rrrrururruurrr
+rrruurruurruu uurrrrrrrrrrurr

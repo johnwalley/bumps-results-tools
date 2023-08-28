@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1998
+
+Division,N,R,R2,F,N2,Ci,Ca,R3,N3,Ci2,F2,Ci3,ME,R4,Ca2,N4,N5
+Division,Ca3,R5,F3,Ci4,N6,ME2,F4,Ca4,F5,F6,R6,S,Ca5,Ca6,SN,Ionica,F7,Ca7
+Division,Mott MacDonald,Ch,Ca8,Ci5,F8,R7,N7,S2,F9,Ca9,F10,Ca10,R8,Ca11,Ca12,F11,SR,R9
+
+Results
+ruuuuurruru rurururrro3urrr urrruurruuru
+uuurruuurur uurruururrrru rururrrrrrrurrr
+ruurruurruru urrruuurrruur uruurrrururrr
+uuuuuurrurr ruruuuurrruu rruurrrururrrr
