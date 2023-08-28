@@ -86,7 +86,7 @@ export function read_tg(text: string): Event {
   eventResults
     .filter((r) => r !== "")
     .map((r, i) =>
-      results[Math.floor(i / event.divisions.length)].push(r.trim()),
+      results[Math.floor(i / event.divisions.length)].push(r.trim())
     );
 
   event.results = results
@@ -167,7 +167,7 @@ ${event.results}
 }
 
 function processResults(event: Event): void {
-  const res = event.results.match(/r|t|u|o[0-9]*|e-?[0-9]*/g);
+  const res = event.results.match(/r|t|u|p|o[0-9]*|e-?[0-9]*/g);
 
   if (res === null) {
     return;
@@ -177,6 +177,7 @@ function processResults(event: Event): void {
   let divNum = 0;
   let crew = 0;
   let move: number[][] | null = null;
+  let penalty = 0;
 
   for (let i = 0; i < res.length; i++) {
     while (
@@ -189,14 +190,10 @@ function processResults(event: Event): void {
     }
 
     if (crew === 0) {
-      if (res[i] === "t") {
-        continue;
-      }
-
       if (divNum <= 1) {
         if (dayNum === event.days) {
           console.error(
-            "Run out of days of racing with more results still to go",
+            "Run out of days of racing with more results still to go"
           );
           return;
         }
@@ -258,12 +255,18 @@ function processResults(event: Event): void {
           }
         }
       } else {
-        move[divNum - 1][crew - 1] = up;
+        move[divNum - 1][crew - 1] = up - penalty;
+      }
+
+      if (penalty > 0) {
+        penalty = 0;
       }
 
       crew--;
     } else if (res[i] === "t") {
       crew = 0;
+    } else if (res[i] === "p") {
+      penalty += 1;
     }
   }
 
@@ -299,7 +302,7 @@ function processBump(
   move: number[][],
   divNum: number,
   crew: number,
-  up: number,
+  up: number
 ): boolean {
   if (crew - up < 1) {
     console.error(
@@ -308,7 +311,7 @@ function processBump(
         ", crew " +
         crew +
         ", up " +
-        up,
+        up
     );
 
     return false;
@@ -320,7 +323,7 @@ function processBump(
   }
 
   move[divNum - 1][crew - 1 - up] = -up;
-  
+
   if (crew > move[divNum - 1].length) {
     // sandwich crew, need to find where it started
     for (let p = 0; p < move[divNum].length; p++) {
