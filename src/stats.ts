@@ -136,7 +136,7 @@ function ncrews(events: Event[]) {
       .inflate()
       .orderBy((column) => -column.year)
       .orderBy((column) => -column.count)
-      .toArray(); 
+      .toArray();
     return summarized;
   });
 
@@ -166,9 +166,32 @@ function nhead(events: Event[]) {
   return summarized;
 }
 
+function year1(events: Event[]) {
+  const res: Record<string, { crew: string; year1: number }> = {};
+
+  for (const event of events) {
+    event.divisions.forEach((div) => {
+      div.forEach((crew) => {
+        if (res[crew]) {
+          if (event.year < res[crew].year1) {
+            res[crew] = { crew: crew, year1: event.year };
+          }
+        } else {
+          res[crew] = { crew: crew, year1: event.year };
+        }
+      });
+    });
+  }
+
+  const df = new DataFrame(Object.values(res));
+
+  return df.orderBy((column) => column.year1).toArray();
+}
+
 module.exports = {
   movdo: movdo,
   movup: movup,
   ncrews: ncrews,
   nhead: nhead,
+  year1: year1
 };

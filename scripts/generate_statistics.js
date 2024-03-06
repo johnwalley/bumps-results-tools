@@ -34,12 +34,14 @@ fs.readdir("./results/ad_format/", function (err, files) {
       const nhead = statistics.nhead(e);
       const movdo = statistics.movdo(e);
       const movup = statistics.movup(e);
+      const year1 = statistics.year1(e);
 
       stats[small.toLocaleLowerCase()][gender.toLocaleLowerCase()] = {
         movdo,
         movup,
         ncrews,
         nhead,
+        year1
       };
     }
   }
