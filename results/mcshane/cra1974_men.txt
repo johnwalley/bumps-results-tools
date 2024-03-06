@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1974
+
+Division,R,Scouts,N,Ci,R2,Churchill,Ca,N2,ACUA,R3,Ca2,N3,Selwyn,Leckhampton,N4
+Division,Cambs High School,Ci2,King's,Churchill 2,Billygoats,R4,Scouts 2,Telephones,ACUA 2,Clare,Ca3,Consultant Owls,CU Medics,Ci3,Ca4
+Division,Goldilocks,N5,Scouts 3,Grammarians,Telephones 2,Ca5,Nobblets,ACUA 3,Goldilocks 2,Ca6
+
+Results
+ruururr uurruururu uuurrrrurur
+rrururu ruuuuruurr ruuurrururr
+rrrurrur rruuururrur uuurrurrrur
+rrrrrurrr e2re-2uuruuuu ururrrrurrrrr

@@ -1,0 +1,13 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1950
+
+Division,N,R,N2,Town,P,Scouts,New Museums,R2,Beehives,P2,N3,Scouts 2,Town 2,Beehives 2,Scouts 3
+Division,New Museums 2,Old YM,R3,N4,New Museums 3,Town 3,Old YM 2,R4,N5,P3,Scouts 4,Town 4,OC,OC2,OC3,OC4
+
+Results
+uo3ururuuu urrrrruruurr
+rrrruuururu rururrrurrrrr
+rurruurrrrur urrrrrrurrrrrr
+rrrruurrrruu rrrrrurrrrrrrrr

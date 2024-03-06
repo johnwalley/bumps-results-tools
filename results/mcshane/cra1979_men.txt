@@ -1,0 +1,14 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,1979
+
+Division,R,N,Ci,Ci2,R2,MacDonalds,Churchill,TTFNTT,N2,R3,N3,Scouts,Ca,Leckhampton,Lady Somerset,Univ Sports
+Division,Telephones,Ci3,SI,N4,F,Eleans,N5,N6,Clare Crabs,Telephones 2,Ci4,Fitzwilliam,Leckhampton 2,Darwin,Univ Sports 2
+Division,Cardinals,Cam RUFC,Cavendish Lab,Churchill 2,N7,F2,Ci5,N8,Telephones 3,Univ Sports 3,Darwin 2,Addenbrooke's,Telephones 4,Univ Sports 4,Ci6,N9
+
+Results
+rururrrrurrrr uurrrururru urrurrro3urrrr
+uururruuru rurrurrrruur ruurrrurrrrrrr
+rrrruuuurur uurrrrurruu rruuururuur
+rrrrrrrurrruu rruuruurrur ruuuruurrrrr

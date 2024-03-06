@@ -1,0 +1,15 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,2011
+
+Division,Ca,R,N,Ci,X,Ci2,N2,Sharks,R2,Ca2,Ch,Ci3,Ca3,Ct,N3,Ch2,X2
+Division,Ca4,SN,X3,R3,SR,Ci4,Ca5,Ci5,N4,Ch3,Ca6,Ch4,Ca7,Leys Lysander,Ct2,Ci6,Ch5,SI
+Division,Ci7,Ch6,Ci8,Ca8,Ca9,X4,R4,X5,Ch7,Ci9,IE,SR2,Ca10,CV,Ch8,Ca11,Ct3,Ca12
+Division,Ci10,Ca13,Ca14,Ci11,SR3,Ci12,Ca15,N5
+
+Results
+rurrru ruruuuurruur rrururrurruuu uururrrurrurr
+rrrrrur ururrurrurruu rruuuurrrruur ruruururrrrrrr
+rurrru uuurrurrurrrrr rururuurruuu rrrurrrrrrurrrrr
+rrrrrur ruururrruurrrr ruuuruurruur rrurrruruurrrr

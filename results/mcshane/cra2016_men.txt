@@ -1,0 +1,15 @@
+Set,CRA Bumps
+Short,CRA
+Gender,Men
+Year,2016
+
+Division,Ca,R,R2,N,SN,Ci,X,Ca2,Ci2,Ca3,N2,Ct,R3,Ci3,X2,Ch,N3
+Division,Ci4,Ca4,Ci5,Ci6,Ch2,SR,X3,Ca5,Ci7,X4,N4,R4,Ci8,SN2,Ca6,Ct2,Ch3
+Division,Ca7,Ch4,Ci9,IE,Ca8,SR2,Ch5,Ci10,Ch6,Ci11,Ca9,Ca10,N5,X5,N6,X6,Ca11
+Division,X7,N7,Ct3,Ca12,Ca13,CV,Ca14,Ci12,Ca15,X8
+
+Results
+rrrurrru uruuruurrrur urrururrurrru o3urrurrrrrrrrrr
+urrurur ruruuruurrur rrruo3uruurur rrrurrurrrrurrr
+rrurrrru uuruururuur rrrrruo3uuruu uuurrrrrrrrrrrr
+rrurrrur ruruuurrrruu ruruurruurur ruuururururr
