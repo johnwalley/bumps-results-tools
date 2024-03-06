@@ -130,14 +130,13 @@ function ncrews(events: Event[]) {
       .groupBy((row) => row.club)
       .select((group) => ({
         year: group.last().year,
-        count: group.deflate((row) => row.club).count(), // Sum sales per client.
+        count: group.deflate((row) => row.club).count(),
         club: group.last().club,
       }))
-      .inflate() // Series -> dataframe.
+      .inflate()
       .orderBy((column) => -column.year)
       .orderBy((column) => -column.count)
-      .toArray(); // Convert to regular JS array.
-
+      .toArray(); 
     return summarized;
   });
 
@@ -156,13 +155,13 @@ function nhead(events: Event[]) {
     .groupBy((row) => row.head)
     .select((group) => ({
       year: group.last().year,
-      count: group.deflate((row) => row.head).count(), // Sum sales per client.
+      count: group.deflate((row) => row.head).count(),
       crew: group.last().head,
     }))
-    .inflate() // Series -> dataframe.
+    .inflate()
     .orderBy((column) => -column.year)
     .orderBy((column) => -column.count)
-    .toArray(); // Convert to regular JS array.
+    .toArray();
 
   return summarized;
 }
