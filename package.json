@@ -48,8 +48,8 @@
     "mocha": "^10.0.0",
     "prettier": "3.0.3",
     "rollup": "^2.33.2",
-    "ts-node": "^10.9.1",
-    "tslib": "^2.6.1",
-    "typescript": "^5.1.6"
+    "ts-node": "10.9.2",
+    "tslib": "2.6.2",
+    "typescript": "5.4.2"
   }
 }
