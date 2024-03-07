@@ -5,6 +5,14 @@ var chalk = require("chalk");
 
 const events = [];
 
+if (!fs.existsSync("./output")) {
+  fs.mkdirSync("./output");
+}
+
+if (!fs.existsSync("./output/statistics")) {
+  fs.mkdirSync("./output/statistics");
+}
+
 fs.readdir("./results/ad_format/", function (err, files) {
   if (err) throw err;
 
@@ -18,33 +26,35 @@ fs.readdir("./results/ad_format/", function (err, files) {
     events.push(event);
   });
 
-  let stats = {};
-
   for (const small of ["Eights", "Lents", "Mays", "Torpids", "Town"]) {
-    stats[small.toLocaleLowerCase()] = {};
+    if (!fs.existsSync(`./output/statistics/${small.toLocaleLowerCase()}`)) {
+      fs.mkdirSync(`./output/statistics/${small.toLocaleLowerCase()}`);
+    }
 
     for (const gender of ["Men", "Women"]) {
-      stats[small.toLocaleLowerCase()][gender.toLocaleLowerCase()] = {};
+      if (
+        !fs.existsSync(
+          `./output/statistics/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}`
+        )
+      ) {
+        fs.mkdirSync(
+          `./output/statistics/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}`
+        );
+      }
 
       const e = events.filter(
         (event) => event.gender === gender && event.small === small
       );
 
-      const ncrews = statistics.ncrews(e);
-      const nhead = statistics.nhead(e);
-      const movdo = statistics.movdo(e);
-      const movup = statistics.movup(e);
+      for (const stat of ["ncrews", "nhead", "movdo", "movup"]) {
+        const filename = `./output/statistics/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/${stat}.json`;
 
-      stats[small.toLocaleLowerCase()][gender.toLocaleLowerCase()] = {
-        movdo,
-        movup,
-        ncrews,
-        nhead,
-      };
+        const output = statistics[stat](e);
+
+        fs.writeFile(filename, JSON.stringify(output), function () {
+          console.log(`Successfully wrote file to ${chalk.blue(filename)}`);
+        });
+      }
     }
   }
-
-  fs.writeFile("./stats.json", JSON.stringify(stats), function () {
-    console.log(`Successfully wrote file to ${chalk.blue("./stats.json")}`);
-  });
 });
