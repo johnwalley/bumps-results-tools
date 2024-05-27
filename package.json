@@ -1,14 +1,12 @@
 {
   "name": "bumps-results-tools",
   "version": "0.4.1",
-  "main": "dist/bumps-results-tools.cjs.js",
-  "module": "dist/bumps-results-tools.esm.js",
-  "browser": "dist/bumps-results-tools.umd.js",
   "description": "Read and write bumps results",
+  "type": "module",
+  "homepage": "https://github.com/johnwalley/bumps-results-tools/",
   "keywords": [
     "bumps"
   ],
-  "homepage": "https://github.com/johnwalley/bumps-results-tools/",
   "license": "BSD-3-Clause",
   "author": {
     "name": "John Walley",
@@ -19,12 +17,16 @@
     "url": "https://github.com/johnwalley/bumps-results.tools.git"
   },
   "files": [
-    "dist/**/*.js",
-    "scripts/**/*.js",
-    "src/**/*.js"
+    "dist",
+    "scripts",
+    "src"
   ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "results": "npx ts-node scripts/generate_results.js",
     "stats": "npx ts-node scripts/generate_statistics.js",
     "test": "mocha --require ts-node/register",
@@ -44,17 +46,16 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-node-resolve": "^13.0.6",
-    "@rollup/plugin-typescript": "^11.1.2",
     "@types/d3": "^7.4.0",
     "@types/lodash": "^4.14.196",
+    "@vitejs/plugin-react-swc": "^3.7.0",
     "chalk": "^4.0.0",
     "mocha": "^10.0.0",
     "prettier": "3.2.5",
-    "rollup": "^2.33.2",
     "ts-node": "10.9.2",
     "tslib": "2.6.2",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1"
   }
 }

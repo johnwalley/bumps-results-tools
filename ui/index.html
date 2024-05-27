@@ -4,7 +4,6 @@
   <title>Bumps Chart Generation</title>
   <script src="https://unpkg.com/lodash@4.17.15"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-  <script src="../dist/bumps-results-tools.umd.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
   <script src="https://unpkg.com/d3-bumps-chart@1.1.0/dist/d3-bumps-chart.js"></script>
@@ -92,8 +91,8 @@
     </div>
   </div>
 
-  <script>
-    const utils = window.bumpsResultsTools;
+  <script type="module">
+    import { read_tg, write_tg, write_ad, joinEvents, transformData, Set, Gender } from "../dist/index.js";
 
     const chart = d3
       .bumpsChart()
@@ -128,7 +127,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
       },
       computed: {
         input2: function () {
-          return utils.write_ad(utils.read_tg(this.input));
+          return write_ad(read_tg(this.input));
         },
         set: function () {
           const res = this.input.match(
@@ -172,10 +171,10 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
 
         vm.selected = 0;
 
-        const data = utils.joinEvents(
-          [utils.transformData(utils.read_tg(this.input))],
-          utils.SET.TOWN,
-          utils.GENDER.WOMEN
+        const data = joinEvents(
+          [transformData(read_tg(this.input))],
+          Set.TOWN,
+          Gender.WOMEN
         );
 
         d3.select(".bumps-chart").datum(data).call(chart);
@@ -184,8 +183,8 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
         update: _.debounce(function (e) {
           this.input = e.target.value;
 
-          const data = utils.joinEvents(
-            [utils.transformData(utils.read_tg(e.target.value))],
+          const data = joinEvents(
+            [transformData(read_tg(e.target.value))],
             this.set,
             this.gender
           );
@@ -195,9 +194,9 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
         onSelectedChange: _.debounce(function (e) {
           const i = +e.target.value;
 
-          this.input = utils.write_tg(this.data[i]);
-          data = utils.joinEvents(
-            [utils.transformData(this.data[i])],
+          this.input = write_tg(this.data[i]);
+          data = joinEvents(
+            [transformData(this.data[i])],
             this.set,
             this.gender
           );
@@ -205,7 +204,7 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           d3.select(".bumps-chart").datum(data).call(chart);
         }),
         generateResults: function () {
-          var results = utils.read_tg(this.input);
+          var results = read_tg(this.input);
 
           results.divisions = results.finish;
           results.year += 1;
@@ -213,10 +212,10 @@ rrrruuo3u rrrrrurrruurru uruuuurrrrrrr
           results.results = "";
           results.completed = results.completed.map((r) => r.map((d) => false));
 
-          this.input = utils.write_tg(results);
+          this.input = write_tg(results);
 
-          data = utils.joinEvents(
-            [utils.transformData(results)],
+          data = joinEvents(
+            [transformData(results)],
             results.gender,
             results.set
           );
