@@ -28,6 +28,11 @@
     "results": "npx ts-node scripts/generate_results.js",
     "stats": "npx ts-node scripts/generate_statistics.js",
     "test": "mocha --require ts-node/register",
+    "test:join-events": "mocha --require ts-node/register ./test/joinEvents-test.js",
+    "test:original-fidelity": "mocha --require ts-node/register ./test/original-fidelity-test.js",
+    "test:parse": "mocha --require ts-node/register ./test/parse-test.js",
+    "test:roundtrip": "mocha --require ts-node/register ./test/roundtrip-test.js",
+    "test:transform-data": "mocha --require ts-node/register ./test/transformData-test.js",
     "website-results": "npx ts-node scripts/generate_website_results.js"
   },
   "dependencies": {
