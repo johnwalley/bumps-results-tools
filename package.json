@@ -1,60 +1,11 @@
 {
   "name": "bumps-results-tools",
-  "version": "0.4.1",
-  "main": "dist/bumps-results-tools.cjs.js",
-  "module": "dist/bumps-results-tools.esm.js",
-  "browser": "dist/bumps-results-tools.umd.js",
-  "description": "Read and write bumps results",
-  "keywords": [
-    "bumps"
-  ],
-  "homepage": "https://github.com/johnwalley/bumps-results-tools/",
-  "license": "BSD-3-Clause",
-  "author": {
-    "name": "John Walley",
-    "url": "http://www.walley.org.uk/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnwalley/bumps-results.tools.git"
-  },
-  "files": [
-    "dist/**/*.js",
-    "scripts/**/*.js",
-    "src/**/*.js"
-  ],
-  "scripts": {
-    "build": "rollup -c",
-    "results": "npx ts-node scripts/generate_results.js",
-    "stats": "npx ts-node scripts/generate_statistics.js",
-    "test": "mocha --require ts-node/register",
-    "test:join-events": "mocha --require ts-node/register ./test/joinEvents-test.js",
-    "test:original-fidelity": "mocha --require ts-node/register ./test/original-fidelity-test.js",
-    "test:parse": "mocha --require ts-node/register ./test/parse-test.js",
-    "test:roundtrip": "mocha --require ts-node/register ./test/roundtrip-test.js",
-    "test:transform-data": "mocha --require ts-node/register ./test/transformData-test.js",
-    "website-results": "npx ts-node scripts/generate_website_results.js"
-  },
-  "dependencies": {
-    "d3": "^4",
-    "d3-array": "^2.8.0",
-    "d3-bumps-chart": "^1.1.0",
-    "d3-dsv": "^3.0.1",
-    "data-forge": "^1.10.1",
-    "lodash": "^4.17.20"
-  },
+  "module": "src/index.ts",
+  "type": "module",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-node-resolve": "^13.0.6",
-    "@rollup/plugin-typescript": "^11.1.2",
-    "@types/d3": "^7.4.0",
-    "@types/lodash": "^4.14.196",
-    "chalk": "^4.0.0",
-    "mocha": "^10.0.0",
-    "prettier": "3.2.5",
-    "rollup": "^2.33.2",
-    "ts-node": "10.9.2",
-    "tslib": "2.6.2",
-    "typescript": "5.4.5"
+    "@types/bun": "^1.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
