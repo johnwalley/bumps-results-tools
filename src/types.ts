@@ -28,4 +28,5 @@ export interface Crew {
   club: string;
   number: number;
   end: string | null;
+  club_end: string | null;
 }

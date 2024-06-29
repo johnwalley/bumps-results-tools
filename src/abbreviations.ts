@@ -107,7 +107,7 @@ export const sets = {
   "Lent Bumps": ccol,
   "May Bumps": ccol,
   Torpids: ocol,
-  "CRA Bumps": cra,
+  "Town Bumps": cra,
 };
 
 export const roman = [

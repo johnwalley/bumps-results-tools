@@ -25,7 +25,8 @@ function addCrew(
   crewState: any,
   crews: Event["crews"],
   str: string,
-  abbrev: Record<string, { name: string }>
+  abbrev: Record<string, { name: string }>,
+  roman = true,
 ) {
   const crew: Crew = {
     blades: false,
@@ -37,6 +38,7 @@ function addCrew(
     number: 0,
     start: "",
     withdrawn: false,
+    club_end: null,
   };
 
   if (!("pat" in crewState)) {
@@ -73,7 +75,7 @@ function addCrew(
 
   if (num !== crewState[club] && escape !== "*" && club.length > 0) {
     console.log(
-      `Club ${club} crews out of order (found ${num}, expecting ${crewState[club]})`
+      `Club ${club} crews out of order (found ${num}, expecting ${crewState[club]})`,
     );
 
     return false;
@@ -90,7 +92,7 @@ function addCrew(
   let numName;
 
   if (num > 1) {
-    if (num < abbreviations.roman.length) {
+    if (roman && num < abbreviations.roman.length) {
       name += " " + abbreviations.roman[num - 1];
     } else {
       name += ` ${num}`;
@@ -116,7 +118,7 @@ function swapCrews(
   move: (number | null)[],
   back: (number | null)[],
   posA: number,
-  posB: number
+  posB: number,
 ) {
   let origA = back[posA];
 
@@ -158,13 +160,13 @@ function processBump(
   back: (number | null)[],
   crewNum: number,
   up: number,
-  divHead: number
+  divHead: number,
 ) {
   if (crewNum - up < divHead) {
     console.log(
       `Crew ${
         crewNum + 1
-      }  bumps up above the top of the division at position ${divHead + 1}`
+      }  bumps up above the top of the division at position ${divHead + 1}`,
     );
 
     return false;
@@ -174,7 +176,7 @@ function processBump(
     console.log(
       `Crew ${crewNum + 1} is bumping a crew at position ${
         crewNum - up + 1
-      } that has already got a result`
+      } that has already got a result`,
     );
 
     return false;
@@ -187,7 +189,7 @@ function processChain(
   move: (number | null)[],
   back: (number | null)[],
   crewNum: number,
-  num: number
+  num: number,
 ) {
   for (const i in range(0, num)) {
     if (!swapCrews(move, back, crewNum, crewNum + 1)) {
@@ -271,7 +273,16 @@ export async function readFile(path?: string) {
 
       if (p.length > 1) {
         for (const i of p.slice(1)) {
-          if (!addCrew(crewState, ret["crews"], i, abbrev)) {
+          if (
+            !addCrew(
+              crewState,
+              ret["crews"],
+              i,
+              abbrev,
+              ret["short"] !== "Town",
+            )
+          ) {
+            console.log(ret.short, ret.year);
             return null;
           }
         }
@@ -323,6 +334,10 @@ export function processResults(event: Event, debug = false) {
 
   const m = all.match(pat);
 
+  if (m === null) {
+    return;
+  }
+
   let dayNum = 0;
   let divNum = event["div_size"][dayNum].length - 1;
   let crewNum = event["crews"].length - 1;
@@ -331,13 +346,13 @@ export function processResults(event: Event, debug = false) {
   let penalty = 0;
   let move = null;
 
-  for (const c of m!) {
+  for (const c of m) {
     move = event["move"][dayNum];
     let back = event["back"][dayNum];
 
     if (debug) {
       console.log(
-        `New command:${c} (day:${dayNum} div:${divNum} crew:${crewNum} divHead:${divHead})`
+        `New command:${c} (day:${dayNum} div:${divNum} crew:${crewNum} divHead:${divHead})`,
       );
     }
 
@@ -387,7 +402,7 @@ export function processResults(event: Event, debug = false) {
 
         if (dayNum === event["days"]) {
           console.log(
-            "Run out of days of racing with more results still to go"
+            "Run out of days of racing with more results still to go",
           );
           return;
         }
@@ -420,7 +435,7 @@ export function processResults(event: Event, debug = false) {
       console.log(
         `Processing command:${c} (day:${dayNum} div:${divNum} crew:${crewNum} divHead:${divHead}) pos:${
           crewNum - divHead + 1
-        }`
+        }`,
       );
     }
 
@@ -472,7 +487,7 @@ export function processResults(event: Event, debug = false) {
       if (p === null) {
         console.log(back, back[crewNum]);
         console.log(
-          `Result ${c} applied to crew that can't be found in position ${crewNum}`
+          `Result ${c} applied to crew that can't be found in position ${crewNum}`,
         );
 
         return;
@@ -499,7 +514,7 @@ export function processResults(event: Event, debug = false) {
         console.log(
           `Exact move ${up} to crew ${p}, was ${move[p] - up} now ${
             move[p]
-          }, moving to crew ${crewNum}`
+          }, moving to crew ${crewNum}`,
         );
       }
 
@@ -515,7 +530,7 @@ export function processResults(event: Event, debug = false) {
 
       if (crewNum - size < divHead) {
         console.log(
-          `Washing machine size ${size} get above head of division ${divHead}`
+          `Washing machine size ${size} get above head of division ${divHead}`,
         );
 
         return;
@@ -567,7 +582,7 @@ export function processResults(event: Event, debug = false) {
         console.log(
           `Skipping division, setting crew from ${crewNum} to divHead - 1 ${
             divHead - 1
-          }`
+          }`,
         );
       }
 
@@ -578,7 +593,7 @@ export function processResults(event: Event, debug = false) {
 
       if (debug) {
         console.log(
-          `Storing ${penalty} penalty bump to apply to crew ${crewNum}`
+          `Storing ${penalty} penalty bump to apply to crew ${crewNum}`,
         );
       }
     }
@@ -674,6 +689,7 @@ export function processResults(event: Event, debug = false) {
       event["crews"][crewNum]["gain"] = gain;
       event["crews"][crewNum]["blades"] = blades;
       event["crews"][nc]["end"] = event["crews"][crewNum]["start"];
+      event["crews"][nc]["club_end"] = event["crews"][crewNum]["club"];
     }
   }
 }
@@ -683,7 +699,7 @@ function checkResults(
   move: (number | null)[],
   back: (number | null)[],
   head: number,
-  debug: boolean
+  debug: boolean,
 ) {
   const results: (number | null)[] = [];
   let ret = true;
@@ -703,14 +719,14 @@ function checkResults(
       (i < head || i >= event["crews"].length - event["crews_withdrawn"])
     ) {
       console.log(
-        `Error: a crew finished in position ${i + 1} where none was expected`
+        `Error: a crew finished in position ${i + 1} where none was expected`,
       );
     } else {
       if (b !== null && results.includes(b)) {
         console.log(
           `Error: got two crews starting from position ${
             b + 1
-          }, second ending position ${i + 1}`
+          }, second ending position ${i + 1}`,
         );
 
         ret = false;
