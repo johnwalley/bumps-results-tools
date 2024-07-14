@@ -1,25 +1,9 @@
-import type { BunFile } from "bun";
 import * as abbreviations from "./abbreviations";
+
 import type { Crew, Event } from "./types";
-function range(start: number, end: number, step: number = 1): number[] {
-  if (step === 0) {
-    throw new Error("Step cannot be zero.");
-  }
 
-  const result: number[] = [];
-
-  if (step > 0) {
-    for (let i = start; i < end; i += step) {
-      result.push(i);
-    }
-  } else {
-    for (let i = start; i > end; i += step) {
-      result.push(i);
-    }
-  }
-
-  return result;
-}
+import type { BunFile } from "bun";
+import { range } from "./utils";
 
 function addCrew(
   crewState: any,
@@ -739,7 +723,7 @@ function checkResults(
   return ret;
 }
 
-function writeWeb(sets) {
+function writeWeb(sets: Event[]) {
   const series: any = {};
 
   for (const s of sets) {
@@ -758,7 +742,7 @@ function writeWeb(sets) {
       year = p[0];
 
       if (!(year in series[s["short"]]["split"])) {
-        series[s["shprt"]]["split"].push(year);
+        series[s["short"]]["split"].push(year);
       }
     }
 

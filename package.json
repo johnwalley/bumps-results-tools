@@ -3,9 +3,13 @@
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "^1.1.4"
+    "@types/bun": "^1.1.4",
+    "prettier": "3.3.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "arquero": "^6.0.0-beta"
   }
 }
