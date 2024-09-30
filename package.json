@@ -10,6 +10,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "arquero": "^6.0.0-beta"
+    "arquero": "^6.0.0-beta",
+    "zod": "^3.23.8"
   }
 }

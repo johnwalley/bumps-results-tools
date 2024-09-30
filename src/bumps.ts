@@ -1,9 +1,10 @@
 import * as abbreviations from "./abbreviations";
 
-import type { Crew, Event } from "./types";
+import { EventSchema, type Crew, type Event } from "./types";
 
 import type { BunFile } from "bun";
 import { range } from "./utils";
+import { z } from "zod";
 
 function addCrew(
   crewState: any,
@@ -84,7 +85,11 @@ function addCrew(
 
     numName = name;
   } else {
-    numName = `${name} I`;
+    if (roman) {
+      numName = `${name} I`;
+    } else {
+      numName = `${name} 1`;
+    }
   }
 
   crew["start"] = name;
@@ -201,7 +206,7 @@ export async function readFile(path?: string) {
 
   const input = (await file.text()).split(/\r?\n/);
 
-  const ret: Event = {
+  const ret: any = {
     set: "Set name",
     short: "Short name",
     gender: "Gender",
@@ -288,7 +293,18 @@ export async function readFile(path?: string) {
     }
   }
 
-  return ret;
+  if (!ret.crews) {
+    ret.crews = [];
+    console.log(ret.crews.length);
+  }
+
+  try {
+    return EventSchema.parse(ret);
+  } catch (err) {
+    if (err instanceof z.ZodError) {
+      console.log(err.issues);
+    }
+  }
 }
 
 export function processResults(event: Event, debug = false) {
@@ -657,16 +673,9 @@ export function processResults(event: Event, debug = false) {
       nc = nc - m;
     }
 
-    if (finished) {
-      if (
-        nc === 0 &&
-        event["full_set"] &&
-        !("skip_headship" in event["flags"])
-      ) {
-        blades = true;
-      }
-    } else {
-      blades = false;
+    // TODO: Check this logic
+    if (nc === 0 && !("skip_headship" in event["flags"])) {
+      blades = true;
     }
 
     if (!event["crews"][crewNum]["withdrawn"]) {
