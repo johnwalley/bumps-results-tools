@@ -59,11 +59,12 @@ function addCrew(
   }
 
   if (num !== crewState[club] && escape !== "*" && club.length > 0) {
-    console.log(
+    // TODO: Sometimes it's legitimate to have a crew out of order, e.g. Town Bumps 1868,
+/*     console.log(
       `Club ${club} crews out of order (found ${num}, expecting ${crewState[club]})`,
     );
 
-    return false;
+    return false; */
   }
 
   crewState[club] = num + 1;
@@ -191,7 +192,7 @@ function processChain(
   return true;
 }
 
-export async function readFile(path?: string) {
+export async function readFile(path?: string): Promise<Event | null> {
   let abbrev: any = {};
   const crewState = {};
   const time = /([0-9]*):([0-9][0-9](\.[0-9]+)*)/;
@@ -304,6 +305,8 @@ export async function readFile(path?: string) {
     if (err instanceof z.ZodError) {
       console.log(err.issues);
     }
+
+    return null;
   }
 }
 

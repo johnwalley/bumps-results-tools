@@ -1,6 +1,8 @@
-var utils = require("../src/bumps");
-var fs = require("fs");
-var chalk = require("chalk");
+import { processResults, readFile } from "../src/bumps";
+import { type Event } from "../src/types";
+
+import chalk from "chalk";
+import fs from "fs";
 
 if (!fs.existsSync("./output")) {
   fs.mkdirSync("./output");
@@ -10,19 +12,22 @@ if (!fs.existsSync("./output/results")) {
   fs.mkdirSync("./output/results");
 }
 
-const events = [];
+const events: Event[] = [];
 
 fs.readdir("./results/tg_format/", async function (err, files) {
   if (err) throw err;
   let numFiles = 0;
 
   for (const file of files) {
-    const event = await utils.readFile("./results/tg_format/" + file);
-    numFiles++;
-    events.push(event);
+    const event = await readFile("./results/tg_format/" + file);
+
+    if (event) {
+      numFiles++;
+      events.push(event);
+    }
   }
 
-  console.log(`Found ${chalk.blue(numFiles)} files`);
+  console.log(`Found ${chalk.blue(`${numFiles}`)} files`);
 
   for (const small of ["Eights", "Lents", "Mays", "Torpids", "Town"]) {
     if (!fs.existsSync(`./output/results/${small.toLocaleLowerCase()}`)) {
@@ -40,12 +45,12 @@ fs.readdir("./results/tg_format/", async function (err, files) {
         );
       }
 
-      const e = events.filter(
-        (event) => event.gender === gender && event.short === small,
-      );
+      const e = events
+        .filter((event) => event.gender === gender && event.short === small)
+        .toSorted((a, b) => +a.year - +b.year);
 
       for (const event of e) {
-        utils.processResults(event);
+        processResults(event);
       }
 
       const filename = `./output/results/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/results.json`;

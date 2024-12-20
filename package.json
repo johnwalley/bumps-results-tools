@@ -2,15 +2,28 @@
   "name": "bumps-results-tools",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "@types/bun": "^1.1.4",
-    "prettier": "3.3.3"
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^3.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "arquero": "^6.0.0-beta",
+    "react": "^18.2.0",
+    "react-bumps-chart": "^1.11.4",
+    "react-dom": "^18.2.0",
     "zod": "^3.23.8"
   }
 }
