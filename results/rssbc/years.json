@@ -1,0 +1,1099 @@
+[
+  {
+    "_id": "546219309722c45a057da004",
+    "year": 1867,
+    "races": 6,
+    "anniversary": 1,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "54621a6f5b791cf008906e2a",
+    "year": 1868,
+    "races": 6,
+    "anniversary": 2,
+    "__v": 6,
+    "divisions": [9]
+  },
+  {
+    "_id": "54621c465b791cf008906ed6",
+    "year": 1870,
+    "races": 5,
+    "anniversary": 4,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "54621d445b791cf008906f04",
+    "year": 1871,
+    "races": 6,
+    "anniversary": 5,
+    "__v": 0,
+    "divisions": [8]
+  },
+  {
+    "_id": "54621b815b791cf008906e83",
+    "year": 1869,
+    "races": 7,
+    "anniversary": 3,
+    "__v": 0,
+    "divisions": [10]
+  },
+  {
+    "_id": "54621ef95b791cf008906f5b",
+    "year": 1872,
+    "races": 6,
+    "anniversary": 6,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "54621f505b791cf008906f96",
+    "year": 1873,
+    "races": 5,
+    "anniversary": 7,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "54621f935b791cf008906fc1",
+    "year": 1874,
+    "races": 5,
+    "anniversary": 8,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "54621fdc5b791cf008906fec",
+    "year": 1875,
+    "races": 5,
+    "anniversary": 9,
+    "__v": 0,
+    "divisions": [8]
+  },
+  {
+    "_id": "5462207d5b791cf00890701d",
+    "year": 1876,
+    "races": 5,
+    "anniversary": 10,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "546220d25b791cf008907049",
+    "year": 1877,
+    "races": 5,
+    "anniversary": 11,
+    "__v": 0,
+    "divisions": [7]
+  },
+  {
+    "_id": "546221325b791cf008907076",
+    "year": 1878,
+    "races": 6,
+    "anniversary": 12,
+    "__v": 0,
+    "divisions": [8]
+  },
+  {
+    "_id": "546221f05b791cf0089070ac",
+    "year": 1879,
+    "races": 5,
+    "anniversary": 13,
+    "__v": 0,
+    "divisions": [9]
+  },
+  {
+    "_id": "546223355b791cf0089070e4",
+    "year": 1880,
+    "races": 6,
+    "anniversary": 14,
+    "__v": 0,
+    "divisions": [9]
+  },
+  {
+    "_id": "546224675b791cf008907127",
+    "year": 1881,
+    "races": 5,
+    "anniversary": 15,
+    "__v": 0,
+    "divisions": [11]
+  },
+  {
+    "_id": "5462275b5b791cf00890716a",
+    "year": 1882,
+    "races": 5,
+    "anniversary": 16,
+    "__v": 0,
+    "divisions": [9]
+  },
+  {
+    "_id": "546227d35b791cf0089071a4",
+    "year": 1883,
+    "races": 4,
+    "anniversary": 17,
+    "__v": 0,
+    "divisions": [8]
+  },
+  {
+    "_id": "546228635b791cf0089071c8",
+    "year": 1884,
+    "races": 4,
+    "anniversary": 18,
+    "__v": 0,
+    "divisions": [9]
+  },
+  {
+    "_id": "546228c55b791cf0089071f6",
+    "year": 1885,
+    "races": 4,
+    "anniversary": 19,
+    "__v": 0,
+    "divisions": [10]
+  },
+  {
+    "_id": "5462296f5b791cf008907232",
+    "year": 1886,
+    "races": 5,
+    "anniversary": 20,
+    "__v": 0,
+    "divisions": [11]
+  },
+  {
+    "_id": "54622a025b791cf008907278",
+    "year": 1887,
+    "races": 4,
+    "anniversary": 21,
+    "__v": 0,
+    "divisions": [11]
+  },
+  {
+    "_id": "54622a545b791cf0089072b1",
+    "year": 1888,
+    "races": 4,
+    "anniversary": 22,
+    "__v": 0,
+    "divisions": [13]
+  },
+  {
+    "_id": "54622b995b791cf0089072f9",
+    "year": 1889,
+    "races": 4,
+    "anniversary": 23,
+    "__v": 0,
+    "divisions": [12]
+  },
+  {
+    "_id": "54622bed5b791cf008907336",
+    "year": 1890,
+    "races": 4,
+    "anniversary": 24,
+    "__v": 0,
+    "divisions": [12]
+  },
+  {
+    "_id": "54622c505b791cf008907376",
+    "year": 1891,
+    "races": 4,
+    "anniversary": 25,
+    "__v": 0,
+    "divisions": [13]
+  },
+  {
+    "_id": "54622d89babe951709357963",
+    "year": 1892,
+    "races": 4,
+    "anniversary": 26,
+    "__v": 2,
+    "divisions": [14]
+  },
+  {
+    "_id": "54622e03babe9517093579ad",
+    "year": 1893,
+    "races": 4,
+    "anniversary": 27,
+    "__v": 3,
+    "divisions": [15]
+  },
+  {
+    "_id": "54622ecebabe9517093579ff",
+    "year": 1894,
+    "races": 4,
+    "anniversary": 28,
+    "__v": 0,
+    "divisions": [15]
+  },
+  {
+    "_id": "54622f72babe951709357a50",
+    "year": 1895,
+    "races": 4,
+    "anniversary": 29,
+    "__v": 0,
+    "divisions": [15]
+  },
+  {
+    "_id": "5462304ebabe951709357a9e",
+    "year": 1896,
+    "races": 4,
+    "anniversary": 30,
+    "__v": 0,
+    "divisions": [15]
+  },
+  {
+    "_id": "54623112babe951709357af0",
+    "year": 1897,
+    "races": 4,
+    "anniversary": 31,
+    "__v": 1,
+    "divisions": [18]
+  },
+  {
+    "_id": "546231b7babe951709357b4c",
+    "year": 1898,
+    "races": 4,
+    "anniversary": 32,
+    "__v": 1,
+    "divisions": [17]
+  },
+  {
+    "_id": "5462324dbabe951709357ba2",
+    "year": 1899,
+    "races": 4,
+    "anniversary": 33,
+    "__v": 2,
+    "divisions": [17]
+  },
+  {
+    "_id": "5462330bbabe951709357bfd",
+    "year": 1900,
+    "races": 4,
+    "anniversary": 34,
+    "__v": 0,
+    "divisions": [17]
+  },
+  {
+    "_id": "54625640babe951709357c74",
+    "year": 1901,
+    "races": 4,
+    "anniversary": 35,
+    "__v": 0,
+    "divisions": [16]
+  },
+  {
+    "_id": "54625715babe951709357cc6",
+    "year": 1902,
+    "races": 4,
+    "anniversary": 36,
+    "__v": 0,
+    "divisions": [17]
+  },
+  {
+    "_id": "5462584ababe951709357d1d",
+    "year": 1903,
+    "races": 4,
+    "anniversary": 37,
+    "__v": 0,
+    "divisions": [17]
+  },
+  {
+    "_id": "546258f8babe951709357d76",
+    "year": 1904,
+    "races": 4,
+    "anniversary": 38,
+    "__v": 0,
+    "divisions": [18]
+  },
+  {
+    "_id": "54625a14babe951709357dce",
+    "year": 1905,
+    "races": 4,
+    "anniversary": 39,
+    "__v": 0,
+    "divisions": [16]
+  },
+  {
+    "_id": "54625ad5babe951709357e1f",
+    "year": 1906,
+    "races": 4,
+    "anniversary": 40,
+    "__v": 0,
+    "divisions": [16]
+  },
+  {
+    "_id": "54625b9ebabe951709357e73",
+    "year": 1907,
+    "races": 4,
+    "anniversary": 41,
+    "__v": 0,
+    "divisions": [16]
+  },
+  {
+    "_id": "54625c3fbabe951709357eca",
+    "year": 1908,
+    "races": 4,
+    "anniversary": 42,
+    "__v": 0,
+    "divisions": [18]
+  },
+  {
+    "_id": "54625e61babe951709357f62",
+    "year": 1909,
+    "races": 4,
+    "anniversary": 43,
+    "__v": 0,
+    "divisions": [18]
+  },
+  {
+    "_id": "5462626cbabe951709357fcb",
+    "year": 1910,
+    "races": 4,
+    "anniversary": 44,
+    "__v": 0,
+    "divisions": [17]
+  },
+  {
+    "_id": "5462638ababe951709358025",
+    "year": 1911,
+    "races": 4,
+    "anniversary": 45,
+    "__v": 0,
+    "divisions": [18]
+  },
+  {
+    "_id": "5462642fbabe951709358082",
+    "year": 1912,
+    "races": 4,
+    "anniversary": 46,
+    "__v": 0,
+    "divisions": [18]
+  },
+  {
+    "_id": "5462651cbabe9517093580ee",
+    "year": 1913,
+    "races": 4,
+    "anniversary": 47,
+    "__v": 0,
+    "divisions": [20]
+  },
+  {
+    "_id": "546265d6babe951709358153",
+    "year": 1914,
+    "races": 4,
+    "anniversary": 48,
+    "__v": 0,
+    "divisions": [20]
+  },
+  {
+    "_id": "5462686bbabe9517093581bb",
+    "year": 1915,
+    "races": 4,
+    "anniversary": 49,
+    "__v": 0,
+    "divisions": [20]
+  },
+  {
+    "_id": "54626920babe951709358222",
+    "year": 1916,
+    "races": 4,
+    "anniversary": 50,
+    "__v": 0,
+    "divisions": [20]
+  },
+  {
+    "_id": "546269e6babe95170935828a",
+    "year": 1917,
+    "races": 4,
+    "anniversary": 51,
+    "__v": 0,
+    "divisions": [20]
+  },
+  {
+    "_id": "54626b3ababe9517093582f8",
+    "year": 1918,
+    "races": 4,
+    "anniversary": 52,
+    "__v": 1,
+    "divisions": [20]
+  },
+  {
+    "_id": "54626bf1babe95170935835f",
+    "year": 1919,
+    "races": 4,
+    "anniversary": 53,
+    "__v": 0,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54626d12babe9517093583d6",
+    "year": 1920,
+    "races": 4,
+    "anniversary": 54,
+    "__v": 2,
+    "comments": "This is a test!",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b504495ba2480e1ffb2781",
+    "year": 1921,
+    "races": 4,
+    "anniversary": 55,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b50b3c5ba2480e1ffb27fb",
+    "year": 1922,
+    "races": 4,
+    "anniversary": 56,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b532145ba2480e1ffb2873",
+    "year": 1923,
+    "races": 4,
+    "anniversary": 57,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b64ac25ba2480e1ffb2914",
+    "year": 1924,
+    "races": 4,
+    "anniversary": 58,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b64ba45ba2480e1ffb2986",
+    "year": 1925,
+    "races": 4,
+    "anniversary": 59,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b64cc05ba2480e1ffb2a00",
+    "year": 1926,
+    "races": 4,
+    "anniversary": 60,
+    "comments": "",
+    "divisions": [22]
+  },
+  {
+    "_id": "54b64dd15ba2480e1ffb2a7c",
+    "year": 1927,
+    "races": 4,
+    "anniversary": 61,
+    "comments": "",
+    "divisions": [24]
+  },
+  {
+    "_id": "54b64f7a5ba2480e1ffb2b0f",
+    "year": 1928,
+    "races": 4,
+    "anniversary": 62,
+    "comments": "",
+    "divisions": [26]
+  },
+  {
+    "_id": "54b650615ba2480e1ffb2b98",
+    "year": 1929,
+    "races": 4,
+    "anniversary": 63,
+    "comments": "",
+    "divisions": [26]
+  },
+  {
+    "_id": "54b6516f5ba2480e1ffb2c25",
+    "year": 1930,
+    "races": 4,
+    "anniversary": 64,
+    "comments": "",
+    "divisions": [26]
+  },
+  {
+    "_id": "54bae8425ba2480e1ffb2cae",
+    "year": 1931,
+    "races": 4,
+    "anniversary": 65,
+    "comments": "",
+    "divisions": [26]
+  },
+  {
+    "_id": "54bd751c5ba2480e1ffb2d32",
+    "year": 1932,
+    "races": 4,
+    "anniversary": 66,
+    "comments": "",
+    "divisions": [27]
+  },
+  {
+    "_id": "557dfa40b28b0e6d050de3bc",
+    "year": 1933,
+    "races": 4,
+    "anniversary": 67,
+    "divisions": [26]
+  },
+  {
+    "_id": "557dfc7ab28b0e6d050de451",
+    "year": 1934,
+    "races": 4,
+    "anniversary": 68,
+    "divisions": [26]
+  },
+  {
+    "_id": "557dfdb8b28b0e6d050de4e4",
+    "year": 1935,
+    "races": 4,
+    "anniversary": 69,
+    "divisions": [26]
+  },
+  {
+    "_id": "557dfdbab28b0e6d050de4e5",
+    "year": 1936,
+    "races": 4,
+    "anniversary": 70,
+    "divisions": [26]
+  },
+  {
+    "_id": "557dfdbcb28b0e6d050de4e6",
+    "year": 1937,
+    "races": 4,
+    "anniversary": 71,
+    "divisions": [26]
+  },
+  {
+    "_id": "557dfdbeb28b0e6d050de4e7",
+    "year": 1938,
+    "races": 4,
+    "anniversary": 72,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e01b4b28b0e6d050de71a",
+    "year": 1939,
+    "races": 4,
+    "anniversary": 73,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e01d0b28b0e6d050de71b",
+    "year": 1941,
+    "races": 3,
+    "anniversary": 74,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e04f4b28b0e6d050de7c3",
+    "year": 1942,
+    "races": 3,
+    "anniversary": 75,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e077db28b0e6d050de8a4",
+    "year": 1943,
+    "races": 3,
+    "anniversary": 76,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e08d8b28b0e6d050de915",
+    "year": 1944,
+    "races": 4,
+    "anniversary": 77,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e0b00b28b0e6d050de9c4",
+    "year": 1945,
+    "races": 4,
+    "anniversary": 78,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e0bf6b28b0e6d050dea4d",
+    "year": 1946,
+    "races": 4,
+    "anniversary": 79,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e0bf9b28b0e6d050dea4e",
+    "year": 1947,
+    "races": 4,
+    "anniversary": 80,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e0bfeb28b0e6d050dea4f",
+    "year": 1948,
+    "races": 4,
+    "anniversary": 81,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e0c05b28b0e6d050dea50",
+    "year": 1949,
+    "races": 4,
+    "anniversary": 82,
+    "divisions": [26]
+  },
+  {
+    "_id": "557e13192ff8590162a1e03a",
+    "year": 1950,
+    "races": 4,
+    "anniversary": 83,
+    "divisions": [10, 16]
+  },
+  {
+    "_id": "557e13352ff8590162a1e03b",
+    "year": 1951,
+    "races": 4,
+    "anniversary": 84,
+    "divisions": [10, 16]
+  },
+  {
+    "_id": "557e1ac22ff8590162a1e170",
+    "year": 1952,
+    "races": 4,
+    "anniversary": 85,
+    "divisions": [10, 16]
+  },
+  {
+    "_id": "557e1bd12ff8590162a1e1fc",
+    "year": 1953,
+    "races": 4,
+    "anniversary": 86,
+    "divisions": [10, 18]
+  },
+  {
+    "_id": "557e1cd72ff8590162a1e28d",
+    "year": 1954,
+    "races": 4,
+    "anniversary": 87,
+    "divisions": [10, 20]
+  },
+  {
+    "_id": "557e1d6f2ff8590162a1e2a3",
+    "year": 1955,
+    "races": 4,
+    "anniversary": 88,
+    "divisions": [10, 20]
+  },
+  {
+    "_id": "557e1eee2ff8590162a1e3c7",
+    "year": 1956,
+    "races": 4,
+    "anniversary": 89,
+    "divisions": [10, 10, 10]
+  },
+  {
+    "_id": "558426b82ff8590162a1e4af",
+    "year": 1957,
+    "races": 4,
+    "anniversary": 90,
+    "divisions": [10, 10, 10]
+  },
+  {
+    "_id": "558428a12ff8590162a1e4d7",
+    "year": 1958,
+    "races": 4,
+    "anniversary": 91,
+    "divisions": [10, 10, 10]
+  },
+  {
+    "_id": "558468a02ff8590162a1e5ff",
+    "year": 1959,
+    "races": 4,
+    "anniversary": 92,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "558473852ff8590162a1e6e2",
+    "year": 1960,
+    "races": 4,
+    "anniversary": 93,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "558473c12ff8590162a1e6e3",
+    "year": 1961,
+    "races": 4,
+    "anniversary": 94,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "558544352ff8590162a1e888",
+    "year": 1962,
+    "races": 4,
+    "anniversary": 95,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "558544392ff8590162a1e889",
+    "year": 1963,
+    "races": 4,
+    "anniversary": 96,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "558548272ff8590162a1ea0b",
+    "year": 1964,
+    "races": 4,
+    "anniversary": 97,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "5585482b2ff8590162a1ea0c",
+    "year": 1965,
+    "races": 4,
+    "anniversary": 98,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "5585482e2ff8590162a1ea0d",
+    "year": 1966,
+    "races": 4,
+    "anniversary": 99,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "55854c8d2ff8590162a1ec56",
+    "year": 1967,
+    "races": 4,
+    "anniversary": 100,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "55854c902ff8590162a1ec57",
+    "year": 1968,
+    "races": 4,
+    "anniversary": 101,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "55854c932ff8590162a1ec58",
+    "year": 1969,
+    "races": 4,
+    "anniversary": 102,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "55854c962ff8590162a1ec59",
+    "year": 1970,
+    "races": 4,
+    "anniversary": 103,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "5587e4f02ff8590162a1ef74",
+    "year": 1971,
+    "races": 4,
+    "anniversary": 104,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "5587e5032ff8590162a1ef75",
+    "year": 1972,
+    "races": 4,
+    "anniversary": 105,
+    "divisions": [10, 10, 10, 10]
+  },
+  {
+    "_id": "55890d362ff8590162a1f104",
+    "year": 1980,
+    "races": 4,
+    "anniversary": 113,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "55893b5a2ff8590162a1f15b",
+    "year": 1981,
+    "races": 4,
+    "anniversary": 114,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941e02ff8590162a1f358",
+    "year": 1982,
+    "races": 4,
+    "anniversary": 115,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941e32ff8590162a1f359",
+    "year": 1983,
+    "races": 4,
+    "anniversary": 116,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941e52ff8590162a1f35a",
+    "year": 1984,
+    "races": 4,
+    "anniversary": 117,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941e72ff8590162a1f35b",
+    "year": 1985,
+    "races": 4,
+    "anniversary": 118,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941ec2ff8590162a1f35c",
+    "year": 1986,
+    "races": 4,
+    "anniversary": 119,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941ef2ff8590162a1f35d",
+    "year": 1987,
+    "races": 4,
+    "anniversary": 120,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "558941f22ff8590162a1f35e",
+    "year": 1988,
+    "races": 4,
+    "anniversary": 121,
+    "divisions": [11, 11, 11, 11]
+  },
+  {
+    "_id": "55895c402ff8590162a1f9bc",
+    "year": 1989,
+    "races": 4,
+    "anniversary": 122,
+    "divisions": [12, 12, 12, 12]
+  },
+  {
+    "_id": "55895c582ff8590162a1f9bd",
+    "year": 1990,
+    "races": 4,
+    "anniversary": 123,
+    "divisions": [12, 12, 12, 12]
+  },
+  {
+    "_id": "558961832ff8590162a1fbbb",
+    "year": 1991,
+    "races": 4,
+    "anniversary": 124,
+    "divisions": [12, 12, 12]
+  },
+  {
+    "_id": "558961a62ff8590162a1fbc2",
+    "year": 1992,
+    "races": 4,
+    "anniversary": 125,
+    "divisions": [12, 12, 12]
+  },
+  {
+    "_id": "5589677a2ff8590162a1fd3b",
+    "year": 1993,
+    "races": 4,
+    "anniversary": 126,
+    "divisions": [12, 12, 12]
+  },
+  {
+    "_id": "558967822ff8590162a1fd3c",
+    "year": 1994,
+    "races": 4,
+    "anniversary": 127,
+    "divisions": [12, 12, 12]
+  },
+  {
+    "_id": "55896a462ff8590162a1feb4",
+    "year": 1995,
+    "races": 4,
+    "anniversary": 128,
+    "divisions": [11, 11, 10]
+  },
+  {
+    "_id": "55896a4a2ff8590162a1feb5",
+    "year": 1996,
+    "races": 4,
+    "anniversary": 129,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "55896fbd2ff8590162a20018",
+    "year": 1997,
+    "races": 4,
+    "anniversary": 130,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "55896fc02ff8590162a20019",
+    "year": 1998,
+    "races": 4,
+    "anniversary": 131,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "55896fc42ff8590162a2001a",
+    "year": 1999,
+    "races": 4,
+    "anniversary": 132,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "55896fc82ff8590162a2001b",
+    "year": 2000,
+    "races": 4,
+    "anniversary": 133,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "558973682ff8590162a2021b",
+    "year": 2001,
+    "races": 4,
+    "anniversary": 134,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "5589736b2ff8590162a2021c",
+    "year": 2002,
+    "races": 4,
+    "anniversary": 135,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "5589766e2ff8590162a20412",
+    "year": 2003,
+    "races": 4,
+    "anniversary": 136,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "558976702ff8590162a20413",
+    "year": 2004,
+    "races": 4,
+    "anniversary": 137,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "558976722ff8590162a20414",
+    "year": 2005,
+    "races": 4,
+    "anniversary": 138,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "558978cd2ff8590162a2060a",
+    "year": 2006,
+    "races": 4,
+    "anniversary": 139,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "558978d32ff8590162a2060b",
+    "year": 2008,
+    "races": 4,
+    "anniversary": 140,
+    "divisions": [11, 11, 11]
+  },
+  {
+    "_id": "558978e52ff8590162a2060c",
+    "year": 2009,
+    "races": 4,
+    "anniversary": 141,
+    "divisions": [11, 11, 12]
+  },
+  {
+    "_id": "558982122ff8590162a20815",
+    "year": 2012,
+    "races": 4,
+    "anniversary": 144,
+    "divisions": [11, 13, 13]
+  },
+  {
+    "_id": "558981fa2ff8590162a20813",
+    "year": 2010,
+    "races": 4,
+    "anniversary": 142,
+    "divisions": [11, 13, 12]
+  },
+  {
+    "_id": "558982012ff8590162a20814",
+    "year": 2011,
+    "races": 4,
+    "anniversary": 143,
+    "divisions": [11, 13, 12]
+  },
+  {
+    "_id": "558985362ff8590162a20a4a",
+    "year": 2013,
+    "races": 4,
+    "anniversary": 145,
+    "divisions": [11, 13, 12]
+  },
+  {
+    "_id": "5589853c2ff8590162a20a4b",
+    "year": 2014,
+    "races": 4,
+    "anniversary": 146,
+    "divisions": [10, 13, 13]
+  },
+  {
+    "_id": "5589874e2ff8590162a20bb9",
+    "year": 2015,
+    "races": 4,
+    "anniversary": 147,
+    "divisions": [10, 13, 13]
+  },
+  {
+    "_id": "57704580301cf52e0f11ad1c",
+    "year": 2016,
+    "races": 3,
+    "anniversary": 148,
+    "divisions": [10, 13, 13]
+  },
+  {
+    "_id": "5948d9692bf437794ced7264",
+    "year": 2017,
+    "races": 4,
+    "anniversary": 149,
+    "divisions": [9, 12, 12]
+  },
+  {
+    "_id": "5ad85c21997dee9a70b5cbc4",
+    "year": 2018,
+    "races": 4,
+    "anniversary": 150,
+    "divisions": [9, 13, 13]
+  },
+  {
+    "_id": "5ce3baaf6ed2d38a24b5224f",
+    "year": 2019,
+    "races": 3,
+    "anniversary": 151,
+    "divisions": [9, 13, 13]
+  },
+  {
+    "_id": "60d1b1366ed2d38a24b522f3",
+    "year": 2022,
+    "races": 4,
+    "anniversary": 152,
+    "divisions": [9, 13, 13, 4]
+  },
+  {
+    "_id": "6497f1faf9c8c7a87e95125e",
+    "year": 2023,
+    "races": 4,
+    "anniversary": 153,
+    "divisions": [9, 13, 13, 4]
+  },
+  {
+    "_id": "6650beddfcd17d260453893f",
+    "year": 2024,
+    "races": 4,
+    "anniversary": 154,
+    "divisions": [9, 13, 13, 5]
+  }
+]
