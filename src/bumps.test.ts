@@ -1,12 +1,14 @@
 import { expect, test } from "bun:test";
 import { processResults, readFile } from "./bumps";
 
+import { Event } from "./types";
+
 test("processResults", async () => {
   const event = await readFile("./results/tg_format/mays2024_men.txt");
 
   processResults(event!, true);
 
-  const expected = {
+  const expected: Event = {
     set: "May Bumps",
     short: "Mays",
     gender: "Men",

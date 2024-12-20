@@ -15,7 +15,7 @@ const CrewSchema = z.object({
 
 export const EventSchema = z.object({
   back: z.array(z.array(z.number().nullable())).optional(),
-  completed: z.array(z.boolean()).optional(),
+  completed: z.array(z.array(z.boolean())).optional(),
   crews_withdrawn: z.number().optional(),
   crews: z.array(CrewSchema),
   days: z.number(),
@@ -35,7 +35,7 @@ export const EventSchema = z.object({
     "Town Bumps",
   ]),
   short: z.enum(["Eights", "Lents", "Mays", "Torpids", "Town"]),
-  skip: z.array(z.unknown()).optional(),
+  skip: z.array(z.array(z.unknown())).optional(),
   year: z.string(),
 });
 

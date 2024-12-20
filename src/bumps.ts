@@ -60,7 +60,7 @@ function addCrew(
 
   if (num !== crewState[club] && escape !== "*" && club.length > 0) {
     // TODO: Sometimes it's legitimate to have a crew out of order, e.g. Town Bumps 1868,
-/*     console.log(
+    /*     console.log(
       `Club ${club} crews out of order (found ${num}, expecting ${crewState[club]})`,
     );
 
@@ -136,8 +136,8 @@ function swapCrews(
     move[origB] = 0;
   }
 
-  move[origA] -= posB - posA;
-  move[origB] += posB - posA;
+  move[origA]! -= posB - posA;
+  move[origB]! += posB - posA;
 
   back[posA] = origB;
   back[posB] = origA;
@@ -496,7 +496,7 @@ export function processResults(event: Event, debug = false) {
         return;
       }
 
-      move[p] += up;
+      move[p]! += up;
       back[crewNum - up] = p;
 
       if (penalty !== 0) {
@@ -515,7 +515,7 @@ export function processResults(event: Event, debug = false) {
 
       if (debug) {
         console.log(
-          `Exact move ${up} to crew ${p}, was ${move[p] - up} now ${
+          `Exact move ${up} to crew ${p}, was ${move[p]! - up} now ${
             move[p]
           }, moving to crew ${crewNum}`,
         );
@@ -559,7 +559,7 @@ export function processResults(event: Event, debug = false) {
       let dn = dayNum - 1;
 
       while (dn >= 0) {
-        cn = event["back"][dn][cn];
+        cn = event["back"][dn][cn]!;
         dn -= 1;
       }
 
@@ -661,7 +661,7 @@ export function processResults(event: Event, debug = false) {
           if (
             !event["skip"][day][swap] &&
             event["move"][day][swap] !== null &&
-            swap - event["move"][day][swap] > nc - m
+            swap - event["move"][day][swap]! > nc - m
           ) {
             found = true;
             break;
@@ -705,14 +705,14 @@ function checkResults(
 
     if (
       b === null &&
-      i < event["crews"].length - event["crews_withdrawn"] &&
+      i < event["crews"].length - event["crews_withdrawn"]! &&
       i >= head
     ) {
       console.log(`Error: no crew finishes in position ${i + 1}`);
       ret = false;
     } else if (
       b !== null &&
-      (i < head || i >= event["crews"].length - event["crews_withdrawn"])
+      (i < head || i >= event["crews"].length - event["crews_withdrawn"]!)
     ) {
       console.log(
         `Error: a crew finished in position ${i + 1} where none was expected`,
@@ -762,8 +762,8 @@ function writeWeb(sets: Event[]) {
       series[s["short"]][s["gender"]].push(year);
     }
 
-    if (!(year in series[s["short"]][s["all"]])) {
-      series[s["short"]][s["all"]].push(year);
+    if (!(year in series[s["short"]]["all"])) {
+      series[s["short"]]["all"].push(year);
     }
   }
 
