@@ -1365,5 +1365,9 @@
       "position": 10
     }
   ],
-  "divisions": [10, 13, 13]
+  "divisions": [
+    10,
+    13,
+    13
+  ]
 }

@@ -1,0 +1,1638 @@
+{
+  "_id": "5587e4f02ff8590162a1ef74",
+  "year": 1971,
+  "races": 4,
+  "anniversary": 104,
+  "results": [
+    {
+      "_id": "5587e5172ff8590162a1ef76",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e168",
+      "race": 0,
+      "position": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5282ff8590162a1ef77",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e168",
+      "race": 1,
+      "position": 1,
+      "__v": 0
+    },
+    {
+      "_id": "5587e52b2ff8590162a1ef78",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e168",
+      "race": 2,
+      "position": 2,
+      "__v": 0
+    },
+    {
+      "_id": "5587e52d2ff8590162a1ef79",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e168",
+      "race": 3,
+      "position": 3,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5302ff8590162a1ef7a",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e168",
+      "race": 4,
+      "position": 3,
+      "__v": 0
+    },
+    {
+      "_id": "5587e54e2ff8590162a1ef80",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462294c5b791cf00890722b",
+      "race": 0,
+      "position": 1,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5532ff8590162a1ef82",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462294c5b791cf00890722b",
+      "race": 2,
+      "position": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5552ff8590162a1ef83",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462294c5b791cf00890722b",
+      "race": 1,
+      "position": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5592ff8590162a1ef84",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462294c5b791cf00890722b",
+      "race": 3,
+      "position": 1,
+      "__v": 0
+    },
+    {
+      "_id": "5587e55c2ff8590162a1ef85",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462294c5b791cf00890722b",
+      "race": 4,
+      "position": 1,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5812ff8590162a1ef8b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ed",
+      "race": 0,
+      "position": 2,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5842ff8590162a1ef8c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ed",
+      "race": 1,
+      "position": 3,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5872ff8590162a1ef8d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ed",
+      "race": 2,
+      "position": 4,
+      "__v": 0
+    },
+    {
+      "_id": "5587e58a2ff8590162a1ef8e",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ed",
+      "race": 3,
+      "position": 5,
+      "__v": 0
+    },
+    {
+      "_id": "5587e58d2ff8590162a1ef8f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ed",
+      "race": 4,
+      "position": 6,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5b72ff8590162a1ef95",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbe",
+      "race": 0,
+      "position": 3,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5ba2ff8590162a1ef96",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbe",
+      "race": 1,
+      "position": 2,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5bc2ff8590162a1ef97",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbe",
+      "race": 2,
+      "position": 1,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5bf2ff8590162a1ef98",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbe",
+      "race": 3,
+      "position": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5587e5d12ff8590162a1ef9a",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbe",
+      "race": 4,
+      "position": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5587e67d2ff8590162a1ef9f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16d",
+      "race": 0,
+      "position": 4,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6852ff8590162a1efa0",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16d",
+      "race": 1,
+      "position": 5,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6872ff8590162a1efa1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16d",
+      "race": 2,
+      "position": 6,
+      "__v": 0
+    },
+    {
+      "_id": "5587e68c2ff8590162a1efa2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16d",
+      "race": 3,
+      "position": 7,
+      "__v": 0
+    },
+    {
+      "_id": "5587e68e2ff8590162a1efa3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16d",
+      "race": 4,
+      "position": 8,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6b02ff8590162a1efa9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546221d95b791cf0089070ab",
+      "race": 0,
+      "position": 5,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6b22ff8590162a1efaa",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546221d95b791cf0089070ab",
+      "race": 1,
+      "position": 4,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6b52ff8590162a1efab",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546221d95b791cf0089070ab",
+      "race": 2,
+      "position": 3,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6b72ff8590162a1efac",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546221d95b791cf0089070ab",
+      "race": 3,
+      "position": 2,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6bf2ff8590162a1efad",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546221d95b791cf0089070ab",
+      "race": 4,
+      "position": 2,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6d82ff8590162a1efb3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218869722c45a057d9ffc",
+      "race": 0,
+      "position": 6,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6dc2ff8590162a1efb4",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218869722c45a057d9ffc",
+      "race": 1,
+      "position": 6,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6df2ff8590162a1efb5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218869722c45a057d9ffc",
+      "race": 2,
+      "position": 5,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6e22ff8590162a1efb6",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218869722c45a057d9ffc",
+      "race": 3,
+      "position": 4,
+      "__v": 0
+    },
+    {
+      "_id": "5587e6e42ff8590162a1efb7",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218869722c45a057d9ffc",
+      "race": 4,
+      "position": 4,
+      "__v": 0
+    },
+    {
+      "_id": "5587e70a2ff8590162a1efbd",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b510865ba2480e1ffb286d",
+      "race": 0,
+      "position": 7,
+      "__v": 0
+    },
+    {
+      "_id": "5587e70c2ff8590162a1efbe",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b510865ba2480e1ffb286d",
+      "race": 1,
+      "position": 8,
+      "__v": 0
+    },
+    {
+      "_id": "5587e70e2ff8590162a1efbf",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b510865ba2480e1ffb286d",
+      "race": 2,
+      "position": 9,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7112ff8590162a1efc0",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b510865ba2480e1ffb286d",
+      "race": 3,
+      "position": 9,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7142ff8590162a1efc1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b510865ba2480e1ffb286d",
+      "race": 4,
+      "position": 9,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7642ff8590162a1efc8",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e164",
+      "race": 0,
+      "position": 8,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7662ff8590162a1efc9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e164",
+      "race": 1,
+      "position": 7,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7692ff8590162a1efca",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e164",
+      "race": 2,
+      "position": 7,
+      "__v": 0
+    },
+    {
+      "_id": "5587e76d2ff8590162a1efcb",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e164",
+      "race": 3,
+      "position": 6,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7752ff8590162a1efcd",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e164",
+      "race": 4,
+      "position": 5,
+      "__v": 0
+    },
+    {
+      "_id": "5587e78d2ff8590162a1efd2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218249722c45a057d9ff9",
+      "race": 0,
+      "position": 9,
+      "__v": 0
+    },
+    {
+      "_id": "5587e79e2ff8590162a1efd3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218249722c45a057d9ff9",
+      "race": 1,
+      "position": 9,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7a12ff8590162a1efd4",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218249722c45a057d9ff9",
+      "race": 2,
+      "position": 8,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7a82ff8590162a1efd5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218249722c45a057d9ff9",
+      "race": 3,
+      "position": 8,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7aa2ff8590162a1efd6",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218249722c45a057d9ff9",
+      "race": 4,
+      "position": 7,
+      "__v": 0
+    },
+    {
+      "_id": "5587e7ab2ff8590162a1efd7",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546218249722c45a057d9ff9",
+      "race": 3,
+      "position": 8,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8282ff8590162a1efde",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e169",
+      "race": 0,
+      "position": 10,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8292ff8590162a1efdf",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e169",
+      "race": 1,
+      "position": 10,
+      "__v": 0
+    },
+    {
+      "_id": "5587e82c2ff8590162a1efe0",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e169",
+      "race": 2,
+      "position": 11,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8322ff8590162a1efe1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e169",
+      "race": 3,
+      "position": 12,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8352ff8590162a1efe2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e169",
+      "race": 4,
+      "position": 12,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8582ff8590162a1efe8",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fc0",
+      "race": 0,
+      "position": 11,
+      "__v": 0
+    },
+    {
+      "_id": "5587e85f2ff8590162a1efe9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fc0",
+      "race": 1,
+      "position": 11,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8602ff8590162a1efea",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fc0",
+      "race": 2,
+      "position": 10,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8632ff8590162a1efeb",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fc0",
+      "race": 3,
+      "position": 10,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8662ff8590162a1efec",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fc0",
+      "race": 4,
+      "position": 10,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8982ff8590162a1eff5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546227ba5b791cf00890719d",
+      "race": 1,
+      "position": 12,
+      "__v": 0
+    },
+    {
+      "_id": "5587e89b2ff8590162a1eff6",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546227ba5b791cf00890719d",
+      "race": 0,
+      "position": 12,
+      "__v": 0
+    },
+    {
+      "_id": "5587e89e2ff8590162a1eff7",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546227ba5b791cf00890719d",
+      "race": 2,
+      "position": 13,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8a72ff8590162a1eff8",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546227ba5b791cf00890719d",
+      "race": 3,
+      "position": 13,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8af2ff8590162a1eff9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546227ba5b791cf00890719d",
+      "race": 4,
+      "position": 14,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8b52ff8590162a1effb",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546227ba5b791cf00890719d",
+      "race": 4,
+      "position": 14,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8d72ff8590162a1f001",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546224aa5b791cf008907152",
+      "race": 0,
+      "position": 13,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8d82ff8590162a1f002",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546224aa5b791cf008907152",
+      "race": 1,
+      "position": 14,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8db2ff8590162a1f003",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546224aa5b791cf008907152",
+      "race": 2,
+      "position": 14,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8dd2ff8590162a1f004",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546224aa5b791cf008907152",
+      "race": 3,
+      "position": 15,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8e02ff8590162a1f005",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546224aa5b791cf008907152",
+      "race": 4,
+      "position": 16,
+      "__v": 0
+    },
+    {
+      "_id": "5587e8fd2ff8590162a1f00b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546229cc5b791cf008907271",
+      "race": 0,
+      "position": 14,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9032ff8590162a1f00c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546229cc5b791cf008907271",
+      "race": 1,
+      "position": 13,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9042ff8590162a1f00d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546229cc5b791cf008907271",
+      "race": 2,
+      "position": 12,
+      "__v": 0
+    },
+    {
+      "_id": "5587e90d2ff8590162a1f00e",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546229cc5b791cf008907271",
+      "race": 3,
+      "position": 11,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9142ff8590162a1f00f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "546229cc5b791cf008907271",
+      "race": 4,
+      "position": 11,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9382ff8590162a1f015",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18a",
+      "race": 0,
+      "position": 15,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9392ff8590162a1f016",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18a",
+      "race": 1,
+      "position": 15,
+      "__v": 0
+    },
+    {
+      "_id": "5587e93c2ff8590162a1f017",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18a",
+      "race": 2,
+      "position": 16,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9412ff8590162a1f018",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18a",
+      "race": 3,
+      "position": 17,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9432ff8590162a1f019",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18a",
+      "race": 4,
+      "position": 18,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9652ff8590162a1f01f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ec",
+      "race": 0,
+      "position": 16,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9662ff8590162a1f020",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ec",
+      "race": 1,
+      "position": 17,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9692ff8590162a1f021",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ec",
+      "race": 2,
+      "position": 18,
+      "__v": 0
+    },
+    {
+      "_id": "5587e96e2ff8590162a1f022",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ec",
+      "race": 3,
+      "position": 18,
+      "__v": 0
+    },
+    {
+      "_id": "5587e96e2ff8590162a1f023",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626514babe9517093580ec",
+      "race": 4,
+      "position": 17,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9a42ff8590162a1f029",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16e",
+      "race": 0,
+      "position": 17,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9a52ff8590162a1f02a",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16e",
+      "race": 1,
+      "position": 16,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9a72ff8590162a1f02b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16e",
+      "race": 2,
+      "position": 15,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9aa2ff8590162a1f02c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16e",
+      "race": 3,
+      "position": 14,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9ad2ff8590162a1f02d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16e",
+      "race": 4,
+      "position": 13,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9d62ff8590162a1f033",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462182c9722c45a057d9ffa",
+      "race": 0,
+      "position": 18,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9d92ff8590162a1f034",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462182c9722c45a057d9ffa",
+      "race": 1,
+      "position": 19,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9df2ff8590162a1f035",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462182c9722c45a057d9ffa",
+      "race": 2,
+      "position": 19,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9e12ff8590162a1f036",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462182c9722c45a057d9ffa",
+      "race": 3,
+      "position": 19,
+      "__v": 0
+    },
+    {
+      "_id": "5587e9e82ff8590162a1f037",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462182c9722c45a057d9ffa",
+      "race": 4,
+      "position": 19,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea062ff8590162a1f03d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e165",
+      "race": 0,
+      "position": 19,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea092ff8590162a1f03e",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e165",
+      "race": 1,
+      "position": 18,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea0c2ff8590162a1f03f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e165",
+      "race": 2,
+      "position": 17,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea0f2ff8590162a1f040",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e165",
+      "race": 3,
+      "position": 16,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea192ff8590162a1f041",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e165",
+      "race": 4,
+      "position": 15,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea2f2ff8590162a1f047",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbf",
+      "race": 0,
+      "position": 20,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea382ff8590162a1f048",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbf",
+      "race": 1,
+      "position": 20,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea402ff8590162a1f049",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbf",
+      "race": 2,
+      "position": 21,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea442ff8590162a1f04a",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbf",
+      "race": 3,
+      "position": 20,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea462ff8590162a1f04b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "5462623bbabe951709357fbf",
+      "race": 4,
+      "position": 21,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea6f2ff8590162a1f051",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b6481e5ba2480e1ffb28f9",
+      "race": 0,
+      "position": 21,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea7c2ff8590162a1f052",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b6481e5ba2480e1ffb28f9",
+      "race": 1,
+      "position": 22,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea7f2ff8590162a1f053",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b6481e5ba2480e1ffb28f9",
+      "race": 2,
+      "position": 23,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea812ff8590162a1f054",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b6481e5ba2480e1ffb28f9",
+      "race": 3,
+      "position": 24,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea832ff8590162a1f055",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54b6481e5ba2480e1ffb28f9",
+      "race": 4,
+      "position": 25,
+      "__v": 0
+    },
+    {
+      "_id": "5587ea9e2ff8590162a1f05b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a792ff8590162a1e16b",
+      "race": 0,
+      "position": 22,
+      "__v": 0
+    },
+    {
+      "_id": "5587eaa02ff8590162a1f05c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a792ff8590162a1e16b",
+      "race": 1,
+      "position": 21,
+      "__v": 0
+    },
+    {
+      "_id": "5587eaa32ff8590162a1f05d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a792ff8590162a1e16b",
+      "race": 2,
+      "position": 20,
+      "__v": 0
+    },
+    {
+      "_id": "5587eaa62ff8590162a1f05e",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a792ff8590162a1e16b",
+      "race": 3,
+      "position": 21,
+      "__v": 0
+    },
+    {
+      "_id": "5587eaa72ff8590162a1f05f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a792ff8590162a1e16b",
+      "race": 4,
+      "position": 20,
+      "__v": 0
+    },
+    {
+      "_id": "5587eaca2ff8590162a1f065",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54623187babe951709357b3c",
+      "race": 0,
+      "position": 23,
+      "__v": 0
+    },
+    {
+      "_id": "5587eacd2ff8590162a1f066",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54623187babe951709357b3c",
+      "race": 1,
+      "position": 24,
+      "__v": 0
+    },
+    {
+      "_id": "5587ead02ff8590162a1f067",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54623187babe951709357b3c",
+      "race": 2,
+      "position": 24,
+      "__v": 0
+    },
+    {
+      "_id": "5587ead72ff8590162a1f068",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54623187babe951709357b3c",
+      "race": 3,
+      "position": 23,
+      "__v": 0
+    },
+    {
+      "_id": "5587ead92ff8590162a1f069",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54623187babe951709357b3c",
+      "race": 4,
+      "position": 23,
+      "__v": 0
+    },
+    {
+      "_id": "5587eafb2ff8590162a1f06f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e16a",
+      "race": 0,
+      "position": 24,
+      "__v": 0
+    },
+    {
+      "_id": "5587eafd2ff8590162a1f070",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e16a",
+      "race": 1,
+      "position": 23,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb002ff8590162a1f071",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e16a",
+      "race": 2,
+      "position": 22,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb032ff8590162a1f072",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e16a",
+      "race": 3,
+      "position": 22,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb052ff8590162a1f073",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1a442ff8590162a1e16a",
+      "race": 4,
+      "position": 22,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb242ff8590162a1f079",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54621be75b791cf008906ebc",
+      "race": 0,
+      "position": 27,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb2d2ff8590162a1f07a",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54621be75b791cf008906ebc",
+      "race": 1,
+      "position": 27,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb2f2ff8590162a1f07b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54621be75b791cf008906ebc",
+      "race": 2,
+      "position": 26,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb312ff8590162a1f07c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54621be75b791cf008906ebc",
+      "race": 3,
+      "position": 26,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb332ff8590162a1f07d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54621be75b791cf008906ebc",
+      "race": 4,
+      "position": 27,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb4f2ff8590162a1f083",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626919babe951709358221",
+      "race": 0,
+      "position": 28,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb522ff8590162a1f084",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626919babe951709358221",
+      "race": 1,
+      "position": 28,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb542ff8590162a1f085",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626919babe951709358221",
+      "race": 2,
+      "position": 28,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb572ff8590162a1f086",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626919babe951709358221",
+      "race": 3,
+      "position": 28,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb5a2ff8590162a1f087",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "54626919babe951709358221",
+      "race": 4,
+      "position": 28,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb7d2ff8590162a1f08e",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18b",
+      "race": 0,
+      "position": 29,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb912ff8590162a1f08f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18b",
+      "race": 1,
+      "position": 29,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb942ff8590162a1f090",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18b",
+      "race": 2,
+      "position": 29,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb942ff8590162a1f091",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18b",
+      "race": 3,
+      "position": 29,
+      "__v": 0
+    },
+    {
+      "_id": "5587eb962ff8590162a1f092",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1b0a2ff8590162a1e18b",
+      "race": 4,
+      "position": 29,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebbe2ff8590162a1f098",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469cb2ff8590162a1e601",
+      "race": 0,
+      "position": 30,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebc12ff8590162a1f099",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469cb2ff8590162a1e601",
+      "race": 1,
+      "position": 30,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebc42ff8590162a1f09a",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469cb2ff8590162a1e601",
+      "race": 2,
+      "position": 31,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebc72ff8590162a1f09b",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469cb2ff8590162a1e601",
+      "race": 3,
+      "position": 30,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebc92ff8590162a1f09c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469cb2ff8590162a1e601",
+      "race": 4,
+      "position": 30,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebf92ff8590162a1f0a2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846cc02ff8590162a1e607",
+      "race": 0,
+      "position": 31,
+      "__v": 0
+    },
+    {
+      "_id": "5587ebfa2ff8590162a1f0a3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846cc02ff8590162a1e607",
+      "race": 1,
+      "position": 31,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec012ff8590162a1f0a4",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846cc02ff8590162a1e607",
+      "race": 2,
+      "position": 30,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec032ff8590162a1f0a5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846cc02ff8590162a1e607",
+      "race": 3,
+      "position": 31,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec052ff8590162a1f0a6",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846cc02ff8590162a1e607",
+      "race": 4,
+      "position": 31,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec2b2ff8590162a1f0ac",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846aa52ff8590162a1e603",
+      "race": 0,
+      "position": 32,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec2c2ff8590162a1f0ad",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846aa52ff8590162a1e603",
+      "race": 1,
+      "position": 32,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec302ff8590162a1f0ae",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846aa52ff8590162a1e603",
+      "race": 2,
+      "position": 33,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec312ff8590162a1f0af",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846aa52ff8590162a1e603",
+      "race": 3,
+      "position": 33,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec382ff8590162a1f0b1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846aa52ff8590162a1e603",
+      "race": 4,
+      "position": 34,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec5a2ff8590162a1f0b7",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469772ff8590162a1e600",
+      "race": 0,
+      "position": 33,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec6b2ff8590162a1f0b8",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469772ff8590162a1e600",
+      "race": 1,
+      "position": 34,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec6d2ff8590162a1f0b9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469772ff8590162a1e600",
+      "race": 2,
+      "position": 34,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec702ff8590162a1f0ba",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469772ff8590162a1e600",
+      "race": 3,
+      "position": 35,
+      "__v": 0
+    },
+    {
+      "_id": "5587ec762ff8590162a1f0bb",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "558469772ff8590162a1e600",
+      "race": 4,
+      "position": 35,
+      "__v": 0
+    },
+    {
+      "_id": "5587eca32ff8590162a1f0c2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b142ff8590162a1e604",
+      "race": 1,
+      "position": 33,
+      "__v": 0
+    },
+    {
+      "_id": "5587eca52ff8590162a1f0c3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b142ff8590162a1e604",
+      "race": 0,
+      "position": 34,
+      "__v": 0
+    },
+    {
+      "_id": "5587eca82ff8590162a1f0c4",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b142ff8590162a1e604",
+      "race": 2,
+      "position": 32,
+      "__v": 0
+    },
+    {
+      "_id": "5587ecab2ff8590162a1f0c5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b142ff8590162a1e604",
+      "race": 3,
+      "position": 32,
+      "__v": 0
+    },
+    {
+      "_id": "5587ecb02ff8590162a1f0c6",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b142ff8590162a1e604",
+      "race": 4,
+      "position": 32,
+      "__v": 0
+    },
+    {
+      "_id": "5587ecb42ff8590162a1f0c8",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b142ff8590162a1e604",
+      "race": 4,
+      "position": 32,
+      "__v": 0
+    },
+    {
+      "_id": "5587ece32ff8590162a1f0cd",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b952ff8590162a1e605",
+      "race": 0,
+      "position": 35,
+      "__v": 0
+    },
+    {
+      "_id": "5587ece52ff8590162a1f0ce",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b952ff8590162a1e605",
+      "race": 1,
+      "position": 36,
+      "__v": 0
+    },
+    {
+      "_id": "5587ece82ff8590162a1f0cf",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b952ff8590162a1e605",
+      "race": 2,
+      "position": 35,
+      "__v": 0
+    },
+    {
+      "_id": "5587eceb2ff8590162a1f0d0",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b952ff8590162a1e605",
+      "race": 3,
+      "position": 34,
+      "__v": 0
+    },
+    {
+      "_id": "5587eced2ff8590162a1f0d1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846b952ff8590162a1e605",
+      "race": 4,
+      "position": 33,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed0a2ff8590162a1f0d7",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846d122ff8590162a1e608",
+      "race": 0,
+      "position": 36,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed0b2ff8590162a1f0d8",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846d122ff8590162a1e608",
+      "race": 1,
+      "position": 35,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed0e2ff8590162a1f0d9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846d122ff8590162a1e608",
+      "race": 2,
+      "position": 36,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed102ff8590162a1f0da",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846d122ff8590162a1e608",
+      "race": 3,
+      "position": 36,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed132ff8590162a1f0db",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846d122ff8590162a1e608",
+      "race": 4,
+      "position": 36,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed342ff8590162a1f0e1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846a022ff8590162a1e602",
+      "race": 0,
+      "position": 37,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed352ff8590162a1f0e2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846a022ff8590162a1e602",
+      "race": 1,
+      "position": 38,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed402ff8590162a1f0e3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846a022ff8590162a1e602",
+      "race": 2,
+      "position": 39,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed422ff8590162a1f0e4",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846a022ff8590162a1e602",
+      "race": 3,
+      "position": 39,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed452ff8590162a1f0e5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846a022ff8590162a1e602",
+      "race": 4,
+      "position": 39,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed6b2ff8590162a1f0ec",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846da12ff8590162a1e609",
+      "race": 0,
+      "position": 38,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed722ff8590162a1f0ee",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846da12ff8590162a1e609",
+      "race": 1,
+      "position": 37,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed7f2ff8590162a1f0f0",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846da12ff8590162a1e609",
+      "race": 2,
+      "position": 37,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed882ff8590162a1f0f1",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846da12ff8590162a1e609",
+      "race": 3,
+      "position": 38,
+      "__v": 0
+    },
+    {
+      "_id": "5587ed892ff8590162a1f0f2",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846da12ff8590162a1e609",
+      "race": 4,
+      "position": 37,
+      "__v": 0
+    },
+    {
+      "_id": "5587edb12ff8590162a1f0f9",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846c252ff8590162a1e606",
+      "race": 0,
+      "position": 39,
+      "__v": 0
+    },
+    {
+      "_id": "5587edb92ff8590162a1f0fb",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846c252ff8590162a1e606",
+      "race": 1,
+      "position": 39,
+      "__v": 0
+    },
+    {
+      "_id": "5587edc22ff8590162a1f0fc",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846c252ff8590162a1e606",
+      "race": 2,
+      "position": 38,
+      "__v": 0
+    },
+    {
+      "_id": "5587edc92ff8590162a1f0fd",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846c252ff8590162a1e606",
+      "race": 3,
+      "position": 37,
+      "__v": 0
+    },
+    {
+      "_id": "5587edca2ff8590162a1f0fe",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "55846c252ff8590162a1e606",
+      "race": 4,
+      "position": 38,
+      "__v": 0
+    },
+    {
+      "_id": "55893eac2ff8590162a1f2d3",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16f",
+      "race": 4,
+      "position": 24,
+      "__v": 0
+    },
+    {
+      "_id": "55893eb02ff8590162a1f2d4",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16f",
+      "race": 3,
+      "position": 25,
+      "__v": 0
+    },
+    {
+      "_id": "55893eb12ff8590162a1f2d5",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16f",
+      "race": 2,
+      "position": 25,
+      "__v": 0
+    },
+    {
+      "_id": "55893eb22ff8590162a1f2d6",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16f",
+      "race": 1,
+      "position": 25,
+      "__v": 0
+    },
+    {
+      "_id": "55893eb42ff8590162a1f2d7",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e1aa52ff8590162a1e16f",
+      "race": 0,
+      "position": 26,
+      "__v": 0
+    },
+    {
+      "_id": "55893f492ff8590162a1f33c",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e166",
+      "race": 0,
+      "position": 25,
+      "__v": 0
+    },
+    {
+      "_id": "55893f492ff8590162a1f33d",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e166",
+      "race": 1,
+      "position": 26,
+      "__v": 0
+    },
+    {
+      "_id": "55893f4b2ff8590162a1f33e",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e166",
+      "race": 2,
+      "position": 27,
+      "__v": 0
+    },
+    {
+      "_id": "55893f4b2ff8590162a1f33f",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e166",
+      "race": 3,
+      "position": 27,
+      "__v": 0
+    },
+    {
+      "_id": "55893f4d2ff8590162a1f340",
+      "year": "5587e4f02ff8590162a1ef74",
+      "boat": "557e19de2ff8590162a1e166",
+      "race": 4,
+      "position": 26,
+      "__v": 0
+    }
+  ],
+  "divisions": [
+    10,
+    10,
+    10,
+    10
+  ]
+}

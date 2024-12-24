@@ -1157,5 +1157,9 @@
       "position": 0
     }
   ],
-  "divisions": [10, 13, 13]
+  "divisions": [
+    10,
+    13,
+    13
+  ]
 }

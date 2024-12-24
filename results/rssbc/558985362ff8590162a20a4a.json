@@ -1405,5 +1405,9 @@
       "position": 22
     }
   ],
-  "divisions": [11, 13, 12]
+  "divisions": [
+    11,
+    13,
+    12
+  ]
 }
