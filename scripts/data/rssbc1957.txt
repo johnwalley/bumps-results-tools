@@ -1,0 +1,9 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1957
+Days,4
+
+Division,Doctor's1,Headroom1,Ridgemount1,Ingram's1,Severn Hill1,Churchill's1,Dayboys1,Oldham's1,Moser's1,Rigg's1
+Division,Headroom2,Dayboys2,Rigg's2,Ridgemount2,Severn Hill2,Moser's2,Doctor's2,Churchill's2,Ingram's2,Oldham's2
+Division,Headroom3,Dayboys3,Ingram's3,Moser's3,Ridgemount3,Doctor's3,Oldham's3,Rigg's3,Churchill's3,Severn Hill3

@@ -1,0 +1,9 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,2003
+Days,4
+
+Division,Oldham's1,Ridgemount1,School House1,Moser's1,Rigg's1,Severn Hill1,Churchill's1,Ingram's1,Radbrook1,The Grove1,Port Hill1
+Division,Oldham's2,Churchill's2,Radbrook2,Ingram's2,Rigg's2,Moser's2,School House2,Port Hill2,The Grove2,Severn Hill2,Ridgemount2
+Division,Churchill's3,Severn Hill3,Rigg's3,Moser's3,Port Hill3,Ingram's3,The Grove3,School House3,Oldham's3,Ridgemount3,Radbrook3

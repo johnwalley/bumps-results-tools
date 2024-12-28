@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1883
+Days,4
+
+Division,Hall's1,Headroom1,Doctor's1,Day Boy's1,Hall's2,Unknown,Unknown,Unknown

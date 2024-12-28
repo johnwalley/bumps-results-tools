@@ -1,0 +1,8 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1952
+Days,4
+
+Division,Headroom1,Doctor's1,Rigg's1,Moser's1,Ridgemount1,Dayboys1,Churchill's1,Oldham's1,Severn Hill1,Ingram's1
+Division,Dayboys2,Moser's2,Churchill's2,Ridgemount2,Headroom2,Rigg's2,Ingram's2,Headroom3,Dayboys3,Doctor's2,Moser's3,Oldham's2,Churchill's3,Severn Hill2,Severn Hill3,Rigg's3

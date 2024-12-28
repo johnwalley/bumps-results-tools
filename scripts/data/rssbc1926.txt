@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1926
+Days,4
+
+Division,Headroom1,Haydon's1,Doctor's1,Ingram's1,Oldham's1,Prior's1,Moore's1,Haydon's2,Pickering's1,Prior's2,Mitford's1,Doctor's2,Kitchin's1,Headroom2,Ingram's2,Moore's2,Headroom3,Oldham's2,Day Boy's1,Haydon's3,Oldham's3,Kitchin's2

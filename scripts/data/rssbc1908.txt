@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1908
+Days,4
+
+Division,Sergeant's1,Haydon's1,Headroom1,Chance's1,Moser's1,Churchill's1,Doctor's1,Doctor's2,Haydon's2,Baker's1,Headroom2,Moser's2,Sergeant's2,Haydon's3,Moser's3,Doctor's3,Chance's2,Baker's2

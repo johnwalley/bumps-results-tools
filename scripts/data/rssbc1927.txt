@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1927
+Days,4
+
+Division,Haydon's1,Headroom1,Oldham's1,Prior's1,Doctor's1,Haydon's2,Prior's2,Ingram's1,Kitchin's1,Moore's1,Whitfield's1,Headroom2,Doctor's2,Mitford's1,Ingram's2,Oldham's2,Headroom3,Day Boy's1,Kitchin's2,Moore's2,Whitfield's2,Mitford's2,Day Boy's2,Prior's3

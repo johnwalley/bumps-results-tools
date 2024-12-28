@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1942
+Days,3
+
+Division,Tombling's1,Kitchin's1,Sopwith's1,Whitfield's1,Street's1,Headroom1,Day Boy's1,Doctor's1,Phillips'1,Mitford's1,Phillips'2,Kitchin's2,Sale's1,Doctor's2,Headroom2,Mitford's2,Street's2,Sopwith's2,Whitfield's2,Day Boy's2,Sale's2,Tombling's2,Kitchin's3,Doctor's3,Tombling's3,Sale's3

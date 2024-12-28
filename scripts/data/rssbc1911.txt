@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1911
+Days,4
+
+Division,Moser's1,Chance's1,Haydon's1,Doctor's1,Ingram's1,Moser's2,Haydon's2,Doctor's2,Baker's1,Headroom1,Pickering's1,Ingram's2,Haydon's3,Chance's2,Day Boy's1,Moser's3,Baker's2,Day Boy's2

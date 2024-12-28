@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1870
+Days,5
+
+Division,Doctor's1,Day Boy's1,Rigg's1,Headroom1,Gee's1,Day Boy's2,Doctor's2

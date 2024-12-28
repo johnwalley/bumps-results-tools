@@ -1,0 +1,9 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1995
+Days,4
+
+Division,Oldham's1,School House1,Ridgemount1,Ingram's1,Port Hill1,Churchill's1,Moser's1,Severn Hill1,Radbrook1,The Grove1,Rigg's1
+Division,Oldham's2,School House2,Ridgemount2,Severn Hill2,The Grove2,Port Hill2,Ingram's2,Churchill's2,Rigg's2,Radbrook2,Moser's2
+Division,Oldham's3,Ridgemount3,School House3,Ingram's3,Port Hill3,Moser's3,The Grove3,Severn Hill3,Rigg's3,Churchill's3

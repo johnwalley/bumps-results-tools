@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1922
+Days,4
+
+Division,Ingram's1,Pickering's1,Prior's1,Moore's1,Headroom1,Haydon's1,Ingram's2,Haydon's2,Doctor's1,Prior's2,Oldham's1,Ridgemount1,Day Boy's1,Pickering's2,Haydon's3,Headroom2,Prior's3,Chance's1,Moore's2,Doctor's2,Oldham's2,Chance's2

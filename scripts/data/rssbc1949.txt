@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1949
+Days,4
+
+Division,Phillips'1,Headroom1,Sopwith's1,Taylor's1,Doctor's1,Kitchin's1,West's1,Street's1,Day Boy's1,Headroom2,Street's2,Tombling's1,Phillips'2,Kitchin's2,Phillips'3,Headroom3,Sopwith's2,Taylor's2,Day Boy's2,Doctor's2,Sopwith's3,West's2,Day Boy's3,Tombling's2,Kitchin's3,Taylor's3

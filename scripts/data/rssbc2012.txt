@@ -1,0 +1,9 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,2012
+Days,4
+
+Division,Rigg's1,Moser's1,Churchill's1,Ridgemount1,Oldham's1,Severn Hill1,School House1,Radbrook1,The Grove1,Port Hill1,Ingram's1
+Division,Churchill's2,Rigg's2,Oldham's2,Moser's2,Ingram's2,Ridgemount2,Severn Hill2,School House2,Port Hill2,Radbrook2,The Grove2,Mary Sidney1,Emma Darwin1
+Division,Rigg's3,Churchill's3,Ridgemount3,Port Hill3,Moser's3,Oldham's3,Radbrook3,Severn Hill3,School House3,Ingram's3,The Grove3,Mary Sidney2,Emma Darwin2

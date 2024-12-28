@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1900
+Days,4
+
+Division,Moser's1,Chance's1,Hall's1,Doctor's1,Bennett's1,Headroom1,Churchill's1,Moser's2,Churchill's2,Hall's2,Day Boy's1,Doctor's2,Moser's3,Chance's2,Doctor's3,Hall's3,Haydon's1

@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1920
+Days,4
+
+Division,Headroom1,Haydon's1,Pickering's1,Prior's1,Ingram's1,Moore's1,Haydon's2,Doctor's1,Prior's2,Oldham's1,Ingram's2,Pickering's2,Day Boy's1,Headroom2,Haydon's3,Ingrams's1,Chance's1,Oldham's2,Prior's3,Moore's2,Ingram's3,Ingrams's2

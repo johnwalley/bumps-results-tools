@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1939
+Days,4
+
+Division,Sopwith's1,Kitchin's1,Whitfield's1,Headroom1,Tombling's1,Mitford's1,Doctor's1,Phillips'1,Day Boy's1,Street's1,Kitchin's2,Sale's1,Mitford's2,Street's2,Phillips'2,Whitfield's2,Kitchin's3,Doctor's2,Headroom2,Sopwith's2,Tombling's2,Day Boy's2,Sale's2,Phillips'3,Mitford's3,Doctor's3
