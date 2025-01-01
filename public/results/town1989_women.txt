@@ -1,0 +1,12 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,1989
+
+Division,Ci,Ci2,Ca,N,N2,N3,N4,Ci3,Ci4,F,Ca2,Ca3,N5,Leckhampton,Ci5,Coopers & Lybrand,R,Darwin,N6,R2,Macdonalds,R3,P,Ci6,Ci7,R4
+
+Results
+ruurruuurururrrrur
+urruurruurruuurur
+rurruuuuuuurrrurr
+rruuuuuuuururrur

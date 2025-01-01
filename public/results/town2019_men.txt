@@ -1,0 +1,15 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,2019
+
+Division,Ca,N,SN,Ci,R,X,Ca2,Ca3,R2,N2,Ct,Ci2,Ci3,Ca4,Peterborough,N3,Ci4
+Division,R3,Ch,X2,Ca5,Ci5,N4,Ci6,Ca6,Ct2,SN2,SR,X3,Ci7,Ci8,R4,Ch2,Ca7
+Division,N5,IE,Ch3,Ca8,X4,N6,Ca9,Ci9,Ca10,Ci10,X5,Ca11,Ch4,Ct3,Ci11,Ch5,Ch6
+Division,SR2,Ca12,Ci12,N7,X6,Ca13,X7,X8,Ca14,Ca15,N8,Ca16,Ch7,Ci13,Ca17,CV,Ci14
+
+Results
+rrruruurrrrur urruuurruurr rurruuuruurr ururrruruuru
+rruururrrruu ruuuuuuuur rruuuuururu rruurrruruurr
+rrurruruurur uurrurrurrrrrr uruurrururur ruuurrrururrr
+rrrrrururrruu ruurruuuruu rrrrurrrrrururr uuurrururrrrr

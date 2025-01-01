@@ -1,0 +1,13 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1957
+
+Division,Ci,N,P,OC,OC2,R,N2,Scouts,Ci2,New Museums,R2,Instrument Co,Old YM,Central Old Boys,OC3,P2,N3,Ci3
+Division,OC4,New Museums 2,Scouts 2,Ci4,R3,New Museums 3,Instrument Co 2,Central Old Boys 2,R4
+
+Results
+rruuur rurruruururrrr
+ruuurr uurruruururrr
+uuurrr ururrrrrurrrurr
+ruurru rrrrurrruururrr

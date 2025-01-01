@@ -1,0 +1,12 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,1990
+
+Division,Ci,N,Ci2,Ca,N2,Ci3,N3,Ca2,N4,Ci4,Ci5,R,Coopers & Lybrand,R2,P,Macdonalds,R3,Ci6,P2,Ci7
+
+Results
+uuruurrurrruu
+e3e4e-2e1e3e1e3e-6re1e2e-9e-1rruur
+rrrrrurrrurrrrrrrr
+rrro3urruurrurrr

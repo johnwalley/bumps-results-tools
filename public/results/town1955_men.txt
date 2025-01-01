@@ -1,0 +1,13 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1955
+
+Division,Ci,N,P,R,Scouts,OC,Ci2,N2,R2,OC2,Old YM,P2,Beehives,New Museums,Ci3,N3,Scouts 2
+Division,OC3,Instrument Co,R3,New Museums 2,OC4,P3,Central Old Boys,N4,Beehives 2,New Museums 3,OC5
+
+Results
+urrurrrrr uururuuurrrr
+uruuuu rururuuuurrr
+rurrrurrr urururruurrrr
+urrururr rruruuuurrrrr

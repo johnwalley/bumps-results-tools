@@ -1,10 +1,7 @@
-import * as abbreviations from "./abbreviations";
-
-import { EventSchema, type Crew, type Event } from "./types";
-
-import type { BunFile } from "bun";
-import { range } from "./utils";
 import { z } from "zod";
+import * as abbreviations from "./abbreviations";
+import { EventSchema, type Crew, type Event } from "./types";
+import { range } from "./utils";
 
 function addCrew(
   crewState: any,
@@ -156,7 +153,7 @@ function processBump(
     console.log(
       `Crew ${
         crewNum + 1
-      }  bumps up above the top of the division at position ${divHead + 1}`,
+      } bumps up above the top of the division at position ${divHead + 1}`,
     );
 
     return false;
@@ -192,25 +189,17 @@ function processChain(
   return true;
 }
 
-export async function readFile(path?: string): Promise<Event | null> {
+export function readEvent(text: string): Event | null {
   let abbrev: any = {};
   const crewState = {};
   const time = /([0-9]*):([0-9][0-9](\.[0-9]+)*)/;
 
-  let file: BunFile;
+  const input = text.split(/\r?\n/);
 
-  if (path) {
-    file = Bun.file(path);
-  } else {
-    file = Bun.stdin;
-  }
-
-  const input = (await file.text()).split(/\r?\n/);
-
-  const ret: any = {
-    set: "Set name",
-    short: "Short name",
-    gender: "Gender",
+  const ret: Event = {
+    set: "May Bumps",
+    short: "Mays",
+    gender: "Women",
     year: "Year",
     days: 4,
     distance: 2_500,
@@ -233,15 +222,15 @@ export async function readFile(path?: string): Promise<Event | null> {
     let p = line.split(",");
 
     if (p[0] === "Set") {
-      ret["set"] = p[1];
+      ret["set"] = p[1] as Event["set"];
 
       if (ret["set"] in abbreviations.sets) {
-        abbrev = (abbreviations.sets as any)[ret["set"]];
+        abbrev = abbreviations.sets[ret["set"]];
       }
     } else if (p[0] === "Short") {
-      ret["short"] = p[1];
+      ret["short"] = p[1] as Event["short"];
     } else if (p[0] === "Gender") {
-      ret["gender"] = p[1];
+      ret["gender"] = p[1] as Event["gender"];
     } else if (p[0] === "Year") {
       ret["year"] = p[1];
     } else if (p[0] === "Days") {
@@ -310,6 +299,12 @@ export async function readFile(path?: string): Promise<Event | null> {
   }
 }
 
+export async function readFile(path?: string): Promise<Event | null> {
+  const file = path ? Bun.file(path) : Bun.stdin;
+
+  return readEvent(await file.text());
+}
+
 export function processResults(event: Event, debug = false) {
   if (event["div_size"] === null || event["crews"].length === 0) {
     return;
@@ -359,16 +354,16 @@ export function processResults(event: Event, debug = false) {
       );
     }
 
+    // Only allow division size changes between full days of racing, and not before the first day
     if (c[0] === "d" && crewNum === -1 && dayNum < event["days"] - 1) {
-      let sizes: any[] = c
+      const sizes = c
         .replace("(", " ")
         .replace(")", " ")
         .replace(/\./g, " ")
         .trim()
         .split(" ")
-        .slice(1);
-
-      sizes = sizes.map((x) => Number(x));
+        .slice(1)
+        .map((x) => Number(x));
 
       if (debug) {
         console.log(`Div size change: ${sizes}`);
@@ -555,6 +550,7 @@ export function processResults(event: Event, debug = false) {
 
       event["crews_withdrawn"] += 1;
 
+      // Work out original crew number
       let cn = crewNum;
       let dn = dayNum - 1;
 
@@ -601,6 +597,7 @@ export function processResults(event: Event, debug = false) {
       }
     }
 
+    // If we've seen at least one result, mark the division as completed
     if (debug) {
       console.log(`Marking day ${dayNum} division ${divNum} has completed`);
     }
@@ -735,7 +732,7 @@ function checkResults(
   return ret;
 }
 
-function writeWeb(sets: Event[]) {
+export function writeWeb(sets: Event[]) {
   const series: any = {};
 
   for (const s of sets) {
@@ -753,19 +750,165 @@ function writeWeb(sets: Event[]) {
     if (p.length > 1) {
       year = p[0];
 
-      if (!(year in series[s["short"]]["split"])) {
+      if (!series[s["short"]]["split"].includes(year)) {
         series[s["short"]]["split"].push(year);
       }
     }
 
-    if (!(year in series[s["short"]][s["gender"]])) {
+    if (!series[s["short"]][s["gender"]].includes(year)) {
       series[s["short"]][s["gender"]].push(year);
     }
 
-    if (!(year in series[s["short"]]["all"])) {
+    if (!series[s["short"]]["all"].includes(year)) {
       series[s["short"]]["all"].push(year);
     }
   }
 
   return series;
+}
+
+export function stepOn(event: Readonly<Event>) {
+  const newEvent: Event = structuredClone(event);
+
+  const newlist = Array(event.crews.length).fill(null);
+
+  for (let i of range(0, event.crews.length)) {
+    const crew = event.crews[i];
+
+    if (crew.gain !== null) {
+      const ep = i - crew.gain;
+
+      if (newlist[ep] === null) {
+        crew.gain = null;
+        crew.blades = false;
+        crew.highlight = false;
+        crew.withdrawn = false;
+        crew.end = null;
+
+        newlist[ep] = crew;
+      }
+    }
+
+    newEvent.crews = newlist;
+
+    const clubs: Record<string, number> = {};
+
+    for (let c of event.crews) {
+      if (!(c.club in clubs)) {
+        clubs[c.club] = 1;
+      }
+
+      c.number = clubs[c.club];
+      clubs[c.club] += 1;
+
+      if (c.number < abbreviations.roman.length) {
+        c.num_name = `${c.club} ${abbreviations.roman[c.number - 1]}`;
+      } else {
+        c.num_name = `${c.club} ${c.number}`;
+      }
+
+      if (c.number > 1) {
+        c.start = c.num_name;
+      } else {
+        c.start = c.club;
+      }
+    }
+  }
+
+  try {
+    const year = parseInt(event["year"], 10);
+    newEvent.year = String(year + 1);
+  } catch (e) {
+    newEvent.year = event.year + ".next";
+  }
+
+  newEvent["move"] = [];
+  newEvent["completed"] = [];
+  newEvent["skip"] = [];
+  newEvent["full_set"] = false;
+
+  newEvent["results"] = [];
+
+  return newEvent;
+}
+
+export function writeString(event: Event): string {
+  let out = "";
+
+  out += `Set,${event["set"]}\n`;
+  out += `Short,${event["short"]}\n`;
+
+  out += `Gender,${event["gender"]}\n`;
+
+  out += `Year,${event["year"]}\n`;
+
+  if (event["days"] !== 4) {
+    out += `Days,${event["days"]}\n`;
+  }
+
+  out += "\n";
+
+  let abbrev: Record<
+    string,
+    {
+      name: string;
+    }
+  > = {};
+
+  if (event["set"] in abbreviations.sets) {
+    abbrev = abbreviations.sets[event["set"]];
+  }
+
+  let crew_num = 0;
+
+  if (event["div_size"] === null) {
+    return "";
+  }
+
+  for (const div_size of event["div_size"][event["div_size"].length - 1]) {
+    out += "Division";
+
+    for (const i of range(0, div_size)) {
+      const crew = event["crews"][crew_num + i];
+
+      let found = false;
+
+      for (const p in abbrev) {
+        if (crew["club"] === abbrev[p]["name"]) {
+          let fin = p;
+
+          if (crew["number"] > 1) {
+            fin += String(crew["number"]);
+          }
+
+          out += `,${fin}`;
+
+          found = true;
+          break;
+        }
+      }
+
+      if (!found) {
+        if (crew["number"] === 1) {
+          out += `,${crew["club"]}`;
+        } else {
+          out += `,${crew["club"]} ${crew["number"]}`;
+        }
+      }
+    }
+
+    out += "\n";
+    crew_num += div_size;
+  }
+
+  out += "\n";
+  out += "Results\n";
+
+  if (event["results"].length > 0) {
+    for (const i of event["results"]) {
+      out += `${i}\n`;
+    }
+  }
+
+  return out;
 }

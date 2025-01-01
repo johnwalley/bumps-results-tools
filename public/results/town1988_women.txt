@@ -1,0 +1,12 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,1988
+
+Division,N,Ci,N2,Ci2,Ci3,Ca,N3,Ca2,N4,F,Ca3,Ca4,Leckhampton,Ci4,Macdonalds,N5,Ci5,P,Ci6,Ca5,Coopers & Lybrand,Ci7,R
+
+Results
+uuuruo3ururuuu
+rro3urrrurruururrr
+ruruuuuurrurrur
+uuruuuuuurrurr

@@ -1,0 +1,14 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1978
+
+Division,N,R,Ci,R2,Ci2,N2,Churchill,N3,MacDonalds,Scouts,Ca,Telephones,Univ Sports,TTFNTT,R3
+Division,Leckhampton,Ci3,Cam Veterans,N4,R4,MacDonalds 2,Lady Somerset,Ci4,N5,N6,Leckhampton 2,Clare,Darwin,Telephones 2,Scouts 2
+Division,Univ Sports 2,Churchill 2,Clare 2,Kidney Donors,Cavendish Lab,Ci5,N7,Telephones 3,Univ Sports 3,MacDonalds 3,N8,Scouts 3,Cambridge Ladies
+
+Results
+ruurururr rruuruurrur ro3urruuuru
+rruurrurrr ruururruurr uro3ururrrrrr
+ruuuuurr rruruurro3ur rurrrururrrrr
+rruurruur rrrrurrruuru uruuurrrrrrr

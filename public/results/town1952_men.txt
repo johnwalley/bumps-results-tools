@@ -1,0 +1,13 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1952
+
+Division,Ci,N,R,Scouts,N2,R2,Beehives,New Museums,Ci2,P,Scouts 2,Old YM,P2,Ci3,N3,New Museums 2,R3
+Division,N4,OC,Beehives 2,College Servants,Scouts 3,OC2,New Museums 3,OC3,Old YM 2,Ci4,R4,OC4,Instrument Co,Instrument Co 2,P3,Old YM 3,Ci5
+
+Results
+urro3uruuuu urruururrrrrrr
+ro3urrruuuur ruuurrrurrrrrr
+urruruuuurr rrurrrrrrrurrrrr
+rrrurrruuuur ruurrrrrrrurrrr

@@ -1,0 +1,14 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,2015
+
+Division,Ci,Ca,N,R,Ci2,Ci3,Ca2,CV,Ci4,SN,X,Ct,N2,Ch,R2,SR,Ch2
+Division,Ch3,Ca3,N3,Ci5,Ca4,Ci6,Ch4,Ch5,IE,Ci7,SN2,R3,Ch6,N4,X2,Ct2,Ci8
+Division,SR2,Ca5,R4,Ca6,N5,Ct3,N6,Ca7,X3,N7,Ca8,Ci9,Ca9,Ci10,Ca10
+
+Results
+urrruuurru urruurrrrurru urruro3urrurrr
+rrrruuuro3u ruurrrurrruur rurrrurrrurrrrr
+rrruurruurr uuruurrururr uuruururrrrrr
+rruuurruru ruurrurrrruru ruururuurrrrr

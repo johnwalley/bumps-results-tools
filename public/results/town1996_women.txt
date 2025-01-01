@@ -1,0 +1,12 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,1996
+
+Division,R,Ci,F,Ci2,N,Ci3,R2,Ca,F2,Ci4,R3,Cam Consultants,F3,Ci5,P,F4,Ca2,F5,R4,Ci6,Mott MacDonald,PA Consultants,Ca3,R5,Ca4
+
+Results
+uuuururuuururrrr
+rruurrruururrrrruu
+rruurro3uruurrrurrr
+rrrurruurrruuruurr

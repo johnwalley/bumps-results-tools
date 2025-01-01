@@ -1,0 +1,13 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1960
+
+Division,Ci,R,N,Ci2,Ca,Scouts,P,R2,ACUA,N2,Ca2,Central Old Boys,Ca3,Ci3,Instrument Co,Beehives,Scouts 2
+Division,N3,Ca4,R3,ACUA 2,Ci4,P2,N4,Scouts 3,Ca5,Instrument Co 2,Scouts 4,Ca6
+
+Results
+rrrrrururr rurrurrurrrrur
+rrrrururrr rrrruuurrrrrrrr
+rrrrrrurrrr urrruurrrrrrrrr
+rrrrrururr rrurruurrrrurr

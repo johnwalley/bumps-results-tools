@@ -1,0 +1,13 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1958
+
+Division,Ci,N,R,Ca,P,Ca2,R2,Ci2,Scouts,N2,ACUA,Central Old Boys,Instrument Co,Ci3,Ca3,Beehives,P2
+Division,Scouts 2,Ca4,R3,Central Old Boys 2,ACUA 2,R4,ACUA 3,P3,Scouts 3
+
+Results
+ruruur rrrurrrururrur
+urrruu urrrrrrrrrrrrrrrr
+ruruur rrurrrrrrurrrrrr
+rrruuu rurrrrrrurrrrrrr

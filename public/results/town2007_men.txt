@@ -1,0 +1,15 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,2007
+
+Division,R,Ca,N,R2,Ci,N2,R3,Ca2,N3,S,Ci2,X,Ca3,R4,Ch,Ca4,SN
+Division,Hornets,N4,Ca5,X2,Ci3,X3,Ch2,ME,SI,Ch3,Ca6,X4,S2,SR,N5,Ca7
+Division,SR2,Ci4,CV,Ch4,Ca8,Ci5,Ch5,Ch6,Ca9,X5,Ci6,Ci7,Ca10,Ca11,Ch7,Ch8,Ch9
+Division,Ca12,Ci8,Ca13,X6,N6,Ca14,Ci9,X7,Ca15
+
+Results
+uro3uu ururrururruu rro3ururuurrr ruurrruurrrru
+rrruo3u rruuuuuruur o3uuurrruurr uuuururrrrrrr
+uururr uruuuuruuu rrrrrurrrrruur rrruuururrrrrr
+rrrruru o3uuuuruuur urruuurrrrru uurururrurrrr

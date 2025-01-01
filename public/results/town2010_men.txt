@@ -1,0 +1,15 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,2010
+
+Division,N,Ca,R,Ci,X,N2,Sharks,R2,Ci2,Ch,Ci3,Ct,N3,Ca2,Ca3,Ch2,X2
+Division,Ca4,SN,R3,Ca5,SR,X3,Ci4,Ch3,N4,Ca6,Ch4,Ci5,N5,Ca7,Ct2,SI,Ch5
+Division,Leys Lysander,Ca8,Ci6,Ci7,X4,Ch6,Ch7,SR2,Ca9,Ci8,CV,Ch8,X5,Ca10,Ci9,Ca11,Ca12
+Division,Ct3,X6,Ca13,SR3,Ci10,Ci11,Ca14,X7
+
+Results
+ruuru uruuro3urrrur urruurururrrr rrrrurrrurrrrrrr
+rruuu ruruuurruuu ruurrurrrrurrr rrruurrrurrrru
+ruuur rrruuurruurrr uurrrrurruurr rruuurrrurrur
+rrrrrur rruuuuuurru ruurrrruurrrrr rrurrrurrrrrrrrr

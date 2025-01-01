@@ -1,0 +1,13 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,2001
+
+Division,R,CB,N,Ci,Ca,R2,CB2,Ci2,Ch,Ci3,S,CB3,Ca2,R3,Ch2,Ci4,R4
+Division,Ch3,CB4,Ca3,Ci5
+
+Results
+uu uuururuuurr
+urr rrrrrururuurrr
+rru rrrrrrurrrrurrrr
+rur rrrrrrruuurrrrr

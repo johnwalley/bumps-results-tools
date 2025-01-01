@@ -1,4 +1,4 @@
-import { processResults, readFile } from "../src/bumps";
+import { processResults, readFile, writeWeb } from "../src/bumps";
 import { type Event } from "../src/types";
 
 import chalk from "chalk";
@@ -29,6 +29,25 @@ fs.readdir("./results/tg_format/", async function (err, files) {
 
   console.log(`Found ${chalk.blue(`${numFiles}`)} files`);
 
+  events.sort(function (a, b) {
+    const aYear = parseInt(a.year, 10);
+    const bYear = parseInt(b.year, 10);
+
+    return aYear - bYear;
+  });
+
+  const results = writeWeb(events);
+
+  fs.writeFile(
+    `./output/results/results.json`,
+    JSON.stringify(results),
+    function () {
+      console.log(
+        `Wrote file to ${chalk.blue(`./output/results/results.json`)}`,
+      );
+    },
+  );
+
   for (const small of ["Eights", "Lents", "Mays", "Torpids", "Town"]) {
     if (!fs.existsSync(`./output/results/${small.toLocaleLowerCase()}`)) {
       fs.mkdirSync(`./output/results/${small.toLocaleLowerCase()}`);
@@ -45,9 +64,9 @@ fs.readdir("./results/tg_format/", async function (err, files) {
         );
       }
 
-      const e = events
-        .filter((event) => event.gender === gender && event.short === small)
-        .toSorted((a, b) => +a.year - +b.year);
+      const e = events.filter(
+        (event) => event.gender === gender && event.short === small,
+      );
 
       for (const event of e) {
         processResults(event);

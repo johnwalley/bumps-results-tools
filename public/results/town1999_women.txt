@@ -1,0 +1,12 @@
+Set,Town Bumps
+Short,Town
+Gender,Women
+Year,1999
+
+Division,F,R,Ci,Ci2,R2,Ci3,F2,Ci4,F3,Ci5,N,R3,Ca,Ca2,F4,R4,N2,F5,S,F6,F7,N3,Ch
+
+Results
+uruurrruuuurrur
+rruuurrruurrrurrr
+ro3uuuruuururrrr
+rururrruuuururrr

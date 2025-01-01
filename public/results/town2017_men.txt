@@ -1,0 +1,15 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,2017
+
+Division,Ca,R,SN,R2,N,X,Ci,Ca2,Ct,Ci2,Ca3,Ca4,N2,N3,R3,Ci3,Peterborough
+Division,Ci4,Ch,Peterborough 2,Ci5,X2,Ci6,Ca5,X3,R4,Ch2,SN2,Ci7,N4,SR,Ca6,X4,Ci8
+Division,Ca7,Ct2,Ci9,Ch3,Ca8,Ch4,IE,Ci10,Ci11,SR2,N5,Ch5,N6,Ch6,Ca9,Ca10,N7
+Division,Ct3,X5,X6,X7,Ca11,Ca12,Ca13,Ca14,Ci12,Ca15,N8,Ci13,Ci14,CV
+
+Results
+uruuuuur rrruuuuuruu uruuuuururr rurrruurrurur
+rruuuurur rruuuuururu rurrrururrurrr uururrrrrurrrr
+ruuuurrru uruuuuruuu uurururrurrrr rruuurrruurrr
+rrrrrruuurr ruruuuruuru rrrruruurrrrrrr rurrrrurrrrrrrrr

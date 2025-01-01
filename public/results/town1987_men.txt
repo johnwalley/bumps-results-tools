@@ -1,0 +1,14 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1987
+
+Division,N,R,Ci,N2,Ca,Ci2,Univ Sports,R2,Clare,N3,Lady Somerset,Ci3,F,Ca2,P,F2,Wolfson
+Division,N4,N5,Churchill,Ca3,F3,R3,Metallurgy,N6,Red Lion Toft,King's,Macdonalds,Univ Sports 2,Ca4,Chemical Eng,Leckhampton,F4
+Division,SI,P2,Ci4,F5,Ca5,Darwin,Barclays Bank,N7,NatWest Bank,P3,Red Lion Toft 2,British Welding,Unicorn Cherry Hinton,R4,Ca6,Ci5
+
+Results
+ruuo3ururrrr o3uruuururu uruurro3urrru
+rruuro3uuru uo3uuurrrrur rruurruruurrr
+ruuurruro3u rurruurruuu rrruuuuruurr
+uuurruurrrr uuuurrrruur rruuuurrrurrr

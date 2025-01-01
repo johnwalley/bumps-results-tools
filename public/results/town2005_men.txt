@@ -1,0 +1,15 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,2005
+
+Division,R,N,R2,R3,Ca,Ci,Ci2,R4,N2,Ca2,N3,Ca3,S,X,SN,N4,Ca4
+Division,X2,X3,Ci3,SI,ME,Ch,Ca5,Ch2,X4,IE,Ca6,S2,N5,Ch3,CV,Ca7,SR
+Division,Leys School,N6,Ci4,Ca8,Ci5,Ch4,Ch5,X5,SR2,Ch6,Ca9,Ch7,Ca10,Ca11,Ch8,Ci6,SR3
+Division,S3,Ci7,Ch9,X6
+
+Results
+urr uururrururur rurururrrurrrr rurrrrrrurrurrr
+rrrr rururrrrurruu uurururrruur uurrrruurrrrrr
+rru uruururrruru ruurrurrruurr rrrurrurrrrrrrrr
+rru rrurrrrurrurur uurruruurrur urrrrrrrrrrrrrrrr

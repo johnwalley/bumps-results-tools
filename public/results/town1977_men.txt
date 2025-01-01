@@ -1,0 +1,14 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,1977
+
+Division,N,R,Ci,N2,N3,R2,Scouts,Ci2,Univ Sports,R3,Churchill,MacDonalds,Telephones,Ci3,R4
+Division,TTFNTT,Leckhampton,Cam Veterans,N4,N5,Leckhampton 2,Billygoats,Cantabs Rugby 1,Peterhouse,Scouts 2,Ci4,Univ Sports 2,N6,Clare
+Division,Downing,Wolfson,Telephones 2,Ci5,N7,Soham,N8,Ci6,Telephones 3,Scouts 3,Ci7,N9
+
+Results
+ruuurrur rruuuurrrrr urrruruurrrr
+urrurrrru ruuuuurru ruruuruurrr
+ruuurrrrr uuuuurrur uruuururrrr
+urrurrrru ruuuurrurr rruuuurrrrrr

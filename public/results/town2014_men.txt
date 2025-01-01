@@ -1,0 +1,15 @@
+Set,Town Bumps
+Short,Town
+Gender,Men
+Year,2014
+
+Division,Ca,R,N,Ci,R2,Ca2,Ci2,Ch,Ct,X,Ci3,SN,Ca3,N2,N3,R3,Ci4
+Division,X2,Ch2,SR,Ci5,X3,Ca4,Ca5,Ci6,Ch3,N4,Ci7,Ca6,Ca7,Ct2,X4,Ch4,Ci8
+Division,R4,Ca8,Ch5,SN2,Ch6,Ca9,Ci9,Ch7,IE,Ca10,SI,X5,SR2,Ca11,Ci10,Ct3,Ci11
+Division,CV,Deloitte,N5,Ch8,N6,Ci12,N7,Ci13,N8
+
+Results
+rrrruur ruuuurrrrrurr rururruurrurr urrrruruurrru
+ruuuu uuuuruurrur ururruururrrr rrurururrrrrrrr
+rruuru ruuuruurruu rruuuurrrrrrrr rrrrrrruurrurrr
+rrurrur rruururrrrrrur ruuuuurrurrr rrrrrruurrrrrrrr
