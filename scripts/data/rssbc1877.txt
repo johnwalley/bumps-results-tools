@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1877
+Days,5
+
+Division,Headroom1,Doctor's1,School Dayboys1,Rigg's1,Sixth Form Dayboys1,Gee's1,Doctor's2

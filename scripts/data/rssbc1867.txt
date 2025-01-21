@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1867
+Days,6
+
+Division,Lower Sixth1,Doctor's1,Headroom1,Day Boy's1,Unknown,Unknown,Unknown

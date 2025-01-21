@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1886
+Days,5
+
+Division,Hall's1,Day Boy's1,Headroom1,Doctor's1,Churchill's1,Hall's2,Day Boy's2,Doctor's2,Churchill's2,Moser's1,Moser's2

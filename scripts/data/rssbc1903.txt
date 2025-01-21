@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1903
+Days,4
+
+Division,Moser's1,Chance's1,Doctor's1,Haydon's1,Churchill's1,Headroom1,Bennett's1,Moser's2,Haydon's2,Doctor's2,Sergeant's1,Churchill's2,Moser's3,Haydon's3,Doctor's3,Chance's2,Sergeant's2

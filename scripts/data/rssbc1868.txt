@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1868
+Days,6
+
+Division,Doctor's1,Day Boy's1,Rigg's1,Lower Sixth1,Headroom1,Doctor's2,Gee's1,Day Boy's2,Nondescripts1

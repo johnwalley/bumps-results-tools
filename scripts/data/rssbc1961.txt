@@ -1,0 +1,10 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1961
+Days,4
+
+Division,Doctor's1,Headroom1,Ingram's1,Dayboys1,Ridgemount1,Oldham's1,Rigg's1,Churchill's1,Severn Hill1,Moser's1
+Division,Headroom2,Rigg's2,Doctor's2,Ridgemount2,Dayboys2,Oldham's2,Churchill's2,Severn Hill2,Ingram's2,Moser's2
+Division,Ridgemount3,Oldham's3,Dayboys3,Headroom3,Churchill's3,Rigg's3,Moser's3,Ingram's3,Severn Hill3,Doctor's3
+Division,Ridgemount4,Oldham's4,Rigg's4,Dayboys4,Headroom4,Churchill's4,Doctor's4,Ingram's4,Severn Hill4,Moser's4

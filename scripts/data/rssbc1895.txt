@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1895
+Days,4
+
+Division,Headroom1,Day Boy's1,Doctor's1,Churchill's1,Chance's1,Moser's1,Bennett's1,Hall's1,Day Boy's2,Doctor's2,Moser's2,Churchill's2,Chance's2,Hall's2,Haydon's1

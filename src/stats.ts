@@ -1,174 +1,72 @@
-import { DataFrame } from "data-forge";
-import { Event } from "./types";
+import type { Event } from "./types";
+import { all, desc, op, table } from 'arquero';
 
-function movdo(events: Event[]) {
-  const res: Record<string, { crew: string; fall: number; year: number }> = {};
+const clubMappings = new Map<string, string>([['Osler-Green', 'Osler House']])
 
-  for (const event of events) {
-    const numCrews = event.divisions.reduce(
-      (sum, div) => (sum += div.length),
-      0,
-    );
+export function crewsEntered(events: Event[]) {
+    const crewsEntered = new Map<string, Map<string, number>>();
+    const clubs = new Set<string>();
 
-    event.divisions.forEach((div, index) => {
-      let currentMove = [];
-      let currentPos: number[][] = [];
+    for (const event of events) {
+        const map = new Map<string, number>();
+        crewsEntered.set(event.year, map);
 
-      for (let day = 0; day < event.days + 1; day++) {
-        currentMove.push([]);
-        currentPos.push([]);
-        for (let crew = 0; crew < numCrews; crew++) {
-          currentPos[day].push(crew);
+        for (const crew of event.crews) {
+            const club = crew.club;
+
+            clubs.add(club);
+
+            map.set(club, (map.get(club) || 0) + 1);
         }
-      }
+    }
 
-      div.forEach((crew, crewIndex) => {
-        let position = crewIndex;
-        let currentDivision = index;
-        let change = 0;
+    const cols = Object.fromEntries(Array.from(clubs).sort((a, b) => a.localeCompare(b))
+        .map(club => [club, Array.from(crewsEntered.keys()).map(year => crewsEntered.get(year)?.get(club) ?? 0)]))
 
-        for (let day = 0; day < event.days; day++) {
-          change += event.move[day][currentDivision][position];
-          position -= event.move[day][currentDivision][position];
+    const dt = table({
+        year: Array.from(crewsEntered.keys()),
+        ...cols
+    })
 
-          if (position < 0) {
-            currentDivision -= 1;
-            position += event.divisions[currentDivision].length;
-          }
 
-          if (position >= event.divisions[currentDivision].length) {
-            position -= event.divisions[currentDivision].length;
-            currentDivision += 1;
-          }
+    return dt.orderby('year').objects();
+
+}
+
+export function headships(events: Event[]) {
+    const headships = new Map<string, number>();
+    const lastYear = new Map<string, number>();
+
+    for (const event of events) {
+        if (!event.full_set) {
+            continue;
         }
 
-        if (res[crew]) {
-          if (change <= res[crew].fall) {
-            res[crew] = { crew: crew, fall: change, year: event.year };
-          }
+        let club = event.crews[0].club_end;
+
+        if (club === null) {
+            continue;
+        }
+
+        if (clubMappings.has(club)) {
+            club = clubMappings.get(club)!;
+        }
+
+        if (headships.has(club)) {
+            const hs = headships.get(club);
+
+            headships.set(club, hs! + 1);
+
+            if (+event.year > lastYear.get(club)!) {
+                lastYear.set(club, +event.year);
+            }
         } else {
-          res[crew] = { crew: crew, fall: change, year: event.year };
+            headships.set(club, 1);
+            lastYear.set(club, +event.year);
         }
-      });
-    });
-  }
+    }
 
-  const df = new DataFrame(Object.values(res));
+    const dt = table({ club: Array.from(headships.keys()), headships: Array.from(headships.values()), lastYear: Array.from(lastYear.values()) });
 
-  return df.orderBy((column) => column.fall).toArray();
+    return dt.orderby(desc('headships'), desc('lastYear')).objects();
 }
-
-function movup(events: Event[]) {
-  const res: Record<string, { crew: string; rise: number; year: number }> = {};
-
-  for (const event of events) {
-    const numCrews = event.divisions.reduce(
-      (sum, div) => (sum += div.length),
-      0,
-    );
-
-    event.divisions.forEach((div, index) => {
-      let currentMove = [];
-      let currentPos: number[][] = [];
-
-      for (let day = 0; day < event.days + 1; day++) {
-        currentMove.push([]);
-        currentPos.push([]);
-        for (let crew = 0; crew < numCrews; crew++) {
-          currentPos[day].push(crew);
-        }
-      }
-
-      div.forEach((crew, crewIndex) => {
-        let position = crewIndex;
-        let currentDivision = index;
-        let change = 0;
-
-        for (let day = 0; day < event.days; day++) {
-          change += event.move[day][currentDivision][position];
-          position -= event.move[day][currentDivision][position];
-
-          if (position < 0) {
-            currentDivision -= 1;
-            position += event.divisions[currentDivision].length;
-          }
-
-          if (position >= event.divisions[currentDivision].length) {
-            position -= event.divisions[currentDivision].length;
-            currentDivision += 1;
-          }
-        }
-
-        if (res[crew]) {
-          if (change >= res[crew].rise) {
-            res[crew] = { crew: crew, rise: change, year: event.year };
-          }
-        } else {
-          res[crew] = { crew: crew, rise: change, year: event.year };
-        }
-      });
-    });
-  }
-
-  const df = new DataFrame(Object.values(res));
-
-  return df.orderBy((column) => -column.rise).toArray();
-}
-
-function ncrews(events: Event[]) {
-  const rows = events.map((event) => {
-    const clubs = event.divisions
-      .flatMap((division) => division)
-      .map((crew) => ({
-        year: event.year,
-        club: crew.replace(/[0-9]+$/, "").trim(),
-      }));
-
-    const df = new DataFrame(clubs);
-
-    const summarized = df
-      .groupBy((row) => row.club)
-      .select((group) => ({
-        year: group.last().year,
-        count: group.deflate((row) => row.club).count(),
-        club: group.last().club,
-      }))
-      .inflate()
-      .orderBy((column) => -column.year)
-      .orderBy((column) => -column.count)
-      .toArray(); 
-    return summarized;
-  });
-
-  return rows.flatMap((row) => row);
-}
-
-function nhead(events: Event[]) {
-  const rows = events.map((event) => ({
-    year: event.year,
-    head: event.finish[0][0],
-  }));
-
-  const df = new DataFrame(rows);
-
-  const summarized = df
-    .groupBy((row) => row.head)
-    .select((group) => ({
-      year: group.last().year,
-      count: group.deflate((row) => row.head).count(),
-      crew: group.last().head,
-    }))
-    .inflate()
-    .orderBy((column) => -column.year)
-    .orderBy((column) => -column.count)
-    .toArray();
-
-  return summarized;
-}
-
-module.exports = {
-  movdo: movdo,
-  movup: movup,
-  ncrews: ncrews,
-  nhead: nhead,
-};

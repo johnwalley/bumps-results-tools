@@ -1,0 +1,10 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,2022
+Days,4
+
+Division,Oldham's1,Rigg's1,Churchill's1,Radbrook1,Severn Hill1,School House1,Ridgemount1,Ingram's1,Port Hill1
+Division,Oldham's2,Radbrook2,Churchill's2,Rigg's2,The Grove1,Mary Sidney1,School House2,Emma Darwin1,Moser's1,Port Hill2,Severn Hill2,Ridgemount2,Ingram's2
+Division,Radbrook3,School House3,Churchill's3,Rigg's3,Mary Sidney2,The Grove2,Severn Hill3,Oldham's3,Ridgemount3,Emma Darwin2,Moser's2,Port Hill3,Ingram's3
+Division,The Grove3,Moser's3,Emma Darwin3,Mary Sidney3

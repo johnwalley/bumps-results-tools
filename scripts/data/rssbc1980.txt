@@ -1,0 +1,10 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1980
+Days,4
+
+Division,Ingram's1,Moser's1,Severn Hill1,Radbrook1,Doctor's1,Churchill's1,Oldham's1,Headroom1,Rigg's1,Ridgemount1,Porthill1
+Division,Porthill2,Ingram's2,Moser's2,Severn Hill2,Headroom2,Doctor's2,Rigg's2,Churchill's2,Oldham's2,Ridgemount2,Radbrook2
+Division,Porthill3,Ingram's3,Moser's3,Churchill's3,Rigg's3,Severn Hill3,Ridgemount3,Oldham's3,Headroom3,Doctor's3,Radbrook3
+Division,Ingram's4,Radbrook4,Moser's4,Ridgemount4,Churchill's4,Oldham's4,Rigg's4,Headroom4,Severn Hill4,Doctor's4,Porthill4

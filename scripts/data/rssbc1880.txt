@@ -1,0 +1,7 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,1880
+Days,6
+
+Division,Doctor's1,Headroom1,Sixth Form Dayboys1,Doctor's2,Rigg's1,Gee's1,School Dayboys1,Churchill's1,Bentley's1

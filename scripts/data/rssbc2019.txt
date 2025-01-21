@@ -1,0 +1,9 @@
+Set,RSSBC
+Short,RSSBC
+Gender,Men
+Year,2019
+Days,3
+
+Division,Oldham's1,Churchill's1,Rigg's1,School House1,Radbrook1,Port Hill1,Severn Hill1,Ridgemount1,Ingram's1
+Division,Radbrook2,Churchill's2,Oldham's2,Rigg's2,School House2,The Grove1,Port Hill2,Mary Sidney1,Severn Hill2,Emma Darwin1,Ridgemount2,Moser's1,Ingram's2
+Division,Radbrook3,Rigg's3,School House3,Churchill's3,The Grove2,Mary Sidney2,Emma Darwin2,Oldham's3,Severn Hill3,Port Hill3,Ridgemount3,Moser's2,Ingram's3
