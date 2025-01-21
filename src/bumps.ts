@@ -4,10 +4,13 @@ import { EventSchema, type Crew, type Event } from "./types";
 import { range } from "./utils";
 
 function addCrew(
-  crewState: any,
+  crewState: {
+    pat?: RegExp;
+    [club: string]: RegExp | number | undefined;
+  },
   crews: Event["crews"],
   str: string,
-  abbrev: Record<string, { name: string }>,
+  abbrev: Record<string, { name: string; colours?: string[] }>,
   roman = true,
 ) {
   const crew: Crew = {
@@ -23,11 +26,11 @@ function addCrew(
     club_end: null,
   };
 
-  if (!("pat" in crewState)) {
-    crewState["pat"] = /^(.*?)(\([^\)]*\))?[ ]*([0-9]*)(\*)?$/;
+  if (!crewState.pat) {
+    crewState.pat = /^(.*?)(\([^\)]*\))?[ ]*([0-9]*)(\*)?$/;
   }
 
-  let m = str.match(crewState["pat"]);
+  let m = str.match(crewState.pat);
 
   if (m === null) {
     console.log(`Can't understand crew name ${str}`);
@@ -190,8 +193,15 @@ function processChain(
 }
 
 export function readEvent(text: string): Event | null {
-  let abbrev: any = {};
-  const crewState = {};
+  let abbrev: {
+    [key: string]: { name: string; colours?: string[] };
+  } = {};
+
+  const crewState: {
+    pat?: RegExp;
+    [club: string]: RegExp | number | undefined;
+  } = {};
+
   const time = /([0-9]*):([0-9][0-9](\.[0-9]+)*)/;
 
   const input = text.split(/\r?\n/);
@@ -733,7 +743,10 @@ function checkResults(
 }
 
 export function writeWeb(sets: Event[]) {
-  const series: any = {};
+  const series: Record<
+    string,
+    Partial<Record<"all" | "split" | "Men" | "Women", string[]>>
+  > = {};
 
   for (const s of sets) {
     if (!(s["short"] in series)) {
@@ -750,17 +763,17 @@ export function writeWeb(sets: Event[]) {
     if (p.length > 1) {
       year = p[0];
 
-      if (!series[s["short"]]["split"].includes(year)) {
-        series[s["short"]]["split"].push(year);
+      if (!series[s["short"]]["split"]!.includes(year)) {
+        series[s["short"]]["split"]!.push(year);
       }
     }
 
-    if (!series[s["short"]][s["gender"]].includes(year)) {
-      series[s["short"]][s["gender"]].push(year);
+    if (!series[s["short"]][s["gender"]]!.includes(year)) {
+      series[s["short"]][s["gender"]]!.push(year);
     }
 
-    if (!series[s["short"]]["all"].includes(year)) {
-      series[s["short"]]["all"].push(year);
+    if (!series[s["short"]]["all"]!.includes(year)) {
+      series[s["short"]]["all"]!.push(year);
     }
   }
 
