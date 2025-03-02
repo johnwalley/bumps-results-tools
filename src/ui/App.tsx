@@ -6,8 +6,8 @@ import { useMemo, useState } from "react";
 
 import { BumpsChart } from "react-bumps-chart";
 import { Event } from "../types";
-import results from "../../output/results/results.json";
-import txt from "../../results/tg_format/torpids2025_men.txt?raw";
+import results from "../../public/results/results.json";
+import txt from "../../public/results/torpids2025_men.txt?raw";
 
 function App() {
   const [state, setState] = useState(txt);
