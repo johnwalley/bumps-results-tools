@@ -1,4 +1,4 @@
-import "react-bumps-chart/dist/style.css";
+import "react-bumps-chart/dist/index.css";
 import "./App.css";
 
 import { processResults, readEvent, stepOn, writeString } from "../bumps";
