@@ -1,4 +1,22 @@
 export const clubMapping = {
+  "Cambridge Town Rowing Club": "City",
+  "Cantabs College": "Cantabs",
+  "Cantabs Rugby": "Cantabs",
+  CCAT: "Anglia Ruskin",
+  Macdonalds: "MacDonalds",
+  "New Hall": "Murray Edwards",
+  "Old Cantabs": "Cantabs",
+  "St. John's": "LMBC",
+  "New Museums": "Champs",
+  ACUA: "Champs",
+  "Univ Sports": "Champs",
+  "Old Spring": "Champs",
+  "Free Press": "X-Press",
+  Pye: "Chesterton",
+  Simoco: "Chesterton",
+};
+
+export const clubMappingFull = {
   "1st and 3rd": "1st and 3rd",
   "1st Trinity": "1st and 3rd",
   "2nd St. John's": "LMBC",
@@ -13,6 +31,7 @@ export const clubMapping = {
   Macdonalds: "MacDonalds",
   "New Hall": "Murray Edwards",
   "Old Cantabs": "Cantabs",
+  "Osler-Green": "Osler House",
   QMABC: "King's",
   "St. John's 'Tally-Ho'": "LMBC",
   "St. John's Argo": "LMBC",
@@ -24,4 +43,11 @@ export const clubMapping = {
   "Trinity Tobacco Pipes and Punch Bowls": "1st and 3rd",
   "Trinity Westminster": "1st and 3rd",
   "Trinty Nautilus": "1st and 3rd",
+  "New Museums": "Champs",
+  ACUA: "Champs",
+  "Univ Sports": "Champs",
+  "Old Spring": "Champs",
+  "Free Press": "X-Press",
+  Pye: "Chesterton",
+  Simoco: "Chesterton",
 };

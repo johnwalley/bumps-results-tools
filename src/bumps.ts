@@ -684,7 +684,7 @@ export function processResults(event: Event, debug = false) {
     }
 
     // TODO: Check this logic
-    if (nc === 0 && !("skip_headship" in event["flags"])) {
+    if (nc === 0 && !event["flags"].includes("skip_headship")) {
       blades = true;
     }
 

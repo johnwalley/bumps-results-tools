@@ -1,5 +1,28 @@
 import { z } from "zod";
 
+const StatisticsSchema = z.object({
+  headships: z.array(
+    z.object({
+      club: z.string(),
+      headships: z.number(),
+      lastYear: z.number(),
+    }),
+  ),
+  crews: z.array(
+    z
+      .object({
+        year: z.number(),
+      })
+      .catchall(z.number()),
+  ),
+  positionChange: z.record(
+    z.number(),
+    z.array(z.object({ club: z.string(), crew: z.number(), year: z.number() })),
+  ),
+});
+
+export type Statistics = z.infer<typeof StatisticsSchema>;
+
 const CrewSchema = z.object({
   blades: z.boolean(),
   club_end: z.string().nullable(),
