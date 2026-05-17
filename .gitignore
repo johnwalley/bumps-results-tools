@@ -7,6 +7,8 @@
 
 .DS_Store
 
+.claude/settings.local.json
+
 !/public/results/results.json
 
 # Generated output

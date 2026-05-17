@@ -2,10 +2,12 @@ import "react-bumps-chart/dist/index.css";
 import "./App.css";
 
 import { processResults, readEvent, stepOn, writeString } from "../bumps";
-import { useMemo, useState } from "react";
+import { ComponentProps, useMemo, useState } from "react";
 
 import { BumpsChart } from "react-bumps-chart";
 import { Event } from "../types";
+
+type BumpsChartData = ComponentProps<typeof BumpsChart>["data"];
 import results from "../../public/results/results.json";
 import txt from "../../public/results/torpids2025_men.txt?raw";
 
@@ -86,7 +88,7 @@ function App() {
           </div>
         </div>
         <div className="flex-1 h-screen max-w-[480px] overflow-auto">
-          {data && <BumpsChart data={data} />}
+          {data && <BumpsChart data={data as BumpsChartData} />}
         </div>
       </div>
     </div>

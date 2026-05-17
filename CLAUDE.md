@@ -10,12 +10,17 @@ Tools for manipulating bumps rowing results data (Cambridge Bumps, Oxford Summer
 
 ```bash
 # Development server (Vite + React UI)
-npm run dev
+bun run dev
 
 # Build
-npm run build
+bun run build
 
-# Run tests (Bun)
+# Regenerate results + stats JSON for the website
+bun run generate            # both
+bun run generate:results    # event-level results only
+bun run generate:stats      # per-club statistics only
+
+# Run tests
 bun test
 
 # Run a single test file

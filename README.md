@@ -10,28 +10,36 @@ Use these tools to convert between formats and generate data suitable for use by
 
 ## 📈 Using the UI
 
-1. **Build the tools.**
+Start the Vite dev server:
 
-   ```shell
-   npm run build
-   ```
+```shell
+bun run dev
+```
 
-2. **Generate results file.**
+To produce a production build:
 
-   ```shell
-   npm run results
-   ```
+```shell
+bun run build
+```
 
-3. **Copy results file to ui directory.**
+Then preview the built app with:
 
-   ```shell
-   cp ./generated.json ./ui
-   ```
+```shell
+bun run preview
+```
 
-4. **Run a webserver!**
+## 🗂️ Regenerating results and stats
 
-   For example
+The website's data is produced from the TG-format sources under
+`results/tg_format/`. To regenerate both result and statistics JSON, run:
 
-   ```shell
-   npx http-server
-   ```
+```shell
+bun run generate
+```
+
+Or run them individually:
+
+```shell
+bun run generate:results   # writes output/results/<event>/<gender>/
+bun run generate:stats     # writes output/stats/<event>/<gender>/stats.json
+```
