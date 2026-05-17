@@ -9,10 +9,10 @@
 
 .claude/settings.local.json
 
-!/public/results/results.json
-
 # Generated output
 generated.json
 results.json
 stats.json
 website_results.json
+
+!/src/ui/results/results.json

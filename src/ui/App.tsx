@@ -2,17 +2,24 @@ import "react-bumps-chart/dist/index.css";
 import "./App.css";
 
 import { processResults, readEvent, stepOn, writeString } from "../bumps";
-import { ComponentProps, useMemo, useState } from "react";
+import { ComponentProps, useEffect, useMemo, useState } from "react";
 
 import { BumpsChart } from "react-bumps-chart";
 import { Event } from "../types";
+import results from "./results/results.json";
 
 type BumpsChartData = ComponentProps<typeof BumpsChart>["data"];
-import results from "../../public/results/results.json";
-import txt from "../../public/results/torpids2025_men.txt?raw";
+
+const DEFAULT_RESULT = "./results/torpids2025_men.txt";
 
 function App() {
-  const [state, setState] = useState(txt);
+  const [state, setState] = useState("");
+
+  useEffect(() => {
+    fetch(DEFAULT_RESULT)
+      .then((res) => res.text())
+      .then(setState);
+  }, []);
 
   const data = useMemo(() => {
     try {
@@ -88,7 +95,7 @@ function App() {
           </div>
         </div>
         <div className="flex-1 h-screen max-w-[480px] overflow-auto">
-          {data && <BumpsChart data={data as BumpsChartData} />}
+          {data?.div_size && <BumpsChart data={data as BumpsChartData} />}
         </div>
       </div>
     </div>

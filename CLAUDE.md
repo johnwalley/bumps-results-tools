@@ -42,7 +42,7 @@ bun test src/bumps.test.ts
 
 - **abbreviations.ts** - Club abbreviation mappings for each event set (Cambridge colleges in `ccol`, Oxford colleges in `ocol`, Town clubs in `cra`)
 
-- **stats.ts** - Statistical analysis using Arquero (headships, crews entered per year)
+- **stats.ts** - Aggregates per-club statistics (headships, crews entered, blades) over an array of `Event`s. Pure JS; downstream ranking/sorting is done with Arquero in `scripts/generate_stats.ts`.
 
 ### UI (`src/ui/`)
 
@@ -52,7 +52,8 @@ React application (via Vite) for visualizing and editing bumps results. Uses `re
 
 - **results/tg_format/** - Source results in TG format (text files)
 - **results/rssbc/** - Historical results in JSON format
-- **public/results/** - Results served by the UI
+- **public/results/** - Per-event TG-format files served at runtime by the UI via `fetch("./results/<event><year>_<gender>.txt")`
+- **src/ui/results/results.json** - Bundle-time manifest of available years per event/gender, imported directly by the UI
 
 ## TG Format
 
