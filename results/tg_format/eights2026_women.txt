@@ -8,7 +8,7 @@ Division,SJ,E,J,GT,L,H,SAn,Mt,S,LM,Mf,Q
 Division,SP,SC,Br,T,Wt,SAt,U2,Wf2,SHu,SHi,P2,Ch2
 Division,Co,Wh2,O2,Mg2,L2,GT2,K2,Wt2,Lc2,Reuben,Br2,SJ2
 Division,Wf3,SE2,H2,N2,S2,SHu2,Mt2,R,E2,J2,B2,SHi2
-Division,SP2,Q2,T2,SC2,Mf2,Wf4,SAt2,LM2,U3,SP3,SAn2,Wh3
-Division,O3,P3,Wt3,SJ3,J3,E3,U4,Q3,S3,N3,SHi3,K3,Reuben 2
+Division,SP2,Q2,SC2,Mf2,LM2,U3,SAn2,Wh3,O3,Wt3,SJ3,E3
+Division,U4,SE3,S3,SHi3,Br3,SHu,LM3,Wh4,Mg3,SAn3,Mg4,GT,Wt4
 
 Results
