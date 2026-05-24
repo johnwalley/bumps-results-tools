@@ -20,6 +20,8 @@ fs.readdir("./results/tg_format/", async function (err, files) {
   if (err) throw err;
   let numFiles = 0;
 
+  files.sort();
+
   for (const file of files) {
     const event = await readFile("./results/tg_format/" + file);
 
@@ -57,9 +59,9 @@ fs.readdir("./results/tg_format/", async function (err, files) {
         );
       }
 
-      const e = events
-        .filter((event) => event.gender === gender && event.short === small)
-        .toSorted((a, b) => parseInt(a.year) - parseInt(b.year));
+      const e = events.filter(
+        (event) => event.gender === gender && event.short === small,
+      );
 
       for (const event of e) {
         processResults(event);

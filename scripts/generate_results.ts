@@ -18,6 +18,8 @@ fs.readdir("./results/tg_format/", async function (err, files) {
   if (err) throw err;
   let numFiles = 0;
 
+  files.sort();
+
   for (const file of files) {
     const event = await readFile("./results/tg_format/" + file);
 
@@ -28,13 +30,6 @@ fs.readdir("./results/tg_format/", async function (err, files) {
   }
 
   console.log(`Found ${chalk.blue(`${numFiles}`)} files`);
-
-  events.sort(function (a, b) {
-    const aYear = parseInt(a.year, 10);
-    const bYear = parseInt(b.year, 10);
-
-    return aYear - bYear;
-  });
 
   const results = writeWeb(events);
 
