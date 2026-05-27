@@ -80,7 +80,7 @@ TG files are fetched at runtime from `./results/<event><year>_<gender>.txt`, ser
 - **process_tg_file.ts** - Filter: reads TG from stdin (or a path), runs `processResults`, writes JSON to stdout
 - **convert_rssbc_to_tg.ts** - Converts the historical RSSBC JSON (under `results/rssbc/`) to TG format
 - **download_rssbc_results.ts** - Fetches RSSBC API data into `results/rssbc/`
-- **convert_tg_to_ad.js**, **convert_ad_to_tg.js**, **normalize_ad.js**, **normalize.js** - Legacy converters for the Anu Dudhia (`ad`) format
+- **convert_tg_to_ad.ts**, **convert_ad_to_tg.js**, **normalize_ad.js**, **normalize.js** - Legacy converters for the Anu Dudhia (`ad`) format
 - **data/** - Cached RSSBC raw text dumps used by the converters
 
 ### Results Data
