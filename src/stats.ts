@@ -1,6 +1,6 @@
 import { range, updateStats } from "./utils";
 
-import type { Event } from "./types";
+import type { ProcessedEvent } from "./types";
 import { clubMapping } from "./club-mappings";
 
 const clubMappings = new Map<string, string>(Object.entries(clubMapping));
@@ -40,7 +40,7 @@ type StatCounter = { total: number; labels: string[] };
  *   - `withdrew`: An object capturing withdrawal statistics.
  * - An `all` object summarizing the overall statistics across all events, structured similarly to each club's statistics.
  *  */
-export function getStats(events: Event[], combine = false) {
+export function getStats(events: ProcessedEvent[], combine = false) {
   const stats: {
     set?: string;
     years?: string[];
@@ -137,13 +137,13 @@ export function getStats(events: Event[], combine = false) {
       const virtual = [];
 
       for (const num of range(0, event.crews.length - skip)) {
-        if (event.move?.[day][num] === null) {
+        if (event.move[day][num] === null) {
           withdrawn.push(num);
           skip += 1;
         }
 
-        if (event.skip?.[day][num]) {
-          virtual.push([num, num - event.move![day][num]!]);
+        if (event.skip[day][num]) {
+          virtual.push([num, num - event.move[day][num]!]);
         }
       }
 
@@ -199,7 +199,7 @@ export function getStats(events: Event[], combine = false) {
           year: event.year,
         };
 
-        let m = event.move![day][pos];
+        let m = event.move[day][pos];
 
         if (m === null) {
           updateStats(overallStats, "withdrew", 1, crewInfo);
@@ -210,23 +210,23 @@ export function getStats(events: Event[], combine = false) {
         let divHead = 0;
         let div = 0;
 
-        while (div < event.div_size![day].length - 1) {
-          if (pos < divHead + event.div_size![day][div]) {
+        while (div < event.div_size[day].length - 1) {
+          if (pos < divHead + event.div_size[day][div]) {
             break;
           }
 
-          divHead += event.div_size![day][div];
+          divHead += event.div_size[day][div];
           div += 1;
         }
 
-        let divRaced = event.completed![day][div];
+        let divRaced = event.completed[day][div];
 
         if (!divRaced && div > 0 && pos === divHead) {
-          divRaced = event.completed![day][div - 1];
+          divRaced = event.completed[day][div - 1];
         }
 
         // Add stats if the crew didn't skip this day
-        if (!event.skip![day][num] && divRaced) {
+        if (!event.skip[day][num] && divRaced) {
           let adjust = 0;
 
           if (missing[day] === undefined) {
@@ -257,7 +257,7 @@ export function getStats(events: Event[], combine = false) {
 
         pos -= m;
 
-        if (!event.skip![day][pos]) {
+        if (!event.skip[day][pos]) {
           if (divRaced) {
             if (!(crew.number in club.highest)) {
               club.highest[crew.number] = {

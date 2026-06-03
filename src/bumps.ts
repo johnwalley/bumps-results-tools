@@ -1,6 +1,6 @@
 import { z } from "zod";
 import * as abbreviations from "./abbreviations";
-import { EventSchema, type Crew, type Event } from "./types";
+import { EventSchema, type Crew, type Event, type ProcessedEvent } from "./types";
 import { range } from "./utils";
 
 function addCrew(
@@ -315,7 +315,13 @@ export async function readFile(path?: string): Promise<Event | null> {
   return readEvent(await file.text());
 }
 
-export function processResults(event: Event, debug = false) {
+export function processResults(
+  input: Event,
+  debug = false,
+): ProcessedEvent | undefined {
+  // Work on a private copy so the caller's event is never mutated.
+  const event = structuredClone(input);
+
   if (event["div_size"] === null || event["crews"].length === 0) {
     return;
   }
@@ -324,6 +330,8 @@ export function processResults(event: Event, debug = false) {
   event["back"] = [];
   event["completed"] = [];
   event["skip"] = [];
+  event["crews_withdrawn"] = 0;
+  event["full_set"] = false;
 
   for (const d of range(0, event["days"])) {
     event["move"].push(new Array(event["crews"].length).fill(null));
@@ -343,14 +351,13 @@ export function processResults(event: Event, debug = false) {
   const m = all.match(pat);
 
   if (m === null) {
-    return;
+    return event as ProcessedEvent;
   }
 
   let dayNum = 0;
   let divNum = event["div_size"][dayNum].length - 1;
   let crewNum = event["crews"].length - 1;
   let divHead = crewNum - event["div_size"][dayNum][divNum] + 1;
-  event["crews_withdrawn"] = 0;
   let penalty = 0;
   let move = null;
 
@@ -412,7 +419,7 @@ export function processResults(event: Event, debug = false) {
           console.log(
             "Run out of days of racing with more results still to go",
           );
-          return;
+          return event as ProcessedEvent;
         }
 
         if (debug) {
@@ -420,7 +427,7 @@ export function processResults(event: Event, debug = false) {
         }
 
         if (!checkResults(event, move, back, 0, debug)) {
-          return;
+          return event as ProcessedEvent;
         }
 
         move = event["move"][dayNum];
@@ -460,7 +467,7 @@ export function processResults(event: Event, debug = false) {
       }
     } else if (c === "u") {
       if (!processBump(move, back, crewNum, 1, divHead)) {
-        return;
+        return event as ProcessedEvent;
       }
 
       crewNum = crewNum - 2;
@@ -472,7 +479,7 @@ export function processResults(event: Event, debug = false) {
       const up = Number(c.slice(1));
 
       if (!processBump(move, back, crewNum, up, divHead)) {
-        return;
+        return event as ProcessedEvent;
       }
 
       crewNum = crewNum - 1;
@@ -498,7 +505,7 @@ export function processResults(event: Event, debug = false) {
           `Result ${c} applied to crew that can't be found in position ${crewNum}`,
         );
 
-        return;
+        return event as ProcessedEvent;
       }
 
       move[p]! += up;
@@ -510,7 +517,7 @@ export function processResults(event: Event, debug = false) {
         }
 
         if (!processChain(move, back, crewNum - up, penalty)) {
-          return;
+          return event as ProcessedEvent;
         }
 
         penalty = 0;
@@ -541,7 +548,7 @@ export function processResults(event: Event, debug = false) {
           `Washing machine size ${size} get above head of division ${divHead}`,
         );
 
-        return;
+        return event as ProcessedEvent;
       }
 
       if (debug) {
@@ -549,7 +556,7 @@ export function processResults(event: Event, debug = false) {
       }
 
       if (!processChain(move, back, crewNum - size, size)) {
-        return;
+        return event as ProcessedEvent;
       }
 
       crewNum = crewNum - (size + 1);
@@ -625,14 +632,12 @@ export function processResults(event: Event, debug = false) {
   }
 
   if (move === null) {
-    return;
+    return event as ProcessedEvent;
   }
 
   /*   if (!checkResults(event, move, back, divHead, debug)) {
     return;
   } */
-
-  event["full_set"] = false;
 
   if (dayNum === event["days"] - 1 && crewNum === -1) {
     if (debug) {
@@ -695,6 +700,8 @@ export function processResults(event: Event, debug = false) {
       event["crews"][nc]["club_end"] = event["crews"][crewNum]["club"];
     }
   }
+
+  return event as ProcessedEvent;
 }
 
 function checkResults(
@@ -783,10 +790,12 @@ export function writeWeb(sets: Event[]) {
 export function stepOn(event: Readonly<Event>) {
   const newEvent: Event = structuredClone(event);
 
-  const newlist = Array(event.crews.length).fill(null);
+  // Operate entirely on the cloned crews so the caller's event is untouched.
+  const crews = newEvent.crews;
+  const newlist = Array(crews.length).fill(null);
 
-  for (let i of range(0, event.crews.length)) {
-    const crew = event.crews[i];
+  for (const i of range(0, crews.length)) {
+    const crew = crews[i];
 
     if (crew.gain !== null) {
       const ep = i - crew.gain;
@@ -801,32 +810,34 @@ export function stepOn(event: Readonly<Event>) {
         newlist[ep] = crew;
       }
     }
+  }
 
-    newEvent.crews = newlist;
+  // Renumber once, in original starting order. newlist holds the same crew
+  // references, so this also updates the crews in their new positions.
+  const clubs: Record<string, number> = {};
 
-    const clubs: Record<string, number> = {};
+  for (const c of crews) {
+    if (!(c.club in clubs)) {
+      clubs[c.club] = 1;
+    }
 
-    for (let c of event.crews) {
-      if (!(c.club in clubs)) {
-        clubs[c.club] = 1;
-      }
+    c.number = clubs[c.club];
+    clubs[c.club] += 1;
 
-      c.number = clubs[c.club];
-      clubs[c.club] += 1;
+    if (c.number < abbreviations.roman.length) {
+      c.num_name = `${c.club} ${abbreviations.roman[c.number - 1]}`;
+    } else {
+      c.num_name = `${c.club} ${c.number}`;
+    }
 
-      if (c.number < abbreviations.roman.length) {
-        c.num_name = `${c.club} ${abbreviations.roman[c.number - 1]}`;
-      } else {
-        c.num_name = `${c.club} ${c.number}`;
-      }
-
-      if (c.number > 1) {
-        c.start = c.num_name;
-      } else {
-        c.start = c.club;
-      }
+    if (c.number > 1) {
+      c.start = c.num_name;
+    } else {
+      c.start = c.club;
     }
   }
+
+  newEvent.crews = newlist;
 
   try {
     const year = parseInt(event["year"], 10);

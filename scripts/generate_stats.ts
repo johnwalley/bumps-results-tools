@@ -3,7 +3,7 @@ import chalk from "chalk";
 import fs from "fs";
 import { processResults, readFile, writeWeb } from "../src/bumps";
 import { getStats } from "../src/stats";
-import { type Event } from "../src/types";
+import { type Event, type ProcessedEvent } from "../src/types";
 import * as prettier from "prettier";
 
 if (!fs.existsSync("./output")) {
@@ -63,11 +63,17 @@ fs.readdir("./results/tg_format/", async function (err, files) {
         (event) => event.gender === gender && event.short === small,
       );
 
+      const processed: ProcessedEvent[] = [];
+
       for (const event of e) {
-        processResults(event);
+        const result = processResults(event);
+
+        if (result) {
+          processed.push(result);
+        }
       }
 
-      const finalStats = getFinalStats(e);
+      const finalStats = getFinalStats(processed);
 
       const filename = `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/stats.json`;
 
@@ -121,43 +127,7 @@ fs.readdir("./results/tg_format/", async function (err, files) {
   }
 });
 
-function getFinalStats(
-  e: {
-    set:
-      | "Summer Eights"
-      | "Lent Bumps"
-      | "May Bumps"
-      | "Torpids"
-      | "Town Bumps";
-    crews: {
-      number: number;
-      blades: boolean;
-      club_end: string | null;
-      club: string;
-      end: string | null;
-      gain: number | null;
-      highlight: boolean;
-      num_name: string;
-      start: string;
-      withdrawn: boolean;
-    }[];
-    days: number;
-    distance: number;
-    div_size: number[][] | null;
-    flags: string[];
-    gender: "Men" | "Women";
-    pace: unknown[];
-    results: string[];
-    short: "Torpids" | "Eights" | "Lents" | "Mays" | "Town";
-    year: string;
-    back?: (number | null)[][] | undefined;
-    completed?: boolean[][] | undefined;
-    crews_withdrawn?: number | undefined;
-    full_set?: boolean | undefined;
-    move?: (number | null)[][] | undefined;
-    skip?: unknown[][] | undefined;
-  }[],
-) {
+function getFinalStats(e: ProcessedEvent[]) {
   const stats = getStats(e, true);
 
   const rHeadships = {};

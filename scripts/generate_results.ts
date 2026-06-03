@@ -63,13 +63,11 @@ fs.readdir("./results/tg_format/", async function (err, files) {
         (event) => event.gender === gender && event.short === small,
       );
 
-      for (const event of e) {
-        processResults(event);
-      }
+      const processed = e.map((event) => processResults(event) ?? event);
 
       const filename = `./output/results/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/results.json`;
 
-      fs.writeFile(filename, JSON.stringify(e), function () {
+      fs.writeFile(filename, JSON.stringify(processed), function () {
         console.log(
           `Wrote file to ${chalk.blue(
             `./output/results/${chalk.green(

@@ -25,9 +25,11 @@ function App() {
     try {
       const event = readEvent(state);
 
-      processResults(event!, false);
+      if (!event) {
+        return null;
+      }
 
-      return event;
+      return processResults(event, false) ?? null;
     } catch (e) {
       return null;
     }

@@ -58,9 +58,25 @@ export const EventSchema = z.object({
     "Town Bumps",
   ]),
   short: z.enum(["Eights", "Lents", "Mays", "Torpids", "Town"]),
-  skip: z.array(z.array(z.unknown())).optional(),
+  skip: z.array(z.array(z.boolean())).optional(),
   year: z.string(),
 });
 
 export type Event = z.infer<typeof EventSchema>;
 export type Crew = z.infer<typeof CrewSchema>;
+
+/**
+ * An {@link Event} that has been run through `processResults`. The fields that
+ * `processResults` computes are guaranteed to be present (and `div_size` is no
+ * longer nullable), so downstream consumers can read them without non-null
+ * assertions.
+ */
+export type ProcessedEvent = Event & {
+  back: (number | null)[][];
+  completed: boolean[][];
+  crews_withdrawn: number;
+  div_size: number[][];
+  full_set: boolean;
+  move: (number | null)[][];
+  skip: boolean[][];
+};

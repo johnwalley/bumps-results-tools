@@ -2,8 +2,6 @@ import { processResults, readFile } from "../src/bumps";
 
 const event = await readFile();
 
-if (event !== null) {
-  processResults(event);
-}
+const processed = event === null ? event : (processResults(event) ?? event);
 
-await Bun.write(Bun.stdout, JSON.stringify(event));
+await Bun.write(Bun.stdout, JSON.stringify(processed));

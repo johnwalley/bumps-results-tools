@@ -93,12 +93,18 @@ for (const file of files) {
     continue;
   }
 
-  processResults(event);
+  const processed = processResults(event);
+
+  if (!processed) {
+    console.warn(`Skipping ${file}: could not process results`);
+    numSkipped++;
+    continue;
+  }
 
   const newFile = `${set}${year}${gender}.txt`;
 
   try {
-    const ad = writeAd(event);
+    const ad = writeAd(processed);
     fs.writeFileSync("./results/ad_format/" + newFile, ad);
     numConverted++;
   } catch (err) {

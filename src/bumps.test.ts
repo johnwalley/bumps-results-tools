@@ -8,8 +8,7 @@ describe("mays 2024 men", () => {
 
   beforeAll(async () => {
     const parsed = await readFile("./results/tg_format/mays2024_men.txt");
-    event = parsed!;
-    processResults(event, false);
+    event = processResults(parsed!, false)!;
   });
 
   describe("processResults", () => {
