@@ -39,7 +39,8 @@
     "preview": "vite preview",
     "generate:results": "bun run scripts/generate_results.ts",
     "generate:stats": "bun run scripts/generate_stats.ts",
-    "generate": "bun run generate:results && bun run generate:stats"
+    "generate": "bun run generate:results && bun run generate:stats",
+    "detect:anomalies": "bun run scripts/detect_anomalies.ts"
   },
   "type": "module"
 }
