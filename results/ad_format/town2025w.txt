@@ -7,13 +7,13 @@ Cantabs 2                  -1   0   0   0
 City 2                      1   0   0   0
 Cantabs 3                  -1   0   0   0
 99 1                        1   0   0   0
-Cantabs 4                   0  -1  -1   0
+Cantabs 4                   0  -1  -1  -1
 City 3                     -1   0   1   0
 99 2                        1   1   0   0
 Chesterton 1                0   0  -1   0
 Isle of Ely 1               0  -1   0  -1
 X-Press 1                  -1   0  -1  -1
-City 4                      1   1   1   0
+City 4                      1   1   1   1
 Cantabs 5                   0  -1  -1   0
 Champs 1                   -1  -1  -1  -1
 City 5                      1   1   1   1
