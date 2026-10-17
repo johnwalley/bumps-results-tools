@@ -6,20 +6,37 @@ import { ComponentProps, useEffect, useMemo, useState } from "react";
 
 import { BumpsChart } from "react-bumps-chart";
 import { Event } from "../types";
-import results from "./results/results.json";
+import { resultFiles } from "./results";
 
 type BumpsChartData = ComponentProps<typeof BumpsChart>["data"];
 
-const DEFAULT_RESULT = "./results/torpids2025_men.txt";
+const DEFAULT_RESULT = "torpids2025_men";
+
+const resultGroups = Object.groupBy(
+  resultFiles,
+  (file) => `${file.set} ${file.gender}`,
+);
 
 function App() {
+  const [selected, setSelected] = useState(DEFAULT_RESULT);
   const [state, setState] = useState("");
 
   useEffect(() => {
-    fetch(DEFAULT_RESULT)
-      .then((res) => res.text())
-      .then(setState);
-  }, []);
+    let cancelled = false;
+
+    resultFiles
+      .find((file) => file.id === selected)
+      ?.load()
+      .then((text) => {
+        if (!cancelled) {
+          setState(text);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [selected]);
 
   const data = useMemo(() => {
     try {
@@ -35,19 +52,6 @@ function App() {
     }
   }, [state]);
 
-  const handleSelectEvent = async (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value;
-
-    const [event, gender, year] = value.split("/");
-
-    const res = await fetch(
-      `./results/${event}${year}_${gender}.txt?raw`.toLocaleLowerCase(),
-    );
-
-    const txt = await res.text();
-    setState(txt);
-  };
-
   const handleNextYear = () => {
     const nextYear = writeString(stepOn(data as Event));
 
@@ -59,24 +63,19 @@ function App() {
       <div className="flex flex-row h-screen">
         <div className="flex-1 overflow-auto flex flex-col">
           <div>
-            <select onChange={handleSelectEvent}>
-              {Object.keys(results).flatMap((short) =>
-                ["Men", "Women"].flatMap((gender) =>
-                  results[short as "Lents"][gender as "Men" | "Women"]
-                    .filter(
-                      (year) =>
-                        !results[short as "Mays"]["split"].includes(year),
-                    )
-                    .map((year) => (
-                      <option
-                        key={`${short} ${gender} ${year}`}
-                        value={`${short}/${gender}/${year}`}
-                      >
-                        {`${short} ${gender} ${year}`}
-                      </option>
-                    )),
-                ),
-              )}
+            <select
+              value={selected}
+              onChange={(e) => setSelected(e.target.value)}
+            >
+              {Object.entries(resultGroups).map(([group, files]) => (
+                <optgroup key={group} label={group}>
+                  {files!.map((file) => (
+                    <option key={file.id} value={file.id}>
+                      {`${group} ${file.year}`}
+                    </option>
+                  ))}
+                </optgroup>
+              ))}
             </select>
             <button
               type="button"
