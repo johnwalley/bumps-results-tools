@@ -1,0 +1,50 @@
+Lent Bumps Men 1907
+full_set: true
+div_size: 15 15 16 | 15 15 16 | 15 15 16 | 15 15 16
+
+  1 1st Trinity I     -1  0  0  0 =  -1
+  2 Jesus I           +1  0  0  0 =  +1 blades
+  3 Trinity Hall I     0  0  0 -1 =  -1
+  4 Emmanuel I         0  0 -1  0 =  -1
+  5 LMBC I             0 -1  0  0 =  -1
+  6 1st Trinity II    -1 -1  0 -1 =  -3
+  7 Caius I           +1 +1 +1 +1 =  +4 blades
+  8 Pembroke I         0 +1  0  0 =  +1
+  9 Christ's I         0  0  0 +1 =  +1
+ 10 3rd Trinity I     -1  0 -1  0 =  -2
+ 11 Sidney Sussex I   +1  0  0  0 =  +1
+ 12 King's I          -1 -1 -1 -1 =  -4
+ 13 Clare I           +1  0 +1  0 =  +2
+ 14 Corpus Christi I   0 +1  0  0 =  +1
+ 15 LMBC II            0  0 +1  0 =  +1
+ 16 Caius II           0  0 -1 -1 =  -2
+ 17 St Catharine's I   0 -1 -1 -1 =  -3
+ 18 Trinity Hall II   -1  0 +1 +1 =  +1
+ 19 Jesus II          +1 +1 +1 +1 =  +4 blades
+ 20 Pembroke II       -1  0  0 -1 =  -2
+ 21 Emmanuel II       +1  0  0 +1 =  +2
+ 22 1st Trinity III    0  0 -1 -1 =  -2
+ 23 Selwyn I           0 -1 -1 -1 =  -3
+ 24 Clare II          -1 -1 -1 -1 =  -4
+ 25 Queens' I         +1 +1 +1 +1 =  +4 blades
+ 26 Peterhouse I      -1 -1 -1 -1 =  -4
+ 27 LMBC III          +1 +1 +1 +1 =  +4 blades
+ 28 King's II         -1 -1 -1 -1 =  -4
+ 29 Pembroke III      +1 +1 +1 +1 =  +4 blades
+ 30 Magdalene I        0 +1 +1 +1 =  +3
+ 31 Trinity Hall III  -1 -1 -1  0 =  -3
+ 32 Selwyn II         +1  0 +1 +1 =  +3
+ 33 1st Trinity IV    -1  0 +1  0 =   0
+ 34 Caius III         +1 +1  0 +1 =  +3
+ 35 Emmanuel III      -1 +1  0 -1 =  -1
+ 36 Pembroke IV       +1 -1 -1 -1 =  -2
+ 37 Pembroke V         0 -1 -1  0 =  -2
+ 38 1st Trinity V     -1 -1  0 -1 =  -3
+ 39 Downing I         +1 +1 +1 +1 =  +4 blades
+ 40 Christ's II        0 +1 +1 +1 =  +3
+ 41 1st Trinity VI     0  0 -1  0 =  -1
+ 42 Jesus III          0 -1 -1  0 =  -2
+ 43 Clare III         -1 -1  0  0 =  -2
+ 44 Christ's III      +1 +1 +1 +1 =  +4 blades
+ 45 Fitzwilliam I     -1  0  0  0 =  -1
+ 46 Queens' II        +1 +1 +1  0 =  +3

@@ -1,0 +1,50 @@
+May Bumps Men 1922
+full_set: true
+div_size: 15 15 16 | 15 15 16 | 15 15 16 | 15 15 16
+
+  1 Jesus I             0  0  0  0 =   0 blades
+  2 1st Trinity I       0  0  0  0 =   0
+  3 Pembroke I          0  0  0  0 =   0
+  4 LMBC I              0 -1  0 -1 =  -2
+  5 3rd Trinity I       0 +1  0  0 =  +1
+  6 Christ's I         -1 -1 -1 -1 =  -4
+  7 Jesus II           +1  0 -1  0 =   0
+  8 Caius I             0 +1 +1 +1 =  +3
+  9 King's I            0  0 +1  0 =  +1
+ 10 Trinity Hall I      0  0 -1  0 =  -1
+ 11 Pembroke II         0 -1  0  0 =  -1
+ 12 Queens' I           0 +1 +1 +1 =  +3
+ 13 Sidney Sussex I     0  0 -1  0 =  -1
+ 14 Emmanuel I          0  0 +1  0 =  +1
+ 15 Selwyn I            0  0 -1 -1 =  -2
+ 16 LMBC II             0 -1 -1 -1 =  -3
+ 17 Caius II            0 +1 +1 -1 =  +1
+ 18 St Catharine's I    0 -1 -1 -1 =  -3
+ 19 Magdalene I        -1 -1 -1 -1 =  -4
+ 20 1st Trinity II     +1 +1 +1 +2 =  +5 blades
+ 21 Corpus Christi I    0 +1 +1 +1 =  +3
+ 22 1st Trinity III    -1 -1 -1 -1 =  -4
+ 23 Clare I            +1  0 +1 +1 =  +3
+ 24 Downing I           0 +1  0 +1 =  +2
+ 25 Emmanuel II         0  0 +1  0 =  +1
+ 26 Trinity Hall II    -1 -1 -1 -1 =  -4
+ 27 Christ's II        +1  0 -1 -1 =  -1
+ 28 Peterhouse I       -1 -1 -1 -1 =  -4
+ 29 3rd Trinity II     +1 +1 +1 +1 =  +4 blades
+ 30 Fitzwilliam I      -1 -1 -1  0 =  -3
+ 31 Jesus III          +1 +1 +1 +1 =  +4 blades
+ 32 Pembroke III        0 +1 +1 +1 =  +3
+ 33 Clare II            0  0 +1 +1 =  +2
+ 34 LMBC III            0  0 -1 -1 =  -2
+ 35 Jesus IV            0 -1 -1 -1 =  -3
+ 36 Christ's III       -1 -1 -1 -1 =  -4
+ 37 1st Trinity IV     +1 +1 +1  0 =  +3
+ 38 Caius III          -1 -1  0 +1 =  -1
+ 39 St Catharine's II  +1 +1 +1 +1 =  +4 blades
+ 40 Sidney Sussex II   -1  0  0  0 =  -1
+ 41 King's II          +1 +1 +1 +1 =  +4 blades
+ 42 Emmanuel III       -1  0 -1  0 =  -2
+ 43 Pembroke IV        +1  0  0 -1 =   0
+ 44 Queens' II          0 -1  0  0 =  -1
+ 45 Trinity Hall III   -1  0  0  0 =  -1
+ 46 Downing II         +1 +1 +1 +1 =  +4 blades

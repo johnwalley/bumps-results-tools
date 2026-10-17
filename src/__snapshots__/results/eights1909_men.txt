@@ -1,0 +1,35 @@
+Summer Eights Men 1909
+full_set: true
+div_size: 10 10 11 | 10 10 11 | 10 10 11 | 10 10 11 | 10 10 11 | 10 10 11
+
+  1 Christ Church I    0  0  0  0  0  0 =   0 blades
+  2 Magdalen I         0  0  0  0  0  0 =   0
+  3 New College I      0  0  0  0  0  0 =   0
+  4 Balliol I         -1  0  0  0  0  0 =  -1
+  5 St John's I       +1  0  0  0  0  0 =  +1
+  6 Merton I          -1 -1 -1  0 -1  0 =  -4
+  7 Trinity I         +1  0  0  0 -1  0 =   0
+  8 University I      -1  0 +1  0  0  0 =   0
+  9 Brasenose I       +1 +1  0  0 +1  0 =  +3
+ 10 Oriel I           -1  0 -1  0  0 -1 =  -3
+ 11 Corpus Christi I  +1  0  0  0 +1  0 =  +2
+ 12 Lincoln I          0 -1  0  0  0 +1 =   0
+ 13 Wadham I           0 +1 +1  0  0  0 =  +2
+ 14 Worcester I        0 -1  0  0  0  0 =  -1
+ 15 Christ Church II   0 +1  0  0  0  0 =  +1
+ 16 Pembroke I         0  0 -1  0  0  0 =  -1
+ 17 Exeter I           0 -1  0  0  0  0 =  -1
+ 18 Keble I            0 +1 +1  0  0  0 =  +2
+ 19 New College II     0  0  0 -1  0  0 =  -1
+ 20 Jesus I            0  0  0 +1  0  0 =  +1
+ 21 Trinity II         0  0  0  0  0  0 =   0
+ 22 Queen's I         -1 +1 -1  0 +1  0 =   0
+ 23 Hertford I        +1 -1 +1  0 -1  0 =   0
+ 24 Magdalen II        0  0  0  0  0  0 =   0
+ 25 St John's II       0  0  0 -1  0 -1 =  -2
+ 26 St Catherine's I   0 -1 -1  0  0  0 =  -2
+ 27 S.E.H. I          -3 -1  0  0  0  0 =  -4
+ 28 Brasenose II      -1  0 -1  0  0  0 =  -2
+ 29 University II     +1  0 +1  0  0 +1 =  +3
+ 30 Oriel II          +3 +1  0 +1  0  0 =  +5
+ 31 Trinity III        0 +1 +1  0  0  0 =  +2

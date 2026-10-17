@@ -65,7 +65,7 @@ pnpm vitest run src/bumps.test.ts
 
 - **bumps.test.ts** - Vitest suite for the core library
 
-- **results.test.ts** - Parses and processes every file in `results/tg_format/` and fails on any error, so a typo in new results data breaks CI
+- **results.test.ts** - Parses and processes every file in `results/tg_format/`, fails on any error (so a typo in new results data breaks CI), and compares a per-crew summary (daily moves, gain, blades, withdrawn) against `src/__snapshots__/results/<file>`. When a data edit or processor change is meant to alter results, run `pnpm vitest run -u` and review the snapshot diff. New TG files need their snapshot committed, because CI won't write missing snapshots
 
 ### UI (`src/ui/`)
 

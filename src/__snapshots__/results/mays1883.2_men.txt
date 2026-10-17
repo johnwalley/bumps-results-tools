@@ -1,0 +1,49 @@
+May Bumps Men 1883 June
+full_set: true
+div_size: 14 16 15 | 14 16 15 | 14 16 15 | 14 16 15 | 14 16 15 | 14 16 15
+
+  1 Jesus I             0  0  0  0  0  0 =   0 blades
+  2 1st Trinity I      -1  0  0  0  0  0 =  -1
+  3 Trinity Hall I     +1  0  0  0  0  0 =  +1
+  4 3rd Trinity I       0  0  0  0  0  0 =   0
+  5 LMBC I              0  0  0  0  0  0 =   0
+  6 Trinity Hall II     0  0  0 -1 -1  0 =  -2
+  7 Pembroke I          0  0  0 +1  0  0 =  +1
+  8 Caius I             0  0  0  0 +1  0 =  +1
+  9 1st Trinity II      0  0  0  0  0  0 =   0
+ 10 Downing I           0  0 -1 -1  0  0 =  -2
+ 11 Caius II            0 -1 -1 -1 -1  0 =  -4
+ 12 LMBC II            -1  0 +1 +1  0  0 =  +1
+ 13 Clare I            +1 +1 +1  0  0  0 =  +3
+ 14 3rd Trinity II     -1 -1 -1 -1  0  0 =  -4
+ 15 Trinity Hall III   +1  0  0 +1  0 -1 =  +1
+ 16 1st Trinity III    -1 -1 -1 -1  0  0 =  -4
+ 17 Jesus II           +1 +1  0 -1  0  0 =  +1
+ 18 Corpus Christi I   -1  0 +1 +1  0  0 =  +1
+ 19 Christ's I         +1 +1 +1 +1 +1 +1 =  +6 blades
+ 20 Cavendish I         0  0  0 +1  0  0 =  +1
+ 21 St Catharine's I    0  0  0  0  0  0 =   0
+ 22 Emmanuel I          0 -1 -1 -1  0  0 =  -3
+ 23 King's I           -1  0 +1  0  0  0 =   0
+ 24 Peterhouse I       +1 +1  0  0  0  0 =  +2
+ 25 Queens' I           0  0 -1  0  0  0 =  -1
+ 26 LMBC III            0 -1  0 -1  0  0 =  -2
+ 27 1st Trinity IV     -1  0 -1  0  0  0 =  -2
+ 28 Magdalene I        +1 +1 +1 +1  0  0 =  +4
+ 29 Sidney Sussex I     0 -1  0  0  0  0 =  -1
+ 30 Jesus III          -1  0  0  0  0  0 =  -1
+ 31 Selwyn I           +1 +1 +1 +1  0  0 =  +4
+ 32 1st Trinity V       0  0  0  0  0  0 =   0
+ 33 Pembroke II         0  0  0  0  0  0 =   0
+ 34 LMBC IV             0  0  0  0  0  0 =   0
+ 35 Pembroke III        0  0  0  0  0  0 =   0
+ 36 Trinity Hall IV     0  0  0  0  0  0 =   0
+ 37 Caius III           0  0  0  0  0  0 =   0
+ 38 1st Trinity VI      0  0  0  0  0  0 =   0
+ 39 Trinity Hall V      0  0  0  0  0  0 =   0
+ 40 3rd Trinity III     0  0  0  0  0  0 =   0
+ 41 Christ's II         0  0  0  0  0  0 =   0
+ 42 Clare II            0  0  0  0  0  0 =   0
+ 43 Corpus Christi II   0  0  0  0  0  0 =   0
+ 44 Non-Collegiate I    0  0  0  0  0  0 =   0
+ 45 Emmanuel II         0  0  0  0  0  0 =   0

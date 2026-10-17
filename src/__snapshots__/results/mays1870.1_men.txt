@@ -1,0 +1,44 @@
+May Bumps Men 1870 March
+full_set: true
+div_size: 14 16 10 | 14 16 10 | 14 16 10 | 14 16 10
+
+  1 1st Trinity I       0  0  0  0 =   0
+  2 LMBC I              0  0  0  0 =   0
+  3 3rd Trinity I       0  0  0  0 =   0
+  4 Trinity Hall I      0  0  0  0 =   0
+  5 Christ's I          0  0  0  0 =   0
+  6 1st Trinity II      0  0  0  0 =   0
+  7 Sidney Sussex I     0  0  0  0 =   0
+  8 Corpus Christi I    0  0  0  0 =   0
+  9 Emmanuel I          0  0  0  0 =   0
+ 10 Jesus I             0  0  0  0 =   0
+ 11 Trinity Hall II     0  0  0  0 =   0
+ 12 Clare I             0  0  0  0 =   0
+ 13 King's I            0  0  0  0 =   0
+ 14 Magdalene I         0  0  0  0 =   0
+ 15 Pembroke I         -1 -1 -1 -1 =  -4
+ 16 1st Trinity III    +1  0  0  0 =  +1
+ 17 2nd Trinity I      -1  0 +1  0 =   0
+ 18 Caius I            +1 +1  0  0 =  +2
+ 19 Peterhouse I        0 -1  0  0 =  -1
+ 20 3rd Trinity II      0 +1  0 +1 =  +2
+ 21 Christ's II        -1 -1  0 -1 =  -3
+ 22 Corpus Christi II  +1  0  0  0 =  +1
+ 23 Caius II           -1 -1  0  0 =  -2
+ 24 Sidney Sussex II   +1 +1  0  0 =  +2
+ 25 St Catharine's I    0 +1  0 +1 =  +2
+ 26 LMBC II             0  0  0  0 =   0
+ 27 Emmanuel II         0  0  0 -1 =  -1
+ 28 Queens' I           0 -1 -1  0 =  -2
+ 29 1st Trinity IV      0 +1  0 +1 =  +2
+ 30 Jesus II           -1  0  0  0 =  -1
+ 31 Trinity Hall III   +1  0 +1  0 =  +2
+ 32 Downing I           0  0  0  0 =   0
+ 33 Pembroke II         0 -1 -1  0 =  -2
+ 34 2nd Trinity II     -1 -1 -1 -1 =  -4
+ 35 Clare II           +1 +1  0  0 =  +2
+ 36 Emmanuel III       -1 -1  0 +1 =  -1
+ 37 LMBC III           +1 +1 +1  0 =  +3
+ 38 1st Trinity V       0 +1 +1  0 =  +2
+ 39 1st Trinity VI      0  0  0  0 =   0
+ 40 Peterhouse II       0  0  0  0 =   0

@@ -1,0 +1,34 @@
+Town Bumps Women 2004
+full_set: true
+div_size: 17 13 | 17 13 | 17 13 | 17 13
+
+  1 Rob Roy 1      -1 -1  0  0 =  -2
+  2 City 1         +1  0 -1  0 =   0
+  3 99 1            0 +1 +1  0 =  +2 blades
+  4 City 2         -1  0  0  0 =  -1
+  5 Rob Roy 2      +1  0  0  0 =  +1
+  6 X-Press 1      -1 -1 -1  0 =  -3
+  7 Cantabs 1      +1  0  0  0 =  +1
+  8 Rob Roy 3       0 +1  0  0 =  +1
+  9 City 3          0  0 +1  0 =  +1
+ 10 Simoco 1       -1  0 -1 -1 =  -3
+ 11 Champs 1       +1  0  0 -1 =   0
+ 12 Cantabs 2       0 -1 -1 -1 =  -3
+ 13 Champs 2       -1 -1  0 +1 =  -1
+ 14 99 2           +1 +1 +1 +1 =  +4 blades
+ 15 St Ives 1      -1 -1 +1 -1 =  -2
+ 16 Rob Roy 4      +1 +1 +1 +1 =  +4 blades
+ 17 X-Press 2       0 +1 -1 +1 =  +1
+ 18 Champs 3        0  0  0 -1 =  -1
+ 19 X-Press 3      -1 -1 -1 -1 =  -4
+ 20 St Radegund 1  +1  0 -1 -1 =  -1
+ 21 Cantabs 3      -1 -1  0 +1 =  -1
+ 22 City 4         +1 +1 +1 +1 =  +4 blades
+ 23 99 3            0 +1 +1 +1 =  +3
+ 24 Champs 4        0  0  0  0 =   0
+ 25 99 4            0 -1 +1  0 =   0
+ 26 Simoco 2       -1  0  0 -1 =  -2
+ 27 Champs 5       +1 +1 -1  0 =  +1
+ 28 Cantabs 4      -1 -1  0  0 =  -2
+ 29 99 5           +1  0 -1  0 =   0
+ 30 Champs 6        0 +1 +1 +1 =  +3

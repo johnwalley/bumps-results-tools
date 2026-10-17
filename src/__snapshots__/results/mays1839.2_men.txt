@@ -1,0 +1,22 @@
+May Bumps Men 1839 April May
+full_set: true
+div_size: 18 | 18 | 18 | 18 | 18 | 18 | 18
+
+  1 1st Trinity (Black Prince) I   0  0  0  0  0  0  0 =   0 blades
+  2 3rd Trinity (Dolphin) I        0  0  0  0 -1  0 +1 =   0
+  3 Caius I                        0  0  0  0 +1  0 -1 =   0
+  4 LMBC I                         0  0  0  0  0 -1  0 =  -1
+  5 Jesus I                        0  0  0 -1  0  0  0 =  -1
+  6 1st Trinity II                -1 -1 -1  0 +1  0  0 =  -2
+  7 LMBC II                       +1  0 -1 -1 -1 -1  0 =  -3
+  8 King's I                      -1 -1  0  0  0 +1  0 =  -1
+  9 Magdalene I                   +1 +1 +1 +1  0 +1  0 =  +5
+ 10 Peterhouse I                   0 +1 +1 +1  0  0  0 =  +3
+ 11 St Catharine's I              -1  0  0  0  0  0 -1 =  -2
+ 12 Trinity Hall I                +1  0  0  0  0  0  0 =  +1
+ 13 Christ's I                     0  0  0 -1  0  0 -1 =  -2
+ 14 Caius II                       0  0  0 +1  0  0 +1 =  +2
+ 15 3rd Trinity II                 0  0  0  0  0  0 +1 =  +1
+ 16 1st Trinity III                0  0  0  0  0  0  0 =   0
+ 17 Queens' I                      0  0 -1  0  0  0  0 =  -1
+ 18 Clare I                        0  0 +1  0  0  0  0 =  +1

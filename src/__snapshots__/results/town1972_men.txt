@@ -1,0 +1,32 @@
+Town Bumps Men 1972
+full_set: true
+div_size: 15 13 | 15 13 | 15 13 | 15 13
+
+  1 Rob Roy 1             0  0  0  0 =   0 blades
+  2 99 1                  0  0  0  0 =   0
+  3 Rob Roy 2             0  0  0  0 =   0
+  4 99 2                  0 -1 -1 -1 =  -3
+  5 ACUA 1               -1 -1 -1 -1 =  -4
+  6 Cantabs 1            +1 +1  0 -1 =  +1
+  7 City 1               -1  0 +1 +1 =  +1
+  8 Scouts 1             +1 +1 +1 +1 =  +4 blades
+  9 Selwyn 1              0  0  0 +1 =  +1
+ 10 99 3                  0  0 -1  0 =  -1
+ 11 Grammar School 1     -3 -1 -1 -1 =  -6
+ 12 City 2               -1  0  0  0 =  -1
+ 13 Churchill 1          +1 +1 +1  0 =  +3
+ 14 Rob Roy 3            +3 -1  0  0 =  +2
+ 15 99 4                  0 +1  0 -1 =   0
+ 16 Cantabs 2             0  0 +1 +1 =  +2
+ 17 Cambs High School 1   0 -1  0  0 =  -1
+ 18 Rob Roy 4            -1  0  0 -1 =  -2
+ 19 Leckhampton 1        +1 +1  0 +1 =  +3
+ 20 King's 1             -1 -1 -1  0 =  -3
+ 21 Churchill 2          +1  0  0 +1 =  +2
+ 22 RAF Brampton 1        0 +1  0  0 =  +1
+ 23 Rob Roy 5             0  0 +1  0 =  +1
+ 24 Cantabs 3            -1 +1  0  0 =   0
+ 25 Scouts 2             +1 -1  0  0 =   0
+ 26 Cantabs 4            -1  0  0  0 =  -1
+ 27 Telephones 1         +1  0  0  0 =  +1
+ 28 Rob Roy 6             0  0  0  0 =   0

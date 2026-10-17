@@ -1,0 +1,48 @@
+Torpids Men 1938
+full_set: true
+div_size: 13 13 13 5 | 13 13 13 5 | 13 13 13 5 | 13 13 13 5 | 13 13 13 5 | 13 13 13 5
+
+  1 Magdalen I          0 -1 -1  0  0  0 =  -2
+  2 New College I       0 +1  0  0  0  0 =  +1 blades
+  3 S.E.H. I            0  0 +1  0  0  0 =  +1
+  4 University I        0  0  0  0  0 -1 =  -1
+  5 St John's I         0  0 -1 -1  0  0 =  -2
+  6 Balliol I           0  0 +1  0 -1  0 =   0
+  7 Exeter I            0 -1 -1  0 -1  0 =  -3
+  8 Oriel I            -1 -1 -1  0  0  0 =  -3
+  9 Pembroke I         +1 +1  0 +1 +1 +1 =  +5
+ 10 Corpus Christi I   -1 -1  0  0  0  0 =  -2
+ 11 Christ Church I    +1 +1 +1  0  0  0 =  +3
+ 12 Keble I            -1 -1  0  0  0  0 =  -2
+ 13 Trinity I          +1 +1 +1  0 +1  0 =  +4
+ 14 Merton I            0 +1  0  0  0  0 =  +1
+ 15 Brasenose I         0  0  0  0  0  0 =   0
+ 16 Jesus I            -1  0  0 -1 -1 -1 =  -4
+ 17 Queen's I          +1  0  0  0 -1  0 =   0
+ 18 Lincoln I          -1 -1 -1 -1 -1 -1 =  -6
+ 19 Worcester I        +1  0 -1  0 +1  0 =  +1
+ 20 New College II     -1 -1 -1 -1 -1 -1 =  -6
+ 21 Hertford I         +1 +1 +1 +1 +1  0 =  +5
+ 22 Balliol II         -1  0 +1 +1  0  0 =  +1
+ 23 St John's II       +1 +1 +1  0  0 +1 =  +4
+ 24 Magdalen II        -1 -1 -1 -1 -1  0 =  -5
+ 25 Christ Church II   +1  0 -1 -1  0 +1 =   0
+ 26 Wadham I            0 +1 +1 +1 +1  0 =  +4
+ 27 St Catherine's I    0 -1  0 +1  0  0 =   0
+ 28 Exeter II          -1 -1  0  0  0  0 =  -2
+ 29 St Peter's I       +1 +1 +1 +1 +1 +1 =  +6 blades
+ 30 S.E.H. II           0 +1  0  0 +1  0 =  +2
+ 31 Brasenose II        0 -1  0  0 -1 -1 =  -3
+ 32 Queen's II          0 +1  0  0  0 -1 =   0
+ 33 Oriel II           -1 +1  0 -1 -1 -1 =  -3
+ 34 Keble II           +1 -1 -1  0 +1 +1 =  +1
+ 35 Pembroke II         0 -1 -1 -1  0 -1 =  -4
+ 36 Merton II          -1 -1 -1 -1 -1 -1 =  -6
+ 37 St Peter's II      +1 +1 +1 +1 +1 +1 =  +6 blades
+ 38 University II       0 +1 +1  0  0 +1 =  +3
+ 39 Worcester II       -1  0 -1 -1 -1  0 =  -4
+ 40 Hertford II        +1  0 +1 +1  0  0 =  +3
+ 41 Balliol III        -1 -1  0  0 +1 +1 =   0
+ 42 Corpus Christi II  +1  0 +1 +1 -1  0 =  +2
+ 43 Christ Church III   0 +1  0 +1 +2 +1 =  +5
+ 44 Balliol IV          0  0  0  0  0  0 =   0

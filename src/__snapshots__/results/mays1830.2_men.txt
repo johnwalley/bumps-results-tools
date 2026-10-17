@@ -1,0 +1,13 @@
+May Bumps Men 1830 April May
+full_set: true
+div_size: 9 | 9 | 8 | 8 | 6 | 6 | 6
+
+  1 LMBC I                 0  0  0  0  0  0 -1 =  -1
+  2 2nd Trinity I         -1  0 +1  0 -1  0  0 =  -1
+  3 Trinity Monarch I     +1  0 -1  0 +1  0 +1 =  +2 blades
+  4 Jesus I               -1 -1 -1 -1 +2 +1  0 =  -1
+  5 LMBC II               +1  0  0  0 -1 -1  0 =  -1
+  6  I                    -1 -1  0 +1  ? =   ? withdrawn
+  7  I                    +1 +1  0 -1  ? =   ? withdrawn
+  8  I                    -1  0  ? =   ? withdrawn
+  9 St. John's Corsair I  +1 +1 +1 +1 +1  0  0 =  +5

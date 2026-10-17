@@ -1,0 +1,35 @@
+Torpids Men 1912
+full_set: true
+div_size: 10 10 11 | 10 10 11 | 10 10 11 | 10 10 11 | 10 10 11 | 10 10 11
+
+  1 Balliol I           0  0  0 -1  0 -1 =  -2
+  2 New College I       0  0 -1  0 -1  0 =  -2
+  3 Christ Church I     0 -1  0 -1  0  0 =  -2
+  4 Trinity I          -1  0 -1  0  0 -1 =  -3
+  5 Magdalen I         +1 +1 +1 +1  0  0 =  +4 blades
+  6 University I        0 -1  0  0 -1 -1 =  -3
+  7 Oriel I            -1 -1 -1 -1 -1 -1 =  -6
+  8 St John's I        +1 +1 +1 +1 +1 +1 =  +6 blades
+  9 Magdalen II         0 +1  0 -1 -1 -1 =  -2
+ 10 Brasenose I         0 -1  0 -1 +1 +1 =   0
+ 11 Balliol II         -1  0 -1 -1 -1  0 =  -4
+ 12 Corpus Christi I   +1 +1 +1 +1 +1 +1 =  +6 blades
+ 13 Pembroke I         -1 -1  0  0 +1  0 =  -1
+ 14 Christ Church II   +1  0 +1 +2 +1 +1 =  +6
+ 15 New College II      0 +1  0 +1  0 +1 =  +3
+ 16 Hertford I         -1 -1 -1 -1 -1 -1 =  -6
+ 17 Keble I            +1  0  0  0 -1 -1 =  -1
+ 18 Lincoln I           0 +1  0 -1 -1 -1 =  -2
+ 19 Merton I            0  0 +1 +1 +1  0 =  +3
+ 20 Exeter I            0 -1  0  0 +1 +1 =  +1
+ 21 Worcester I         0 -1  0  0  0 +1 =   0
+ 22 St John's II        0 +2  0 +1 +1 +1 =  +5
+ 23 Jesus I            -1 -1  0  0  0  0 =  -2
+ 24 Queen's I          +1  0  0  0  0  0 =  +1
+ 25 University II      -1 -1  0  0  0  0 =  -2
+ 26 S.E.H. I           +1 +1  0  0  0  0 =  +2
+ 27 Wadham I           -1  0  0  0  0  0 =  -1
+ 28 Brasenose II       +1 +1  0  0  0  0 =  +2
+ 29 Christ Church III  -1 -1  0  0 +1  0 =  -1
+ 30 Trinity II         +1  0 -1  0 -1  0 =  -1
+ 31 Keble II            0 +1 +1  0  0  0 =  +2

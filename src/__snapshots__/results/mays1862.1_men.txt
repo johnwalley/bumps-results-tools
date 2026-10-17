@@ -1,0 +1,56 @@
+May Bumps Men 1862 February
+full_set: true
+div_size: 19 20 13 | 19 20 13 | 19 20 13
+
+  1 1st Trinity I        0  0  0 =   0
+  2 3rd Trinity I        0  0  0 =   0
+  3 LMBC I               0  0  0 =   0
+  4 Trinity Hall I       0  0  0 =   0
+  5 1st Trinity II       0  0  0 =   0
+  6 Trinity Hall II      0  0  0 =   0
+  7 Caius I              0  0  0 =   0
+  8 2nd Trinity I        0  0  0 =   0
+  9 Emmanuel I           0  0  0 =   0
+ 10 Corpus Christi I     0  0  0 =   0
+ 11 Christ's I           0  0  0 =   0
+ 12 Clare I              0  0  0 =   0
+ 13 Sidney Sussex I      0  0  0 =   0
+ 14 LMBC II              0  0  0 =   0
+ 15 1st Trinity III      0  0  0 =   0
+ 16 Lady Somerset I      0  0  0 =   0
+ 17 Peterhouse I         0  0  0 =   0
+ 18 Caius II             0  0  0 =   0
+ 19 Magdalene I          0  0  0 =   0
+ 20 Pembroke I           0 -1 -1 =  -2
+ 21 Jesus I             -1 -1 -1 =  -3
+ 22 1st Trinity IV      +1 +1  0 =  +2
+ 23 2nd Trinity II      -1  0 +1 =   0
+ 24 3rd Trinity II      +1 +1 +1 =  +3 blades
+ 25 St Catharine's I     0 -1 -1 =  -2
+ 26 King's I            -1 -1  0 =  -2
+ 27 LMBC III            +1 +1  0 =  +2
+ 28 Emmanuel II          0 +1 +1 =  +2
+ 29 Corpus Christi II    0 -1 -1 =  -2
+ 30 Christ's II         -1 -1 -1 =  -3
+ 31 Queens' I           +1 +1  0 =  +2
+ 32 2nd Trinity III     -1 -3 +1 =  -3
+ 33 Clare II            +1 +1 +1 =  +3 blades
+ 34 Lady Somerset II     0 -1 -1 =  -2
+ 35 Emmanuel III        -2 -3 -1 =  -6
+ 36 Corpus Christi III  -2 -1 -1 =  -4
+ 37 LMBC IV             +1 +3 +1 =  +5 blades
+ 38 Trinity Hall III    +3 +1  0 =  +4
+ 39 1st Trinity V        0 +1 +1 =  +2
+ 40 Caius III            0 +3 -1 =  +2
+ 41 Sidney Sussex II     0  0 +2 =  +2
+ 42 Christ's III         0 -1 -1 =  -2
+ 43 1st Trinity VI       0 +1  0 =  +1
+ 44 2nd Trinity IV       0 -1 -1 =  -2
+ 45 Queens' II          -1 -1 -1 =  -3
+ 46 LMBC V              +1 +1 +1 =  +3 blades
+ 47 Jesus II            -1  0 +1 =   0
+ 48 Peterhouse II       +1 +1 +1 =  +3 blades
+ 49 Caius IV             0 -1  0 =  -1
+ 50 Trinity Hall IV     -1  0  0 =  -1
+ 51 LMBC VI             +1 +1  0 =  +2
+ 52 1st Trinity VII      0  0  0 =   0

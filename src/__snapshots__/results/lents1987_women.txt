@@ -1,0 +1,55 @@
+Lent Bumps Women 1987
+full_set: true
+div_size: 17 17 17 | 17 17 17 | 17 17 17 | 17 17 17
+
+  1 Jesus I             0  0  0  0 =   0 blades
+  2 Homerton I         -1 -1 -1 -1 =  -4
+  3 Churchill I        +1  0  0  0 =  +1
+  4 Newnham I           0 +1  0  0 =  +1
+  5 Emmanuel I          0  0 +1  0 =  +1
+  6 Trinity Hall I     -1 -1 -1 -3 =  -6
+  7 Fitzwilliam I      +1  0 -1  0 =   0
+  8 Clare I            -1  0 +1  0 =   0
+  9 Caius I            +1 +1 +1 +1 =  +4 blades
+ 10 1st and 3rd I       0 -1 +1 -1 =  -1
+ 11 New Hall I         -1 -1  0 -1 =  -3
+ 12 LMBC I             +1 +1 -1 +1 =  +2
+ 13 Girton I            0 +1  0 +3 =  +4
+ 14 Queens' I           0  0 -1  0 =  -1
+ 15 St Catharine's I   -3 -1 -1 -1 =  -6
+ 16 Sidney Sussex I    -1  0  0  0 =  -1
+ 17 Downing I          +1 +1 +1 +1 =  +4 blades
+ 18 Christ's I         -1 +1  0 -1 =  -1
+ 19 Corpus Christi I   +4 -1  0  0 =  +3
+ 20 Selwyn I            0  0 +1 +1 =  +2
+ 21 Jesus II           -1 -1  0 -1 =  -3
+ 22 Robinson I         +1  0 -1  0 =   0
+ 23 Pembroke I          0 +1 +1 +1 =  +3
+ 24 Clare II           -1 -1  0 -1 =  -3
+ 25 Newnham II         +1  0 -1  0 =   0
+ 26 QMABC I            -1  0 -1  0 =  -2
+ 27 Churchill II       +1 +1 +1 +1 =  +4 blades
+ 28 Jesus III          -1 -1 -1  0 =  -3
+ 29 Wolfson I          +1  0 +1 +1 =  +3
+ 30 Emmanuel II         0 +1  0 -1 =   0
+ 31 LMBC II             0 -1 -1 -1 =  -3
+ 32 New Hall II        -1 -1 -1 -1 =  -4
+ 33 Addenbrooke's I    +1 +1 +1 +1 =  +4 blades
+ 34 CCAT I             -1 -5 -1  0 =  -7
+ 35 Peterhouse I       +1 +1 +1  0 =  +3
+ 36 Darwin I            0 -1 -1  0 =  -2
+ 37 Selwyn II          -1 -1  0  0 =  -2
+ 38 Queens' II         +1 +1  0 +1 =  +3
+ 39 Christ's II        -3 -1 -1 -1 =  -6
+ 40 LMBC III           -1  0 +1  0 =   0
+ 41 1st and 3rd II     +1 +5 +1 +1 =  +8 blades
+ 42 Caius II           +3 +1 +1  0 =  +5
+ 43 Trinity Hall II    -1 -1 -1  0 =  -3
+ 44 Sidney Sussex II   +1 +1  0 -1 =  +1
+ 45 Girton II          -1 -1  0 -1 =  -3
+ 46 Fitzwilliam II     +1 +1 +1 +1 =  +4 blades
+ 47 Corpus Christi II  -1 -1 +1 +1 =   0
+ 48 Downing II         +1 +1 +1 +1 =  +4 blades
+ 49 Homerton II         0 +1 -1  0 =   0
+ 50 Robinson II         0  0  0 -1 =  -1
+ 51 QMABC II            0  0  0 +1 =  +1

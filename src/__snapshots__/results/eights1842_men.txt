@@ -1,0 +1,18 @@
+Summer Eights Men 1842
+full_set: true
+div_size: 14 | 14 | 14 | 13 | 13 | 13 | 13
+
+  1 University I       -1  0 -1  0  0  0  0 =  -2
+  2 Trinity I          +1  0  0  0 -1  0  0 =   0
+  3 Brasenose I         0 -1 -1 -1  0 +1  0 =  -2
+  4 Exeter I           -1  0 +1  0  0  0  0 =   0
+  5 Oriel I            +1 +1 +1  0 +1  0  0 =  +4 blades
+  6 Balliol I           0  0  0 +1  0 -1 -1 =  -1
+  7 St John's I         0  0 -1  0 -1 -1  0 =  -3
+  8 Worcester I         0 -1  0 -1  0 +1 +1 =   0
+  9 Magdalen Hall I    -1 -1  0  0  0 -1 +1 =  -2
+ 10 Christ Church I    +1 +1 +1  0  0 -1 -1 =  +1
+ 11 Merton & Corpus I  -1  0  0  ? =   ? withdrawn
+ 12 Pembroke I         +1 +1  0 +1 +1 +1 +1 =  +6
+ 13 Christ Church II    0  0  0 +1  0 -1  0 =   0
+ 14 Wadham I            0  0  0 +1  0 +2 -1 =  +2

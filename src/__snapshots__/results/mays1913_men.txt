@@ -1,0 +1,35 @@
+May Bumps Men 1913
+full_set: true
+div_size: 15 16 | 15 16 | 15 16 | 15 16
+
+  1 Jesus I            0  0  0  0 =   0 blades
+  2 1st Trinity I      0  0 -1  0 =  -1
+  3 3rd Trinity I      0  0 +1  0 =  +1
+  4 Pembroke I         0  0  0  0 =   0
+  5 Trinity Hall I     0  0  0  0 =   0
+  6 LMBC I             0  0  0  0 =   0
+  7 Jesus II           0  0  0 -1 =  -1
+  8 Emmanuel I         0 -1 -1 +1 =  -1
+  9 Caius I            0 +1  0 +1 =  +2
+ 10 1st Trinity II    -1 -1  0 +1 =  -1
+ 11 King's I          +1  0 +1 -1 =  +1
+ 12 Clare I           -1 -1  0 -1 =  -3
+ 13 Pembroke II       +1 +1  0 -1 =  +1
+ 14 Selwyn I           0 +1  0  0 =  +1
+ 15 Queens' I         -1 -1 -1 -1 =  -4
+ 16 Magdalene I       -1 +1  0 -1 =  -1
+ 17 Sidney Sussex I   +2  0  0 +1 =  +3
+ 18 Christ's I         0  0 +1 +1 =  +2
+ 19 Corpus Christi I   0  0  0 +1 =  +1
+ 20 Trinity Hall II   -1 -1 -1 -1 =  -4
+ 21 1st Trinity III   +1  0  0  0 =  +1
+ 22 St Catharine's I  -1 -1 -1 -1 =  -4
+ 23 LMBC II           +1 +1  0 -1 =  +1
+ 24 Downing I         -1 -1  0 +1 =  -1
+ 25 Caius II          +1 +1 +1 +1 =  +4 blades
+ 26 Jesus III          0 +1 +1 +1 =  +3
+ 27 Caius III         -1 -1  0  0 =  -2
+ 28 Clare II          +1  0 -1  0 =   0
+ 29 Peterhouse I      -1  0  0  0 =  -1
+ 30 Emmanuel II       +1 +1 +1  0 =  +3
+ 31 Fitzwilliam I      0  0  0  0 =   0

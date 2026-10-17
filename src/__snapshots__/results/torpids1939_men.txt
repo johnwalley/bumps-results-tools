@@ -1,0 +1,46 @@
+Torpids Men 1939
+full_set: true
+div_size: 13 13 13 3 | 13 13 13 3 | 13 13 13 3 | 13 13 13 3 | 13 13 13 3 | 13 13 13 3
+
+  1 New College I      0  0  0 -1 -1  0 =  -2
+  2 S.E.H. I           0  0  0 +1  0  0 =  +1 blades
+  3 Magdalen I        -1  0  0  0  0  0 =  -1
+  4 Pembroke I        +1  0  0  0 +1  0 =  +2
+  5 University I       0 -1 -1 -1 -1  0 =  -4
+  6 Balliol I         -1 -1  0 +1  0  0 =  -1
+  7 St John's I       +1 +1  0 -1  0  0 =  +1
+  8 Christ Church I   -1 -1  0  0  0 -1 =  -3
+  9 Trinity I         +1 +1 +1 +1  0  0 =  +4
+ 10 Exeter I           0 +1  0  0 +1  0 =  +2
+ 11 Oriel I           -1 -1 -1 -1 -1 -1 =  -6
+ 12 Corpus Christi I  +1  0  0  0  0 +1 =  +2
+ 13 Merton I           0 +1  0  0 -1  0 =   0
+ 14 Keble I           -1  0 -1 -1 -1 -1 =  -5
+ 15 Brasenose I       +1  0 +1 -1  0  0 =  +1
+ 16 Hertford I         0 -1  0 +1 +1  0 =  +1
+ 17 Queen's I         -1  0 -1 -1 -1 -1 =  -5
+ 18 Worcester I       +1 +1 +1 +2 +1  0 =  +6
+ 19 St John's II      -1 -1 -1 -1 -1 -1 =  -6
+ 20 Jesus I           +1  0 +1  0 +1 +1 =  +4
+ 21 Balliol II        -1 -1 -1 -1 -1  0 =  -5
+ 22 Wadham I          +1 +1  0 +1  0 +1 =  +4
+ 23 St Peter's I       0 +1 +1  0 +1  0 =  +3
+ 24 Lincoln I          0  0 +1 +1  0 +1 =  +3
+ 25 Christ Church II  -1 -1 -1  0 -1 -1 =  -5
+ 26 New College II    +1  0  0 +1 +1  0 =  +3
+ 27 St Catherine's I   0 +1  0  0 +1 +1 =  +3
+ 28 S.E.H. II          0  0 +1  0  0  0 =  +1
+ 29 Magdalen II       -1 -1 -1 -1 -1 -1 =  -6
+ 30 Exeter II         +1  0  0  0 +1  0 =  +2
+ 31 St Peter's II     -1 -1  0 +1 +1  0 =   0
+ 32 Queen's II        +1 +1  0 -1 -1 -1 =  -1
+ 33 Keble II          -1  0 -1 -1 -1 -1 =  -5
+ 34 Brasenose II      +1 +1 +1 +1  0 +1 =  +5
+ 35 University II      0 -1 -1 -1  0 +1 =  -2
+ 36 Oriel II           0 +1 +1  0 +1 +1 =  +4
+ 37 Hertford II        0 -1 -1  0  0  0 =  -2
+ 38 Pembroke II       -1  0 +1 +1 +1  0 =  +2
+ 39 Merton II         +1 +1 +1 +1  0 +1 =  +5
+ 40 Worcester II       0  0  0  0  0  0 =   0
+ 41 Wadham II          0  0  0  0  0 -1 =  -1
+ 42 Brasenose III      0  0  0  0  0 +1 =  +1

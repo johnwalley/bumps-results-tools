@@ -1,0 +1,16 @@
+Summer Eights Men 1855
+full_set: true
+div_size: 12 | 12 | 12 | 11 | 11 | 10 | 10 | 10
+
+  1 Brasenose I       0  0  0  0  0  0 -1  0 =  -1
+  2 Balliol I         0  0  0  0  0  0 +1  0 =  +1 blades
+  3 Christ Church I   0  0  0  0  0  0  0  0 =   0
+  4 Worcester I       0 -1  0 -1 -1  ? =   ? withdrawn
+  5 Wadham I          0 +1  0  0  0  0  0  0 =  +1
+  6 Pembroke I       -1 -1 -1  ? =   ? withdrawn
+  7 Trinity I        +1  0 -1 -1 -1 +1  0  0 =  -1
+  8 Jesus I          -1 -1 -1 +1  0  0  0  0 =  -2
+  9 Exeter I         +1 +1 +1 +1  0  0  0  0 =  +4
+ 10 Queen's I         0 +1 +1 +1 +1  0  0  0 =  +4
+ 11 University I     -1 +1 +1 +1 +1 +1  0  0 =  +4
+ 12 Magdalen Hall I  +1 -1  0 +1  0 +2  0  0 =  +3

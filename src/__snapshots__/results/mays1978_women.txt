@@ -1,0 +1,36 @@
+May Bumps Women 1978
+full_set: true
+div_size: 16 16 | 16 16 | 16 16 | 16 16
+
+  1 New Hall I        -1  0  0 -1 =  -2
+  2 Churchill I       +1  0  0  0 =  +1 blades
+  3 QMABC I           -1 +1 -1 -1 =  -2
+  4 Newnham I         +1 -1 +1 +1 =  +2
+  5 Newnham II        -1 -1  0 -1 =  -3
+  6 Clare I           +1  0  0 +1 =  +2
+  7 Newnham III       -1 -1 -1  0 =  -3
+  8 New Hall II       +1 +1  0  0 =  +2
+  9 Selwyn I           0 +1  0 +1 =  +2
+ 10 Wolfson I          0 -1  0  0 =  -1
+ 11 Darwin I          -3 -1  0  0 =  -4
+ 12 QMABC II          -1  0 -1  0 =  -2
+ 13 Clare II          +1  0  0 -1 =   0
+ 14 Girton I          +3 +1 +1  0 =  +5
+ 15 Girton II         -1  0  0  0 =  -1
+ 16 Addenbrooke's I   +1 +1 +1 +1 =  +4 blades
+ 17 1st and 3rd I      0 -1 -1 -1 =  -3
+ 18 New Hall III      -1 -1 -1 -1 =  -4
+ 19 Sidney Sussex I   +1 +1  0 -1 =  +1
+ 20 Homerton I         0 +1 +1 +1 =  +3
+ 21 Trinity Hall I     0  0 +1 +1 =  +2
+ 22 Selwyn II          0  0  0 +1 =  +1
+ 23 Newnham IV         0  0 -1  0 =  -1
+ 24 Clare III         -3 +1  0 -1 =  -3
+ 25 Newnham V         -1 -1 -1 -1 =  -4
+ 26 Girton III        +1 +1 +1  0 =  +3
+ 27 Darwin II         +3 -1  0  0 =  +2
+ 28 QMABC III         -1 -1 -1 -1 =  -4
+ 29 Churchill II      +1  0 +1 +1 =  +3
+ 30 Girton IV          0 +1  0 +1 =  +2
+ 31 Girton V          -1  0  0 +1 =   0
+ 32 Sidney Sussex II  +1  0 +1  0 =  +2

@@ -1,0 +1,20 @@
+Summer Eights Men 1859
+full_set: true
+div_size: 16 | 16 | 16 | 16 | 14 | 14 | 14 | 14
+
+  1 Exeter I           0 -1  0  0  0  0  0  0 =  -1
+  2 Balliol I          0 +1  0  0  0  0  0  0 =  +1 blades
+  3 Oriel I            0  0  0  0  0 -1  0 -1 =  -2
+  4 Pembroke I         0  0  0  0 -1  0 -1  0 =  -2
+  5 University I       0  0  0  0 +1 +1  0  0 =  +2
+  6 Trinity I          0  0  0  0  0 -1  0  0 =  -1
+  7 Christ Church I    0  0 -1  0  0  0 -1  0 =  -2
+  8 Wadham I          -1 -1 -1 -1  ? =   ? withdrawn
+  9 Brasenose I       +1  0 +1  0  0 +1 +1 +1 =  +5
+ 10 St John's I        0 +1  0  0  0 -1  0 -1 =  -1
+ 11 Christ Church II  -3 -1 -1  0 +2  0  0  0 =  -3
+ 12 Worcester I       -1 -1  0  0 +1  0  0 +1 =   0
+ 13 Corpus Christi I  +1  0 -1  0 +1  0 +1 +1 =  +3
+ 14 Jesus I           +3  0 +1  0 -1  0 -1 -1 =  +1
+ 15 Queen's I         -1  0 +1  0  ? =   ? withdrawn
+ 16 Magdalen I        +1 +2 +1 +1 +1 +1 +1  0 =  +8

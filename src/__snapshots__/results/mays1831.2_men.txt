@@ -1,0 +1,17 @@
+May Bumps Men 1831 April May
+full_set: true
+div_size: 13 | 13 | 13 | 13 | 12 | 12 | 12 | 12 | 11
+
+  1 LMBC I                -1  0 +1  0  0  0 -1 +1 -1 =  -1
+  2 Trinity Monarch I     +1  0 -1  0 -1 +1 +1 -1 +1 =  +1 blades
+  3 St. John's Corsair I   0  0  0  0 +1 -1  0  0  0 =   0
+  4 Christ's I             0  0  0  0 -1 -1 -1 -1 -1 =  -5
+  5 Jesus I               -1 +1  0 -1 -1  0 +1 +1  0 =   0
+  6 Peterhouse I          +1 -1 -1  0 +1 +1 +1 -5  ? =   ? withdrawn
+  7  I                     0 -1  0 -1  ? =   ? withdrawn
+  8 St Catharine's I      -1  0 -1 -1 +2 -1 -1  0 +1 =  -2
+  9 Emmanuel I            +1 +1 +1 +1 +1  0 -1 -1 -1 =  +2
+ 10 Clare I                0 -1 -1  0 +1  0 +1  0 +2 =  +2
+ 11 Caius I                0 +1 +1 +1  0 -1 +1 +1 +1 =  +5
+ 12 Trinty Nautilus I      0  0 +1 +1  0 +2 -1 +5  0 =  +8
+ 13 Queens' I              0  0  0  0 +1  0  0  0 +1 =  +2

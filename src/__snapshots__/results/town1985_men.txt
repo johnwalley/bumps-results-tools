@@ -1,0 +1,55 @@
+Town Bumps Men 1985
+full_set: true
+div_size: 17 16 18 | 17 16 18 | 17 16 18 | 17 16 18
+
+  1 Rob Roy 1           0  0  0  0 =   0 blades
+  2 City 1             -1 -1  0  0 =  -2
+  3 99 1               +1  0 -1  0 =   0
+  4 City 2             -1  0  0  0 =  -1
+  5 99 2               +1 +1 +1  0 =  +3
+  6 99 3                0  0  0  0 =   0
+  7 Cantabs 1           0  0  0  0 =   0
+  8 Free Press 1        0 -1 -1 -1 =  -3
+  9 City 3             -1  0 +1  0 =   0
+ 10 Univ Sports 1      +1 +1  0  0 =  +2
+ 11 Addenbrooke's 1    -1 -1  0 -1 =  -3
+ 12 Free Press 2       +1 -3 -1 -1 =  -4
+ 13 Lady Somerset 1     0 +1  0  0 =  +1
+ 14 Ditton Dodgers 1   -1  0 +1 +1 =  +1
+ 15 Rob Roy 2          +1 +3  0 +1 =  +5
+ 16 99 4                0 -1  0  0 =  -1
+ 17 Cantabs 2          -1  0  0  0 =  -1
+ 18 Fitzwilliam 1      -1  0  0 -1 =  -2
+ 19 Clare 1            +2 +1  0 +1 =  +4
+ 20 Churchill 1         0  0  0 +1 =  +1
+ 21 Wolfson 1           0  0  0  0 =   0
+ 22 City 5             -1  0 +1  0 =   0
+ 23 99 5               +1  0 -1 -1 =  -1
+ 24 Macdonalds 1       -1 -1 -1 -1 =  -4
+ 25 Metallurgy 1       +1  0 -1 -1 =  -1
+ 26 Pye 1               0 +1 +1 +1 =  +3
+ 27 Free Press 3        0  0 +1 +1 =  +2
+ 28 King's 1           -1 -1 -1 -1 =  -4
+ 29 Red Lion Toft 1    +1  0 -1 -1 =  -1
+ 30 Cantabs 3           0 +1 +1 +1 =  +3
+ 31 Univ Sports 2      -3 -1 -1  0 =  -5
+ 32 Free Press 4       -1 -1  0 -1 =  -3
+ 33 Leckhampton 1      +1  0 -1  0 =   0
+ 34 Rob Roy 3          +3  0 +1 +1 =  +5
+ 35 Free Press 5       -3 +1  0 -1 =  -3
+ 36 Univ Sports 3      -1 -1 -1 -1 =  -4
+ 37 Cantabs 4          +1  0 +1 +1 =  +3
+ 38 99 6               +3 +2 +1 +1 =  +7 blades
+ 39 The Mohos 1         0 -1 -1  0 =  -2
+ 40 Rob Roy 4           0 +1 +1 +1 =  +3
+ 41 Barclays Bank 1     0 -1  0 -1 =  -2
+ 42 Lady Somerset 2    -1  0  0 +1 =   0
+ 43 Cantabs 5          +1 +1 +1 +1 =  +4 blades
+ 44 Univ Sports 4       0 -1  0  0 =  -1
+ 45 Leckhampton 2      -3 -1 -1  0 =  -5
+ 46 Cantabs 6          -1  0 -1 -1 =  -3
+ 47 Applied Biology 1  +1  0  0 -1 =   0
+ 48 Red Lion Toft 2    +3 +1  0  0 =  +4
+ 49 99 7                0 +1 +1 +1 =  +3
+ 50 Pye 2               0  0 +1 +1 =  +2
+ 51 City 6              0  0  0  0 =   0

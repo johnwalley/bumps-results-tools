@@ -1,0 +1,10 @@
+Torpids Men 1846
+full_set: true
+div_size: 6 | 6 | 6 | 5 | 5 | 5
+
+  1 Brasenose I      -1 +1  0 -1  0 -1 =  -2
+  2 Worcester I      +1 -1 -1  ? =   ? withdrawn
+  3 Christ Church I   0 -1  0  0 -1  0 =  -2
+  4 Exeter I          0 +1 +1 +1  0  0 =  +3 blades
+  5 St John's I       0 -1  0 +1 +1 +2 =  +3
+  6 University I      0 +1  0 +2  0 -1 =  +2

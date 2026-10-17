@@ -1,0 +1,14 @@
+Town Bumps Men 1868
+full_set: true
+div_size: 10 | 10 | 10 | 10 | 10
+
+  1 Church of England Young Men's Society 1  -1 -1 -1  0  0 =  -3
+  2 United College Servants 1                +1  0 -1 -1  0 =  -1
+  3 Albert Institute 1                       -1  0 +1 +1  0 =  +1
+  4 Cambridge Town Rowing Club 1             +1 +1 +1  0  0 =  +3 blades
+  5 Young Men's Christian Association 1       0  0  0 -1 -1 =  -2
+  6 Pitt Press 1                             -1 -1 -1  0 +1 =  -2
+  7 Albert Institute 2                       +1  0 -1 -1 -1 =  -2
+  8 Cambridge Town Rowing Club 3             -1 -1  0  0  0 =  -2
+  9 Cambridge Town Rowing Club 2             +1 +1 +1 +1  0 =  +4
+ 10 United College Servants 2                 0 +1 +1 +1 +1 =  +4

@@ -1,0 +1,55 @@
+Torpids Men 1973
+full_set: true
+div_size: 6 9 9 9 9 9 | 7 9 9 9 9 8 | 8 9 9 9 9 7 | 9 9 9 9 9 6
+
+  1 Oriel I              0  0  0  0 =   0 blades
+  2 Balliol I           -1 +1  0  0 =   0
+  3 University I        +1 -1  0  0 =   0
+  4 Christ Church I      0  0  0  0 =   0
+  5 Queen's I            0 -2 -1  0 =  -3
+  6 St Catherine's I     0 +1  0 -1 =   0
+  7 Jesus I              0 +1  0 -1 =   0
+  8 Worcester I          0  0 +1 +2 =  +3
+  9 St John's I         -1 -1 -1 -1 =  -4
+ 10 Keble I             +1  0  0  0 =  +1
+ 11 Wadham I             0 -1 +1 -3 =  -3
+ 12 New College I        0 +2  0  0 =  +2
+ 13 Trinity I            0  0  0 +2 =  +2
+ 14 Exeter I            -1 -1 -1 -1 =  -4
+ 15 Magdalen I          +1  0 -1 -2 =  -2
+ 16 S.E.H. I             0 +1 +1 +2 =  +4
+ 17 Lincoln I            0  0 +1  0 =  +1
+ 18 St Peter's I        -1 -2  0  0 =  -3
+ 19 Osler House I       -2 -1  0  0 =  -3
+ 20 Brasenose I         +2 -1 -1  0 =   0
+ 21 Oriel II            +1 +2  0 +3 =  +6
+ 22 University II       -1 -2 -1 -1 =  -5
+ 23 Pembroke I          +1 +2 +1  0 =  +4
+ 24 St John's II         0 +1 -2 -1 =  -2
+ 25 Hertford I          -2 -3 -4 -2 = -11
+ 26 Merton I            +1 +1 +1 -1 =  +2
+ 27 Corpus Christi I    +1  0 +2 +1 =  +4
+ 28 St Catherine's II    0  0 -1 -4 =  -5
+ 29 St Peter's II       -2 -1 +1 +1 =  -1
+ 30 Queen's II          +1  0 +1  0 =  +2
+ 31 S.E.H. II           +1 +3  0 +2 =  +6
+ 32 Lincoln II          -1 -1 -1 +1 =  -2
+ 33 Pembroke II         +1 +1 +1 +1 =  +4 blades
+ 34 Christ Church II     0 +1 +1 +1 =  +3
+ 35 Wadham II            0 -2 +1 +1 =   0
+ 36 Brasenose II        -1 +1 -2 -2 =  -4
+ 37 Jesus II            +1 +1 +2 +1 =  +5 blades
+ 38 Pembroke III         0 -2 -4 +1 =  -5
+ 39 Lincoln III         -1 -2  0  0 =  -3
+ 40 Keble II            -2 -1  0 -2 =  -5
+ 41 Wolfson I           +2  0  0 +1 =  +3
+ 42 Oriel III           +1 +3 +1  0 =  +5
+ 43 S.E.H. III           0 +2 +1 +1 =  +4
+ 44 Worcester II         0  0 +3  0 =  +3
+ 45 Magdalen II         -2 -3  0  0 =  -5
+ 46 Merton II           +1  0  0 +1 =  +2
+ 47 St Catherine's III  +1  0 -1  0 =   0
+ 48 Jesus III           -2 -1  0  0 =  -3
+ 49 Keble III           +1 +1 -1  0 =  +1
+ 50 Wadham III          +1 +1 +2  0 =  +4
+ 51 Linacre I            0 +2  0  0 =  +2

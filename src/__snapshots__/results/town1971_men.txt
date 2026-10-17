@@ -1,0 +1,37 @@
+Town Bumps Men 1971
+full_set: true
+div_size: 16 17 | 16 17 | 16 17 | 16 17
+
+  1 Rob Roy 1             0  0  0  0 =   0 blades
+  2 99 1                  0  0  0  0 =   0
+  3 Rob Roy/City 1        0  0  0  0 =   0
+  4 99 2                  0  0  0  0 =   0
+  5 Rob Roy/City 2       -1 -1  0  0 =  -2
+  6 ACUA 1               +1  0  0  0 =  +1
+  7 Cantabs 1             0 +1  0  0 =  +1
+  8 Scouts 1              0  0  0  0 =   0
+  9 Rob Roy/City 3       -1 -1  0 -1 =  -3
+ 10 Rob Roy/City 4       +1 -3 -1 -1 =  -4
+ 11 99 3                  0 +1  0  0 =  +1
+ 12 Cantabs 2            -1 -1 -3  0 =  -5
+ 13 Selwyn 1             +1 +3  0  0 =  +4
+ 14 Grammar School 1      0 +1 +1 +1 =  +3
+ 15 Rob Roy/City 5       -1 -1 -1 -1 =  -4
+ 16 ACUA 2               +1  0 -1  0 =   0
+ 17 99 4                  0 +1 +1  0 =  +2
+ 18 Cambs High School 1   0 -1  0 +1 =   0
+ 19 Rob Roy/City 6       -1  0  0  0 =  -1
+ 20 Churchill 1          +1 +1 +4 +1 =  +7 blades
+ 21 Police 1              0 -1 -1 -1 =  -3
+ 22 Rob Roy/City 7       -1 -1 -1 -1 =  -4
+ 23 King's 1             +1 +1  0 -1 =  +1
+ 24 Leckhampton 1         0 +1 +1 +1 =  +3
+ 25 Magdalene 1           0 -1  0 +1 =   0
+ 26 Darwin 1             -1 -1  0  0 =  -2
+ 27 Churchill 2          +1 +1 +1 +1 =  +4 blades
+ 28 Cantabs 3             0 +1  0  0 =  +1
+ 29 Grammar School 2     -1 -1 -1  0 =  -3
+ 30 99 5                 +1  0 -1 +1 =  +1
+ 31 Telephones 1         -1 -1  0  0 =  -2
+ 32 Scouts 2             +1 +1 +1 -1 =  +2
+ 33 99 6                  0 +1 +1  0 =  +2

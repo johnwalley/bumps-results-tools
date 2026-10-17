@@ -1,0 +1,45 @@
+Town Bumps Men 1977
+full_set: true
+div_size: 15 14 12 | 15 14 12 | 15 14 12 | 15 14 12
+
+  1 99 1              0  0  0  0 =   0 blades
+  2 Rob Roy 1         0  0  0  0 =   0
+  3 City 1            0  0  0  0 =   0
+  4 99 2              0 -1 -1  0 =  -2
+  5 99 3             -1 -1  0 -1 =  -3
+  6 Rob Roy 2        +1 +1  0  0 =  +2
+  7 Scouts 1         -1  0 -1 -1 =  -3
+  8 City 2           +1 +1 +1  0 =  +3
+  9 Univ Sports 1     0 -1 -1 -1 =  -3
+ 10 Rob Roy 3        -1 -1 -1 -1 =  -4
+ 11 Churchill 1      +1 +1 +1 +1 =  +4 blades
+ 12 MacDonalds 1      0 +1 +1 +1 =  +3
+ 13 Telephones 1      0  0 +1 +1 =  +2
+ 14 City 3            0 -1 -1  0 =  -2
+ 15 Rob Roy 4        -1 -1 -1 -1 =  -4
+ 16 TTFNTT 1         +1 +1  0 +1 =  +3
+ 17 Leckhampton 1     0 +1 +1  0 =  +2
+ 18 Cam Veterans 1    0  0 +1  0 =  +1
+ 19 99 4              0  0  0 +1 =  +1
+ 20 99 5              0 -1 -1 -1 =  -3
+ 21 Leckhampton 2    -1 -1 -1 -1 =  -4
+ 22 Billygoats 1     +1 +1  0  0 =  +2
+ 23 Cantabs Rugby 1  -1 -1 -1 -1 =  -4
+ 24 Peterhouse 1     +1 +1 +1  0 =  +3
+ 25 Scouts 2         -1 -1 -1 -1 =  -4
+ 26 City 4           +1 +1 +1 +1 =  +4 blades
+ 27 Univ Sports 2    -1 -1 -1 -1 =  -4
+ 28 99 6             +1 +1 +1 +1 =  +4 blades
+ 29 Clare 1           0 +1 +1 +1 =  +3
+ 30 Downing 1         0 -1  0 +1 =   0
+ 31 Wolfson 1        -1  0  0  0 =  -1
+ 32 Telephones 2     +1 +1 +1 +1 =  +4 blades
+ 33 City 5            0  0  0  0 =   0
+ 34 99 7              0  0  0  0 =   0
+ 35 Soham 1          -1 -1 -1  0 =  -3
+ 36 99 8             +1  0 -1 -1 =  -1
+ 37 City 6           -1  0 +1 +1 =  +1
+ 38 Telephones 3     +1 +1 +1  0 =  +3
+ 39 Scouts 3         -1 -1  0 +1 =  -1
+ 40 City 7           +1  0 -1 -1 =  -1
+ 41 99 9              0 +1 +1  0 =  +2

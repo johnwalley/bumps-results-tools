@@ -1,0 +1,34 @@
+May Bumps Men 1893
+full_set: true
+div_size: 14 16 | 14 16 | 14 16 | 14 16
+
+  1 Trinity Hall I     0  0  0  0 =   0 blades
+  2 1st Trinity I      0  0  0  0 =   0
+  3 3rd Trinity I      0  0  0  0 =   0
+  4 Trinity Hall II    0 -1  0 -1 =  -2
+  5 Pembroke I        -1  0 -1  0 =  -2
+  6 LMBC I            +1 +1  0  0 =  +2
+  7 Jesus I            0 -1  0  0 =  -1
+  8 Emmanuel I        -1  0  0  0 =  -1
+  9 1st Trinity II    +1 +1 +1 +1 =  +4 blades
+ 10 Caius I            0  0  0  0 =   0
+ 11 Corpus Christi I   0 -1  0  0 =  -1
+ 12 Trinity Hall III   0 +1  0  0 =  +1
+ 13 Clare I            0  0  0  0 =   0
+ 14 Christ's I        -1 -1 -1 -1 =  -4
+ 15 King's I          +1  0  0  0 =  +1
+ 16 Caius II          -1 -1  0 +1 =  -1
+ 17 1st Trinity III   +1 +1  0  0 =  +2
+ 18 LMBC II            0 +1 +1  0 =  +2
+ 19 Pembroke II        0 -1 +1  0 =   0
+ 20 Jesus II          -1  0  0  0 =  -1
+ 21 St Catharine's I  +1 +1 -1  0 =  +1
+ 22 Selwyn I           0  0  0  0 =   0
+ 23 Emmanuel II        0  0 -1  0 =  -1
+ 24 Peterhouse I       0 -1  0  0 =  -1
+ 25 Queens' I         -1  0 -1  0 =  -2
+ 26 Sidney Sussex I   +1 +1 +1  0 =  +3
+ 27 Downing I          0 -1  0  0 =  -1
+ 28 Magdalene I       -1 -1  0  0 =  -2
+ 29 Ayerst Hall I     +1 +1 +1  0 =  +3
+ 30 Fitzwilliam I      0 +1  0  0 =  +1

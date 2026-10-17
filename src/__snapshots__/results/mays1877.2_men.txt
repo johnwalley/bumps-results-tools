@@ -1,0 +1,44 @@
+May Bumps Men 1877 May
+full_set: true
+div_size: 14 15 11 | 14 15 11 | 14 15 11 | 14 15 11 | 14 15 11 | 14 15 11
+
+  1 Jesus I             0  0  0  0  0  0 =   0 blades
+  2 1st Trinity I      -1 -1  0 -1 -1  0 =  -4
+  3 3rd Trinity I      +1  0  0 -1 -1  0 =  -1
+  4 LMBC I              0 +1  0 +1  0 -1 =  +1
+  5 1st Trinity II      0  0 -1 -1  0  0 =  -2
+  6 1st Trinity III     0 -1 -1 -1 -1  0 =  -4
+  7 Sidney Sussex I    -1 -1  0 +1  0  0 =  -1
+  8 Caius I            +1 +1 +1 +1 +1 +1 =  +6 blades
+  9 Trinity Hall I      0 +1 +1 +1 +1  0 =  +4
+ 10 LMBC II            -1 -1 -1  0  0  0 =  -3
+ 11 Clare I            +1  0  0  0 +1  0 =  +2
+ 12 King's I           -1 -1  0  0  0  0 =  -2
+ 13 Emmanuel I         +1 +1  0  0  0  0 =  +2
+ 14 St Catharine's I   -1 -1  0  0  0  0 =  -2
+ 15 Corpus Christi I   -1 +1  0  0  0  0 =   0
+ 16 Caius II           +2 +1 +1  0  0  0 =  +4
+ 17 1st Trinity IV      0  0  0  0  0  0 =   0
+ 18 3rd Trinity II      0  0  0  0  0  0 =   0
+ 19 Queens' I           0  0  0 -1 -1  0 =  -2
+ 20 LMBC III            0 -1  0 -1 -1  0 =  -3
+ 21 Trinity Hall II    -1 -1  0  0 +1  0 =  -1
+ 22 Pembroke I         +1 +1  0 +1  0  0 =  +3
+ 23 Jesus II            0 +1  0 +1 +1  0 =  +3
+ 24 Christ's I         -1  0  0  0  0  0 =  -1
+ 25 Non-Collegiate I   +1  0  0  0  0  0 =  +1
+ 26 1st Trinity V       0  0  0  0  0  0 =   0
+ 27 Peterhouse I        0  0  0  0  0  0 =   0
+ 28 1st Trinity VI      0 -1  0 -1 +1  0 =  -1
+ 29 Magdalene I         0 +1  0  0  0  0 =  +1
+ 30 Downing I           0  0  0 +1 -1  0 =   0
+ 31 Trinity Hall III    0  0  0  0  0  0 =   0
+ 32 LMBC IV             0  0  0  0  0  0 =   0
+ 33 Caius III           0  0  0  0  0  0 =   0
+ 34 Pembroke II         0  0  0  0  0  0 =   0
+ 35 Corpus Christi II   0  0  0  0  0  0 =   0
+ 36 Sidney Sussex II    0  0  0  0  0  0 =   0
+ 37 3rd Trinity III     0  0  0  0  0  0 =   0
+ 38 Caius IV            0  0  0  0  0  0 =   0
+ 39 Jesus III           0  0  0  0  0  0 =   0
+ 40 Emmanuel II         0  0  0  0  0  0 =   0

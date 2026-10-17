@@ -1,0 +1,57 @@
+Torpids Men 2001
+full_set: true
+div_size: 12 12 12 12 5 | 12 12 12 12 5 | 12 12 12 12 5 | 12 12 12 12 5
+
+  1 Pembroke I         -1  0  0  0 =  -1
+  2 Oriel I            +1  0  0  0 =  +1 blades
+  3 New College I      -1 -1  0  0 =  -2
+  4 Exeter I           +1  0  0  0 =  +1
+  5 Christ Church I     0 +1  0  0 =  +1
+  6 Worcester I         0 -1 -1  0 =  -2
+  7 Magdalen I          0 +1  0 -1 =   0
+  8 Brasenose I         0 -1 -1 -1 =  -3
+  9 Queen's I          -1 -1 -1 -1 =  -4
+ 10 St Catherine's I   +1 +1 +1 +1 =  +4 blades
+ 11 Lincoln I           0 +1 +1  0 =  +2
+ 12 Merton I           -1 -2 -3 -3 =  -9
+ 13 Oriel II           -1 +1 -1 -2 =  -3
+ 14 Wadham I           +2  0 +1 +1 =  +4
+ 15 L.M.H. I            0 +1 +1 +1 =  +3
+ 16 St Peter's I       -1 +1 +1  0 =  +1
+ 17 Trinity I          -2 +1 +1  0 =   0
+ 18 S.E.H. I           +2 -6 +1 +1 =  -2
+ 19 St John's I        +1 +1 +1 +2 =  +5 blades
+ 20 Keble I             0 +1 -3 -1 =  -3
+ 21 Balliol I          -3 -1 -1 -1 =  -6
+ 22 University I       +1 +1 +1 +1 =  +4 blades
+ 23 Jesus I            +1 +1 +1 +1 =  +4 blades
+ 24 Hertford I         +1  0  0 +1 =  +2
+ 25 Mansfield I         0 +1 -1  0 =   0
+ 26 Wolfson I          -1  0 -2  0 =  -3
+ 27 Corpus Christi I   +1 -2  0 -5 =  -6
+ 28 Christ Church II   -1 -1 -1 +1 =  -2
+ 29 St Anne's I        +1 +2 +2  0 =  +5
+ 30 Magdalen II        -1 -1 -4  0 =  -6
+ 31 Pembroke II        +1 +1 +2 +1 =  +5 blades
+ 32 Somerville I        0 +1 +1 +2 =  +4
+ 33 Keble II           -2 -2 -4 -3 = -11
+ 34 Balliol II         +1 -1 -1  0 =  -1
+ 35 Lincoln II         +1 +1 +1  0 =  +3
+ 36 St John's II       -1 -2 +1 -1 =  -3
+ 37 Brasenose II       +1 +1 +2 +2 =  +6 blades
+ 38 New College II      0  0 +1  0 =  +1
+ 39 Exeter II           0 +3 +2  0 =  +5
+ 40 S.E.H. II           0  0  0  0 =   0
+ 41 University II       0 -1 -1 +1 =  -1
+ 42 Wadham II           0 +1 +2 +1 =  +4
+ 43 St Anne's II        0  0 +1 +1 =  +2
+ 44 Queen's II          0  0 -5 +1 =  -4
+ 45 Magdalen III        0 -4 -2  0 =  -6
+ 46 Hertford II         0 +1 +1 +1 =  +3
+ 47 Trinity II          0 +1 +1  0 =  +2
+ 48 Merton II           0 +1 -1 -1 =  -1
+ 49 Worcester II        0 +1 +1  0 =  +2
+ 50 Pembroke III        0  0 +4  0 =  +4
+ 51 Linacre II          0  0 +1  0 =  +1
+ 52 Mansfield II        0  0 -1  0 =  -1
+ 53 Christ Church III   0  0 +1  0 =  +1

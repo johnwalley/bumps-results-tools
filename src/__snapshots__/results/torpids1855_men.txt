@@ -1,0 +1,11 @@
+Torpids Men 1855
+full_set: true
+div_size: 7 | 7 | 7 | 7 | 7 | 7
+
+  1 Exeter I          0  0  0  0  0  0 =   0 blades
+  2 Brasenose I      -1  0  0 -1  0  0 =  -2
+  3 University I     +1  0  0  0  0  0 =  +1
+  4 Balliol I         0  0 -1  0  0 -1 =  -2
+  5 Pembroke I        0 -1  0  0  0 +1 =   0
+  6 Worcester I      -1  0  0  0  0  0 =  -1
+  7 Christ Church I  +1 +1 +1 +1  0  0 =  +4

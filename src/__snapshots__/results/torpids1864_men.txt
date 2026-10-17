@@ -1,0 +1,19 @@
+Torpids Men 1864
+full_set: true
+div_size: 15 | 15 | 15 | 15 | 15 | 15
+
+  1 Exeter I           0  0  0  0  0  0 =   0 blades
+  2 Brasenose I        0  0  0  0  0  0 =   0
+  3 Christ Church I    0  0  0  0  0  0 =   0
+  4 University I       0  0  0  0  0  0 =   0
+  5 Balliol I         -1  0  0  0  0  0 =  -1
+  6 Corpus Christi I  +1  0  0  0  0  0 =  +1
+  7 Queen's I          0  0  0  0  0  0 =   0
+  8 Magdalen I         0  0  0  0  0  0 =   0
+  9 Trinity I          0  0  0  0  0  0 =   0
+ 10 Wadham I           0 -1 -1  0  0  0 =  -2
+ 11 Pembroke I         0 +1  0  0  0  0 =  +1
+ 12 Jesus I            0  0 +1  0  0  0 =  +1
+ 13 Worcester I        0  0  0  0  0  0 =   0
+ 14 Exeter II         -1  0  0  0  0  0 =  -1
+ 15 Lincoln I         +1  0  0  0  0  0 =  +1

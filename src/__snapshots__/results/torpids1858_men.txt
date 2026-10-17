@@ -1,0 +1,17 @@
+Torpids Men 1858
+full_set: true
+div_size: 13 | 13 | 12 | 12 | 12 | 11
+
+  1 Exeter I           0  0  0  0 -1 -1 =  -2
+  2 Pembroke I         0  0  0  0 +1  0 =  +1 blades
+  3 Christ Church I    0  0 -1 -1  0  0 =  -2
+  4 Brasenose I        0  0 +1  0  0 +1 =  +2
+  5 University I       0  0  0 +1  0  0 =  +1
+  6 Balliol I          0  0  0  0 -1  0 =  -1
+  7 Trinity I          0  0  0  0 +1  0 =  +1
+  8 Oriel I            0  0 -1 -1 -1  0 =  -3
+  9 Exeter II         -1 -1 -1  0  0  ? =   ? withdrawn
+ 10 Worcester I       +1  0 +1  0  0  0 =  +2
+ 11 Wadham I          -1 -1  ? =   ? withdrawn
+ 12 Lincoln I         +1 +1  0 +1  0 -1 =  +2
+ 13 Corpus Christi I   0 +1 +1  0 +1 +1 =  +4

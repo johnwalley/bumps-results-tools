@@ -1,0 +1,51 @@
+Torpids Men 1954
+full_set: true
+div_size: 12 12 12 11 | 12 12 12 11 | 12 12 12 11 | 12 12 12 11 | 12 12 12 11 | 12 12 12 11
+
+  1 New College I       0 -1  0  0 -1  0 =  -2
+  2 Merton I           -1 -1 -1 -1 -1 -1 =  -6
+  3 Worcester I        +1 +1  0  0  0 -1 =  +1
+  4 Magdalen I          0 +1  0 -1  0  0 =   0
+  5 S.E.H. I           -1 -1 -1 -1 -1  0 =  -5
+  6 Balliol I          +1  0 +1 +1 +1 +1 =  +5 blades
+  7 Christ Church I    -1 -1 -1 -1 -1 -1 =  -6
+  8 Oriel I            +1 +1  0 +1  0 -1 =  +2
+  9 University I       -1 -1 -1 -1 -1 -1 =  -6
+ 10 Queen's I          +1 +1 +1  0 +1 +1 =  +5
+ 11 Lincoln I          -1 -1 -1 -1 -1 -1 =  -6
+ 12 Brasenose I        +1 +1 +1 +1  0 +1 =  +5
+ 13 Trinity I           0 +1 +1 +1 +1  0 =  +4
+ 14 St Catherine's I   -1 -1 -1 -1 -1 -1 =  -6
+ 15 Hertford I         +1  0 +1 +1 +1  0 =  +4
+ 16 St Peter's I        0 +1  0 +1 +1 +1 =  +4
+ 17 Jesus I             0 -1 -1  0 +1  0 =  -1
+ 18 St John's I        -1 -1 -1 -1 -1 -1 =  -6
+ 19 Exeter I           +1 +1 +1  0 +1 +1 =  +5
+ 20 Pembroke I          0 +1 +1 +1  0 +1 =  +4
+ 21 Keble I             0  0 +1  0 -1  0 =   0
+ 22 Merton II          -1 -1  0  0  0 +1 =  -1
+ 23 Wadham I           +1  0 -1  0 +1  0 =  +1
+ 24 Magdalen II        -1  0 -1  0  0  0 =  -2
+ 25 New College II     -1 -1 -1 +1  0 -1 =  -3
+ 26 Corpus Christi I   +2 +1 +1 +1 +1 +1 =  +7 blades
+ 27 Oriel II            0 +1 +1  0  0  0 =  +2
+ 28 Christ Church II    0 -1 -1  0 -1 +1 =  -2
+ 29 S.E.H. II           0 +1 +1 -1 -1  0 =   0
+ 30 Lincoln II         -1  0  0 -1 -1  0 =  -3
+ 31 Balliol II         +1  0 +1  0 +1 +1 =  +4
+ 32 St Peter's II       0  0 -1 -1  0  0 =  -2
+ 33 Queen's II          0 -1  0 +1 +1  0 =  +1
+ 34 Brasenose II       -1  0  0  0  0  0 =  -1
+ 35 Worcester II       +1 +1 +1 +1 +1 -1 =  +4
+ 36 Pembroke II         0 -1  0  0  0  0 =  -1
+ 37 Trinity II          0 +1  0  0  0  0 =  +1
+ 38 Keble II           -1  0  0 +1  0  0 =   0
+ 39 Jesus II           +1  0  0 -1  0 -1 =  -1
+ 40 University II       0  0 -1 +1 -1 -1 =  -2
+ 41 Exeter II           0 -1  0 -1 -1  0 =  -3
+ 42 Hertford II        -1  0 -1 -1  0 -1 =  -4
+ 43 Magdalen III       +1 +1 +1 -1 +1 +1 =  +4
+ 44 St Catherine's II   0 -1  0 +1 +1  0 =  +1
+ 45 Corpus Christi II  -1  0  0  0  0 +1 =   0
+ 46 Balliol III        +1 +1 +1 +1  0 +1 =  +5
+ 47 St Peter's III      0  0  0  0  0  0 =   0

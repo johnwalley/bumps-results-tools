@@ -1,0 +1,36 @@
+May Bumps Men 1856 April
+full_set: true
+div_size: 15 17 | 15 16 | 15 16 | 15 16 | 15 15 | 15 15 | 15 15 | 15 15
+
+  1 LMBC I             0  0  0  0  0  0  0  0 =   0 blades
+  2 Trinity Hall I     0  0  0  0  0  0  0  0 =   0
+  3 Emmanuel I        -1  0  0  0  0 -1 -1 -1 =  -4
+  4 1st Trinity I     +1  0  0  0  0  0 -1  0 =   0
+  5 Christ's I         0  0  0  0 -1 -1 -1 -1 =  -4
+  6 Caius I            0 -1 -1 -1 -1 -1 -1 -1 =  -7
+  7 Queens' I         -1 -1 -1 -1 -1 -1 -1 -1 =  -8
+  8 Sidney Sussex I   +1 +1  0 -1 -1 -1  0 +1 =   0
+  9 Corpus Christi I  -1 -1 -1 -1 -1 -1 -1  0 =  -7
+ 10 2nd Trinity I     +1 +1 +1 +1 +1 +1 +1  0 =  +7
+ 11 3rd Trinity I      0 +1 +1 +1 +1 +1 +1  0 =  +6
+ 12 St Catharine's I  -1  0  0 +1 +1 +1  0  0 =  +2
+ 13 1st Trinity II    +1  0 +1 +1 +1 +1 +1 +1 =  +7
+ 14 King's I          -1 -1 -1 -1  ? =   ? withdrawn
+ 15 Emmanuel II       +1  0  0 -1 -1  0 +1 +1 =  +1
+ 16 3rd Trinity II     0 +1  0 +1 +1 +1 +1  0 =  +5
+ 17 Trinity Hall II    0 -1 -1  0  0  0  0  0 =  -2
+ 18 Emmanuel III      -3 +1  0 -1  0  0  0  0 =  -3
+ 19 LMBC II           -1 -1 -1 -1  0  0  0  0 =  -4
+ 20 Magdalene I       +1  0 +1 +1  0  0  0  0 =  +3
+ 21 Clare I           +3 +1 +1  0 +1 +1 +1 +1 =  +9
+ 22 Peterhouse I       0  0 +1 +1 +2  0  0  0 =  +4
+ 23 Christ's II        0  0 -1  0 +2  0  0  0 =  +1
+ 24 1st Trinity III    0 -1  0  0  0  0  0  0 =  -1
+ 25 Jesus I           -1  0  0 -1  0  0  0  0 =  -2
+ 26 2nd Trinity II    +1 +1 +1 +1 +2  0  0  0 =  +6
+ 27 LMBC III           0  0 -1  0 +2  0  0  0 =  +1
+ 28 LMBC IV            0 -1  0  0 +1  0  0  0 =   0
+ 29 Caius II          -1  ? =   ? withdrawn
+ 30 Pembroke I        +1 +1 +1 +1 +2  0  0  0 =  +6
+ 31  I                 0  0 +1 -1 +1  0  0  0 =  +1
+ 32  I                 0 +2 -1 +1 +1  0  0  0 =  +3

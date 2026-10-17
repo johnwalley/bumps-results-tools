@@ -1,0 +1,27 @@
+Summer Eights Men 1891
+full_set: true
+div_size: 11 12 | 11 12 | 11 12 | 11 11 | 11 11 | 11 11
+
+  1 Brasenose I        0  0  0  0  0  0 =   0 blades
+  2 New College I      0  0  0  0  0  0 =   0
+  3 Magdalen I         0  0  0  0  0  0 =   0
+  4 Christ Church I    0  0  0  0  0  0 =   0
+  5 St John's I        0  0  0  0  0  0 =   0
+  6 Balliol I          0  0  0  0  0  0 =   0
+  7 Hertford I         0  0  0  0  0  0 =   0
+  8 Keble I            0  0  0 -1  0  0 =  -1
+  9 Corpus Christi I   0  0 -1 -1 -1  0 =  -3
+ 10 Trinity I          0 -1 -1 -1 -1 -1 =  -5
+ 11 Queen's I         -1 -1 -1  0 +1  0 =  -2
+ 12 Merton I          -1 +1 +1 +1 -1  0 =  +1
+ 13 Pembroke I        +2 +1 +1 +1  0  0 =  +5
+ 14 Exeter I           0  0 +1 +1 +2  0 =  +4
+ 15 Worcester I       -1  0  0  0  0  0 =  -1
+ 16 University I      +1  0  0  0  0 +1 =  +2
+ 17 Oriel I            0 -1 -1  0  0  0 =  -2
+ 18 St Catherine's I   0 +1  0  0  0  0 =  +1
+ 19 Wadham I           0  0 +1  0  0  0 =  +1
+ 20 Lincoln I          0  0  0  0  0  0 =   0
+ 21 Jesus I            0  0 -1  0  0  0 =  -1
+ 22 S.E.H. I           0 -1  0  ? =   ? withdrawn
+ 23 St Mary Hall I     0 +1 +1  0  0  0 =  +2

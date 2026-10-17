@@ -1,0 +1,50 @@
+Lent Bumps Women 2014
+full_set: true
+div_size: 17 17 12 | 17 17 12 | 17 17 12 | 17 17 12
+
+  1 Downing I            0 -1 -1  0 =  -2
+  2 1st and 3rd I        0 +1  0  0 =  +1 blades
+  3 Jesus I             -1 -1  0 -1 =  -3
+  4 Emmanuel I          +1  0 +1  0 =  +2
+  5 Christ's I           0 +1  0  0 =  +1
+  6 Pembroke I          -3 -1 -1 -1 =  -6
+  7 Newnham I           -1  0 -1 -1 =  -3
+  8 Caius I             +1  0  0  0 =  +1
+  9 Clare I             +3  0  0 +1 =  +4
+ 10 St Catharine's I     0 +1 +1  0 =  +2
+ 11 Queens' I            0  0 +1 +1 =  +2
+ 12 King's I            -1 -1 -1 -1 =  -4
+ 13 LMBC I              +1  0 -1  0 =   0
+ 14 Murray Edwards I     0 +1 +1 +1 =  +3
+ 15 Trinity Hall I      -1 -1  0 -1 =  -3
+ 16 Peterhouse I        +1  0 +1  0 =  +2
+ 17 Churchill I          0 +1  0 +1 =  +2
+ 18 Selwyn I             0 -1  0  0 =  -1
+ 19 Magdalene I         -1  0  0 -1 =  -2
+ 20 Girton I            +1 +1  0 +1 =  +3
+ 21 Fitzwilliam I        0  0 -1  0 =  -1
+ 22 LMBC II             -1 -1  0 -1 =  -3
+ 23 Homerton I          +1  0 +1 +1 =  +3
+ 24 Emmanuel II         -1  0 -1 -1 =  -3
+ 25 Christ's II         +1 +1  0  0 =  +2
+ 26 Sidney Sussex I      0 -1  0 +1 =   0
+ 27 Jesus II            -1 -1 -1  0 =  -3
+ 28 Hughes/Lucy I       +1 +1 +1 +1 =  +4 blades
+ 29 Newnham II          -1  0 +1 +1 =  +1
+ 30 Robinson I          +1 +1  0 -1 =  +1
+ 31 1st and 3rd II      -1 -1 -1  0 =  -3
+ 32 Pembroke II         +1  0 -1 -1 =  -1
+ 33 St Edmund's I       -1 -1 -1 -1 =  -4
+ 34 Corpus Christi I    +1 +1 +1  0 =  +3
+ 35 Darwin I             0 +1 +1 +1 =  +3
+ 36 Caius II            -1 -1 -1 -1 =  -4
+ 37 Peterhouse II       +1  0 +1  0 =  +2
+ 38 Murray Edwards II   -1 -1  0 +1 =  -1
+ 39 Clare II            +1 +1  0 +1 =  +3
+ 40 Wolfson I            0 +1 +1  0 =  +2
+ 41 Clare Hall I        -1 -1 -1 -1 =  -4
+ 42 Sidney Sussex II    +1  0 -1 +1 =  +1
+ 43 Queens' II           0 +1 +1 -1 =  +1
+ 44 St Catharine's II    0  0 +1  0 =  +1
+ 45 Darwin II            0 -1  0  0 =  -1
+ 46 Murray Edwards III   0 +1  0 +1 =  +2

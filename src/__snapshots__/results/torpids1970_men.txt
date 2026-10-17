@@ -1,0 +1,55 @@
+Torpids Men 1970
+full_set: true
+div_size: 6 9 9 9 9 9 | 7 9 9 9 9 8 | 8 9 9 9 9 7 | 9 9 9 9 9 6
+
+  1 Balliol I           0  0  0  0 =   0 blades
+  2 Christ Church I     0 -2 +1  0 =  -1
+  3 New College I       0 +1 -2  0 =  -1
+  4 Oriel I            -1 +2 +1  0 =  +2
+  5 S.E.H. I           +1 -2 -2 +1 =  -2
+  6 St John's I         0 +1  0  0 =  +1
+  7 Lincoln I          -2 -2 -1 -1 =  -6
+  8 University I       +1  0 +1  0 =  +2
+  9 Worcester I        -5 -2 -1 +1 =  -7
+ 10 Wadham I           +2  0 +1 -2 =  +1
+ 11 Queen's I          +1 +1 -1 -1 =   0
+ 12 Merton I           -1  0 -1 -4 =  -6
+ 13 Jesus I            +1  0 +1 +1 =  +3
+ 14 Keble I            +3 +1 +1 +1 =  +6 blades
+ 15 Hertford I          0 +1 -1 +1 =  +1
+ 16 St Catherine's I    0 +1 +2 +1 =  +4
+ 17 Pembroke I         -5 -2  0 -1 =  -8
+ 18 Trinity I          +1  0 +1 +1 =  +3
+ 19 Brasenose I        +1 -1  0 -1 =  -1
+ 20 St Peter's I       -1 -1 -1  0 =  -3
+ 21 Magdalen I         -2 +2 +1 +1 =  +2
+ 22 Corpus Christi I   +2  0 -1 -1 =   0
+ 23 St John's II       +4 +1  0 +1 =  +6
+ 24 Worcester II        0 -1 -1 -1 =  -3
+ 25 Exeter I           -1  0 +1 +1 =  +1
+ 26 Oriel II           -1 -1  0 -3 =  -5
+ 27 University II      +2 +2 +1 +1 =  +6 blades
+ 28 Queen's II         -5 -1 -1  0 =  -7
+ 29 Balliol II          0  0  0 +1 =  +1
+ 30 Lincoln II          0 -1 -2 +1 =  -2
+ 31 Christ Church II   +3 +1  0 +1 =  +5
+ 32 St John's III      +1 +1 -4 -2 =  -4
+ 33 Pembroke II        +1 -1 +1 -2 =  -1
+ 34 St Peter's II      -1 -1  0 +3 =  +1
+ 35 S.E.H. II          +1 +2 +1 +1 =  +5 blades
+ 36 Wadham II          -2 -1  0 -1 =  -4
+ 37 Lincoln III         0  0  0 -1 =  -1
+ 38 St Catherine's II  -2  0 -2 -1 =  -5
+ 39 Osler House I      +3 +1 +5 +1 = +10 blades
+ 40 Keble II           +1 +1  0 +1 =  +3
+ 41 Exeter II           0 -2 -1 -1 =  -4
+ 42 Christ Church III   0 +1 +1 -1 =  +1
+ 43 Christ Church IV   -3 -4  0  0 =  -7
+ 44 University III     +1 +1 +1 +2 =  +5 blades
+ 45 Wadham III          0 -4 +1  0 =  -3
+ 46 Keble III          -5  0  0  0 =  -5
+ 47 Jesus II           +3  0 +1 +1 =  +5
+ 48 Magdalen II         0 +1 -2  0 =  -1
+ 49 Trinity II         -1 +4 -1 +1 =  +3
+ 50 Brasenose II       +3 +2  0 +1 =  +6
+ 51 Oriel III          +2 +1 +2 -1 =  +4

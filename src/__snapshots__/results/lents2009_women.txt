@@ -1,0 +1,56 @@
+Lent Bumps Women 2009
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 1st and 3rd I      -1 -1 +1  0 =  -1
+  2 Emmanuel I         +1  0  0  0 =  +1 blades
+  3 Jesus I             0 +1 -1  0 =   0
+  4 Caius I            -1  0  0  0 =  -1
+  5 Downing I          +1  0  0  0 =  +1
+  6 Clare I            -1 -1 -1 -1 =  -4
+  7 Pembroke I         +1  0 -1 -1 =  -1
+  8 LMBC I             -1 -1  0 +1 =  -1
+  9 Queens' I          +1 +1 +1  0 =  +3
+ 10 Churchill I        -1 -1  0 -1 =  -3
+ 11 Christ's I         +1 +1 +1 +1 =  +4 blades
+ 12 Newnham I          -1 -1 -1 -1 =  -4
+ 13 St Catharine's I   +1 +1  0  0 =  +2
+ 14 Girton I           -1 -1 -1 -1 =  -4
+ 15 King's I           +1 +1  0 +1 =  +3
+ 16 Trinity Hall I      0 +1 +1  0 =  +2
+ 17 Jesus II           -1  0 -1  0 =  -2
+ 18 Fitzwilliam I      -1 -1  0 -1 =  -3
+ 19 Selwyn I           +2  0 +1 +1 =  +4
+ 20 LMBC II            -1  0 -1  0 =  -2
+ 21 Peterhouse I       +1 +1 +1 +1 =  +4 blades
+ 22 Emmanuel II         0 -1  0  0 =  -1
+ 23 Robinson I         -1  0  0 -1 =  -2
+ 24 Magdalene I        +1 +1 +1 +1 =  +4 blades
+ 25 Murray Edwards I   -1 -1 -1  0 =  -3
+ 26 Pembroke II        +1  0 -1  0 =   0
+ 27 Anglia Ruskin I    -1  0 +1  0 =   0
+ 28 Sidney Sussex I    +1 +1 +1 +1 =  +4 blades
+ 29 Caius II            0  0  0  0 =   0
+ 30 Darwin I           -1  0 -1 -1 =  -3
+ 31 Homerton I         +1  0  0  0 =  +1
+ 32 St Edmund's I      -1 -1 -1 -1 =  -4
+ 33 Hughes/Lucy I      +1  0 +1  0 =  +2
+ 34 Wolfson I          -1 -1 -1  0 =  -3
+ 35 Corpus Christi I   +1 +1  0 +1 =  +3
+ 36 1st and 3rd II      0 +1 +1  0 =  +2
+ 37 Newnham II         -1 -1 -1 -3 =  -6
+ 38 Clare II           +1  0 +1 +1 =  +3
+ 39 Selwyn II           0 +1  0 -1 =   0
+ 40 Clare Hall I       -1 -1 +1 -1 =  -2
+ 41 Queens' II         +1  0 +1 +1 =  +3
+ 42 Pembroke III       -1 -1 -1 -1 =  -4
+ 43 Christ's II        +1 +1 -1 +1 =  +2
+ 44 Sidney Sussex II    0 +1  0 +3 =  +4
+ 45 Trinity Hall II    -1 -1 -1 -1 =  -4
+ 46 Emmanuel III       +1  0 +1  0 =  +2
+ 47 Downing II          0 +1 -3 +1 =  -1
+ 48 St Catharine's II  -1  0 +3 +1 =  +3
+ 49 Magdalene II       +1  0 +1  0 =  +2
+ 50 Sidney Sussex III  -1 -1  0  0 =  -2
+ 51 Fitzwilliam II     +1  0  0  0 =  +1
+ 52 Churchill II        0 +1  0  0 =  +1

@@ -1,0 +1,54 @@
+May Bumps Men 1862 May
+full_set: true
+div_size: 19 20 11 | 19 20 11 | 19 20 11 | 19 20 11 | 19 20 11 | 19 20 11 | 19 20 11 | 19 20 11
+
+  1 1st Trinity I       -1 -1 -1  0 +1  0  0  0 =  -2
+  2 3rd Trinity I       +1  0  0  0  0 -1  0  0 =   0
+  3 LMBC I               0 +1  0 -1 -1  0  0  0 =  -1
+  4 Trinity Hall I       0  0 +1 +1  0 +1  0  0 =  +3 blades
+  5 1st Trinity II       0 -1 -1  0 -1  0  0 -1 =  -4
+  6 Trinity Hall II     -1 -1  0 -1 -1 -1  0  0 =  -5
+  7 Caius I             +1 +1  0  0  0 -1  0 -1 =   0
+  8 2nd Trinity I        0 +1 +1  0  0 +1  0  0 =  +3
+  9 Emmanuel I           0  0  0 +1 +1  0  0 +1 =  +3
+ 10 Corpus Christi I     0  0  0 -1  0 +1 +1 +1 =  +2
+ 11 Christ's I           0  0 -1  0  0  0  0  0 =  -1
+ 12 Clare I              0 -1  0  0  0  0  0  0 =  -1
+ 13 Sidney Sussex I     -1  0  0 -1 -1  0 -1 -1 =  -5
+ 14 LMBC II             +1 +1 +1 +1 +1  0 -1  0 =  +4
+ 15 1st Trinity III      0  0 -1 -1  0 -1 -1  0 =  -4
+ 16 Peterhouse I         0  0 +1 +1  0  0 -1 +1 =  +2
+ 17 Caius II            -1 -1 -1 -1 -1  0  0  0 =  -5
+ 18 Magdalene I         +1  0 -1  0  0 +1 +1  0 =  +2
+ 19 1st Trinity IV      -1 -1 -1 -1 -1  0  0  0 =  -5
+ 20 3rd Trinity II      +1 +1 +1 +1 +1  0 +1 -1 =  +5
+ 21 Pembroke I           0 +1 +1 -1  0  0  0  0 =  +1
+ 22 2nd Trinity II      -1 -1 -1 -1 -1  0  0  0 =  -5
+ 23 Jesus I             +1  0 +1 +2  0  0 +1 +1 =  +6
+ 24 LMBC III             0 +1  0 +1 +1  0  0  0 =  +3
+ 25 Emmanuel II         -1  0  0 +1  0  0  0  0 =   0
+ 26 St Catharine's I    +1  0 +1  0 +1  0  0  0 =  +3
+ 27 King's I            -1 -1 +1  0 -1  0  0  0 =  -2
+ 28 Queens' I           +1  0  0  0 +1  0  0  0 =  +2
+ 29 Clare II             0 +1 -1 -1 -1  0  0  0 =  -2
+ 30 Corpus Christi II   -1 -1 -1 -1 +1  0  0  0 =  -3
+ 31 LMBC IV             +1  0  0 +1 +1  0  0  0 =  +3
+ 32 Christ's II          0 +1  0 -1  0  0  0  0 =   0
+ 33 Trinity Hall III    -1 -1  0  0  0  0  0  0 =  -2
+ 34 2nd Trinity III     +1  0 +1 +1 +1  0  0  0 =  +4
+ 35 1st Trinity V        0 +1  0 +1 -1  0  0  0 =  +1
+ 36 Caius III            0 -1 +1  0 -1  0  0  0 =  -1
+ 37 Sidney Sussex II    -1 -1 -1 -3 -1  0  0  0 =  -7
+ 38 Corpus Christi III  +1 +1 -1 -1 -1  0  0  0 =  -1
+ 39 Emmanuel III        -1 -1 -1 +1  0  0  0  0 =  -2
+ 40 1st Trinity VI      -1 +1 +1  0 +1  0  0  0 =  +2
+ 41 LMBC V              +2 +1  0 +1 +1  0  0  0 =  +5
+ 42 Christ's III        -3 +1  0  0 +1  0  0  0 =  -1
+ 43 Peterhouse II       -1 -1  0 -1  0  0  0  0 =  -3
+ 44 Jesus II            +1 +1 +1 -1  0  0  0  0 =  +2
+ 45 Queens' II          +3 -1  0 +3  0  0  0  0 =  +5
+ 46 LMBC VI              0  0 -1 -1 -1  0  0  0 =  -3
+ 47 Caius IV            -1 -1 -1  0  0  0  0  0 =  -3
+ 48 Trinity Hall IV     +1 -1  0 +1  0  0  0  0 =  +1
+ 49  I                  -1  0 +1  0 +1  0  0  0 =  +1
+ 50  I                  +1 +2 +1 +1  0  0  0  0 =  +5

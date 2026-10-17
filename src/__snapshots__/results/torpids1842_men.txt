@@ -1,0 +1,14 @@
+Torpids Men 1842
+full_set: true
+div_size: 10 | 10 | 9 | 9 | 8 | 8
+
+  1 Trinity I         0 -1 -1 -1 -1 -1 =  -5
+  2 Brasenose I       0 +1  0  0  0  0 =  +1 blades
+  3 University I      0  0 +1  0 -1  0 =   0
+  4 Exeter I          0  0  0 +1 +1  0 =  +2
+  5 Balliol I        -1  0  0  0 -1 -1 =  -3
+  6 St John's I      +1  0  ? =   ? withdrawn
+  7 Christ Church I   0  0 +2  0 +1  0 =  +3
+  8 Pembroke I        0  0 +1 -1 +2 +1 =  +3
+  9 Oriel I           0  0 +1 +1  ? =   ? withdrawn
+ 10 Wadham I          0  0 +1  0 +1 +1 =  +3

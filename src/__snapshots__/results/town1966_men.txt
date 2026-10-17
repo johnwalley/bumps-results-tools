@@ -1,0 +1,31 @@
+Town Bumps Men 1966
+full_set: true
+div_size: 17 10 | 17 10 | 17 10 | 17 10
+
+  1 99 1                   0  0  0  0 =   0 blades
+  2 Cantabs 1              0 -1 -1  0 =  -2
+  3 99 2                  -1 -1 -1  0 =  -3
+  4 Rob Roy 1             +1 +1  0  0 =  +2
+  5 Scouts 1              -1 -1  0  0 =  -2
+  6 Leys School 1         +1 +1 +1  0 =  +3
+  7 Rob Roy 2              0 +1 +1  0 =  +2
+  8 Bridge 1               0 -1  0 +1 =   0
+  9 Cantabs 2             -1 -1 -1 -1 =  -4
+ 10 ACUA 1                +1 +1  0 -1 =  +1
+ 11 Scouts 2              -1 -1 -1 -1 =  -4
+ 12 Cambs High School 1   +1 +1  0 -1 =  +1
+ 13 Rob Roy 3             -1 -1  0 +1 =  -1
+ 14 99 3                  +1 +1 +1 +1 =  +4 blades
+ 15 Leys School 2          0 +1 +1 +1 =  +3
+ 16 Cam Grammar School 1   0  0 -1  0 =  -1
+ 17 Scouts 3              -1 -1  0  0 =  -2
+ 18 ACUA 2                +1  0 -1  0 =   0
+ 19 Leys School 3          0 +1 +2  0 =  +3
+ 20 Cantabs 3             -1 -1 -1 -1 =  -4
+ 21 Leys School 4         +1  0  0  0 =  +1
+ 22 Cam Grammar School 2   0 +1  0 -1 =   0
+ 23 Leys School 5         -1  0 -1  0 =  -2
+ 24 Cambs High School 2   +1  0 +1 +1 =  +3
+ 25 ACUA 3                 0 -1  0 -1 =  -2
+ 26 Leys School 6         -1  0  0 +1 =   0
+ 27 99 4                  +1 +1 +1 +1 =  +4 blades

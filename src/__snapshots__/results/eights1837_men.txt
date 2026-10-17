@@ -1,0 +1,16 @@
+Summer Eights Men 1837
+full_set: true
+div_size: 12 | 12 | 12 | 12 | 12 | 9 | 6
+
+  1 Christ Church I    0  0  0  0 -1 +1  ? =   ? withdrawn
+  2 Jesus I           -1 -1 -1 -5 -2 +3 +3 =  -4
+  3 Exeter I          +1  0 -1 -1  0  0 +1 =   0
+  4 Balliol I          0 +1 +1  0 +1 -1  0 =  +2
+  5 Corpus Christi I  -1  0  0 +1  0  0 +1 =  +1
+  6 Queen's I         +1  0 +1 +1  0  0 +2 =  +5 blades
+  7 St John's I        0  0  0 +1  0  0 +1 =  +2
+  8 Wadham I           0  0  0 +1  0  0  ? =   ? withdrawn
+  9 Christ Church II   0  0 -1 +1  0  ? =   ? withdrawn
+ 10 Worcester I        0  0 +1 +1  0  0  ? =   ? withdrawn
+ 11 Exeter II          0  0  0  0 +1  ? =   ? withdrawn
+ 12 Wadham II          0  0  0  0 +1  ? =   ? withdrawn

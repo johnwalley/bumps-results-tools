@@ -1,0 +1,26 @@
+May Bumps Men 1837 February March
+full_set: true
+div_size: 22 | 21 | 21 | 20
+
+  1 Corpus Christi I               0  0 -1  0 =  -1
+  2 Caius I                        0 -1 -1  0 =  -2
+  3 1st Trinity (Black Prince) I  -1  0 +1  0 =   0
+  4 LMBC I                        +1 +1 +1  0 =  +3
+  5 2nd Trinity (Queen Bess) I     0  0  0  0 =   0
+  6 Jesus I                        0  0  0 -1 =  -1
+  7 Queens' I                      0  0  0 +1 =  +1
+  8 Trinity Hall I                 0  0 -1  0 =  -1
+  9 Emmanuel I                     0 -5 -1 +1 =  -5
+ 10 Christ's I                     0 -1 -1 -1 =  -3
+ 11 Corpus Christi II             -1 -1 -1 -1 =  -4
+ 12 1st Trinity II                +1 +1  0  0 =  +2
+ 13 LMBC II                        0 +1 +1  0 =  +2
+ 14 3rd Trinity (Dolphin) I        0 +5 +1  0 =  +6
+ 15 Caius II                      -1 -1  0  0 =  -2
+ 16 Clare I                       +1  0 +2 +1 =  +4
+ 17 Pembroke I                     0 +1  0  0 =  +1
+ 18 Magdalene I                    0  0  0  0 =   0
+ 19 3rd Trinity II                -1  0  0  0 =  -1
+ 20 2nd Trinity II                +1  0  0  0 =  +1
+ 21 Christ's II                   -1  ? =   ? withdrawn
+ 22 1st Trinity III               +1  0  0  ? =   ? withdrawn

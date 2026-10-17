@@ -1,0 +1,56 @@
+Lent Bumps Women 1999
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 Emmanuel I         -1  0  0  0 =  -1
+  2 Trinity Hall I     +1  0  0  0 =  +1 blades
+  3 Queens' I          -1  0 -1  0 =  -2
+  4 Pembroke I         +1  0  0  0 =  +1
+  5 Jesus I             0  0 +1  0 =  +1
+  6 Christ's I          0 -1  0  0 =  -1
+  7 LMBC I             -1  0  0  0 =  -1
+  8 Newnham I          +1 +1  0  0 =  +2
+  9 St Catharine's I   -1 -1  0 -1 =  -3
+ 10 1st and 3rd I      +1  0 -1  0 =   0
+ 11 Churchill I         0 +1 +1  0 =  +2
+ 12 Clare I            -1 -1 -1 -1 =  -4
+ 13 New Hall I         +1  0 -1 -1 =  -1
+ 14 CCAT I             -1 -1 -1  0 =  -3
+ 15 Caius I            +1 +1 +1 +1 =  +4 blades
+ 16 Downing I           0 +1 +1 +1 =  +3
+ 17 Fitzwilliam I       0  0 +1 +1 =  +2
+ 18 Selwyn I            0 -1 +1  0 =   0
+ 19 Girton I            0 +1 -1 -1 =  -1
+ 20 LMBC II            -1 -1 -1 -1 =  -4
+ 21 Sidney Sussex I    +1  0  0 +1 =  +2
+ 22 Magdalene I         0 +1  0  0 =  +1
+ 23 Jesus II            0  0 +1  0 =  +1
+ 24 Corpus Christi I    0 -1  0 -1 =  -2
+ 25 Emmanuel II        -1  0 -1  0 =  -2
+ 26 King's I           +1 +1  0 +1 =  +3
+ 27 Newnham II          0 -1  0  0 =  -1
+ 28 Homerton I         -1  0 -1  0 =  -2
+ 29 Robinson I         +1 +1 +1 +1 =  +4 blades
+ 30 Peterhouse I        0 -1  0 -1 =  -2
+ 31 St Catharine's II  -1  0 -1 -1 =  -3
+ 32 Wolfson I          +1 +1 +1  0 =  +3
+ 33 New Hall II         0 -1 -1  0 =  -2
+ 34 Clare Hall I       -1 -1 -1 -1 =  -4
+ 35 Darwin I           +1 +1 +1 +1 =  +4 blades
+ 36 Trinity Hall II    -1  0 +1  0 =   0
+ 37 Queens' II         +1 +1 +1 +1 =  +4 blades
+ 38 CCAT II             0 -1 +1 +1 =  +1
+ 39 Lucy Cavendish I   -1  0 -1 -1 =  -3
+ 40 Homerton II        +1 +1 -1 -1 =   0
+ 41 1st and 3rd II      0 -1 -1 -1 =  -3
+ 42 Selwyn II          -1 -1 -1 -1 =  -4
+ 43 Churchill II       +1 +1 +1 +1 =  +4 blades
+ 44 Vet School I        0 +1 +1 +1 =  +3
+ 45 Downing II          0 -1 -1 -1 =  -3
+ 46 Caius II           -1 -1 -1 -1 =  -4
+ 47 Pembroke II        +1 +1 +1 +1 =  +4 blades
+ 48 Clare II            0 +1 +1 +1 =  +3
+ 49 Darwin II          -1  0  0 +1 =   0
+ 50 LMBC III           +1  0 +1 +1 =  +3
+ 51 Girton II           0  0  0  0 =   0
+ 52 Newnham III         0  0  0  0 =   0

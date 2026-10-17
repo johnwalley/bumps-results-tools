@@ -1,0 +1,22 @@
+May Bumps Women 1975
+full_set: true
+div_size: 10 8 | 10 8 | 10 8 | 10 8
+
+  1 Clare I        -1  0  0  0 =  -1
+  2 Newnham I      +1  0  0  0 =  +1 blades
+  3 Newnham II      0  0  0  0 =   0
+  4 Churchill I     0  0  0  0 =   0
+  5 Wolfson I      -1 -1 -1 -1 =  -4
+  6 New Hall I     +1  0  0  0 =  +1
+  7 QMABC I         0 +1  0  0 =  +1
+  8 Girton I        0 -1 -1 -1 =  -3
+  9 Girton II       0 +1 +1  0 =  +2
+ 10 QMABC II       -1 -1 -1 -1 =  -4
+ 11 Newnham III    +1  0 +1 +1 =  +3
+ 12 New Hall II    -1  0 +1  0 =   0
+ 13 Newnham IV     +1 +1  0 +1 =  +3
+ 14 Newnham V       0  0 -1  0 =  -1
+ 15 Churchill II    0 -1 -1 -1 =  -3
+ 16 Girton III     -1 -1  0 +1 =  -1
+ 17 Clare II       +1 +1 +1 +1 =  +4 blades
+ 18 Churchill III   0 +1 +1  0 =  +2

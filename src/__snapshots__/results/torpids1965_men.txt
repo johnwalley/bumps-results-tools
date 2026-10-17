@@ -1,0 +1,44 @@
+Torpids Men 1965
+full_set: true
+div_size: 6 9 9 9 7 | 7 9 9 9 6 | 8 9 9 9 5 | 9 9 9 9 4
+
+  1 S.E.H. I            0  0  0  0 =   0 blades
+  2 Christ Church I     0  0  0  0 =   0
+  3 Balliol I          -1  0  0  0 =  -1
+  4 St John's I        +1  0  0  0 =  +1
+  5 Magdalen I          0  0 -1  0 =  -1
+  6 Lincoln I           0 -1  0  0 =  -1
+  7 Oriel I             0 +1 +1  0 =  +2
+  8 Keble I             0  0  0  0 =   0
+  9 New College I       0  0  0  0 =   0
+ 10 Worcester I        -1 -1 -2  0 =  -4
+ 11 University I       +1  0 -1  0 =   0
+ 12 Exeter I           -1  0 +1 -1 =  -1
+ 13 Merton I           +1 +1 +1  0 =  +3
+ 14 Queen's I           0  0 +1 +1 =  +2
+ 15 Wadham I            0  0  0  0 =   0
+ 16 Hertford I          0  0 -1  0 =  -1
+ 17 St Peter's I        0  0 +1  0 =  +1
+ 18 Pembroke I          0  0  0  0 =   0
+ 19 Brasenose I         0 -1  0  0 =  -1
+ 20 Trinity I          -1  0  0  0 =  -1
+ 21 Jesus I            +1 +1  0  0 =  +2
+ 22 Christ Church II    0 -1  0  0 =  -1
+ 23 Corpus Christi I    0 +1  0  0 =  +1
+ 24 St Catherine's I    0 -1  0  0 =  -1
+ 25 Keble II           -3 -2  0  0 =  -5
+ 26 University II      +1 +1  0  0 =  +2
+ 27 Balliol II         +1  0  0  0 =  +1
+ 28 St John's II       +1  0  0  0 =  +1
+ 29 S.E.H. II           0 +1  0  0 =  +1
+ 30 New College II     -1  0  0  0 =  -1
+ 31 S.E.H. III         +1 +1  0  0 =  +2
+ 32 Lincoln II         -1  0 -1  0 =  -2
+ 33 Worcester II       +1 -2 -1  0 =  -2
+ 34 Exeter II          -2  0  0  0 =  -2
+ 35 Hertford II        -2 -1  0  0 =  -3
+ 36 Pembroke II        +2 +2  0  0 =  +4
+ 37 St Catherine's II  -1 -1  0  0 =  -2
+ 38 Magdalen II        +3  0 +2  0 =  +5
+ 39 Mansfield I        -1  0  0  0 =  -1
+ 40 St John's III      +1 +2  0  0 =  +3

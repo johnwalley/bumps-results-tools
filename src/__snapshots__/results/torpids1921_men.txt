@@ -1,0 +1,40 @@
+Torpids Men 1921
+full_set: true
+div_size: 11 12 13 | 11 12 13 | 11 12 13 | 11 12 13 | 11 12 13 | 11 12 13
+
+  1 Christ Church I     0  0  0  0  0  0 =   0 blades
+  2 Magdalen I          0 -1  0  0 -1  0 =  -2
+  3 Balliol I          -1  0 -1  0  0  0 =  -2
+  4 New College I      +1 +1  0  0  0  0 =  +2
+  5 University I        0 -1  0  0  0  0 =  -1
+  6 Christ Church II   -1 -1 -1 -1 -1  0 =  -5
+  7 Worcester I        +1 +1 +1  0 +1  0 =  +4
+  8 Brasenose I         0 +1  0  0  0 -1 =   0
+  9 Magdalen II         0  0 +1  0 -1 -1 =  -1
+ 10 New College II      0 -1 -1  0  0 -1 =  -3
+ 11 St John's I        -1  0 -1  0  0 +1 =  -1
+ 12 Oriel I            -1 -1 -1 -1 -1  0 =  -5
+ 13 Corpus Christi I   +2 +1  0 +1 +1 +1 =  +6
+ 14 Merton I            0 +1 +2  0 +1 +1 =  +5
+ 15 Trinity I           0  0 +1  0  0  0 =  +1
+ 16 Keble I            -1  0  0  0 +1  0 =   0
+ 17 Queen's I          +1  0  0 +1  0  0 =  +2
+ 18 Balliol II          0  0  0  0  0 -1 =  -1
+ 19 Pembroke I          0 -1 -1 -1  0  0 =  -3
+ 20 Exeter I            0 +1  0  0  0 +1 =  +2
+ 21 St John's II       -1 -1  0  0  0  0 =  -2
+ 22 Wadham I           +1  0 +1  0  0  0 =  +2
+ 23 Hertford I         -1  0  0  0  0  0 =  -1
+ 24 Lincoln I          +1 +1  0 +1  0  0 =  +3
+ 25 Jesus I            -1 -1  0  0  0 -1 =  -3
+ 26 Keble II           +1  0  0  0 -1  0 =   0
+ 27 Christ Church III  -1  0  0  0 -1 -1 =  -3
+ 28 St Catherine's I   +1 +1  0  0 +1  0 =  +3
+ 29 Wadham II           0  0  0  0 +1 +1 =  +2
+ 30 Brasenose II        0  0  0  0  0 +1 =  +1
+ 31 University II       0  0 -1 -1  0  0 =  -2
+ 32 Lincoln II          0 -1 -1  0  0  0 =  -2
+ 33 S.E.H. I           -1 -1  0  0  0  0 =  -2
+ 34 Queen's II         +1 +1 +1  0  0  0 =  +3
+ 35 Worcester II        0 +1 +1 +1  0  0 =  +3
+ 36 Exeter II           0  0  0  0  0  0 =   0

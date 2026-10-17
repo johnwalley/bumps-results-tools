@@ -1,0 +1,5 @@
+Summer Eights Men 1817
+full_set: true
+div_size: 1
+
+  1 Christ Church I   0 =   0 blades

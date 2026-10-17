@@ -1,0 +1,55 @@
+Lent Bumps Women 1985
+full_set: true
+div_size: 17 17 17 | 17 17 17 | 17 17 17 | 17 17 17
+
+  1 Churchill I         0 -1  0 -1 =  -2
+  2 Jesus I             0 +1  0  0 =  +1 blades
+  3 Clare I            -1  0  0 -1 =  -2
+  4 Newnham I          +1  0  0 +1 =  +2
+  5 New Hall I          0  0 -1 -1 =  -2
+  6 Girton I            0 -1 -1 -1 =  -3
+  7 Trinity Hall I     -1  0 +1 +1 =  +1
+  8 Homerton I         +1 +1 +1 +1 =  +4 blades
+  9 Sidney Sussex I    -1  0 -1 -1 =  -3
+ 10 Emmanuel I         +1  0  0 +1 =  +2
+ 11 Fitzwilliam I       0 -1 -1 +3 =  +1
+ 12 Selwyn I           -1 -1 -1 -1 =  -4
+ 13 1st and 3rd I      +1 +1 +1 -3 =   0
+ 14 Christ's I         -1  0 +1  0 =   0
+ 15 Caius I            +1 +1 +1 +1 =  +4 blades
+ 16 Newnham II         -1 -1 -1 -1 =  -4
+ 17 St Catharine's I   +1  0 -1 -1 =  -1
+ 18 Clare II           -1 -1 -1 -1 =  -4
+ 19 LMBC I             +1 +1 +1 +1 =  +4 blades
+ 20 Queens' I           0 +1 +1 +1 =  +3
+ 21 Downing I           0  0 +1 +1 =  +2
+ 22 CCAT I              0 -1  0  0 =  -1
+ 23 QMABC I            -1  0  0 -1 =  -2
+ 24 Robinson I         +1 +1  0 +1 =  +3
+ 25 New Hall II        -1 -1 -1 -1 =  -4
+ 26 Churchill II       +1  0 -1 -1 =  -1
+ 27 Jesus II            0 +1 +1 +1 =  +3
+ 28 Selwyn II           0 -1 -1 -1 =  -3
+ 29 Christ's II        -1 -1 -1 -1 =  -4
+ 30 Corpus Christi I   +1 +1 +1 +1 =  +4 blades
+ 31 Pembroke I          0 +1 +1 +1 =  +3
+ 32 Wolfson I           0 -1 -1  0 =  -2
+ 33 LMBC II            -1 -1  0  0 =  -2
+ 34 Jesus III          +1 +1 +1 +1 =  +4 blades
+ 35 St Catharine's II  -1 -1 -1 -1 =  -4
+ 36 Emmanuel II        +1 +1 +1 +1 =  +4 blades
+ 37 Caius II            0 +1  0  0 =  +1
+ 38 1st and 3rd II     -1 -1 -1 -1 =  -4
+ 39 Downing II         +1  0 +1  0 =  +2
+ 40 Queens' II          0 +1  0 +1 =  +2
+ 41 LMBC III            0  0 +1  0 =  +1
+ 42 CCAT II            -1  0  0  0 =  -1
+ 43 CCAT III           +1  0  0 +1 =  +2
+ 44 Newnham III        -1 -1 +1 +1 =   0
+ 45 Downing III        +1  0  0 -1 =   0
+ 46 Sidney Sussex II   -3 +1 +1  0 =  -1
+ 47 Newnham IV         -1 -1 -1  0 =  -3
+ 48 Clare III          +1  0 -1 -1 =  -1
+ 49 Trinity Hall II    +3 +1 -1  0 =  +3
+ 50 Jesus IV           -1 +1 +1 +1 =  +2
+ 51 Robinson II        +1 -1  0  0 =   0

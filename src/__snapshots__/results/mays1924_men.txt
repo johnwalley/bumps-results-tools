@@ -1,0 +1,50 @@
+May Bumps Men 1924
+full_set: true
+div_size: 15 15 16 | 15 15 16 | 15 15 16 | 15 15 16
+
+  1 Pembroke I          0 -1  0  0 =  -1
+  2 3rd Trinity I      -1  0  0  0 =  -1
+  3 Jesus I            +1 +1  0  0 =  +2 blades
+  4 1st Trinity I       0  0  0  0 =   0
+  5 King's I           -1 -1 -1 -1 =  -4
+  6 Jesus II           +1  0  0  0 =  +1
+  7 Trinity Hall I      0 +1  0  0 =  +1
+  8 Caius I            -1 -1 -1  0 =  -3
+  9 Pembroke II        +1  0 +1  0 =  +2
+ 10 LMBC I              0 +1  0 +1 =  +2
+ 11 Sidney Sussex I    -1  0  0  0 =  -1
+ 12 Queens' I          +1  0 +1  0 =  +2
+ 13 1st Trinity II      0  0 -1 -1 =  -2
+ 14 Christ's I          0  0 +1  0 =  +1
+ 15 Emmanuel I          0  0  0 +1 =  +1
+ 16 Caius II            0  0  0 -1 =  -1
+ 17 Corpus Christi I    0  0 -1  0 =  -1
+ 18 St Catharine's I    0 -1  0  0 =  -1
+ 19 Clare I            -1  0  0 -1 =  -2
+ 20 Selwyn I           +1 +1 +1 +1 =  +4 blades
+ 21 LMBC II            -1 -1 -1 -1 =  -4
+ 22 3rd Trinity II     +1  0 -1 -1 =  -1
+ 23 Downing I          -1 -1  0 +1 =  -1
+ 24 Christ's II        +1 +1 +1 +1 =  +4 blades
+ 25 Magdalene I        -1 -1 -1 -1 =  -4
+ 26 Trinity Hall II    +1 +1 +1 +1 =  +4 blades
+ 27 Emmanuel II         0 +1  0  0 =  +1
+ 28 Jesus III          -1 -1 -1 -1 =  -4
+ 29 1st Trinity III    +1  0 +1  0 =  +2
+ 30 Pembroke III        0 +1  0 +1 =  +2
+ 31 Clare II            0  0 +1  0 =  +1
+ 32 Fitzwilliam I       0  0 -1 -1 =  -2
+ 33 King's II           0 -1  0 +1 =   0
+ 34 St Catharine's II  -1 -1 +1 -1 =  -2
+ 35 Caius III          +1 +1 +1 +1 =  +4 blades
+ 36 Peterhouse I       -1  0  0  0 =  -1
+ 37 Sidney Sussex II   +1 +1 -1 +1 =  +2
+ 38 1st Trinity IV      0 -1 -1  0 =  -2
+ 39 Christ's III       -1 -1  0 -1 =  -3
+ 40 LMBC III           +1 +1  0 -1 =  +1
+ 41 Downing II          0 +1 +1 +1 =  +3
+ 42 Jesus IV            0  0  0 +1 =  +1
+ 43 Trinity Hall III    0 -1 -1  0 =  -2
+ 44 Pembroke IV        -1 -1  0  0 =  -2
+ 45 Queens' II         +1 +1  0  0 =  +2
+ 46 Selwyn II           0 +1 +1  0 =  +2

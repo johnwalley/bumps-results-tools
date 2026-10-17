@@ -1,0 +1,26 @@
+Summer Eights Men 1877
+full_set: true
+div_size: 11 11 | 11 11 | 11 11 | 11 11 | 11 10 | 11 10 | 11 10 | 11 10
+
+  1 Brasenose I        0 -1  0 -1  0  0  0  0 =  -2
+  2 University I       0 +1  0  0  0  0  0  0 =  +1 blades
+  3 Pembroke I         0  0  0 +1  0  0  0  0 =  +1
+  4 Exeter I           0  0 -1 -1  0  0 -1  0 =  -3
+  5 Corpus Christi I   0 -1 -1 -1 -1  0  0  0 =  -4
+  6 St John's I       -1 -1 -1 -1  0  0  0  0 =  -4
+  7 Balliol I         +1 +1 +1  0  0  0  0  0 =  +3
+  8 Christ Church I   -1  0 +1 +1  0 -1  0  0 =   0
+  9 Magdalen I        +1 +1 +1 +1  0  0  0  0 =  +4
+ 10 Trinity I         -1  0  0  0  0  0  0  0 =  -1
+ 11 Lincoln I         -1  0  0  0  0  0  0 -1 =  -2
+ 12 Keble I           +2  0  0 +1 +1 +1 +1  0 =  +6
+ 13 Oriel I            0  0  0  0  0  0 -1  0 =  -1
+ 14 Worcester I        0  0  0  0  0 -1  0  0 =  -1
+ 15 Queen's I          0  0  0 -1 -1  0  0  0 =  -2
+ 16 Hertford I         0  0 -1 -1  0 -1  0  0 =  -3
+ 17 Wadham I           0 -1 -1 -1  ? =   ? withdrawn
+ 18 Merton I          -1  0 +1 +1 +1  0  0  0 =  +2
+ 19 New College I     +1 +1 +1 +1  0 +1 +1 +1 =  +7
+ 20 Jesus I           -1  0  0  0 +1  0  0  0 =   0
+ 21 St Catherine's I  +1  0  0 +1  0 +1  0  0 =  +3
+ 22 S.E.H. I           0  0  0  0 +1  0  0  0 =  +1

@@ -1,0 +1,14 @@
+Summer Eights Men 1848
+full_set: true
+div_size: 10 | 9 | 8 | 8 | 8 | 8 | 8 | 8
+
+  1 Christ Church I    0  0  0  0  0  0  0  0 =   0 blades
+  2 Brasenose I        0 -1  0  0 -1  0 -1  0 =  -3
+  3 Pembroke I        -1  0  0  0 +1  0  0  0 =   0
+  4 Worcester I       +1 +1  0  0  0  0  0  0 =  +2
+  5 Wadham I           0  0  0  0  0  0 +1  0 =  +1
+  6 Balliol I          0  0  0  0  0  0  0  0 =   0
+  7 Jesus I            0  0  0  0  0  0  0  0 =   0
+  8 Christ Church II   0 -1  ? =   ? withdrawn
+  9 Linacre I         -1  ? =   ? withdrawn
+ 10 Trinity I         +1 +1  0  0  0  0  0  0 =  +2

@@ -1,0 +1,7 @@
+Summer Eights Men 1824
+full_set: true
+div_size: 3 | 3 | 3
+
+  1 Christ Church I   0 -1 -1 =  -2
+  2 Brasenose I      -1  0 +1 =   0
+  3 Exeter I         +1 +1  0 =  +2 blades

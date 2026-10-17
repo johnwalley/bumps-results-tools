@@ -1,0 +1,49 @@
+May Bumps Men 1886 June
+full_set: true
+div_size: 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16
+
+  1 Jesus I            0 -1 -1 -1  0  0 =  -3
+  2 Trinity Hall I     0 +1  0  0  0  0 =  +1 blades
+  3 3rd Trinity I      0  0 +1  0  0  0 =  +1
+  4 Pembroke I         0  0  0 +1  0  0 =  +1
+  5 1st Trinity I      0  0  0  0  0 -1 =  -1
+  6 Caius I            0  0  0  0 -1  0 =  -1
+  7 LMBC I             0  0  0 -1  0  0 =  -1
+  8 1st Trinity II    -1 -1 -1 -1  0 -1 =  -5
+  9 Clare I           +1  0  0 +1 +1 +1 =  +4
+ 10 Trinity Hall II    0 +1  0  0  0  0 =  +1
+ 11 Christ's I         0  0 +1  0 -1  0 =   0
+ 12 Trinity Hall III   0  0  0 +1 +1  0 =  +2
+ 13 Jesus II           0  0  0  0 -1 -1 =  -2
+ 14 Selwyn I           0  0  0 -1  0 +1 =   0
+ 15 LMBC II           -1 -1 -1 -1  0  0 =  -4
+ 16 Emmanuel I        +1  0  0 +1 +1 +1 =  +4
+ 17 1st Trinity III    0 +1  0  0  0  0 =  +1
+ 18 Corpus Christi I   0  0 +1  0  0  0 =  +1
+ 19 Peterhouse I       0  0  0 +1  0  0 =  +1
+ 20 1st Trinity IV    -1 -1  0  0  0  0 =  -2
+ 21 Magdalene I       +1  0 -1  0  0  0 =   0
+ 22 Pembroke II       -1  0  0 -1  0  0 =  -2
+ 23 Caius II          +1 +1 +1  0  0  0 =  +3
+ 24 Downing I          0  0 -1 -1  0  0 =  -2
+ 25 3rd Trinity II    -1 -1 -1 -1  0  0 =  -4
+ 26 Trinity Hall IV   +1  0 +1 +1  0  0 =  +3
+ 27 Cavendish I        0 +1  0 +1  0  0 =  +2
+ 28 Pembroke III       0  0 +1  0  0  0 =  +1
+ 29 King's I           0  0 -1  0  0  0 =  -1
+ 30 St Catharine's I   0  0 +1 +1  0  0 =  +2
+ 31 Trinity Hall V     0  0  0  0  0  0 =   0
+ 32 Queens' I          0  0  0  0  0  0 =   0
+ 33 1st Trinity V      0  0  0  0  0  0 =   0
+ 34 LMBC III           0  0  0  0  0  0 =   0
+ 35 1st Trinity VI     0  0  0  0  0  0 =   0
+ 36 Jesus III          0  0  0  0  0  0 =   0
+ 37 Sidney Sussex I    0  0  0  0  0  0 =   0
+ 38 Jesus IV           0  0  0  0  0  0 =   0
+ 39 Clare II           0  0  0  0  0  0 =   0
+ 40 Caius III          0  0  0  0  0  0 =   0
+ 41 Pembroke IV        0  0  0  0  0  0 =   0
+ 42 Christ's II        0  0  0  0  0  0 =   0
+ 43 Trinity Hall VI    0  0  0  0  0  0 =   0
+ 44 LMBC IV            0  0  0  0  0  0 =   0
+ 45 Non-Collegiate I   0  0  0  0  0  0 =   0

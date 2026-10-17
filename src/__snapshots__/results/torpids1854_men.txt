@@ -1,0 +1,18 @@
+Torpids Men 1854
+full_set: true
+div_size: 14 | 14 | 14 | 14 | 14 | 14
+
+  1 Brasenose I        0  0  0 -1 -1  0 =  -2
+  2 Balliol I         -1  0 -1  0  0 -1 =  -3
+  3 Exeter I          +1  0  0 +1  0  0 =  +2 blades
+  4 St John's I        0 -1  0  0 -1  0 =  -2
+  5 Oriel I           -1 -1 -1 -1 -1 -1 =  -6
+  6 Wadham I          +1 +1 +1  0 +1  0 =  +4
+  7 Worcester I       -1 -1  0 +1  0 -1 =  -2
+  8 Pembroke I        +1 +1  0 -1  0  0 =  +1
+  9 University I       0 +1 +1 +1 +1 +1 =  +5
+ 10 Christ Church I    0  0 -1 -1 -1  0 =  -3
+ 11 Queen's I          0 -1  0 +1  0 +1 =  +1
+ 12 Jesus I            0 +1 +1  0 +1 +1 =  +4
+ 13 Exeter II         -1  0  0  0  0  0 =  -1
+ 14 Christ Church II  +1  0  0  0 +1  0 =  +2

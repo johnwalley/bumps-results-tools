@@ -1,0 +1,12 @@
+May Bumps Men 1827 February March
+full_set: true
+div_size: 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 7 | 7 | 7 | 7 | 7 | 6 | 6
+
+  1 Trinity Monarch I      -1 +1 -1  0  0 +1 -1  0  0  0  0 -1 -1  ? =   ? withdrawn
+  2 Trinity King Edward I  +1 -1 +1  0  0 -1 +1  0  0  0  0  0  0  0  0 =  +1
+  3 LMBC I                  0  0  0  0  0  0 -1 +1  0  0  0 +1  0 -1 +1 =  +1
+  4 Jesus I                 0  0  0 -1  0  0  0 -1 +1 +1  0  0 +1 +1 -1 =  +1
+  5 Caius I                 0  0  0 +1  0  0 +1 -1 -3  0 +1  0  0 +1  0 =   0
+  6  I                      0  0  0  0  0  0 -1  0  ? =   ? withdrawn
+  7  I                      0  0  0  0  0  0 +1 +1 -1  0 -1  0  0 +1  0 =  +1
+  8 Trinity Westminster I   0  0  0  0  0  0  0  0 +4 -1  0  0  0 +1  0 =  +4

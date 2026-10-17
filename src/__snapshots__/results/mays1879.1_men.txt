@@ -1,0 +1,45 @@
+May Bumps Men 1879 March
+full_set: true
+div_size: 14 15 12 | 14 15 12 | 14 15 12 | 14 15 12
+
+  1 Jesus I             0  0  0  0 =   0
+  2 Caius I             0  0  0  0 =   0
+  3 LMBC I              0  0  0  0 =   0
+  4 1st Trinity I       0  0  0  0 =   0
+  5 3rd Trinity I       0  0  0  0 =   0
+  6 Trinity Hall I      0  0  0  0 =   0
+  7 Clare I             0  0  0  0 =   0
+  8 1st Trinity II      0  0  0  0 =   0
+  9 1st Trinity III     0  0  0  0 =   0
+ 10 Caius II            0  0  0  0 =   0
+ 11 LMBC II             0  0  0  0 =   0
+ 12 Sidney Sussex I     0  0  0  0 =   0
+ 13 St Catharine's I    0  0  0  0 =   0
+ 14 Emmanuel I          0  0  0  0 =   0
+ 15 Jesus II            0  0  0  0 =   0
+ 16 1st Trinity IV     -1 -1  0 -1 =  -3
+ 17 Pembroke I         +1  0  0 -1 =   0
+ 18 3rd Trinity II      0 +1  0 +1 =  +2
+ 19 Queens' I           0  0  0 +1 =  +1
+ 20 King's I           -1 +1  0 -1 =  -1
+ 21 Corpus Christi I   +1 -1 -1 -1 =  -2
+ 22 1st Trinity V      -1  0 -1 -1 =  -3
+ 23 Trinity Hall II    +1  0 +1 +1 =  +3
+ 24 Non-Collegiate I   -1 -1  0 -1 =  -3
+ 25 Downing I          +1  0 +1 +1 =  +3
+ 26 LMBC III            0 +1  0 +1 =  +2
+ 27 Magdalene I         0  0 -1  0 =  -1
+ 28 Christ's I          0 -1  0  0 =  -1
+ 29 Peterhouse I       -1  0 -1  0 =  -2
+ 30 1st Trinity VI     -1 -1  0  0 =  -2
+ 31 Caius III          +2 +1 +1 +1 =  +5 blades
+ 32 Pembroke II         0 +1 +1  0 =  +2
+ 33 Trinity Hall III   -1  0  0  0 =  -1
+ 34 Sidney Sussex II   +1  0  0  0 =  +1
+ 35 LMBC IV            -1 -1 -1 -1 =  -4
+ 36 Jesus III          +1  0  0 -1 =   0
+ 37 Caius IV           -1 -1 -1  0 =  -3
+ 38 3rd Trinity III    +1 +1  0 +1 =  +3
+ 39 Corpus Christi II  -1 -1  0  0 =  -2
+ 40 St Catharine's II  +1 +1 +1  0 =  +3
+ 41 Cavendish I         0 +1 +1 +1 =  +3

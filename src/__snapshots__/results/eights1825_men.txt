@@ -1,0 +1,8 @@
+Summer Eights Men 1825
+full_set: true
+div_size: 4 | 4 | 4
+
+  1 Exeter I         -1 -1 +1 =  -1
+  2 Christ Church I  +1  0  0 =  +1 blades
+  3 Worcester I       0 +1 -1 =   0
+  4 Balliol I         0  0  0 =   0

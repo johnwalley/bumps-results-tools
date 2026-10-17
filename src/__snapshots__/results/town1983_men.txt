@@ -1,0 +1,56 @@
+Town Bumps Men 1983
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 City 1               0  0  0 -1 =  -1
+  2 99 1                 0 -1  0  0 =  -1
+  3 99 2                -1  0  0  0 =  -1
+  4 Rob Roy 1           +1 +1  0 +1 =  +3 blades
+  5 City 2               0  0  0  0 =   0
+  6 99 3                -1  0  0  0 =  -1
+  7 Univ Sports 1       +1  0  0  0 =  +1
+  8 99 4                -1 -1 -1 -1 =  -4
+  9 Cantabs 1           +1  0 -1  0 =   0
+ 10 Free Press 1         0 +1 +1  0 =  +2
+ 11 City 3               0  0 +1  0 =  +1
+ 12 Churchill 1         -1 -1 -1 -1 =  -4
+ 13 Addenbrooke's 1     +1  0  0 +1 =  +2
+ 14 Lady Somerset 1      0 +1  0 -1 =   0
+ 15 99 5                 0  0 +1 +1 =  +2
+ 16 Univ Sports 2        0 -1 -1 -1 =  -3
+ 17 Telephones 1        -1  0 +1 -1 =  -1
+ 18 Darwin 1            -1  0 -1 -1 =  -3
+ 19 City 4              +2 +1  0 +1 =  +4
+ 20 99 6                 0 -1  0 +1 =   0
+ 21 Macdonalds 1        -1  0  0  0 =  -1
+ 22 Rob Roy 2           +1 +1 +1 +2 =  +5 blades
+ 23 Leckhampton 1        0 -1 -1 -1 =  -3
+ 24 Free Press 2         0 +1  0 -1 =   0
+ 25 City 5               0  0 +1 +1 =  +2
+ 26 99 7                 0 -1  0  0 =  -1
+ 27 Univ Sports 3       -1 -1 -1 -1 =  -4
+ 28 Chemical Lab 1      +1 +1  0 +1 =  +3
+ 29 99 8                -1 -1 -1 -1 =  -4
+ 30 Cantabs 2           +1 +1  0 -1 =  +1
+ 31 Free Press 3         0 +1 +1 +1 =  +3
+ 32 City 6              -1 -1 -1 -1 =  -4
+ 33 Red Lion Toft 1     +1  0 +1 +1 =  +3
+ 34 Rob Roy 3           -1 -1  0 +1 =  -1
+ 35 Metallurgy 1        +1 +1  0 +1 =  +3
+ 36 Pye 1                0 +1 +1  0 =  +2
+ 37 King's 1             0  0 -1 -1 =  -2
+ 38 Univ Sports 4        0 -1 -1 -1 =  -3
+ 39 City/Netherhall 1   -1 -1 -1 -1 =  -4
+ 40 Macdonalds 2        +1 +1 +1  0 =  +3
+ 41 Free Press 4         0 +1 +1 +1 =  +3
+ 42 Rob Roy 4            0  0 +1 +1 =  +2
+ 43 Vaughan Cornish 1   -1 -1 -1 -1 =  -4
+ 44 Rob Roy 5           +1  0 -1 -1 =  -1
+ 45 Free Press 5         0 +1 +1 +1 =  +3
+ 46 Addenbrooke's 2     -1 -1 -1 +1 =  -2
+ 47 Hole in the Wall 1  +1  0 +1 +1 =  +3
+ 48 Cantabs 3           -1  0 +1 -1 =  -1
+ 49 Barclays Bank 1     +1 +1  0 +1 =  +3
+ 50 Red Lion Toft 2      0 -1  0  0 =  -1
+ 51 Pye 2               -1  0  0  0 =  -1
+ 52 Cantabs 4           +1 +1  0  0 =  +2

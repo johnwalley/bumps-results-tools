@@ -1,0 +1,28 @@
+Town Bumps Men 1968
+full_set: true
+div_size: 15 9 | 15 9 | 15 9 | 15 9
+
+  1 Rob Roy 1              0  0  0  0 =   0 blades
+  2 99 1                  -1  0  0  0 =  -1
+  3 Leys School 1         +1  0  0  0 =  +1
+  4 Cantabs 1              0  0  0  0 =   0
+  5 99 2                   0  0  0  0 =   0
+  6 Rob Roy 2              0  0  0  0 =   0
+  7 Cambs High School 1   -1 -1 -1 -1 =  -4
+  8 Scouts 1              +1  0 -1 -1 =  -1
+  9 Rob Roy 3             -1 -1 -1 -1 =  -4
+ 10 ACUA 1                +1 +1 +1  0 =  +3
+ 11 99 3                  -1  0 +1 +1 =  +1
+ 12 Leys School 2         +1 +1 +1 +1 =  +4 blades
+ 13 Scouts 2              -1  0  0  0 =  -1
+ 14 Cantabs 2             +1  0  0 +1 =  +2
+ 15 99 4                   0  0  0  0 =   0
+ 16 Cam Grammar School 1   0  0  0  0 =   0
+ 17 Rob Roy 4              0  0  0  0 =   0
+ 18 Cantabs 3              0  0  0 -1 =  -1
+ 19 Cam Grammar School 2  -1 -1 -1 -1 =  -4
+ 20 Rob Roy 5             +1  0 -1  0 =   0
+ 21 Rob Roy 6             -1  0 +1  0 =   0
+ 22 ACUA 2                +1 +1 +1 +1 =  +4 blades
+ 23 Scouts 3              -1  0  0  0 =  -1
+ 24 ACUA 3                +1  0  0 +1 =  +2

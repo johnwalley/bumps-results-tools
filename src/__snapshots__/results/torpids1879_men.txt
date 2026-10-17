@@ -1,0 +1,30 @@
+Torpids Men 1879
+full_set: true
+div_size: 13 13 | 13 12 | 13 12 | 13 12 | 13 12 | 13 12
+
+  1 Pembroke I         0  0  0  0  0  0 =   0 blades
+  2 Trinity I          0  0  0  0  0  0 =   0
+  3 Keble I            0  0  0  0  0  0 =   0
+  4 Exeter I           0  0  0 -1  0  0 =  -1
+  5 Christ Church I   -1  0 -1  0  0 -1 =  -3
+  6 Brasenose I       +1  0  0 +1  0  0 =  +2
+  7 Balliol I         -1 +1 +1  0  0  0 =  +1
+  8 University I      +1 -1 -1 -1 -1 -1 =  -4
+  9 Queen's I          0  0 +1  0  0 +1 =  +2
+ 10 Keble II           0  0 -1  0 +1  0 =   0
+ 11 New College I      0  0 +1 +1  0  0 =  +2
+ 12 Magdalen I         0 -1  0 +1  0 +1 =  +1
+ 13 Lincoln I         -1 -1  0 -1 -1  0 =  -4
+ 14 Corpus Christi I  +1 +1  0 -1  0 -1 =   0
+ 15 Oriel I            0 +1  0  0 -1 -1 =  -1
+ 16 Wadham I           0  0 -1 -1  0  0 =  -2
+ 17 St John's I        0  0 +1 +1 +1 +1 =  +4
+ 18 St Catherine's I  -1 -1  0 +1  0 -1 =  -2
+ 19 Merton I          +1  0 -1 -1  0 +1 =   0
+ 20 Worcester I        0 +1 +1 +1 +1 +1 =  +5
+ 21 Brasenose II      -1 +1  0  0 -1 -1 =  -2
+ 22 Hertford I        +1 -1  0 -1 -1  0 =  -2
+ 23 Christ Church II   0  0  0 +1 +1  0 =  +2
+ 24 Trinity II        -1  ? =   ? withdrawn
+ 25 New College II    +1  0  0  0 +1 +1 =  +3
+ 26 Magdalen II        0 +1  0  0  0  0 =  +1

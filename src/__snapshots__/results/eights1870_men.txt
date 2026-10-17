@@ -1,0 +1,24 @@
+Summer Eights Men 1870
+full_set: true
+div_size: 20 | 20 | 20 | 20 | 19 | 19 | 19 | 19
+
+  1 University I       0  0  0  0  0  0  0  0 =   0 blades
+  2 Exeter I           0 -1  0  0  0  0  0  0 =  -1
+  3 St John's I        0 +1  0  0  0  0  0  0 =  +1
+  4 Brasenose I        0  0  0 -1  0  0  0  0 =  -1
+  5 Christ Church I   -1  0  0  0  0  0  0  0 =  -1
+  6 Balliol I         +1  0  0 +1  0  0  0  0 =  +2
+  7 Corpus Christi I   0  0  0  0  0  0  0  0 =   0
+  8 Lincoln I          0  0  0 -1  0  0  0  0 =  -1
+  9 Merton I          -1 -1 -1 -1  0 -1  0  0 =  -5
+ 10 Worcester I       +1  0 -1  0  0  0 -1  0 =  -1
+ 11 Pembroke I         0 +1 +1 +1  0  0  0  0 =  +3
+ 12 Queen's I          0  0 +1  0  0  0 +1  0 =  +2
+ 13 Wadham I           0  0  0 +1  0  0  0  0 =  +1
+ 14 S.E.H. I          -1 -1 -1  0 -1  0  0  0 =  -4
+ 15 Trinity I         +1  0  0  0 -1  0  0  0 =   0
+ 16 Oriel I           -1 -1  0  0 +1  0  0  0 =  -1
+ 17 Magdalen I        +1 +1  0 -1  0  0  0  0 =  +1
+ 18 New College I      0 +1 +1 +1 +1 +1  0  0 =  +5
+ 19 St Mary Hall I     0  0  0  0  0  0  0  0 =   0
+ 20 Jesus I            0  0  0  0  ? =   ? withdrawn

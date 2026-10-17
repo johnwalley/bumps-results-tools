@@ -1,0 +1,56 @@
+Lent Bumps Women 1992
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 Emmanuel I         -1  0  0  0 =  -1
+  2 LMBC I             +1  0  0  0 =  +1 blades
+  3 Newnham I           0  0  0  0 =   0
+  4 Caius I            -1  0  0 -1 =  -2
+  5 Jesus I            +1  0  0  0 =  +1
+  6 Trinity Hall I      0  0 -1 -1 =  -2
+  7 New Hall I         -1 -1  0 -1 =  -3
+  8 Queens' I          +1  0 +1 +1 =  +3
+  9 Churchill I        -1  0 -1  0 =  -2
+ 10 Clare I            +1 +1  0 +1 =  +3
+ 11 St Catharine's I    0 -1  0 -1 =  -2
+ 12 Sidney Sussex I    -1  0 -1 -1 =  -3
+ 13 Selwyn I           +1 +1 +1 +1 =  +4 blades
+ 14 Girton I            0 -1 -1  0 =  -2
+ 15 Christ's I         -1 -1 -1  0 =  -3
+ 16 Downing I          +1 +1 +1 +1 =  +4 blades
+ 17 1st and 3rd I      -1 -1  0  0 =  -2
+ 18 Pembroke I         -1 +1 +1  0 =  +1
+ 19 Robinson I         +2 +1 +1 +1 =  +5 blades
+ 20 Homerton I          0  0  0  0 =   0
+ 21 Fitzwilliam I      -1  0 -1 -1 =  -3
+ 22 Jesus II           +1  0  0 -1 =   0
+ 23 QMABC I             0 -1 -1 -1 =  -3
+ 24 Newnham II         -1 -1 -1  0 =  -3
+ 25 Corpus Christi I   +1 +1 +1 +1 =  +4 blades
+ 26 Peterhouse I       -3 -1 -1 +1 =  -4
+ 27 CCAT I             -1  0 -1  0 =  -2
+ 28 LMBC II            +1  0 +1 +1 =  +3
+ 29 Magdalene I        +3 +1 +1 +1 =  +6 blades
+ 30 Clare II            0 +1 +1  0 =  +2
+ 31 New Hall II        -1  0  0 -1 =  -2
+ 32 Emmanuel II        +1  0 +1 -1 =  +1
+ 33 Churchill II       -1 -1 -1 -1 =  -4
+ 34 Addenbrooke's I    +1  0 -1 -1 =  -1
+ 35 Girton II           0 -1 +1 +1 =  +1
+ 36 Wolfson I          -1  0 -1  0 =  -2
+ 37 Selwyn II          +1 +2 +1 +1 =  +5 blades
+ 38 LMBC III            0 -1  0  0 =  -1
+ 39 Caius II           -1  0  0 -1 =  -2
+ 40 Sidney Sussex II   +1 +1 +1 +1 =  +4 blades
+ 41 Darwin I            0 -1 -1 -1 =  -3
+ 42 St Catharine's II   0 +1  0 +1 =  +2
+ 43 Homerton II         0 -1 -1 -1 =  -3
+ 44 Christ's II        -1 -1 -1 -1 =  -4
+ 45 Queens' II         +1 +1 +1  0 =  +3
+ 46 1st and 3rd II     -1 -1 -1  0 =  -3
+ 47 Robinson II        +1 +1 +1 +1 =  +4 blades
+ 48 Corpus Christi II   0 +1 +1 +1 =  +3
+ 49 Pembroke II         0 -1  0 -1 =  -2
+ 50 Downing II         -1  0 -1  0 =  -2
+ 51 Magdalene II       +1 +1 +1 +1 =  +4 blades
+ 52 Trinity Hall II     0  0 +1 +1 =  +2

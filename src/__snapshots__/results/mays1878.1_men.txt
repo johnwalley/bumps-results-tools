@@ -1,0 +1,44 @@
+May Bumps Men 1878 March
+full_set: true
+div_size: 14 15 11 | 14 15 11 | 14 15 11 | 14 15 11
+
+  1 Jesus I             0  0  0  0 =   0
+  2 Caius I             0  0  0  0 =   0
+  3 LMBC I              0  0  0  0 =   0
+  4 3rd Trinity I       0  0  0  0 =   0
+  5 Trinity Hall I      0  0  0  0 =   0
+  6 1st Trinity I       0  0  0  0 =   0
+  7 1st Trinity II      0  0  0  0 =   0
+  8 Sidney Sussex I     0  0  0  0 =   0
+  9 Clare I             0  0  0  0 =   0
+ 10 1st Trinity III     0  0  0  0 =   0
+ 11 Emmanuel I          0  0  0  0 =   0
+ 12 Caius II            0  0  0  0 =   0
+ 13 LMBC II             0  0  0  0 =   0
+ 14 King's I            0  0  0  0 =   0
+ 15 Corpus Christi I   -1 -1 -1 -1 =  -4
+ 16 St Catharine's I   +1  0  0 -1 =   0
+ 17 1st Trinity IV      0 +1  0 +1 =  +2
+ 18 3rd Trinity II      0  0 +1  0 =  +1
+ 19 Pembroke I          0  0  0 +1 =  +1
+ 20 Jesus II            0  0  0  0 =   0
+ 21 Queens' I           0  0  0  0 =   0
+ 22 Trinity Hall II     0  0  0  0 =   0
+ 23 LMBC III            0  0  0  0 =   0
+ 24 Non-Collegiate I    0  0  0  0 =   0
+ 25 Christ's I          0  0 -1 -1 =  -2
+ 26 1st Trinity V      -1 +1 +1  0 =  +1
+ 27 Peterhouse I       +1 -1 -1 -1 =  -2
+ 28 Magdalene I        -1 -1 -1  0 =  -3
+ 29 1st Trinity VI     +1  0 +1 +1 =  +3
+ 30 Downing I           0 +1  0 +1 =  +2
+ 31 Trinity Hall III    0 -1  0 -1 =  -2
+ 32 LMBC IV            -1  0 -1 -1 =  -3
+ 33 Caius III          +1 +1 +1  0 =  +3
+ 34 Pembroke II         0  0 +1 +1 =  +2
+ 35 Corpus Christi II  -1 -1 -1 -1 =  -4
+ 36 Sidney Sussex II   +1  0  0 +1 =  +2
+ 37 3rd Trinity III    -1 -1  0 +1 =  -1
+ 38 Caius IV           +1 +1  0 -1 =  +1
+ 39 Jesus III           0 +1 +1 +1 =  +3
+ 40 Clare II            0  0  0  0 =   0

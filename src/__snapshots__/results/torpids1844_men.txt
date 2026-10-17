@@ -1,0 +1,14 @@
+Torpids Men 1844
+full_set: true
+div_size: 10 | 8 | 8 | 7 | 7 | 7
+
+  1 Oriel I           0  0  0  0 -1 +1 =   0 blades
+  2 Christ Church I   0 -1  0  ? =   ? withdrawn
+  3 Pembroke I       -1  ? =   ? withdrawn
+  4 Wadham I         +1 +1  0  0 +1 -1 =  +2
+  5 St John's I      -1  ? =   ? withdrawn
+  6 Exeter I         +1 +1  0  0 -1  0 =  +1
+  7 Brasenose I      -1 +1 -1 +2 -1 +1 =  +1
+  8 Balliol I        +1 +2 -1 +1 +1 +1 =  +5
+  9 Worcester I       0 +3 +1 +2  0 -1 =  +5
+ 10 Trinity I         0 +2 +1  0 +1 -1 =  +3

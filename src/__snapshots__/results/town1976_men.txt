@@ -1,0 +1,54 @@
+Town Bumps Men 1976
+full_set: true
+div_size: 16 16 18 | 16 16 18 | 16 16 18 | 16 16 18
+
+  1 City 1                   -1 -1  0  0 =  -2
+  2 Rob Roy 1                +1  0 -1  0 =   0
+  3 99 1                      0 +1 +1  0 =  +2 blades
+  4 Scouts 1                 -1 -1 -1 -1 =  -4
+  5 Cantabs 1                +1  0 -1  0 =   0
+  6 99 2                      0 +1 +1  0 =  +2
+  7 99 3                      0  0 +1  0 =  +1
+  8 Churchill 1              -1 -1 -1 -1 =  -4
+  9 Rob Roy 2                +1  0  0 +1 =  +2
+ 10 City 2                    0 +1  0  0 =  +1
+ 11 Rob Roy 3                -1  0  0 +1 =   0
+ 12 ACUA 1                   +1  0 +1  0 =  +2
+ 13 Cantabs 2                 0 -1 -1 -1 =  -3
+ 14 Telephones 1              0 +1  0 -1 =   0
+ 15 Leckhampton 1             0 -1 -1 -1 =  -3
+ 16 99 4                     -1 -1 -1 -1 =  -4
+ 17 Rob Roy 4                -3 +1 +1 +1 =   0
+ 18 Cantabs College 1        -1 -1 -1 -1 =  -4
+ 19 City 3                   +1 +1 +1 +1 =  +4 blades
+ 20 MacDonalds 1             +4 +1 +1 +1 =  +7 blades
+ 21 King's 1                 -1 -1  0  0 =  -2
+ 22 Cam Veterans 1           +1  0 +1 +1 =  +3
+ 23 St Cats 1                -3 -1 -1 -1 =  -6
+ 24 Leckhampton 2            -1  0 +1 -1 =  -1
+ 25 Scouts 2                 +1  0 -1 +1 =  +1
+ 26 99 5                     +3 +1  0 +1 =  +5
+ 27 Churchill 2               0 +1  0  0 =  +1
+ 28 Cantabs 3                 0  0 +1  0 =  +1
+ 29 ACUA 2                    0 -1 -1 -1 =  -3
+ 30 City 4                   -1  0 +1  0 =   0
+ 31 Peterhouse 1             +1 +1  0 +1 =  +3
+ 32 Clare 1                   0 -1  0 -1 =  -2
+ 33 Cantabs 4                 0 -1 -1 -1 =  -3
+ 34 Soham Village College 1  -1 -1 -1 -1 =  -4
+ 35 Eleans 1                 +1 +2  0 +1 =  +4
+ 36 City 5                   -1 -1 -1-10 = -13
+ 37 Darwin 1                 +1 +1 +1 +1 =  +4 blades
+ 38 Churchill 3               0 +1 +1 +1 =  +3
+ 39 99 6                     -1 -1 -1 +1 =  -2
+ 40 MacDonalds 2             +1  0 +1 +1 =  +3
+ 41 Telephones 2             -1 -1  0 +1 =  -1
+ 42 99 7                     +1 +1  0  0 =  +2
+ 43 Churchill 4              -1 -3  0 +1 =  -3
+ 44 Rob Roy 5                +1 +1 +1 +2 =  +5 blades
+ 45 Cantabs 5                -1 -4  0  0 =  -5
+ 46 Rob Roy 6                +1 -1  0 +1 =  +1
+ 47 Cantabs 6                -1 +4  0  0 =  +3
+ 48 99 8                     +1 +2  0 +2 =  +5
+ 49 ACUA 3                    0 +1  0 +1 =  +2
+ 50 City 6                    0 +1  0 +1 =  +2

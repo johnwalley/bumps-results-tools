@@ -1,0 +1,35 @@
+Lent Bumps Men 1891
+full_set: true
+div_size: 15 16 | 15 16 | 15 16 | 15 16
+
+  1 Trinity Hall I    -1 -1 -1 -1 =  -4
+  2 LMBC I            +1  0 -1 -1 =  -1
+  3 Jesus I           -1 -1 -1 -1 =  -4
+  4 Corpus Christi I  +1 +1 +1  0 =  +3 blades
+  5 1st Trinity I      0 +1 +1 +1 =  +3
+  6 3rd Trinity I      0  0 +1 +1 =  +2
+  7 Pembroke I         0  0  0 +1 =  +1
+  8 Caius I           -1  0  0  0 =  -1
+  9 Pembroke II       +1  0  0  0 =  +1
+ 10 Peterhouse I      -1  0 -1 -1 =  -3
+ 11 Jesus II          +1  0  0 -1 =   0
+ 12 1st Trinity II     0 -1 -1  0 =  -2
+ 13 Trinity Hall II   -1  0 +1 +1 =  +1
+ 14 Caius II          +1 +1 +1 +1 =  +4 blades
+ 15 King's I           0  0  0  0 =   0
+ 16 Cavendish I        0 -1  0 -1 =  -2
+ 17 Clare I           -1  0 -1 -1 =  -3
+ 18 LMBC II           +1 +1  0  0 =  +2
+ 19 Selwyn I           0 -1 -1 -1 =  -3
+ 20 Magdalene I       -1 -1 -1 -1 =  -4
+ 21 Emmanuel I        +1 +1 +1 +1 =  +4 blades
+ 22 St Catharine's I   0 +1 +1 +1 =  +3
+ 23 Emmanuel II       -1 +1 +1 +1 =  +2
+ 24 1st Trinity III   +1 -1  0 +1 =  +1
+ 25 Christ's I         0 -1 +1  0 =   0
+ 26 Downing I         -1  0  0 -1 =  -2
+ 27 Trinity Hall III  +1 +1 -1  0 =  +1
+ 28 Queens' I          0  0 -1 -1 =  -2
+ 29 Sidney Sussex I    0 -1 -1  0 =  -2
+ 30 Fitzwilliam I     -1  0 +1 +1 =  +1
+ 31 Pembroke III      +1 +1 +1 +1 =  +4 blades

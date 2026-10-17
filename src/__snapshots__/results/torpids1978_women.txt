@@ -1,0 +1,14 @@
+Torpids Women 1978
+full_set: true
+div_size: 10 | 10 | 10 | 10
+
+  1 L.M.H. I           0  0 -2 -1 =  -3
+  2 Somerville I      -1 -2  0 -2 =  -5
+  3 Jesus I           +1  0 +1 -1 =  +1
+  4 Brasenose I       -2 -1 -1 +3 =  -1
+  5 St Catherine's I  +1 -2 -1 -1 =  -3
+  6 Hertford I        +1 +2 +1 +1 =  +5 blades
+  7 L.M.H. II         -3  0 +1  0 =  -2
+  8 Somerville II     -1  0 -1  0 =  -2
+  9 Wadham I          +2 +3  0 +1 =  +6
+ 10 St Anne's I       +2  0 +2  0 =  +4

@@ -1,0 +1,11 @@
+Torpids Men 1847
+full_set: true
+div_size: 7 | 7 | 5 | 5 | 5 | 5 | 5
+
+  1 Exeter I          0 -1 +1  0  0  0  0 =   0 blades
+  2 St John's I      -1 -1  ? =   ? withdrawn
+  3 Brasenose I      +1 +1 -1 -1 -1  0 +1 =   0
+  4 Christ Church I  -1 -1 +2 -1  0  0  0 =  -1
+  5 Wadham I         +1 +1  0 +1  0 -1 -1 =  +1
+  6 Pembroke I        0 +1  0 +1 +1 +1  0 =  +4
+  7 Lincoln I         0  0  ? =   ? withdrawn

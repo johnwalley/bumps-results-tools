@@ -1,0 +1,47 @@
+Lent Bumps Men 1900
+full_set: true
+div_size: 14 14 15 | 14 14 15 | 14 14 15 | 14 14 15
+
+  1 1st Trinity I      0  0  0  0 =   0 blades
+  2 Trinity Hall I     0  0  0  0 =   0
+  3 Pembroke I        -1 -1 -1 -1 =  -4
+  4 Caius I           +1  0  0  0 =  +1
+  5 Emmanuel I         0 +1  0 -1 =   0
+  6 LMBC I            -3  0 -1 -1 =  -5
+  7 Trinity Hall II   -1  0  0 -1 =  -2
+  8 King's I          +1  0  0 +1 =  +2
+  9 3rd Trinity I     +3  0 +1 +1 =  +5
+ 10 Jesus I            0 -1  0 +1 =   0
+ 11 Christ's I        -1 -1  0  0 =  -2
+ 12 1st Trinity II    +1 +1 +1 +1 =  +4 blades
+ 13 Peterhouse I       0 +1  0  0 =  +1
+ 14 Pembroke II       -1 -1 -1 -1 =  -4
+ 15 Caius II          +1  0  0 -1 =   0
+ 16 Corpus Christi I  -1 -1 -1 -1 =  -4
+ 17 Clare I           +1 +1  0 -1 =  +1
+ 18 LMBC II           -1 -1  0 +1 =  -1
+ 19 Sidney Sussex I   +1 +1 +1 +2 =  +5 blades
+ 20 1st Trinity III   -1 -1  0 -1 =  -3
+ 21 Selwyn I          +1 +1 +1 +1 =  +4 blades
+ 22 1st Trinity IV    -1  0 -1 -1 =  -3
+ 23 Queens' I         +1 +1  0  0 =  +2
+ 24 Jesus II           0 -1 -1 -1 =  -3
+ 25 Pembroke III       0 +1 +1 +1 =  +3
+ 26 Clare II           0 -1 -1  0 =  -2
+ 27 Emmanuel II        0 +1 +1 +1 =  +3
+ 28 1st Trinity V     -1  0  0 -1 =  -2
+ 29 St Catharine's I  +1  0 +1 +1 =  +3
+ 30 Trinity Hall III   0 -1  0 -1 =  -2
+ 31 3rd Trinity II    -1 -1 -1 -1 =  -4
+ 32 Magdalene I       +1 +1  0 +1 =  +3
+ 33 LMBC III           0 +1  0 +1 =  +2
+ 34 Downing I          0 -1  0 +1 =   0
+ 35 Caius III         -1 -1 -1 -1 =  -4
+ 36 King's II         +1 +1 +1  0 =  +3
+ 37 Trinity Hall IV   -1  0 +1  0 =   0
+ 38 Pembroke IV       +1 +1  0  0 =  +2
+ 39 Emmanuel III       0  0 -1 -1 =  -2
+ 40 Christ's II        0 -1 -1  0 =  -2
+ 41 Clare III         -1 -1  0  0 =  -2
+ 42 Selwyn II         +1 +1 +1 +1 =  +4 blades
+ 43 1st Trinity VI     0 +1 +1 +1 =  +3
