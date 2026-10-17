@@ -1,6 +1,5 @@
 {
   "name": "bumps-results-tools",
-  "module": "src/index.ts",
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
     "arquero": "^8",

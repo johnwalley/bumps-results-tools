@@ -805,7 +805,7 @@ export function stepOn(event: Readonly<Event>) {
 
   // Operate entirely on the cloned crews so the caller's event is untouched.
   const crews = newEvent.crews;
-  const newlist = Array(crews.length).fill(null);
+  const newlist: (Crew | null)[] = Array(crews.length).fill(null);
 
   for (const i of range(0, crews.length)) {
     const crew = crews[i];
@@ -850,14 +850,11 @@ export function stepOn(event: Readonly<Event>) {
     }
   }
 
-  newEvent.crews = newlist;
+  // Crews without a finishing position (e.g. withdrawn) don't carry over.
+  newEvent.crews = newlist.filter((crew): crew is Crew => crew !== null);
 
-  try {
-    const year = parseInt(event["year"], 10);
-    newEvent.year = String(year + 1);
-  } catch (e) {
-    newEvent.year = event.year + ".next";
-  }
+  const year = parseInt(event["year"], 10);
+  newEvent.year = Number.isNaN(year) ? `${event.year}.next` : String(year + 1);
 
   newEvent["move"] = [];
   newEvent["completed"] = [];

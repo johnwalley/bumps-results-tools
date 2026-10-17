@@ -67,10 +67,6 @@ pnpm vitest run src/bumps.test.ts
 
 - **bumps.test.ts** - Vitest suite for the core library
 
-- **archive/** - Legacy JS helpers kept for reference only; not imported by current code
-
-- **index.ts** - Empty entry point (the package's `module` field points here but nothing is re-exported yet)
-
 ### UI (`src/ui/`)
 
 React app rendered through Vite. `App.tsx` is a split-pane editor:
