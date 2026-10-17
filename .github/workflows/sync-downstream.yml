@@ -1,0 +1,96 @@
+# Opens (or updates) a PR in each downstream repo whenever main changes what
+# they consume:
+#   - cambridgebumps.com: generated results + stats JSON, and its chart metadata
+#   - bumps-results: the TG and AD format source files
+#
+# Needs a DOWNSTREAM_REPOS_TOKEN secret: a fine-grained PAT with Contents and
+# Pull requests read/write on johnwalley/cambridgebumps.com and
+# johnwalley/bumps-results.
+
+name: Sync downstream
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "results/tg_format/**"
+      - "src/**"
+      - "scripts/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/sync-downstream.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-downstream
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: tools
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: tools/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: tools/pnpm-lock.yaml
+
+      - run: pnpm install --frozen-lockfile
+        working-directory: tools
+      - run: pnpm run generate && pnpm run generate:ad
+        working-directory: tools
+
+      - uses: actions/checkout@v4
+        with:
+          repository: johnwalley/cambridgebumps.com
+          token: ${{ secrets.DOWNSTREAM_REPOS_TOKEN }}
+          path: website
+      - name: Copy results and stats into cambridgebumps.com
+        run: |
+          for dir in results stats; do
+            rsync -a --delete --prune-empty-dirs \
+              --include='*/' --include='*.json' --exclude='*' \
+              "tools/output/$dir/" "website/src/data/$dir/"
+          done
+          (cd website && node scripts/generate-chart-meta.mjs)
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          path: website
+          token: ${{ secrets.DOWNSTREAM_REPOS_TOKEN }}
+          branch: sync/bumps-results-tools
+          delete-branch: true
+          commit-message: "Update results data from bumps-results-tools@${{ github.sha }}"
+          title: Update results data from bumps-results-tools
+          body: |
+            Regenerated `src/data/results`, `src/data/stats` and `src/data/chart-meta.json` from johnwalley/bumps-results-tools@${{ github.sha }}.
+
+            Opened automatically by the [Sync downstream](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) workflow.
+
+      - uses: actions/checkout@v4
+        with:
+          repository: johnwalley/bumps-results
+          token: ${{ secrets.DOWNSTREAM_REPOS_TOKEN }}
+          path: bumps-results
+      - name: Copy TG and AD format files into bumps-results
+        run: |
+          for dir in tg_format ad_format; do
+            rsync -a --delete "tools/results/$dir/" "bumps-results/results/$dir/"
+          done
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          path: bumps-results
+          token: ${{ secrets.DOWNSTREAM_REPOS_TOKEN }}
+          branch: sync/bumps-results-tools
+          delete-branch: true
+          commit-message: "Update results from bumps-results-tools@${{ github.sha }}"
+          title: Update results from bumps-results-tools
+          body: |
+            Copied `results/tg_format` and `results/ad_format` from johnwalley/bumps-results-tools@${{ github.sha }}.
+
+            Opened automatically by the [Sync downstream](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) workflow.
