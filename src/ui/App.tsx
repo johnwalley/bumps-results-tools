@@ -38,21 +38,30 @@ function App() {
     };
   }, [selected]);
 
-  const data = useMemo(() => {
+  const { data, errors } = useMemo(() => {
     try {
-      const event = readEvent(state);
+      const parsed = readEvent(state);
 
-      if (!event) {
-        return null;
+      if (!parsed.event) {
+        return { data: null, errors: parsed.errors };
       }
 
-      return processResults(event, false) ?? null;
+      const processed = processResults(parsed.event, false);
+
+      return {
+        data: processed.event ?? null,
+        errors: [...parsed.errors, ...processed.errors],
+      };
     } catch (e) {
-      return null;
+      return { data: null, errors: [String(e)] };
     }
   }, [state]);
 
   const handleNextYear = () => {
+    if (!data) {
+      return;
+    }
+
     const nextYear = writeString(stepOn(data as Event));
 
     setState(nextYear);
@@ -85,6 +94,15 @@ function App() {
               Generate next years starting positions
             </button>
           </div>
+          {errors.length > 0 && (
+            <ul className="m-2 rounded border border-red-300 bg-red-50 px-3 py-2 font-mono text-sm text-red-800 dark:border-red-800 dark:bg-red-950 dark:text-red-200">
+              {errors.map((error, i) => (
+                <li key={i} className="whitespace-pre-wrap">
+                  {error}
+                </li>
+              ))}
+            </ul>
+          )}
           <div className="flex-1">
             <textarea
               className="h-full w-full resize-none bg-transparent px-3 py-1.5 text-base font-mono text-gray-900 dark:text-white"

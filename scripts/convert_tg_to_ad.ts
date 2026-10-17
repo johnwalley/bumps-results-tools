@@ -87,18 +87,20 @@ for (const file of files) {
     continue;
   }
 
-  const event = await readFile("./results/tg_format/" + file);
+  const { event, errors: parseErrors } = await readFile(
+    "./results/tg_format/" + file,
+  );
 
   if (!event || event.crews.length === 0) {
-    console.warn(`Skipping ${file}: parse failed or no crews`);
+    console.warn(`Skipping ${file}: parse failed or no crews`, parseErrors);
     numSkipped++;
     continue;
   }
 
-  const processed = processResults(event);
+  const { event: processed, errors } = processResults(event);
 
-  if (!processed) {
-    console.warn(`Skipping ${file}: could not process results`);
+  if (!processed || errors.length > 0) {
+    console.warn(`Skipping ${file}: could not process results`, errors);
     numSkipped++;
     continue;
   }

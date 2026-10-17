@@ -1,9 +1,10 @@
 import { desc, from } from "arquero";
 import chalk from "chalk";
 import fs from "fs";
-import { processResults, readFile, writeWeb } from "../src/bumps";
+import { writeWeb } from "../src/bumps";
 import { getStats } from "../src/stats";
-import { type Event, type ProcessedEvent } from "../src/types";
+import { type ProcessedEvent } from "../src/types";
+import { loadEvents } from "./load_events";
 import * as prettier from "prettier";
 
 if (!fs.existsSync("./output")) {
@@ -14,86 +15,62 @@ if (!fs.existsSync("./output/stats")) {
   fs.mkdirSync("./output/stats");
 }
 
-const events: Event[] = [];
+const loaded = await loadEvents();
 
-fs.readdir("./results/tg_format/", async function (err, files) {
-  if (err) throw err;
-  let numFiles = 0;
-
-  files.sort();
-
-  for (const file of files) {
-    const event = await readFile("./results/tg_format/" + file);
-
-    if (event) {
-      numFiles++;
-      events.push(event);
-    }
+for (const small of ["Eights", "Lents", "Mays", "Torpids", "Town"]) {
+  if (!fs.existsSync(`./output/stats/${small.toLocaleLowerCase()}`)) {
+    fs.mkdirSync(`./output/stats/${small.toLocaleLowerCase()}`);
   }
 
-  console.log(`Found ${chalk.blue(`${numFiles}`)} files`);
-
-  for (const small of ["Eights", "Lents", "Mays", "Torpids", "Town"]) {
-    if (!fs.existsSync(`./output/stats/${small.toLocaleLowerCase()}`)) {
-      fs.mkdirSync(`./output/stats/${small.toLocaleLowerCase()}`);
+  for (const gender of ["Men", "Women"]) {
+    if (
+      !fs.existsSync(
+        `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}`,
+      )
+    ) {
+      fs.mkdirSync(
+        `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}`,
+      );
     }
 
-    for (const gender of ["Men", "Women"]) {
-      if (
-        !fs.existsSync(
-          `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}`,
-        )
-      ) {
-        fs.mkdirSync(
-          `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}`,
-        );
-      }
-
-      if (
-        !fs.existsSync(
-          `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/year`,
-        )
-      ) {
-        fs.mkdirSync(
-          `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/year`,
-        );
-      }
-
-      const e = events.filter(
-        (event) => event.gender === gender && event.short === small,
+    if (
+      !fs.existsSync(
+        `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/year`,
+      )
+    ) {
+      fs.mkdirSync(
+        `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/year`,
       );
+    }
 
-      const processed: ProcessedEvent[] = [];
+    const group = loaded.filter(
+      ({ event }) => event.gender === gender && event.short === small,
+    );
 
-      for (const event of e) {
-        const result = processResults(event);
+    const e = group.map((l) => l.event);
+    const processed = group.map((l) => l.processed);
 
-        if (result) {
-          processed.push(result);
-        }
-      }
+    const finalStats = getFinalStats(processed);
 
-      const finalStats = getFinalStats(processed);
+    const filename = `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/stats.json`;
 
-      const filename = `./output/stats/${small.toLocaleLowerCase()}/${gender.toLocaleLowerCase()}/stats.json`;
+    const formattedJson = await prettier.format(JSON.stringify(finalStats), {
+      parser: "json",
+    });
 
-      const formattedJson = await prettier.format(JSON.stringify(finalStats), {
-        parser: "json",
-      });
+    fs.writeFile(filename, formattedJson, function () {
+      console.log(
+        `Wrote file to ${chalk.cyan(
+          `./output/stats/${chalk.yellow(
+            small.toLocaleLowerCase(),
+          )}/${chalk.magenta(gender.toLocaleLowerCase())}/stats.json`,
+        )}`,
+      );
+    });
 
-      fs.writeFile(filename, formattedJson, function () {
-        console.log(
-          `Wrote file to ${chalk.cyan(
-            `./output/stats/${chalk.yellow(
-              small.toLocaleLowerCase(),
-            )}/${chalk.magenta(gender.toLocaleLowerCase())}/stats.json`,
-          )}`,
-        );
-      });
+    const years = writeWeb(e);
 
-      const years = writeWeb(e);
-
-      /*      for (const year of years[small][gender]) {
+    /*      for (const year of years[small][gender]) {
         try {
           const yearEvents = e
             .filter((event) => event.gender === gender && event.short === small)
@@ -123,9 +100,8 @@ fs.readdir("./results/tg_format/", async function (err, files) {
           console.warn(e);
         }
       } */
-    }
   }
-});
+}
 
 type ClubStats = ReturnType<typeof getStats>["club"][string];
 

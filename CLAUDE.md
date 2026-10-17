@@ -44,9 +44,9 @@ pnpm vitest run src/bumps.test.ts
 ### Core Library (`src/`)
 
 - **bumps.ts** - Parser, processor, and serializer. Key functions:
-  - `readEvent(text)` - Parses TG format text into an `Event` object
-  - `readFile(path?)` - Reads a TG format file via `node:fs` (or stdin when `path` is omitted). Node builtins are imported lazily inside the function because `bumps.ts` is also bundled into the browser UI — keep it that way
-  - `processResults(event, debug?)` - Computes crew movements, blades, gains from result codes
+  - `readEvent(text)` - Parses TG format text into `{ event: Event | null, errors }`
+  - `readFile(path?)` - Reads a TG format file via `node:fs` (or stdin when `path` is omitted) and returns the same shape as `readEvent`. Node builtins are imported lazily inside the function because `bumps.ts` is also bundled into the browser UI — keep it that way
+  - `processResults(event, debug?)` - Computes crew movements, blades, gains from result codes. Returns `{ event, errors }`; on error it stops and returns the partially processed event. Unrecognised result codes are errors. Problems are returned, never logged — `console.log` is only for `debug` tracing
   - `stepOn(event)` - Generates next year's starting positions from current results
   - `writeString(event)` - Serializes an `Event` back to TG format
   - `writeWeb(events)` - Builds the per-set/per-gender year manifest consumed by the UI
@@ -65,6 +65,8 @@ pnpm vitest run src/bumps.test.ts
 
 - **bumps.test.ts** - Vitest suite for the core library
 
+- **results.test.ts** - Parses and processes every file in `results/tg_format/` and fails on any error, so a typo in new results data breaks CI
+
 ### UI (`src/ui/`)
 
 React app rendered through Vite. `App.tsx` is a split-pane editor:
@@ -77,9 +79,10 @@ React app rendered through Vite. `App.tsx` is a split-pane editor:
 
 ### Scripts (`scripts/`)
 
+- **load_events.ts** - Shared loader for the generate scripts: reads and processes every TG file, and if any file has errors prints them all and exits non-zero before anything is written
 - **generate_results.ts** - Reads every file in `results/tg_format/`, runs `processResults`, writes `output/results/results.json` (year manifest) and `output/results/<set>/<gender>/results.json` (per-set processed events)
 - **generate_stats.ts** - Same input, runs `getStats` and Arquero-based ranking, writes `output/stats/<set>/<gender>/stats.json` (headships, crewsEntered, headDays, headLong, bladesAwarded). Output is Prettier-formatted JSON
-- **process_tg_file.ts** - Filter: reads TG from stdin (or a path), runs `processResults`, writes JSON to stdout
+- **process_tg_file.ts** - Filter: reads TG from stdin (or a path), runs `processResults`, writes JSON to stdout and errors to stderr (exit 1 on error)
 - **convert_rssbc_to_tg.ts** - Converts the historical RSSBC JSON (under `results/rssbc/`) to TG format
 - **download_rssbc_results.ts** - Fetches RSSBC API data into `results/rssbc/`
 - **convert_tg_to_ad.ts**, **convert_ad_to_tg.js**, **normalize_ad.js**, **normalize.js** - Legacy converters for the Anu Dudhia (`ad`) format
