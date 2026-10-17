@@ -1,7 +1,15 @@
 import { processResults, readFile } from "../src/bumps";
 
-const event = await readFile();
+const parsed = await readFile(process.argv[2]);
+const processed = parsed.event ? processResults(parsed.event) : undefined;
+const errors = [...parsed.errors, ...(processed?.errors ?? [])];
 
-const processed = event === null ? event : (processResults(event) ?? event);
+for (const error of errors) {
+  console.error(error);
+}
 
-process.stdout.write(JSON.stringify(processed));
+if (errors.length > 0) {
+  process.exitCode = 1;
+}
+
+process.stdout.write(JSON.stringify(processed?.event ?? parsed.event ?? null));

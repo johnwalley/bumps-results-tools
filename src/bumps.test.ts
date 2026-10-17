@@ -14,7 +14,12 @@ describe("mays 2024 men", () => {
 
   beforeAll(async () => {
     const parsed = await readFile("./results/tg_format/mays2024_men.txt");
-    event = processResults(parsed!, false)!;
+    const processed = processResults(parsed.event!, false);
+
+    expect(parsed.errors).toEqual([]);
+    expect(processed.errors).toEqual([]);
+
+    event = processed.event!;
   });
 
   describe("processResults", () => {
@@ -155,10 +160,55 @@ urruru ruuuurruuur rruuurruuurr rrrruuurrruru ruuuruurrrur
   });
 });
 
+describe("error reporting", () => {
+  const event = (results: string, days = 1) =>
+    readEvent(`Set,May Bumps
+Short,Mays
+Gender,Men
+Year,2024
+Days,${days}
+
+Division,Ca,L,M
+
+Results
+${results}
+`).event!;
+
+  test("valid results have no errors", () => {
+    const { errors } = processResults(event("ur"));
+    expect(errors).toEqual([]);
+  });
+
+  test("unrecognised result codes", () => {
+    const { errors } = processResults(event("uqr"));
+    expect(errors).toEqual(["Unrecognised result codes: q"]);
+  });
+
+  test("bump above the head of the division", () => {
+    const { errors } = processResults(event("o3"));
+    expect(errors).toEqual([
+      "Day 1, division 1: Crew 3 bumps up above the top of the division at position 1",
+    ]);
+  });
+
+  test("more results than days of racing", () => {
+    const { errors } = processResults(event("ur rrr"));
+    expect(errors).toEqual([
+      "Run out of days of racing with more results still to go",
+    ]);
+  });
+
+  test("invalid event metadata", () => {
+    const { event, errors } = readEvent("Set,Henley\nDivision,A,B\n");
+    expect(event).toBeNull();
+    expect(errors).toHaveLength(1);
+  });
+});
+
 describe("stepOn", () => {
   test("drops withdrawn crews", async () => {
     const parsed = await readFile("./results/tg_format/eights1828_men.txt");
-    const event = processResults(parsed!)!;
+    const event = processResults(parsed.event!).event!;
     const nextYear = stepOn(event);
 
     expect(event.crews_withdrawn).toBe(1);
@@ -178,8 +228,8 @@ Division,Ca,L
 
 Results
 r
-`)!;
+`).event!;
 
-    expect(stepOn(processResults(event)!).year).toBe("Unknown.next");
+    expect(stepOn(processResults(event).event!).year).toBe("Unknown.next");
   });
 });
