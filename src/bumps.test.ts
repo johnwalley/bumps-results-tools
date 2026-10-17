@@ -1,4 +1,4 @@
-import { beforeAll, describe, expect, test } from "bun:test";
+import { beforeAll, describe, expect, test } from "vitest";
 import { processResults, readFile, stepOn, writeString } from "./bumps";
 
 import type { Event } from "./types";

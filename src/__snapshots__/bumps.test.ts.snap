@@ -1,6 +1,6 @@
-// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`mays 2024 men processResults full event snapshot 1`] = `
+exports[`mays 2024 men > processResults > full event snapshot 1`] = `
 {
   "back": [
     [
@@ -1961,7 +1961,7 @@ exports[`mays 2024 men processResults full event snapshot 1`] = `
 }
 `;
 
-exports[`mays 2024 men stepOn full stepOn snapshot 1`] = `
+exports[`mays 2024 men > stepOn > full stepOn snapshot 1`] = `
 {
   "back": [
     [
