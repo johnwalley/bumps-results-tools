@@ -37,9 +37,12 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsgo --noEmit && vite build",
+    "build": "pnpm run typecheck && vite build",
+    "typecheck": "tsgo --noEmit && tsgo --noEmit -p tsconfig.scripts.json",
     "preview": "vite preview",
     "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "generate:results": "tsx scripts/generate_results.ts",
     "generate:stats": "tsx scripts/generate_stats.ts",
     "generate": "pnpm run generate:results && pnpm run generate:stats"

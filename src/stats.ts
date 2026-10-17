@@ -5,7 +5,9 @@ import { clubMapping } from "./club-mappings";
 
 const clubMappings = new Map<string, string>(Object.entries(clubMapping));
 
-type StatCounter = { total: number; labels: string[] };
+type StatCounter<Label = unknown> = { total: number; labels: Label[] };
+
+export type EventInfo = { gender: string; year: string };
 
 /**
  * Computes and aggregates statistics from an array of bumping events.
@@ -51,7 +53,7 @@ export function getStats(events: ProcessedEvent[], combine = false) {
         set: Record<string, StatCounter>;
         blades: unknown[];
         crews: Record<string, StatCounter>;
-        headships: Record<string, StatCounter>;
+        headships: Record<string, StatCounter<EventInfo>>;
         highest: Record<
           number,
           {
@@ -109,7 +111,7 @@ export function getStats(events: ProcessedEvent[], combine = false) {
   };
 
   for (const event of events) {
-    const eventInfo = { gender: event.gender, year: event.year };
+    const eventInfo: EventInfo = { gender: event.gender, year: event.year };
     const overallStats = stats.all;
     const clubCount: Record<string, StatCounter> = {};
     const headships: Record<number, { club: string; num: number }> = {};

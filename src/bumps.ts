@@ -1,6 +1,11 @@
 import { z } from "zod";
 import * as abbreviations from "./abbreviations";
-import { EventSchema, type Crew, type Event, type ProcessedEvent } from "./types";
+import {
+  EventSchema,
+  type Crew,
+  type Event,
+  type ProcessedEvent,
+} from "./types";
 import { range } from "./utils";
 
 function addCrew(

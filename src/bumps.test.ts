@@ -52,7 +52,7 @@ describe("mays 2024 men", () => {
 
     test("tracks gains correctly for selected crews", () => {
       const gainsByName = Object.fromEntries(
-        event.crews.map((c) => [c.num_name, c.gain])
+        event.crews.map((c) => [c.num_name, c.gain]),
       );
 
       expect(gainsByName["LMBC I"]).toBe(1);

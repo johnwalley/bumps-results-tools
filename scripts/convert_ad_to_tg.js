@@ -38,9 +38,9 @@ fs.readdir("./results/ad_format/", function (err, files) {
       utils.write_tg(utils.abbreviate(event)),
       function () {
         console.log(
-          "Successfully converted " + file + " to produce " + newFile
+          "Successfully converted " + file + " to produce " + newFile,
         );
-      }
+      },
     );
   });
 

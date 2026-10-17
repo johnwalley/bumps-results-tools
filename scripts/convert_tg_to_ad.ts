@@ -22,7 +22,9 @@ function renderName(crew: Event["crews"][number], isTown: boolean): string {
 
 function writeAd(event: Event): string {
   if (!event.div_size || !event.move) {
-    throw new Error(`Event ${event.short} ${event.year} has no processed results`);
+    throw new Error(
+      `Event ${event.short} ${event.year} has no processed results`,
+    );
   }
 
   const startingDivs = event.div_size[0];

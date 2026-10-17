@@ -127,14 +127,16 @@ fs.readdir("./results/tg_format/", async function (err, files) {
   }
 });
 
+type ClubStats = ReturnType<typeof getStats>["club"][string];
+
 function getFinalStats(e: ProcessedEvent[]) {
   const stats = getStats(e, true);
 
-  const rHeadships = {};
-  const rCrewsEntered = {};
-  const rHeadDays = {};
-  const rHeadLong = {};
-  const rBladesAwarded = {};
+  const rHeadships: Record<string, ClubStats["headships"][string]> = {};
+  const rCrewsEntered: Record<string, number> = {};
+  const rHeadDays: Record<string, ClubStats["highest"][number]> = {};
+  const rHeadLong: Record<string, ClubStats["highest"][number]> = {};
+  const rBladesAwarded: Record<string, number> = {};
 
   // Generate rankings
   for (const club in stats.club) {
@@ -165,9 +167,7 @@ function getFinalStats(e: ProcessedEvent[]) {
 
   const finalStats = {
     headships: from(
-      Object.entries<{ total: number; labels: Array<{ year: string }> }>(
-        rHeadships,
-      ).map(([club, res]) => ({
+      Object.entries(rHeadships).map(([club, res]) => ({
         club: club,
         headships: res.total,
         lastYear: res.labels[res.labels.length - 1].year,
@@ -176,7 +176,7 @@ function getFinalStats(e: ProcessedEvent[]) {
       .orderby(desc("headships"), desc("lastYear"))
       .objects(),
     crewsEntered: from(
-      Object.entries<number>(rCrewsEntered).map(([club, res]) => ({
+      Object.entries(rCrewsEntered).map(([club, res]) => ({
         club: club,
         count: res,
       })),
@@ -184,22 +184,15 @@ function getFinalStats(e: ProcessedEvent[]) {
       .orderby(desc("count"))
       .objects(),
     headDays: from(
-      Object.entries<{ total: number; days: number }>(rHeadDays).map(
-        ([club, res]) => ({
-          club: club,
-          days: res.days,
-        }),
-      ),
+      Object.entries(rHeadDays).map(([club, res]) => ({
+        club: club,
+        days: res.days,
+      })),
     )
       .orderby(desc("days"))
       .objects(),
     headLong: from(
-      Object.entries<{
-        total: number;
-        longest: number;
-        start: number;
-        end: number;
-      }>(rHeadLong).map(([club, res]) => ({
+      Object.entries(rHeadLong).map(([club, res]) => ({
         club: club,
         days: res.longest,
         span:
@@ -209,7 +202,7 @@ function getFinalStats(e: ProcessedEvent[]) {
       .orderby(desc("days"))
       .objects(),
     bladesAwarded: from(
-      Object.entries<number>(rBladesAwarded).map(([club, res]) => ({
+      Object.entries(rBladesAwarded).map(([club, res]) => ({
         club: club,
         count: res,
       })),

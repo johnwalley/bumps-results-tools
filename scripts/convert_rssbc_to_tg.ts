@@ -37,7 +37,7 @@ interface EventData {
   divisions: number[];
 }
 
-function getHouseName(houseId: string, houses: HouseData[]) {
+function getHouseName(houseId: string | undefined, houses: HouseData[]) {
   return houses.find((house) => house._id === houseId)?.name ?? "Unknown";
 }
 
@@ -137,7 +137,10 @@ Days,${event.races}
       saveDataToFile(`rssbc${year.year}`, ret);
     }
   } catch (error) {
-    console.error("An error occurred:", error.message);
+    console.error(
+      "An error occurred:",
+      error instanceof Error ? error.message : error,
+    );
   }
 }
 
