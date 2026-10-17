@@ -2,7 +2,7 @@ May Bumps Men 1882 March
 full_set: true
 div_size: 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16
 
-  1 Jesus I             0  0  0  0 =   0 blades
+  1 Jesus I             0  0  0  0 =   0
   2 1st Trinity I       0  0  0  0 =   0
   3 Trinity Hall I      0  0  0  0 =   0
   4 LMBC I              0  0  0  0 =   0
