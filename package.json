@@ -12,18 +12,20 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
-    "@types/bun": "^1.3.14",
+    "@types/node": "^24.19.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@typescript/native-preview": "^7.0.0-dev.20260517.1",
     "@vitejs/plugin-react": "^6",
     "prettier": "^3.8.3",
     "tailwindcss": "^4.3.0",
-    "vite": "^8"
+    "tsx": "^4.23.15",
+    "vite": "^8",
+    "vitest": "^5.0.5"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0 || ^6.0.0",
-    "@typescript/native-preview": "^7.0.0-dev"
+    "@typescript/native-preview": "^7.0.0-dev",
+    "typescript": "^5.0.0 || ^6.0.0"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -34,12 +36,17 @@
     }
   },
   "scripts": {
-    "dev": "bunx --bun vite",
+    "dev": "vite",
     "build": "tsgo --noEmit && vite build",
     "preview": "vite preview",
-    "generate:results": "bun run scripts/generate_results.ts",
-    "generate:stats": "bun run scripts/generate_stats.ts",
-    "generate": "bun run generate:results && bun run generate:stats"
+    "test": "vitest run",
+    "generate:results": "tsx scripts/generate_results.ts",
+    "generate:stats": "tsx scripts/generate_stats.ts",
+    "generate": "pnpm run generate:results && pnpm run generate:stats"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.23.0"
 }

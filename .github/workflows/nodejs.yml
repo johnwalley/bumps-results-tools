@@ -1,4 +1,4 @@
-name: Bun CI
+name: Node CI
 
 on: [push]
 
@@ -8,9 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
 
-      - run: bun install
-      - run: bun test
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
         env:
           CI: true

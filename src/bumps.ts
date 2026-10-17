@@ -310,9 +310,17 @@ export function readEvent(text: string): Event | null {
 }
 
 export async function readFile(path?: string): Promise<Event | null> {
-  const file = path ? Bun.file(path) : Bun.stdin;
+  // Node-only; imported lazily so the browser bundle never touches them.
+  const [fs, consumers] = await Promise.all([
+    import("node:fs/promises"),
+    import("node:stream/consumers"),
+  ]);
 
-  return readEvent(await file.text());
+  const text = path
+    ? await fs.readFile(path, "utf8")
+    : await consumers.text(process.stdin);
+
+  return readEvent(text);
 }
 
 export function processResults(
