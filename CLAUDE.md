@@ -14,8 +14,15 @@ The repo is a Node (24+) + TypeScript project using pnpm. Scripts run via `tsx`;
 # Development server (Vite + React UI)
 pnpm run dev
 
-# Type-check + production build
+# Type-check (src + scripts) + production build
 pnpm run build
+
+# Type-check only (src via tsconfig.json, scripts via tsconfig.scripts.json)
+pnpm run typecheck
+
+# Format / check formatting (CI runs format:check)
+pnpm run format
+pnpm run format:check
 
 # Preview the production build
 pnpm run preview
@@ -67,6 +74,7 @@ pnpm vitest run src/bumps.test.ts
 ### UI (`src/ui/`)
 
 React app rendered through Vite. `App.tsx` is a split-pane editor:
+
 - Left: a `<select>` driven by `src/ui/results/results.json` (the bundled year manifest) and a `<textarea>` for live editing of TG-format text
 - Right: a `BumpsChart` from `react-bumps-chart` that re-renders as the textarea changes
 - A "Generate next years starting positions" button runs `stepOn` + `writeString` to seed next year's TG text from the currently loaded event
@@ -109,6 +117,7 @@ rrurrru uuro3uurruur...
 ```
 
 Result codes (processed bottom-up, starting from sandwich boat):
+
 - `r` - rowover (no change)
 - `u` - bump up
 - `o3` - overbump by 3 places

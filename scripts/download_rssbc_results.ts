@@ -33,7 +33,10 @@ async function fetchYearData(id: string): Promise<any> {
     const response = await fetch(`${BASE_URL}${id}`);
     return await response.json();
   } catch (error) {
-    console.error(`Failed to fetch data for ID: ${id}`, error.message);
+    console.error(
+      `Failed to fetch data for ID: ${id}`,
+      error instanceof Error ? error.message : error,
+    );
     return null;
   }
 }
@@ -67,7 +70,10 @@ async function main() {
       }
     }
   } catch (error) {
-    console.error("An error occurred:", error.message);
+    console.error(
+      "An error occurred:",
+      error instanceof Error ? error.message : error,
+    );
   }
 }
 
