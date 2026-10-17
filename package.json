@@ -44,6 +44,7 @@
     "format:check": "prettier --check .",
     "generate:results": "tsx scripts/generate_results.ts",
     "generate:stats": "tsx scripts/generate_stats.ts",
+    "generate:ad": "tsx scripts/convert_tg_to_ad.ts",
     "generate": "pnpm run generate:results && pnpm run generate:stats"
   },
   "type": "module",

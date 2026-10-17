@@ -57,3 +57,8 @@ Or run them individually:
 pnpm run generate:results   # writes output/results/<event>/<gender>/
 pnpm run generate:stats     # writes output/stats/<event>/<gender>/stats.json
 ```
+
+You don't normally need to copy these anywhere by hand: every push to `main`
+opens a PR in [cambridgebumps.com](https://github.com/johnwalley/cambridgebumps.com)
+with the regenerated data, and one in [bumps-results](https://github.com/johnwalley/bumps-results)
+with the TG and AD files (see `.github/workflows/sync-downstream.yml`).
