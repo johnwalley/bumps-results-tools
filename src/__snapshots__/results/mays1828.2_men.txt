@@ -1,0 +1,13 @@
+May Bumps Men 1828 April May November
+full_set: true
+div_size: 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 7 | 7 | 7 | 7 | 7 | 7
+
+  1 Trinity Monarch I  -1 +1 -1  0  0 -1 -1  0 +2  0  0 -1 +1  0 =  -1
+  2 LMBC I             +1 -1 +1  0  0  0  0  0  0  0  0  0  0  0 =  +1 blades
+  3 Jesus I             0  0  0 -1 +1 +1  0 -1 -1 -1 -1 -1  0  0 =  -4
+  4  I                  0 -1 -1 -1  0 -1  0  0  ? =   ? withdrawn
+  5  I                  0 +1  0 +1 -1 -1 -1  0  ? =   ? withdrawn
+  6 Caius I             0 -1  0 +1 +1 +1 +1 +1 -1 -1  0 -1 +1 +1 =  +3
+  7 Trinity Hall I      0 +1 +1  0 -1  0 +1  0  0 +2  0 +1 -1 -1 =  +3
+  8 Corpus Christi I    0  0  0  0  0 +1  0  0 +1  0 +1 +1 -1 -1 =  +2
+  9 Peterhouse I        0  0  0  0  0  0  0  0 +2  0  0 +1  0 +1 =  +4

@@ -1,0 +1,17 @@
+Town Bumps Men 1869
+full_set: true
+div_size: 13 | 13 | 13 | 13 | 13
+
+  1 Town Rowing Club 1             -1  0  0  0  0 =  -1
+  2 Albert Institute 1             +1  0  0  0  0 =  +1 blades
+  3 College Servants 1             -1  0  0  0  0 =  -1
+  4 Church of England 1            +1  0  0  0  0 =  +1
+  5 Town Rowing Club 2              0  0  0  0  0 =   0
+  6 College Servants 2             -1 -1  0 -1 -1 =  -4
+  7 Pitt Press 1                   +1  0  0  0  0 =  +1
+  8 Albert Institute 2              0 +1  0  0 -1 =   0
+  9 Town Rowing Club 3             -1 -1 -1  0 +1 =  -2
+ 10 Church of England 2            +1  0 -1 -1 -1 =  -2
+ 11 Hero (Junior Conservatives) 1  -1  0 +1 +1 +1 =  +2
+ 12 Leander (Junior Liberals) 1    +1 +1 +1 +1 +1 =  +5
+ 13 Pitt Press 2                    0  0  0  0  0 =   0

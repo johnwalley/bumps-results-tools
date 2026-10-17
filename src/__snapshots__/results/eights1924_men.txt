@@ -1,0 +1,42 @@
+Summer Eights Men 1924
+full_set: true
+div_size: 12 12 14 | 12 12 14 | 12 12 14 | 12 12 14 | 12 12 14 | 12 12 14
+
+  1 Magdalen I        -1  0  0  0  0  0 =  -1
+  2 Christ Church I   +1  0  0  0  0  0 =  +1 blades
+  3 Trinity I          0 -1  0  0  0  0 =  -1
+  4 New College I      0 +1  0  0  0  0 =  +1
+  5 Merton I           0  0  0  0  0  0 =   0
+  6 Oriel I           -1  0  0  0  0 -1 =  -2
+  7 Worcester I       +1  0  0  0  0  0 =  +1
+  8 Pembroke I         0  0 -1 -1  0 -1 =  -3
+  9 Magdalen II       -1 -1 -1 -1 -1  0 =  -5
+ 10 Lincoln I         +1  0 +1  0 -1  0 =  +1
+ 11 Exeter I          -1  0 +1  0 -1  0 =  -1
+ 12 Brasenose I       +1 +1  0 +1 +1 +1 =  +5
+ 13 Corpus Christi I  -1 -1 -1 -1 -1 -1 =  -6
+ 14 Queen's I         +1  0  0 +1 +1 +1 =  +4
+ 15 St John's I       -1 -1 -1 -1 -1  0 =  -5
+ 16 Wadham I          +1 +1  0  0 +1  0 =  +3
+ 17 Balliol I          0 +1 +1  0 -1  0 =  +1
+ 18 University I       0  0 +1 +1 +1  0 =  +3
+ 19 Christ Church II  -1 -1 -1 -1 -1 -1 =  -6
+ 20 New College II    +1  0  0 +1 +1  0 =  +3
+ 21 Worcester II      -1 -1 -1 -1 -1  0 =  -5
+ 22 Hertford I        +1 +1  0  0 +1 +1 =  +4
+ 23 Queen's II         0 +1 +1  0 -1  0 =  +1
+ 24 Keble I           -1  0 -1 -1 -1 -1 =  -5
+ 25 Jesus I           +1  0 +1 +1 +1  0 =  +4
+ 26 Balliol II         0  0 +1 +1 +1  0 =  +3
+ 27 Merton II          0  0  0 +1 +1 +1 =  +3
+ 28 St Catherine's I   0  0  0 -1 -1  0 =  -2
+ 29 Lincoln II        -1 -1 -1 -1 -1 -1 =  -6
+ 30 Magdalen III      +1  0 -1 -1  0  0 =  -1
+ 31 University II     -1 -1 -1 -1  0 +1 =  -3
+ 32 Brasenose II      +1 +1 +1 +1 +1  0 =  +5
+ 33 Wadham II          0 +1 +1 +1 +1 +1 =  +5
+ 34 Trinity II        -1  0  0 +1 +1  0 =  +1
+ 35 Oriel II          +1  0 +1 +1  0  0 =  +3
+ 36 S.E.H. I           0 -1  0 +1 -1 -1 =  -2
+ 37 St John's II      -1  0  0  0  0 +1 =   0
+ 38 Pembroke II       +1 +1  0 -1 +1  0 =  +2

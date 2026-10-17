@@ -1,0 +1,9 @@
+May Bumps Men 1828 February March
+full_set: true
+div_size: 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5
+
+  1 Trinity Monarch I  -1  0 +1  0  0 -1 +1  0  0 =   0
+  2 LMBC I             +1  0 -1  0  0 +1 -1  0  0 =   0
+  3 Caius I             0  0  0 -1  0  0  0  0  0 =  -1
+  4 Jesus I             0  0  0 +1  0  0  0  0  0 =  +1
+  5 Corpus Christi I    0  0  0  0  0  0  0  0  0 =   0

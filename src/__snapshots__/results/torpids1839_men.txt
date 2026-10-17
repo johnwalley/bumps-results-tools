@@ -1,0 +1,9 @@
+Torpids Men 1839
+full_set: true
+div_size: 5 | 5 | 2 | 2
+
+  1 Christ Church I  -1  0  ? =   ? withdrawn
+  2 Exeter I         -1 -1  ? =   ? withdrawn
+  3 Brasenose I      +2  0 -1  0 =  +1
+  4 Balliol I         0 -1  ? =   ? withdrawn
+  5 Oriel I           0 +2 +2  0 =  +4 blades

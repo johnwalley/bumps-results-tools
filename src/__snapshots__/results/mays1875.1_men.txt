@@ -1,0 +1,45 @@
+May Bumps Men 1875 March
+full_set: true
+div_size: 14 15 12 | 14 15 12 | 14 15 12 | 14 15 12
+
+  1 1st Trinity I       0  0  0  0 =   0
+  2 Jesus I             0  0  0  0 =   0
+  3 1st Trinity II      0  0  0  0 =   0
+  4 LMBC I              0  0  0  0 =   0
+  5 3rd Trinity I       0  0  0  0 =   0
+  6 Trinity Hall I      0  0  0  0 =   0
+  7 1st Trinity III     0  0  0  0 =   0
+  8 2nd Trinity I       0  0  0  0 =   0
+  9 Emmanuel I          0  0  0  0 =   0
+ 10 Corpus Christi I    0  0  0  0 =   0
+ 11 King's I            0  0  0  0 =   0
+ 12 Sidney Sussex I     0  0  0  0 =   0
+ 13 St Catharine's I    0  0  0  0 =   0
+ 14 Christ's I          0  0  0  0 =   0
+ 15 Caius I            -1  0 -1  0 =  -2
+ 16 Clare I            +1  0  0  0 =  +1
+ 17 1st Trinity IV      0 -1  0  0 =  -1
+ 18 Queens' I          -1  0  0  0 =  -1
+ 19 LMBC II            +1 +1 +1  0 =  +3
+ 20 Caius II           -1 -1 -1 -1 =  -4
+ 21 Pembroke I         +1  0 -1 -1 =  -1
+ 22 1st Trinity V       0 +1 +1  0 =  +2
+ 23 Jesus II            0  0 +1 +1 =  +2
+ 24 Trinity Hall II     0 -1 -1 -1 =  -3
+ 25 LMBC III            0 +1  0 +1 =  +2
+ 26 3rd Trinity II      0  0 +1  0 =  +1
+ 27 Corpus Christi II   0 -1 -1 -1 =  -3
+ 28 Peterhouse I       -1 -1 -1 -1 =  -4
+ 29 Trinity Hall III   +1 +1  0 +1 =  +3
+ 30 Downing I          -1 -1 -1  0 =  -3
+ 31 St. John's I       +1 +1 +1  0 =  +3
+ 32 1st Trinity VI      0 +1 +1 +1 =  +3
+ 33 Magdalene I        -1  0  0  0 =  -1
+ 34 Pembroke II        +1  0 +1 +1 =  +3
+ 35 Sidney Sussex II    0  0  0 -1 =  -1
+ 36 2nd Trinity II     -1 -1 -1  0 =  -3
+ 37 Emmanuel II        +1  0 -1 -1 =  -1
+ 38 Christ's II        -1 -1  0  0 =  -2
+ 39 LMBC IV            +1 +1 +1 +1 =  +4 blades
+ 40 Caius III           0 +1 +1 +1 =  +3
+ 41 Non-Collegiate I    0  0  0  0 =   0

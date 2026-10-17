@@ -1,0 +1,56 @@
+Lent Bumps Women 2008
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 1st and 3rd I      0  0  0  0 =   0 blades
+  2 Jesus I            0 -1  0  0 =  -1
+  3 Clare I           -1 -1 -1  0 =  -3
+  4 Emmanuel I        +1 +1  0  0 =  +2
+  5 Caius I           -1  0 +1 +1 =  +1
+  6 Downing I         +1 +1  0 -1 =  +1
+  7 LMBC I             0  0  0 -1 =  -1
+  8 Newnham I         -1 -1 -1 -1 =  -4
+  9 Churchill I       +1  0 -1 -1 =  -1
+ 10 Girton I          -1 -1 -1 -1 =  -4
+ 11 Pembroke I        +1 +1 +1 +1 =  +4 blades
+ 12 Queens' I          0 +1 +1 +1 =  +3
+ 13 Trinity Hall I     0 -1 -1 -1 =  -3
+ 14 Fitzwilliam I     -1 -1 -1 -1 =  -4
+ 15 Christ's I        +1 +1 +1 +1 =  +4 blades
+ 16 Selwyn I          -1 -1  0 -1 =  -3
+ 17 St Catharine's I  +1 +1 +1 +1 =  +4 blades
+ 18 Peterhouse I       0 -1 -1 -1 =  -3
+ 19 New Hall I        -3 -1 -1 -1 =  -6
+ 20 Robinson I        -1  0 -1 -1 =  -3
+ 21 Jesus II          +1  0 +1 +2 =  +4
+ 22 King's I          +3 +2 +1 +1 =  +7 blades
+ 23 Anglia Ruskin I   -1 -1 -1 -1 =  -4
+ 24 LMBC II           +1 +1 +1 +1 =  +4 blades
+ 25 Sidney Sussex I   -1 -1 -1  0 =  -3
+ 26 Emmanuel II       +1 +1 +1 +1 =  +4 blades
+ 27 Darwin I          -1 -1  0 -1 =  -3
+ 28 Magdalene I       +1 +1 +1 +1 =  +4 blades
+ 29 Pembroke II        0 +1 +1 +1 =  +3
+ 30 Wolfson I         -1 -1 -1 -1 =  -4
+ 31 St Edmund's I     +1  0 -1 -1 =  -1
+ 32 Caius II           0 +1 +1 +1 =  +3
+ 33 Homerton I         0  0 +1 +1 =  +2
+ 34 Newnham II        -1  0 -1 -1 =  -3
+ 35 Corpus Christi I  -1  0 +1  0 =   0
+ 36 Hughes/Lucy I     +2  0  0 +1 =  +3
+ 37 Clare II           0 -1  0  0 =  -1
+ 38 Queens' II        -1 -1 -1 -1 =  -4
+ 39 1st and 3rd II    +1 +1  0 +1 =  +3
+ 40 Girton II          0 +1  0 -1 =   0
+ 41 New Hall II       -1 -1 -1 -1 =  -4
+ 42 Selwyn II         +1  0 +1 +1 =  +3
+ 43 Clare Hall I       0 +1  0 +1 =  +2
+ 44 Trinity Hall II   -1 -1  0 -1 =  -3
+ 45 Pembroke III      +1  0 +1  0 =  +2
+ 46 Christ's II        0 +1  0 +1 =  +2
+ 47 Downing II        -1 -1 -1 +1 =  -2
+ 48 Emmanuel III      +1  0 -1  0 =   0
+ 49 Hughes/Lucy II    -1  0 +1 -1 =  -1
+ 50 Sidney Sussex II  +1 +1 +1 +1 =  +4 blades
+ 51 Selwyn III        -1  0  0  0 =  -1
+ 52 Jesus III         +1  0  0  0 =  +1

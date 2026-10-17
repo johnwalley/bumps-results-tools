@@ -1,0 +1,56 @@
+Lent Bumps Women 2002
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 Jesus I             0  0 -1  0 =  -1
+  2 Trinity Hall I     -1 -1 -1 -1 =  -4
+  3 Emmanuel I         +1  0 +1  0 =  +2 blades
+  4 LMBC I              0 +1  0  0 =  +1
+  5 Newnham I          -1  0 -1  0 =  -2
+  6 Caius I            +1  0 +1  0 =  +2
+  7 Christ's I         -1  0 -1 +1 =  -1
+  8 Downing I          +1  0 +1 +1 =  +3
+  9 Pembroke I         -1 -1 -1 -1 =  -4
+ 10 Queens' I          +1  0 +1 -1 =  +1
+ 11 New Hall I         -1  0 +1  0 =   0
+ 12 Clare I            +1 +1  0  0 =  +2
+ 13 Churchill I         0 -1 +1 +1 =  +1
+ 14 1st and 3rd I       0 +1 -1 -1 =  -1
+ 15 Girton I            0 -1 +1 +1 =  +1
+ 16 Fitzwilliam I      -1 -1 -3  0 =  -5
+ 17 St Catharine's I   +1 +1 -1  0 =  +1
+ 18 Selwyn I            0 +1  0 -1 =   0
+ 19 CCAT I              0  0 -1  0 =  -1
+ 20 Jesus II            0 -1 +3 -1 =  +1
+ 21 Sidney Sussex I     0 +1 +1 +2 =  +4
+ 22 Magdalene I         0 -1  0 +1 =   0
+ 23 LMBC II             0 +1  0 -1 =   0
+ 24 Robinson I          0  0  0 -1 =  -1
+ 25 Darwin I            0  0 -1 -1 =  -2
+ 26 Wolfson I           0 -1 -1 -1 =  -3
+ 27 King's I            0 +1 +1 +1 =  +3
+ 28 Emmanuel II         0  0 +1 +1 =  +2
+ 29 Corpus Christi I    0 -3  0 -1 =  -4
+ 30 Homerton I          0 -1  0  0 =  -1
+ 31 Peterhouse I        0 +1 +1 +1 =  +3
+ 32 New Hall II         0 +3 -1  0 =  +2
+ 33 St Edmund's I       0  0 -1 -1 =  -2
+ 34 Lucy Cavendish I    0 -1 -1 -1 =  -3
+ 35 Vet School I        0 +1 +1 +1 =  +3
+ 36 Newnham II          0  0 +1 +1 =  +2
+ 37 Trinity Hall II     0  0 -1  0 =  -1
+ 38 Hughes Hall I       0 -1  0 -1 =  -2
+ 39 St Catharine's II   0 +1 +1 +1 =  +3
+ 40 Queens' II          0  0 -1 -1 =  -2
+ 41 Churchill II        0 -1 -1  0 =  -2
+ 42 Pembroke II         0 +1 +1 +1 =  +3
+ 43 Clare II            0 -1  0  0 =  -1
+ 44 Caius II            0 +1 +1 +1 =  +3
+ 45 CCAT II             0  0  0 -1 =  -1
+ 46 Downing II          0  0  0 +1 =  +1
+ 47 LMBC III            0 -1 +1  0 =   0
+ 48 Girton II           0 +1 -1  0 =   0
+ 49 Christ's II         0  0 -1  0 =  -1
+ 50 Caius III           0 -1 -1  0 =  -2
+ 51 1st and 3rd II      0 +1 +1  0 =  +2
+ 52 Sidney Sussex II    0  0 +1  0 =  +1

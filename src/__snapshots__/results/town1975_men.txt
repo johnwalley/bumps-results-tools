@@ -1,0 +1,47 @@
+Town Bumps Men 1975
+full_set: true
+div_size: 15 14 14 | 15 14 14 | 15 14 14 | 15 14 14
+
+  1 Rob Roy 1      -1  0  0  0 =  -1
+  2 City 1         +1  0  0  0 =  +1 blades
+  3 99 1            0  0  0  0 =   0
+  4 Scouts 1        0  0  0  0 =   0
+  5 Churchill 1     0 -1 -1 -1 =  -3
+  6 99 2           -1  0 +1  0 =   0
+  7 Cantabs 1      +1 +1  0  0 =  +2
+  8 Rob Roy 2       0 -1  0  0 =  -1
+  9 ACUA 1         -1 -1 -1  0 =  -3
+ 10 99 3           +1 +1  0 +1 =  +3
+ 11 Leckhampton 1  -1 -1 -1 -1 =  -4
+ 12 City 2         +1 +1  0  0 =  +2
+ 13 Rob Roy 3       0 +1 +1  0 =  +2
+ 14 Cantabs 2       0  0 +1  0 =  +1
+ 15 99 4           -1  0 -1  0 =  -2
+ 16 County Boys 1  -1 -1  0 -1 =  -3
+ 17 Telephones 1   +2  0  0 +1 =  +3
+ 18 Rob Roy 4      -1  0  0 +1 =   0
+ 19 Clare Crabs 1  +1 +1 +1  0 =  +3
+ 20 St Cats 1       0  0  0 -1 =  -1
+ 21 Churchill 2    -1 -1 -1 -1 =  -4
+ 22 Leckhampton 2  +1  0 -1  0 =   0
+ 23 Cantabs 3      -1 -1 -1  0 =  -3
+ 24 City 3         +1 +1 +1 +1 =  +4 blades
+ 25 Scouts 2        0 +1 +1  0 =  +2
+ 26 ACUA 2         -1  0  0  0 =  -1
+ 27 99 5           +1  0 +1 +1 =  +3
+ 28 CCL Owls 1      0 -1  0 -1 =  -2
+ 29 Clare Crabs 2  -1 -1 -1 -1 =  -4
+ 30 Cantabs 4      -1 +1  0 -1 =  -1
+ 31 Scouts 3       +2 +1  0  0 =  +3
+ 32 Telephones 2    0 -1 -1 -1 =  -3
+ 33 ACUA 3         -1 -1 -1 -1 =  -4
+ 34 City 4         +1 +1 +1 +2 =  +5 blades
+ 35 Rob Roy 5      -1 -1 -1 -1 =  -4
+ 36 City 5         +1 +1 +1 +1 =  +4 blades
+ 37 99 6            0 +1 +1 +1 =  +3
+ 38 Rob Roy 6       0 -1 -1  0 =  -2
+ 39 City 6         -1 -1  0  0 =  -2
+ 40 99 7           +1 +1 +1 +1 =  +4 blades
+ 41 ACUA 4         -1 -1  0  0 =  -2
+ 42 City 7         +1 +1 +1 +1 =  +4 blades
+ 43 99 8            0 +1  0  0 =  +1

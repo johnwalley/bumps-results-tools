@@ -1,0 +1,30 @@
+May Bumps Men 1849 May
+full_set: true
+div_size: 23 3 | 23 3 | 23 2 | 23 2 | 23 1 | 23 1 | 23 1
+
+  1 3rd Trinity I     -1  0  0  0  0 -1  0 =  -2
+  2 2nd Trinity I     +1  0  0  0  0  0  0 =  +1 blades
+  3 LMBC I            -1  0  0  0  0  0 -1 =  -2
+  4 1st Trinity I     +1  0  0  0  0 +1  0 =  +2
+  5 Caius I            0 -1 -1  0  0  0  0 =  -2
+  6 Emmanuel I         0 +1  0  0  0  0 +1 =  +2
+  7 1st Trinity II    -1  0 -1  0 -1  0  0 =  -3
+  8 Christ's I        +1  0 +1  0  0  0  0 =  +2
+  9 2nd Trinity II     0  0 +1  0  0  0  0 =  +1
+ 10 Caius II          -1 -1 -1 -1 -1 -1 -1 =  -7
+ 11 Jesus I           +1  0  0  0 +1  0  0 =  +2
+ 12 Clare I           -1 -1 -1 -1 -1 -1  0 =  -6
+ 13 LMBC II           +1 +1  0 -1 -1 -1 -1 =  -2
+ 14 Peterhouse I       0 +1 +1 +1  0  0  0 =  +3
+ 15 Magdalene I        0  0 +1 +1 +1  0 -1 =  +2
+ 16 2nd Trinity III   -1 -1  0 +1 +1 +1 +1 =  +2
+ 17 Queens' I         +1  0 -1 -1 -1 -1 -1 =  -4
+ 18 Jesus II          -1  0 -1 -1  0 -1  0 =  -4
+ 19 3rd Trinity II    +1 +1 +1 +1 +1 +1 +1 =  +7 blades
+ 20 1st Trinity III    0 -1  0 -1 -1  0  0 =  -3
+ 21 St Catharine's I  -1  0  0 +2  0 +1  0 =  +2
+ 22 Trinity Hall I    +1 +1 +1  0 +1 +1 +1 =  +6
+ 23 Caius III         -1  0  0 -1  ? =   ? withdrawn
+ 24 LMBC III          +1  0  0  0 +1 +1 +1 =  +4
+ 25 Peterhouse II      0  0  ? =   ? withdrawn
+ 26 Clare II           0  0 +1 +1  0  0  0 =  +2

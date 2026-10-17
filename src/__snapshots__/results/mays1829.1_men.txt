@@ -1,0 +1,14 @@
+May Bumps Men 1829 February March April
+full_set: true
+div_size: 10 | 10 | 10 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 9
+
+  1 LMBC I             -1  0  0 +1  0  0  0  0  0  0  0 =   0
+  2 Peterhouse I       +1  0  0  ? =   ? withdrawn
+  3 Corpus Christi I   -1  0 -1 +1  0 -1  0 -1  0 +1  0 =  -2
+  4 2nd Trinity I      +1  0  0  0  0 +1  0  0  0  0 -1 =  +1
+  5 Trinity Monarch I   0  0 +1 +2  0 -1 -1 +1  0 -1  0 =  +1
+  6 Jesus I             0  0  0 +1  0 +1 +1 -1 -1 -1 -1 =  -1
+  7  I                  0  0  0 +1  0  0 -1 -1 +1  0 +1 =  +1
+  8  I                  0  0  0 +1  0  0 +1 +1 +1 +1 +1 =  +6
+  9  I                  0  0  0 +1  0  0  0 +1 -1  0 -1 =   0
+ 10 LMBC II             0  0  0 +1  0  0  0  0  0  0 +1 =  +2

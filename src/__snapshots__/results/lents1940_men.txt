@@ -1,0 +1,56 @@
+Lent Bumps Men 1940
+full_set: true
+div_size: 15 15 15 7 | 15 15 15 7 | 15 15 15 7
+
+  1 Clare I                       -1  0  0 =  -1
+  2 Jesus I                       +1  0  0 =  +1 blades
+  3 Trinity Hall I                -1  0 -1 =  -2
+  4 Pembroke I                    +1  0  0 =  +1
+  5 LMBC I                         0 -1 -1 =  -2
+  6 Selwyn I                      -1 -1 -1 =  -3
+  7 Jesus II                      +1 +1 +1 =  +3 blades
+  8 1st Trinity I                  0 +1 +1 =  +2
+  9 St Catharine's I               0 -1  0 =  -1
+ 10 Christ's I                    -1 -1  0 =  -2
+ 11 Magdalene I                   +1 +1 +1 =  +3 blades
+ 12 Corpus Christi I              -1 -1 -1 =  -3
+ 13 Queens' I                     +1 +1  0 =  +2
+ 14 Emmanuel I                     0 +1  0 =  +1
+ 15 King's I                       0 -1  0 =  -1
+ 16 Caius I                        0 -1 -1 =  -2
+ 17 Peterhouse I                  -1 -1 -1 =  -3
+ 18 1st Trinity II                +1 +2 +1 =  +4 blades
+ 19 Sidney Sussex I                0 +1 +1 =  +2
+ 20 Pembroke II                   -1 -1 -1 =  -3
+ 21 Trinity Hall II               +1  0 +1 =  +2
+ 22 LMBC II                        0 +1  0 =  +1
+ 23 3rd Trinity I                 -1  0 -1 =  -2
+ 24 Jesus III                     +1  0 +1 =  +2
+ 25 Downing I                      0  0 +1 =  +1
+ 26 Caius II                      -1 -1 -1 =  -3
+ 27 Clare II                      +1  0 -1 =   0
+ 28 St Catharine's II             -1 -1 -1 =  -3
+ 29 Christ's II                   +1 +1 +1 =  +3 blades
+ 30 Selwyn II                      0 +1 +1 =  +2
+ 31 1st Trinity III               -1  0  0 =  -1
+ 32 Emmanuel II                   +1  0 +1 =  +2
+ 33 Trinity Hall III               0 -1 -1 =  -2
+ 34 Queens' II                    -1 -1 -1 =  -3
+ 35 Sidney Sussex II              +1 +1  0 =  +2
+ 36 Corpus Christi II             -1 -1 -1 =  -3
+ 37 Magdalene II                  +1 +1 +1 =  +3 blades
+ 38 Jesus IV                       0 +1 +1 =  +2
+ 39 Pembroke III                  -1 -1  0 =  -2
+ 40 LMBC III                      +1  0 +1 =  +2
+ 41 Emmanuel III                  -1  0  0 =  -1
+ 42 Downing II                    +1 +1  0 =  +2
+ 43 Jesus V                        0  0 -1 =  -1
+ 44 Sidney Sussex III              0 -1 -1 =  -2
+ 45 Clare III                     -1  0 -1 =  -2
+ 46 Christ's III                  -1 -1 -1 =  -3
+ 47 Queen Mary I                  +2 +1 +1 =  +4 blades
+ 48 Royal Air Force I             -3 +1  0 =  -2
+ 49 Queen Mary II                 -1 -1  0 =  -2
+ 50 St. Batholemew's I            +1  0 +1 =  +2
+ 51 London School of Economics I  +3 +1 +2 =  +6 blades
+ 52 Christ's IV                    0  0  0 =   0

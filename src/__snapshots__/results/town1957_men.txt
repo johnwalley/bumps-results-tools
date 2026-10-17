@@ -1,0 +1,31 @@
+Town Bumps Men 1957
+full_set: true
+div_size: 18 9 | 18 9 | 18 9 | 18 9
+
+  1 City 1               0  0  0  0 =   0 blades
+  2 99 1                 0  0  0  0 =   0
+  3 Pye 1                0  0 -1 -1 =  -2
+  4 Old Cantabs 1        0 -1  0 +1 =   0
+  5 Old Cantabs 2       -1  0  0  0 =  -1
+  6 Rob Roy 1           +1 +1 +1  0 =  +3
+  7 99 2                 0 -1 -1 -1 =  -3
+  8 Scouts 1            -1 -1  0 +1 =  -1
+  9 City 2              +1 +1  0 -1 =  +1
+ 10 New Museums 1       -1  0  0  0 =  -1
+ 11 Rob Roy 2           +1 +1 +1 +1 =  +4 blades
+ 12 Instrument Co 1      0 -1  0  0 =  -1
+ 13 Old YM 1            -1  0  0 -1 =  -2
+ 14 Central Old Boys 1  +1 +1  0  0 =  +2
+ 15 Old Cantabs 3        0  0 -1  0 =  -1
+ 16 Pye 2                0 -1  0  0 =  -1
+ 17 99 3                -1 -1 +1  0 =  -1
+ 18 City 3              +1 +1 +1 +1 =  +4 blades
+ 19 Old Cantabs 4        0 +1 -1 -1 =  -1
+ 20 New Museums 2       -1 -1 -1 -1 =  -4
+ 21 Scouts 2            +1  0  0 +1 =  +2
+ 22 City 4              -1 -1 -1 -1 =  -4
+ 23 Rob Roy 3           +1 +1  0  0 =  +2
+ 24 New Museums 3       -1 -1 -1  0 =  -3
+ 25 Instrument Co 2     +1 +1 +1  0 =  +3
+ 26 Central Old Boys 2   0 +1 +1 +1 =  +3
+ 27 Rob Roy 4            0  0 +1 +1 =  +2

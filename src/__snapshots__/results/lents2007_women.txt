@@ -1,0 +1,56 @@
+Lent Bumps Women 2007
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 Clare I             0  0 -1 -1 =  -2
+  2 Caius I             0 -1 -1 -1 =  -3
+  3 Emmanuel I         -1 -1  0 +1 =  -1
+  4 1st and 3rd I      +1 +1 +1  0 =  +3 blades
+  5 Downing I          -1  0  0  0 =  -1
+  6 Jesus I            +1 +1 +1 +1 =  +4 blades
+  7 Newnham I          -1  0  0  0 =  -1
+  8 LMBC I             +1  0  0  0 =  +1
+  9 Trinity Hall I     -1 -1 -1 -1 =  -4
+ 10 Girton I           +1  0  0 -1 =   0
+ 11 Churchill I         0 +1  0 +1 =  +2
+ 12 Selwyn I           -1 -1 -1 -1 =  -4
+ 13 Pembroke I         +1  0 +1  0 =  +2
+ 14 Queens' I           0 +1  0 +1 =  +2
+ 15 New Hall I         -1 -1 -1 -1 =  -4
+ 16 Fitzwilliam I      +1  0 +1  0 =  +2
+ 17 Christ's I          0 +1  0 +1 =  +2
+ 18 Robinson I          0 -1 -1  0 =  -2
+ 19 King's I           -1 -1 -1  0 =  -3
+ 20 St Catharine's I   +1 +1 +1  0 =  +3
+ 21 Jesus II           -1  0 +1  0 =   0
+ 22 Peterhouse I       +1 +1 +1 +1 =  +4 blades
+ 23 Sidney Sussex I    -1  0 -1  0 =  -2
+ 24 LMBC II            +1  0  0 -1 =   0
+ 25 Darwin I            0 -1  0 -1 =  -2
+ 26 Magdalene I        -1  0 -1  0 =  -2
+ 27 CCAT I             +1 +1 +1 +1 =  +4 blades
+ 28 Wolfson I           0 -1  0 -1 =  -2
+ 29 Caius II           -1  0 -1 -1 =  -3
+ 30 Emmanuel II        +1 +1 +1 +1 =  +4 blades
+ 31 Newnham II          0 -1 -1 -1 =  -3
+ 32 St Edmund's I      -1  0 +1 +1 =  +1
+ 33 Pembroke II        +1 +1 +1 +1 =  +4 blades
+ 34 Corpus Christi I   -1  0  0  0 =  -1
+ 35 Queens' II         -1  0 -1 -1 =  -3
+ 36 Homerton I         +2  0  0 +1 =  +3
+ 37 St Catharine's II   0 -1 -1 -1 =  -3
+ 38 New Hall II        -1 -1 -1 -1 =  -4
+ 39 Lucy Cavendish I   +1 +1 +1  0 =  +3
+ 40 Girton II          -1 -1  0 +1 =  -1
+ 41 Clare II           +1 +1 +1 +1 =  +4 blades
+ 42 Clare Hall I       -1 -1 -1 -1 =  -4
+ 43 1st and 3rd II     +1 +1 +1 +1 =  +4 blades
+ 44 Downing II         -1 -1 -1 -1 =  -4
+ 45 Trinity Hall II    +1 +1  0 -1 =  +1
+ 46 CCAT II            -1 -1 -1  0 =  -3
+ 47 Selwyn II          +1 +1 +1 +1 =  +4 blades
+ 48 Pembroke III        0 +1 +1 +1 =  +3
+ 49 Emmanuel III        0 -1  0  0 =  -1
+ 50 1st and 3rd III    -1  0  0 -1 =  -2
+ 51 Christ's II        +1 +1 +1 +1 =  +4 blades
+ 52 Pembroke IV         0  0  0 +1 =  +1

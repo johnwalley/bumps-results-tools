@@ -1,0 +1,10 @@
+May Bumps Men 1827 April May November
+full_set: true
+div_size: 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | 4 | 4 | 4 | 4 | 4
+
+  1 Trinity King Edward I   0  0  0  0  0 -1 +1  0  0  0 -1 +1  0  0  0  0  0 =   0 blades
+  2 LMBC I                  0  0  0  0  0 +1 -1  0  0  0 +1 -1  0  0  0  0  0 =   0
+  3 Jesus I                -1  0  0 -1  0  0  0  0 +1 -1  0  ? =   ? withdrawn
+  4 Trinity Westminster I  -1  0 -1  0  0  0  0  0  0  0  0  ? =   ? withdrawn
+  5 Caius I                +2  0  0  0 -1  0  0  0 -1 +1 +1  0  0 -1  0  0  0 =  +1
+  6 Trinity Eton I          0  0 +1 +1 +1  0  0  0  0  0 -1  0  0 +1  0  0  0 =  +3

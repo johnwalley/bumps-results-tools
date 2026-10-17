@@ -1,0 +1,35 @@
+Town Bumps Men 1950
+full_set: true
+div_size: 15 16 | 15 16 | 15 16 | 15 16
+
+  1 99 1            0  0  0  0 =   0 blades
+  2 Rob Roy 1       0  0  0  0 =   0
+  3 99 2           -1  0  0  0 =  -1
+  4 Town 1         +1  0  0  0 =  +1
+  5 Pye 1          -1 -1 -1  0 =  -3
+  6 Scouts 1       +1  0  0  0 =  +1
+  7 New Museums 1   0 +1  0  0 =  +1
+  8 Rob Roy 2      -1  0  0  0 =  -1
+  9 Beehives 1     +1  0 +1  0 =  +2
+ 10 Pye 2           0  0  0 -1 =  -1
+ 11 99 3            0 -1  0  0 =  -1
+ 12 Scouts 2        0 +1  0 +1 =  +2
+ 13 Town 2          0  0  0  0 =   0
+ 14 Beehives 2      0 -1 -1 -1 =  -3
+ 15 Scouts 3       -1 -1 -1 -1 =  -4
+ 16 New Museums 2  -1 +1 +1  0 =  +1
+ 17 Old YM 1       +2 +1  0  0 =  +3
+ 18 Rob Roy 3      -1 -1  0  0 =  -2
+ 19 99 4           +1  0 +1 +1 =  +3
+ 20 New Museums 3  -1  0  0  0 =  -1
+ 21 Town 3         +1 +1  0 +1 =  +3
+ 22 Old YM 2        0 -1 -1 -1 =  -3
+ 23 Rob Roy 4      -1 -1 -1 -1 =  -4
+ 24 99 5           +1 +1  0  0 =  +2
+ 25 Pye 3           0 +1 +1  0 =  +2
+ 26 Scouts 4       -3  0 -1  0 =  -4
+ 27 Town 4         -1  0  0  0 =  -1
+ 28 Old Cantabs 1  +1 +1 +1 +1 =  +4 blades
+ 29 Old Cantabs 2  +3 -1  0 +1 =  +3
+ 30 Old Cantabs 3  -1  0  0  0 =  -1
+ 31 Old Cantabs 4  +1  0 +1  0 =  +2

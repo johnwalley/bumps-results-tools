@@ -1,0 +1,18 @@
+Summer Eights Men 1858
+full_set: true
+div_size: 14 | 14 | 14 | 13 | 13 | 13 | 13 | 13
+
+  1 Exeter I           0  0  0  0  0  0  0  0 =   0 blades
+  2 Balliol I          0  0  0  0  0  0  0  0 =   0
+  3 Oriel I            0  0  0  0  0  0  0  0 =   0
+  4 Brasenose I       -1 -1 -1  0  0 -1 -1  0 =  -5
+  5 Pembroke I        +1  0  0  0  0  0  0  0 =  +1
+  6 Wadham I          -1 -1  0  0  0 +1  0 -1 =  -2
+  7 University I      +1 +1  0  0  0  0  0  0 =  +2
+  8 Trinity I          0 +1 +1  0  0  0  0  0 =  +2
+  9 Christ Church I    0  0  0  0  0  0 +1 +1 =  +2
+ 10 Christ Church II  -1  0  0  0  0  0  0  0 =  -1
+ 11 St John's I       +1  0  0  0  0  0  0  0 =  +1
+ 12 Lincoln I         -1 -1  0  ? =   ? withdrawn
+ 13 Worcester I       +1  0  0  0  0  0  0  0 =  +1
+ 14 Corpus Christi I   0 +1  0  0  0  0  0  0 =  +1

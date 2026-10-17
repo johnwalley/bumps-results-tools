@@ -1,0 +1,17 @@
+Summer Eights Men 1839
+full_set: true
+div_size: 13 | 13 | 11 | 11 | 11 | 11 | 11
+
+  1 Exeter I         -1 -1  0 -1  0 -1 -1 =  -5
+  2 Balliol I        +1  0 -1  0 -1  0 +1 =   0
+  3 Merton I          0 +1 +1  0  0 -1 -1 =   0
+  4 St John's I       0  0 -1  0 -1 -1  0 =  -3
+  5 Trinity I        -1 -1  ? =   ? withdrawn
+  6 Brasenose I      +1  0 +1 +1 +1 +1  0 =  +5 blades
+  7 Jesus I          -1  0  ? =   ? withdrawn
+  8 Christ Church I  +1 +1  0  0 +1 +1  0 =  +4
+  9 Wadham I          0  0 +2  0  0 +1 +1 =  +4
+ 10 Oriel I           0  0 +2  0  0  0  0 =  +2
+ 11 University I      0  0 +2  0  0  0  0 =  +2
+ 12 New Inn Hall I    0  0 +2  0  0  0  0 =  +2
+ 13 Magdalen Hall I   0  0 +2  0  0  0  0 =  +2

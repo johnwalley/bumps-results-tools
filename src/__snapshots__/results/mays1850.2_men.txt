@@ -1,0 +1,35 @@
+May Bumps Men 1850 May
+full_set: true
+div_size: 23 8 | 22 8 | 21 5 | 21 5 | 21 4 | 21 3 | 21 3
+
+  1 1st Trinity I      0  0  0  0  0  0  0 =   0 blades
+  2 3rd Trinity I      0  0  0  0  0  0  0 =   0
+  3 LMBC I             0  0  0  0  0  0  0 =   0
+  4 Christ's I        -1 -1  0  0  0  0  0 =  -2
+  5 2nd Trinity I     +1  0 -1  0  0  0  0 =   0
+  6 Emmanuel I         0 +1 +1  0  0  0  0 =  +2
+  7 Caius I            0  0  0  0  0  0  0 =   0
+  8 Jesus I            0 -1 -1 -1  0 +1 +1 =  -1
+  9 Magdalene I        0 +1  0  0 -1 +1  0 =  +1
+ 10 2nd Trinity II    -1 -1  0  0  0 -1  0 =  -3
+ 11 1st Trinity II    +1  0 +1  0 +1 -1 -1 =  +1
+ 12 Peterhouse I       0 +1  0 +1  0 -1  0 =  +1
+ 13 3rd Trinity II    -1  ? =   ? withdrawn
+ 14 LMBC II           +1  0 -1  0 -1  0  0 =  -1
+ 15 Caius II          -1  0 -1 -1  0 -1 -1 =  -5
+ 16 St Catharine's I  +1 +1 +1  0  0 +1  0 =  +4
+ 17 LMBC III           0 +2  0 -1 -1  0  0 =   0
+ 18 2nd Trinity III   -1  0  ? =   ? withdrawn
+ 19 Queens' I         +1 +1 +1 +1 +1  0  0 =  +5
+ 20 Trinity Hall I     0 +2  0 +1 +1  0  0 =  +4
+ 21 1st Trinity III   -1 +1  0 -1  0  0  0 =  -1
+ 22 Clare I           +1 +1 +1 -1 +1 +1  0 =  +4
+ 23 Emmanuel II       -1  0  ? =   ? withdrawn
+ 24 Sidney Sussex I   +1  0 +3 +1 -1 -1  0 =  +3
+ 25 Jesus II           0 +3  0 +1  0 +1 +1 =  +6
+ 26 Peterhouse II      0 +1  ? =   ? withdrawn
+ 27 Corpus Christi I   0 +1 +3  0  0  0  0 =  +4
+ 28 Caius III          0 +1 +1  0 +1  ? =   ? withdrawn
+ 29  I                 0 +1  ? =   ? withdrawn
+ 30 Clare II          -1 +1 +6  0  0  0  0 =  +6
+ 31  I                +1 +1 +4  0  ? =   ? withdrawn

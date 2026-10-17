@@ -1,0 +1,54 @@
+Town Bumps Men 1990
+full_set: true
+div_size: 16 17 17 | 16 17 17 | 16 17 17 | 16 17 17
+
+  1 99 1                0  0  0  0 =   0 blades
+  2 Rob Roy 1           0  0  0  0 =   0
+  3 Rob Roy 2           0  0  0  0 =   0
+  4 City 1              0  0  0  0 =   0
+  5 Cantabs 1           0  0  0  0 =   0
+  6 City 2              0  0  0  0 =   0
+  7 99 2                0  0  0  0 =   0
+  8 Free Press 1        0  0  0  0 =   0
+  9 99 3               -1 -1 +1  0 =  -1
+ 10 Pye 1              +1  0  0  0 =  +1
+ 11 Cantabs 2           0 +1 -1 -1 =  -1
+ 12 Lady Somerset 1    -1 -1 -1  0 =  -3
+ 13 Cantabs 3          +1  0 -1 -1 =  -1
+ 14 Rob Roy 3          -1 -1 -1 -1 =  -4
+ 15 Free Press 2       +1 +1 +1 +1 =  +4 blades
+ 16 King's 1           -1  0 +1  0 =   0
+ 17 99 4               +1 +1 +1 +1 =  +4 blades
+ 18 Free Press 3        0  0 -1  0 =  -1
+ 19 City 3              0  0 +1 +1 =  +2
+ 20 St Ives 1           0  0  0  0 =   0
+ 21 99 5               -1  0 +1  0 =   0
+ 22 99 6               +1  0 -1  0 =   0
+ 23 Free Press 4        0 -1 -1 -1 =  -3
+ 24 Cantabs 4          -1 -1 -1 -1 =  -4
+ 25 Red Lion Toft 1    +1 +1  0 -1 =  +1
+ 26 Wolfson 1           0 +1 +1 +1 =  +3
+ 27 Pye 2               0  0 +1 +1 =  +2
+ 28 Macdonalds 1        0  0  0 +1 =  +1
+ 29 Rob Roy 4           0  0  0  0 =   0
+ 30 Metallurgy 1        0  0 -1 -1 =  -2
+ 31 City 4              0 -1 -1 -1 =  -3
+ 32 Free Press 5       -1 -1 -1  0 =  -3
+ 33 Old Spring 1       +1 +1 +1  0 =  +3
+ 34 Christ's 1          0 +1 +1 +1 =  +3
+ 35 Macdonalds 2       -1 -1 -1 -1 =  -4
+ 36 Rob Roy 5          +1  0 +1 +1 =  +3
+ 37 City 5             -1 -1 -1 -1 =  -4
+ 38 Cavendish Lab 1    +1 +1  0  0 =  +2
+ 39 Maximum Entropy 1   0 +1 +1  0 =  +2
+ 40 Leckhampton 1      -1 -1  0 -1 =  -3
+ 41 99 7               +1  0 +1 +1 =  +3
+ 42 Cantabs 5          -1  0 -1 -1 =  -3
+ 43 St Ives 2          +1 +1  0 +1 =  +3
+ 44 Red Lion Toft 2     0 -1 -1 -1 =  -3
+ 45 Rob Roy 6          -1  0 +1 +1 =  +1
+ 46 Barclays Bank 1    +1 +1 +1 +1 =  +4 blades
+ 47 99 8               -1  0  0  0 =  -1
+ 48 Cantabs 6          +1  0  0 +1 =  +2
+ 49 City 6              0  0  0  0 =   0
+ 50 City 7              0  0  0  0 =   0

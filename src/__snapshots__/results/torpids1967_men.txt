@@ -1,0 +1,55 @@
+Torpids Men 1967
+full_set: true
+div_size: 6 9 9 9 9 9 | 7 9 9 9 9 8 | 8 9 9 9 9 7 | 9 9 9 9 9 6
+
+  1 S.E.H. I           -1 -1 -1 -1 =  -4
+  2 St John's I        +1  0  0  0 =  +1 blades
+  3 Oriel I             0 +1  0  0 =  +1
+  4 Christ Church I     0 -1  0 +1 =   0
+  5 Balliol I           0 +1 +1  0 =  +2
+  6 Lincoln I           0  0  0 -3 =  -3
+  7 Merton I           -1 -1 -1 -2 =  -5
+  8 Keble I            +1  0  0 -1 =   0
+  9 Magdalen I         -3 -4 -1 -1 =  -9
+ 10 Worcester I        +1 +1  0 +2 =  +4
+ 11 New College I      +1  0 +1 +2 =  +4
+ 12 Queen's I          +1  0  0 +1 =  +2
+ 13 University I        0 +1 -1  0 =   0
+ 14 Exeter I           -1  0  0 -1 =  -2
+ 15 Wadham I           +1 +1 -1  0 =  +1
+ 16 Pembroke I          0 +2 +2 +1 =  +5
+ 17 Hertford I          0 -1 -1  0 =  -2
+ 18 Jesus I            -1 -1  0 -1 =  -3
+ 19 Corpus Christi I   +1 +1 +1 +1 =  +4 blades
+ 20 Trinity I           0 +1 +1 +1 =  +3
+ 21 University II      -1  0  0  0 =  -1
+ 22 St Catherine's I   +1  0  0 +1 =  +2
+ 23 St Peter's I        0  0  0  0 =   0
+ 24 Brasenose I         0  0  0 -1 =  -1
+ 25 St John's II        0  0  0 +1 =  +1
+ 26 S.E.H. II           0 -1  0  0 =  -1
+ 27 Christ Church II   -1 -3 -1  0 =  -5
+ 28 Keble II           -1 +1  0 -1 =  -1
+ 29 Balliol II         +2 +1  0  0 =  +3
+ 30 Pembroke II         0 +1 -1  0 =   0
+ 31 Magdalen II        -1 -1  0 -2 =  -4
+ 32 Lincoln II         +1 +1 +1 +1 =  +4 blades
+ 33 St John's III       0 -1  0  0 =  -1
+ 34 New College II     -1  0  0 -1 =  -2
+ 35 Oriel II           +1 +2 +1  0 =  +4
+ 36 St Peter's II       0  0 -1  0 =  -1
+ 37 Mansfield I         0  0 -1 -1 =  -2
+ 38 Lincoln III         0  0 -1 -1 =  -2
+ 39 Exeter II           0 -1  0 -1 =  -2
+ 40 Hertford II        -2 -1 -1 -1 =  -5
+ 41 St Catherine's II  +1 -2 -1 -1 =  -3
+ 42 Queen's II         +1  0  0 -1 =   0
+ 43 Trinity II         -3 -2  0  0 =  -5
+ 44 Worcester II       +1 +4 +3 +3 = +11 blades
+ 45 Corpus Christi II   0 -1 -1  0 =  -2
+ 46 Mansfield II       -2 -3  0  0 =  -5
+ 47 Oriel III          +3  0 +2 +4 =  +9
+ 48 Balliol III        -1  0  0  0 =  -1
+ 49 St Peter's III     +2 +2  0 +2 =  +6
+ 50 Lincoln IV          0 +3 +1  0 =  +4
+ 51 St Peter's IV       0 +1  0  0 =  +1

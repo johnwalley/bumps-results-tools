@@ -1,0 +1,23 @@
+May Bumps Men 1836 April May
+full_set: true
+div_size: 19 | 19 | 17 | 17 | 16 | 15 | 15
+
+  1 1st Trinity (Black Prince) I   0  0  0  0 -1 -1  0 =  -2
+  2 2nd Trinity (Queen Bess) I    -1 -1  0 -1  0  0  0 =  -3
+  3 Caius I                       +1  0  0  0 +1  0 -1 =  +1
+  4 Trinity Hall I                -3 -1  0  0  0  0  0 =  -4
+  5 Jesus I                       -1 -1  0  0  0 +1  0 =  -1
+  6 Magdalene I                   +1  0  ? =   ? withdrawn
+  7 LMBC I                        +3 +1  0  0 -1  0  0 =  +3
+  8 Corpus Christi I               0 +2 +1 +1 +1 +1 +1 =  +7 blades
+  9 Queens' I                      0  0 +3  0  0 -1  0 =  +2
+ 10 Pembroke I                    -1  0  0 -2  0  ? =   ? withdrawn
+ 11 Christ's I                    +1  0 +1  0  0  0 -1 =  +1
+ 12 LMBC II                        0 -1 +1 +1 -1  0 -1 =  -1
+ 13 1st Trinity II                -3 -1 +1 +1  0 +2 +1 =  +1
+ 14  I                            -1  0  0 -1  ? =   ? withdrawn
+ 15 Caius II                      +1  0  0  0  0  0 -1 =   0
+ 16 Emmanuel I                    +3 +1 +2  0  0  0 +1 =  +7
+ 17  I                            -1  0  ? =   ? withdrawn
+ 18 Corpus Christi II             +1 +1 +3 +1 +1  0  0 =  +7
+ 19 3rd Trinity (Dolphin) I        0  0 +2  0 +1 +1 +1 =  +5

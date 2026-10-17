@@ -1,0 +1,9 @@
+Torpids Men 1838
+full_set: true
+div_size: 5 | 4 | 4
+
+  1 Exeter I          0 -1 -1 =  -2
+  2 Trinity I        -1  ? =   ? withdrawn
+  3 Worcester I      +1 +1  0 =  +2 blades
+  4 Balliol I         0 +1 -1 =   0
+  5 Christ Church I   0 +1 +2 =  +3

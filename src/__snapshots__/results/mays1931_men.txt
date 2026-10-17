@@ -1,0 +1,50 @@
+May Bumps Men 1931
+full_set: true
+div_size: 15 15 16 | 15 15 16 | 15 15 16 | 15 15 16
+
+  1 Jesus I            -1  0  0  0 =  -1
+  2 Pembroke I         +1  0  0  0 =  +1 blades
+  3 LMBC I             -1  0  0  0 =  -1
+  4 Selwyn I           +1  0  0  0 =  +1
+  5 3rd Trinity I       0  0  0  0 =   0
+  6 Christ's I          0  0  0  0 =   0
+  7 1st Trinity I       0  0  0  0 =   0
+  8 Trinity Hall I      0  0  0  0 =   0
+  9 1st Trinity II      0 -1 -1 -1 =  -3
+ 10 Pembroke II         0 +1  0  0 =  +1
+ 11 Jesus II           -1  0  0 +1 =   0
+ 12 Caius I            +1  0 +1  0 =  +2
+ 13 Queens' I           0 -1  0  0 =  -1
+ 14 Sidney Sussex I    -1 -1 -1  0 =  -3
+ 15 Emmanuel I         +1 +1  0  0 =  +2
+ 16 King's I           -1 -1  0  0 =  -2
+ 17 Peterhouse I       +1 +1  0  0 =  +2
+ 18 Clare I             0 +1 +1  0 =  +2
+ 19 St Catharine's I    0  0  0  0 =   0
+ 20 Corpus Christi I    0 -1 -1 -1 =  -3
+ 21 Trinity Hall II    -1 -1 -1 -1 =  -4
+ 22 Caius II           +1 +1  0 -1 =  +1
+ 23 Christ's II        -1 -1 -1 -1 =  -4
+ 24 LMBC II            +1 +1 +1 +1 =  +4 blades
+ 25 Downing I          -1 -1 -1  0 =  -3
+ 26 Clare II           +1 +1 +1 +1 =  +4 blades
+ 27 Queens' II         -1 -1  0 -1 =  -3
+ 28 Selwyn II          +1 +1 +1 +1 =  +4 blades
+ 29 Caius III          -1 -1 -1 -1 =  -4
+ 30 Jesus III          +1 +1 +1 +1 =  +4 blades
+ 31 1st Trinity III    -1 -1  0 +1 =  -1
+ 32 Emmanuel II        +1 +1 -1  0 =  +1
+ 33 Trinity Hall III   -1 -1 -1 -1 =  -4
+ 34 Magdalene I        +1 +1 +2 +1 =  +5 blades
+ 35 1st Trinity IV     -1 -1 -1  0 =  -3
+ 36 LMBC III           +1 +1  0  0 =  +2
+ 37 Fitzwilliam I       0 +1 +1  0 =  +2
+ 38 Pembroke III        0  0 +1 +1 =  +2
+ 39 Christ's III        0  0  0  0 =   0
+ 40 Emmanuel III       -1 -1 -1 -1 =  -4
+ 41 St Catharine's II  +1  0 -1 -1 =  -1
+ 42 Sidney Sussex II    0 +1 +1  0 =  +2
+ 43 Peterhouse II       0 -1  0 +1 =   0
+ 44 Jesus IV           -1 -1  0  0 =  -2
+ 45 King's II          +1 +1 +1 +1 =  +4 blades
+ 46 Corpus Christi II   0 +1  0  0 =  +1

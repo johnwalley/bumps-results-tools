@@ -1,0 +1,49 @@
+May Bumps Men 1884 June
+full_set: true
+div_size: 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16 | 14 15 16
+
+  1 Jesus I            0  0  0  0  0  0 =   0 blades
+  2 Trinity Hall I     0  0  0  0  0  0 =   0
+  3 1st Trinity I      0  0  0 -1 -1  0 =  -2
+  4 3rd Trinity I      0  0  0 +1  0  0 =  +1
+  5 LMBC I             0  0 -1  0  0  0 =  -1
+  6 Pembroke I         0  0 +1  0 +1  0 =  +2
+  7 Caius I            0  0  0  0  0  0 =   0
+  8 Trinity Hall II    0  0  0  0  0  0 =   0
+  9 1st Trinity II     0  0  0  0  0  0 =   0
+ 10 Clare I            0  0  0  0  0  0 =   0
+ 11 LMBC II            0 -1  0  0  0  0 =  -1
+ 12 Downing I         -1 -1 -1 -1  0  0 =  -4
+ 13 Christ's I        +1 +1  0  0  0  0 =  +2
+ 14 Trinity Hall III   0 +1  0  0 -1  0 =   0
+ 15 Caius II           0 -1 -1 -1  0  0 =  -3
+ 16 Jesus II           0 +1 +1  0 +1  0 =  +3
+ 17 1st Trinity III    0  0 +1 +1  0  0 =  +2
+ 18 3rd Trinity II    -1 -1 -1 -1  0  0 =  -4
+ 19 Peterhouse I      +1  0  0 +1  0  0 =  +2
+ 20 Corpus Christi I   0 +1  0  0  0  0 =  +1
+ 21 Magdalene I        0  0 +1  0  0  0 =  +1
+ 22 St Catharine's I   0 -1 -1 -1  0  0 =  -3
+ 23 Cavendish I       -1 -1 -1 -1  0  0 =  -4
+ 24 Selwyn I          +1 +1  0 +1  0  0 =  +3
+ 25 Queens' I          0 +1 +1  0  0  0 =  +2
+ 26 LMBC III          -1 -1 -1 -1  0  0 =  -4
+ 27 King's I          +1  0 +1 +1  0  0 =  +3
+ 28 1st Trinity IV     0 +1  0 +1  0  0 =  +2
+ 29 Emmanuel I         0  0 +1  0  0  0 =  +1
+ 30 Sidney Sussex I    0  0  0 +1  0  0 =  +1
+ 31 1st Trinity V      0  0  0  0  0  0 =   0
+ 32 Pembroke II        0  0  0  0  0  0 =   0
+ 33 Jesus III          0  0  0  0  0  0 =   0
+ 34 Trinity Hall IV    0  0  0  0  0  0 =   0
+ 35 Pembroke III       0  0  0  0  0  0 =   0
+ 36 Trinity Hall V     0  0  0  0  0  0 =   0
+ 37 LMBC IV            0  0  0  0  0  0 =   0
+ 38 Caius III          0  0  0  0  0  0 =   0
+ 39 1st Trinity VI     0  0  0  0  0  0 =   0
+ 40 Jesus IV           0  0  0  0  0  0 =   0
+ 41 Christ's II        0  0  0  0  0  0 =   0
+ 42 Clare II           0  0  0  0  0  0 =   0
+ 43 Clare III          0  0  0  0  0  0 =   0
+ 44 3rd Trinity III    0  0  0  0  0  0 =   0
+ 45 Non-Collegiate I   0  0  0  0  0  0 =   0

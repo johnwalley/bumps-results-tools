@@ -1,0 +1,40 @@
+Torpids Men 1925
+full_set: true
+div_size: 11 12 13 | 11 12 13 | 11 12 13 | 11 12 13 | 11 12 13 | 11 12 13
+
+  1 Christ Church I    0  0  0  0  0  0 =   0 blades
+  2 Brasenose I        0 -1  0 -1  0  0 =  -2
+  3 University I       0 +1  0  0  0  0 =  +1
+  4 Magdalen I        -1  0  0  0  0 -1 =  -2
+  5 Merton I          +1  0  0 +1  0  0 =  +2
+  6 New College I      0  0  0  0 -1 -1 =  -2
+  7 Worcester I        0  0  0 -1 -1  0 =  -2
+  8 Trinity I         -1 -1 -1 -1 -1 -1 =  -6
+  9 Balliol I         +1  0  0 +1 +1 +1 =  +4
+ 10 Balliol II         0 +1  0 -1  0  0 =   0
+ 11 Keble I           -1 -1  0 -1 -1 -1 =  -5
+ 12 Wadham I          +1  0 +1 +1 +1 +1 =  +5
+ 13 Corpus Christi I   0 +1  0 +1  0  0 =  +2
+ 14 Queen's I         -1 -1  0  0  0 +1 =  -1
+ 15 Pembroke I        +1  0  0 +1 +1  0 =  +3
+ 16 Oriel I            0 +1  0  0 +1 +1 =  +3
+ 17 St John's I        0  0 -1 -1  0  0 =  -2
+ 18 Worcester II      -1 -1 -1  0  0 -1 =  -4
+ 19 New College II    +1  0 +1  0  0  0 =  +2
+ 20 Lincoln I          0 +1  0 +1  0  0 =  +2
+ 21 Magdalen II       -1  0  0  0  0 +1 =   0
+ 22 Exeter I          +1  0 +1  0  0  0 =  +2
+ 23 Christ Church II   0  0  0  0  0  0 =   0
+ 24 St John's II      -1 -1 -1 -1 -1 -1 =  -6
+ 25 Hertford I        +1  0  0  0  0  0 =  +1
+ 26 S.E.H. I           0 +1  0 -1  0 -1 =  -1
+ 27 Jesus I            0 -1 -1  0 +1  0 =  -1
+ 28 Brasenose II      -1 -1 -1  0  0  0 =  -3
+ 29 Wadham II         +1 +1 +1 +1  0  0 =  +4
+ 30 St Catherine's I   0 +1 +1 +1  0 +1 =  +4
+ 31 Lincoln II         0 -1  0 -1  0  0 =  -2
+ 32 Oriel II          -1 -1  0  0  0  0 =  -2
+ 33 Pembroke II       +1 +1 +1  0  0 +1 =  +4
+ 34 Exeter II          0 +1  0 +1  0  0 =  +2
+ 35 Balliol III       -1  0 +1 -1  0  0 =  -1
+ 36 New College III   +1  0 -1 +1  0  0 =  +1

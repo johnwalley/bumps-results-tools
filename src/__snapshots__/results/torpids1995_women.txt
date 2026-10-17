@@ -1,0 +1,53 @@
+Torpids Women 1995
+full_set: true
+div_size: 12 12 12 13 | 12 12 12 13 | 12 12 12 13 | 12 12 12 13
+
+  1 Somerville I       0  0 -1 -1 =  -2
+  2 Osler House I      0  0 +1  0 =  +1 blades
+  3 New College I      0  0  0 +1 =  +1
+  4 St Catherine's I   0  0 -1  0 =  -1
+  5 Wadham I           0  0 +1  0 =  +1
+  6 University I       0  0 -1 -2 =  -3
+  7 Christ Church I    0  0 +1  0 =  +1
+  8 Pembroke I         0  0  0 +1 =  +1
+  9 Oriel I            0  0  0 +1 =  +1
+ 10 St Hilda's I       0  0  0 -1 =  -1
+ 11 L.M.H. I           0  0  0 +1 =  +1
+ 12 Trinity I          0  0  0 -1 =  -1
+ 13 Worcester I        0  0  0 +1 =  +1
+ 14 St Anne's I        0  0  0  0 =   0
+ 15 Brasenose I        0  0  0  0 =   0
+ 16 St John's I        0  0  0  0 =   0
+ 17 Jesus I            0  0  0  0 =   0
+ 18 Wolfson I          0  0  0  0 =   0
+ 19 Lincoln I          0  0  0  0 =   0
+ 20 Hertford I         0  0  0  0 =   0
+ 21 S.E.H. I           0  0  0  0 =   0
+ 22 Somerville II      0  0  0  0 =   0
+ 23 Queen's I          0  0  0  0 =   0
+ 24 Merton I           0  0  0  0 =   0
+ 25 Keble I            0  0  0  0 =   0
+ 26 Magdalen I         0  0  0  0 =   0
+ 27 Balliol I          0  0  0  0 =   0
+ 28 Linacre I          0  0  0  0 =   0
+ 29 Exeter I           0  0  0  0 =   0
+ 30 Osler House II     0  0  0  0 =   0
+ 31 St Peter's I       0  0  0  0 =   0
+ 32 Wadham II          0  0  0  0 =   0
+ 33 New College II     0  0  0  0 =   0
+ 34 St Hugh's I        0  0  0  0 =   0
+ 35 Pembroke II        0  0  0  0 =   0
+ 36 L.M.H. II          0  0  0  0 =   0
+ 37 Oriel II           0  0  0  0 =   0
+ 38 Mansfield I        0  0  0  0 =   0
+ 39 Corpus Christi I   0  0  0  0 =   0
+ 40 Christ Church II   0  0  0  0 =   0
+ 41 St John's III      0  0  0  0 =   0
+ 42 L.M.H. III         0  0  0  0 =   0
+ 43 University II      0  0  0  0 =   0
+ 44 Jesus II           0  0  0  0 =   0
+ 45 Osler House III    0  0  0  0 =   0
+ 46 St Hilda's II      0  0  0  0 =   0
+ 47 Mansfield II       0  0  0  0 =   0
+ 48 Hertford II        0  0  0  0 =   0
+ 49 St Anne's II       0  0  0  0 =   0

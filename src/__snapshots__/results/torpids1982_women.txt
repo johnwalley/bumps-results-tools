@@ -1,0 +1,41 @@
+Torpids Women 1982
+full_set: true
+div_size: 12 12 13 | 12 12 13 | 12 12 13 | 12 12 13
+
+  1 Jesus I             0  0  0  0 =   0 blades
+  2 Somerville I        0  0  0  0 =   0
+  3 L.M.H. I            0  0  0  0 =   0
+  4 St Catherine's I   -1 +1  0  0 =   0
+  5 Hertford I         +1 -1 -4 -1 =  -5
+  6 St Hilda's I       -1  0  0 -1 =  -2
+  7 St Anne's I        +1  0 +1 -1 =  +1
+  8 Brasenose I        -1 -1  0 +1 =  -1
+  9 St Hugh's I        +1 -3 -2  0 =  -4
+ 10 Wolfson I           0 +2 +2 +1 =  +5
+ 11 Wadham I           -2  0 -3 +1 =  -4
+ 12 Osler House I      +1 +2 +1 +1 =  +5 blades
+ 13 Worcester I        +1  0 +1  0 =  +2
+ 14 Linacre I           0 -1  0 -3 =  -4
+ 15 L.M.H. II          -2  0 -3 -2 =  -7
+ 16 Exeter I           +1 +1 +2  0 =  +4
+ 17 Keble I            +1 -2 +1  0 =   0
+ 18 Somerville II      -1 -1 +1  0 =  -1
+ 19 Pembroke I         +1 +2 +2  0 =  +5
+ 20 Corpus Christi I   -1 -1 +1  0 =  -1
+ 21 Trinity I          +1 +1 +1 +2 =  +5 blades
+ 22 St Catherine's II  -1 -2 -4 -1 =  -8
+ 23 Queen's I          +1 +1 -3 -1 =  -2
+ 24 St Hugh's II       -1 +1 +1 -1 =   0
+ 25 University I       +1 +1 +1 +2 =  +5 blades
+ 26 St John's I        -1  0 +1 -1 =  -1
+ 27 Balliol I          +1  0 +1 +2 =  +4
+ 28 St Hugh's III       0 -1 +2 +1 =  +2
+ 29 Mansfield I        -1  0 -1 +2 =   0
+ 30 St John's II       +1 +1  0  0 =  +2
+ 31 St Hugh's IV        0  0 +1 -5 =  -4
+ 32 Lincoln I           0  0  0 +1 =  +1
+ 33 Christ Church I     0 -1  0 +1 =   0
+ 34 St Anne's II       -1 -1 -1 +1 =  -2
+ 35 New College I      +1 +1  0 +1 =  +3
+ 36 Balliol II         -1  0 +1 -1 =  -1
+ 37 Lincoln II         +1 +1  0 +1 =  +3

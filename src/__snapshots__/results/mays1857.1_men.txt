@@ -1,0 +1,40 @@
+May Bumps Men 1857 March
+full_set: true
+div_size: 16 20 | 16 20 | 16 20
+
+  1 LMBC I              0  0  0 =   0
+  2 Trinity Hall I     -1 -1  0 =  -2
+  3 2nd Trinity I      +1  0 -1 =   0
+  4 1st Trinity I       0 +1 +1 =  +2
+  5 3rd Trinity I       0  0  0 =   0
+  6 1st Trinity II     -1  0  0 =  -1
+  7 Emmanuel I         +1  0  0 =  +1
+  8 Sidney Sussex I     0  0  0 =   0
+  9 Christ's I          0 -1 -1 =  -2
+ 10 St Catharine's I    0 +1  0 =  +1
+ 11 3rd Trinity II      0 -1 -1 =  -2
+ 12 Clare I            -1 -1 -1 =  -3
+ 13 Caius I            +1 +1 +1 =  +3 blades
+ 14 Emmanuel II         0 +1 +1 =  +2
+ 15 Corpus Christi I   -2 -1 -1 =  -4
+ 16 Magdalene I        +1  0 +1 =  +2
+ 17 Peterhouse I       +1  0  0 =  +1
+ 18 Trinity Hall II    -1  0 +1 =   0
+ 19 2nd Trinity II     +1 +1  0 =  +2
+ 20 Emmanuel III       -1  0 -1 =  -2
+ 21 Christ's II        +1  0  0 =  +1
+ 22 LMBC II             0 -1 -1 =  -2
+ 23 Pembroke I         -3 +1  0 =  -2
+ 24 1st Trinity III    -1 -1 -1 =  -3
+ 25 LMBC III           +1  0 +1 =  +2
+ 26 Jesus I            +3 +1 +1 =  +5 blades
+ 27 Trinity Hall III   -1 -1 +1 =  -1
+ 28 Lady Somerset I    +1  0 +1 =  +2
+ 29 2nd Trinity III    -1 -1  0 =  -2
+ 30 Ancient Mariner I  +1 +1 -1 =  +1
+ 31 Caius II            0 +1  0 =  +1
+ 32 1st Trinity IV      0  0  0 =   0
+ 33 Peterhouse II       0 -1 +1 =   0
+ 34 Emmanuel IV         0 +1 -1 =   0
+ 35 2nd Trinity IV      0 -1  0 =  -1
+ 36 Lady Somerset II    0 +1  0 =  +1

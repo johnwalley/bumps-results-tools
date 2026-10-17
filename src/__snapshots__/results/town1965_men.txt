@@ -1,0 +1,35 @@
+Town Bumps Men 1965
+full_set: true
+div_size: 17 14 | 17 14 | 17 14 | 17 14
+
+  1 City 1                -1  0  0  0 =  -1
+  2 99 1                  +1  0  0  0 =  +1 blades
+  3 City 2                -1 -1 -1 -1 =  -4
+  4 Rob Roy 1             +1  0 -1 -1 =  -1
+  5 99 2                  -1  0 +1 +1 =  +1
+  6 Cantabs 1             +1 +1 +1  0 =  +3
+  7 Scouts 1               0  0  0 +1 =  +1
+  8 Pye 1                  0  0 -1  0 =  -1
+  9 City 3                 0 -1  0  0 =  -1
+ 10 Rob Roy 2             -1  0  0  0 =  -1
+ 11 Leys School 1         +1 +1 +1  0 =  +3
+ 12 ACUA 1                 0 -1  0 -1 =  -2
+ 13 Bridge 1               0 +1  0  0 =  +1
+ 14 99 3                  -1 -1 -1 -1 =  -4
+ 15 Cambs High School 1   +1  0 -1 -1 =  -1
+ 16 Scouts 2              -1  0 +1 +1 =  +1
+ 17 Cantabs 2             +1 +1 +1 +1 =  +4 blades
+ 18 Rob Roy 3              0  0  0 +1 =  +1
+ 19 Scouts 3              -1 -1 -1 -1 =  -4
+ 20 Beehives 1            +1  0 -1  0 =   0
+ 21 ACUA 2                -1 -1 -1 -1 =  -4
+ 22 Leys School 2         +1 +1 +1  0 =  +3
+ 23 Cam Grammar School 1  -1  0 +1 +1 =  +1
+ 24 City 4                +1 +1 +1  0 =  +3
+ 25 Pye 2                 -1 +1  0 +1 =  +1
+ 26 Cantabs 3             +1 -1 -1  0 =  -1
+ 27 Leys School 3          0  0 +1  0 =  +1
+ 28 Beehives 2             0 -1 -1  0 =  -2
+ 29 Cam Grammar School 2  -1 -1  0  0 =  -2
+ 30 Bridge 2              +1 +1  0 -1 =  +1
+ 31 Leys School 4          0 +1 +1 +1 =  +3

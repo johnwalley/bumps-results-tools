@@ -1,0 +1,21 @@
+Summer Eights Men 1866
+full_set: true
+div_size: 17 | 17 | 17 | 17 | 16 | 16 | 16 | 16
+
+  1 Brasenose I        0  0 -1 +1  0  0  0  0 =   0 blades
+  2 Exeter I           0 -1 -1  0 -1 -1  0  0 =  -4
+  3 Trinity I         -1 -1 -1 -1 -1 -1  0  0 =  -6
+  4 Corpus Christi I  +1 +1 +1 -1  0  0  0  0 =  +2
+  5 University I       0 +1 +1  0  0  0  0  0 =  +2
+  6 Christ Church I    0 -1 -1  0 +1  0  0  0 =  -1
+  7 Wadham I           0 +1 +1  0 +1  0  0  0 =  +3
+  8 Merton I           0  0 +1 +1  0 +1  0  0 =  +3
+  9 Balliol I         -1 -1 -1 -1  ? =   ? withdrawn
+ 10 Pembroke I        +1  0  0  0  0 +1  0  0 =  +2
+ 11 Lincoln I          0 +1  0  0  0  0  0  0 =  +1
+ 12 Queen's I          0  0 +1  0  0  0 -1  0 =   0
+ 13 Oriel I            0  0  0 +1  0 -1  0 -1 =  -1
+ 14 St John's I        0  0  0  0 +1 +1 +1  0 =  +3
+ 15 New College I      0  0  0  0 +1  0  0 +1 =  +2
+ 16 Worcester I        0 -1  0  0 +1  0  0 +1 =  +1
+ 17 S.E.H. I           0 +1  0  0 +1  0  0 -1 =  +1

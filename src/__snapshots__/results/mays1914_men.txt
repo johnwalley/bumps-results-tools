@@ -1,0 +1,35 @@
+May Bumps Men 1914
+full_set: true
+div_size: 15 16 | 15 16 | 15 16 | 15 16
+
+  1 Jesus I            0  0  0  0 =   0 blades
+  2 3rd Trinity I      0  0  0 -1 =  -1
+  3 1st Trinity I      0 -1  0  0 =  -1
+  4 Pembroke I         0 +1  0 +1 =  +2
+  5 Trinity Hall I    -1 -1 -1 -1 =  -4
+  6 LMBC I            +1  0  0  0 =  +1
+  7 Caius I            0 +1  0  0 =  +1
+  8 Jesus II           0  0 +1  0 =  +1
+  9 Emmanuel I         0  0  0 +1 =  +1
+ 10 King's I           0  0  0 -1 =  -1
+ 11 1st Trinity II     0 -1  0 -1 =  -2
+ 12 Pembroke II       -1  0 -1  0 =  -2
+ 13 Selwyn I          +1 +1  0 +1 =  +3
+ 14 Sidney Sussex I    0 -1  0 -1 =  -2
+ 15 Clare I           -1  0  0 -1 =  -2
+ 16 Christ's I        +1 +1 +1 +1 =  +4 blades
+ 17 Magdalene I        0  0 -1  0 =  -1
+ 18 Corpus Christi I  -1  0  0  0 =  -1
+ 19 Queens' I         +1  0 +1 +2 =  +4
+ 20 1st Trinity III   -1 -1  0 -1 =  -3
+ 21 Caius II          +1  0 -1  0 =   0
+ 22 LMBC II            0 +1 +1  0 =  +2
+ 23 Jesus III          0  0 -1  0 =  -1
+ 24 Trinity Hall II    0 -1  0  0 =  -1
+ 25 Downing I         -1  0  0  0 =  -1
+ 26 St Catharine's I  +1 +1 +1 +1 =  +4 blades
+ 27 Emmanuel II        0  0  0 -1 =  -1
+ 28 Clare II          -1  0 +1 +1 =  +1
+ 29 Peterhouse I      +1  0 -1 -1 =  -1
+ 30 Fitzwilliam I     -1  0  0  0 =  -1
+ 31 Christ's II       +1  0  0 +1 =  +2

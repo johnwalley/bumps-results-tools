@@ -1,0 +1,55 @@
+Torpids Men 1971
+full_set: true
+div_size: 6 9 9 9 9 9 | 7 9 9 9 9 8 | 8 9 9 9 9 7 | 9 9 9 9 9 6
+
+  1 Balliol I           0  0  0  0 =   0 blades
+  2 Oriel I             0  0  0  0 =   0
+  3 Christ Church I     0  0  0  0 =   0
+  4 New College I      -2 -1 -1 -1 =  -5
+  5 St John's I        +1  0 -2  0 =  -1
+  6 University I       +1  0 +1  0 =  +2
+  7 S.E.H. I           -5 +1  0  0 =  -4
+  8 Keble I            -3 -1 -1  0 =  -5
+  9 Wadham I           +1 -1  0 +1 =  +1
+ 10 Jesus I            +1 -1  0  0 =   0
+ 11 Queen's I          +4 +1 +1  0 =  +6
+ 12 St Catherine's I   +2 +2 +1  0 =  +5
+ 13 Lincoln I           0  0 -1 -1 =  -2
+ 14 Hertford I         -1 -1 -1 -1 =  -4
+ 15 Trinity I          +1 -1 -1 -1 =  -2
+ 16 Worcester I         0 +2 +2  0 =  +4
+ 17 St John's II       -1 -3 -2 -1 =  -7
+ 18 Merton I           -6 -1 -1 -1 =  -9
+ 19 Magdalen I         +2  0 +2 +1 =  +5
+ 20 Brasenose I        +1 +1 -1  0 =  +1
+ 21 University II      +1 +1 +1 +2 =  +5 blades
+ 22 Corpus Christi I    0 +2  0  0 =  +2
+ 23 St Peter's I       +2 -2 +1  0 =  +1
+ 24 Exeter I           +1 +1 +1  0 =  +3
+ 25 Pembroke I          0 +1 -1 -1 =  -1
+ 26 Christ Church II   -1 -3  0 -1 =  -5
+ 27 Balliol II         -3 -1 -1 -1 =  -6
+ 28 Osler House I      +2  0 +2 +1 =  +5
+ 29 S.E.H. II          +1 +1 -1  0 =  +1
+ 30 Oriel II           +1 +1 +1 +2 =  +5 blades
+ 31 Lincoln II         -1 -2 -1  0 =  -4
+ 32 St Peter's II      -1 +1 -2  0 =  -2
+ 33 Pembroke II        +2 +2  0  0 =  +4
+ 34 Queen's II          0 +1 +2 +1 =  +4
+ 35 St John's III       0 -1  0  0 =  -1
+ 36 Keble II            0 -1 -1  0 =  -2
+ 37 Lincoln III        -2 -1  0 -1 =  -4
+ 38 University III     -2 +1  0 -1 =  -2
+ 39 Wadham II          +1  0 +1  0 =  +2
+ 40 Jesus II           -1  0 -3 +1 =  -3
+ 41 St Catherine's II  +4 +2 +2 +1 =  +9 blades
+ 42 Brasenose II        0  0  0  0 =   0
+ 43 Exeter II           0  0  0 -2 =  -2
+ 44 Oriel III          -5  0 +1 -1 =  -5
+ 45 Magdalen II        -5 -1  0  0 =  -6
+ 46 Linacre I           0 +1 -1  0 =   0
+ 47 New College II     +3 -3 -3  0 =  -3
+ 48 Worcester II        0 -2 +1 +1 =   0
+ 49 Balliol III        -2 +3 +1  0 =  +2
+ 50 S.E.H. III         +3 +1 +1 +1 =  +6 blades
+ 51 Pembroke III       +6 +1 +3 +2 = +12 blades

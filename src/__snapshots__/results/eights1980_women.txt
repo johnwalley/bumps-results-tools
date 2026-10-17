@@ -1,0 +1,41 @@
+Summer Eights Women 1980
+full_set: true
+div_size: 12 12 13 | 12 12 13 | 12 12 13 | 12 12 13
+
+  1 St Hugh's I         -1  0 -1 -1 =  -3
+  2 Somerville I        +1  0  0  0 =  +1 blades
+  3 Wadham I             0  0 +1  0 =  +1
+  4 L.M.H. I            -1 -1 -1 -1 =  -4
+  5 Jesus I             +1  0 -1 -1 =  -1
+  6 St Catherine's I    -1 -1 -1  0 =  -3
+  7 Wolfson I           +1 +1 +1 +1 =  +4 blades
+  8 Hertford I          -1 -1  0 -1 =  -3
+  9 St Hilda's I        +1 +1 +1 +1 =  +4 blades
+ 10 Linacre I            0 +1 +1 +1 =  +3
+ 11 Brasenose I          0 -1 +1 +1 =  +1
+ 12 Wadham II           -1 -1 -1 -1 =  -4
+ 13 St Anne's I         +1 +1 -1 -1 =   0
+ 14 St Catherine's II   -1 -1  0 +1 =  -1
+ 15 L.M.H. II           +1 +1  0 -1 =  +1
+ 16 St Catherine's III  -1 -1 -1 -3 =  -6
+ 17 Osler House I       +1 +1 +1 +2 =  +5 blades
+ 18 St Hugh's II         0 +1  0 -1 =   0
+ 19 Somerville II        0 -1  0 -1 =  -2
+ 20 Linacre II          -1 -1 -1 -1 =  -4
+ 21 Worcester I         +1 +1 +1 +1 =  +4 blades
+ 22 Pembroke I           0 +1  0 +1 =  +2
+ 23 Keble I             -1  0  0 +1 =   0
+ 24 Jesus II            +1  0 +1 +3 =  +5
+ 25 Wolfson II           0  0  0  0 =   0
+ 26 St Hilda's II        0  0  0 -1 =  -1
+ 27 University I         0 -1 -1  0 =  -2
+ 28 Exeter I            -1  0 +1  0 =   0
+ 29 Hertford II         +1 +1  0 +1 =  +3
+ 30 Exeter II            0  0  0 -1 =  -1
+ 31 St Hilda's III      -1 -1  0  0 =  -2
+ 32 St Peter's I        +1  0 -1  0 =   0
+ 33 St Anne's II        -1 -1  0 +1 =  -1
+ 34 L.M.H. III          +1 +1 +1 +1 =  +4 blades
+ 35 Exeter III          -1 -1  0  0 =  -2
+ 36 Somerville III      +1 +1  0 -1 =  +1
+ 37 Balliol I            0 +1  0  0 =  +1

@@ -1,0 +1,35 @@
+Lent Bumps Men 1887
+full_set: true
+div_size: 15 16 | 15 16 | 15 16 | 15 16
+
+  1 Jesus I            0 -1  0  0 =  -1
+  2 1st Trinity I     -1 -1  0  0 =  -2
+  3 Corpus Christi I  +1 +1  0  0 =  +2 blades
+  4 Peterhouse I      -1 -1 -1 -1 =  -4
+  5 LMBC I            +1 +1  0  0 =  +2
+  6 Caius I            0 +1  0  0 =  +1
+  7 Magdalene I       -1 -1 -1  0 =  -3
+  8 1st Trinity II    +1  0 +1  0 =  +2
+  9 Trinity Hall I     0 +1  0 +1 =  +2
+ 10 Pembroke I         0  0 +1  0 =  +1
+ 11 Cavendish I        0 -1 -1 -1 =  -3
+ 12 Downing I         -1 -1 -1  0 =  -3
+ 13 Pembroke II       +1 +1  0 -1 =  +1
+ 14 St Catharine's I  -1  0 +1 +1 =  +1
+ 15 3rd Trinity I     +1 +1 +1 +1 =  +4 blades
+ 16 King's I          -1 -1 -1 -1 =  -4
+ 17 Trinity Hall II   +1  0 -1  0 =   0
+ 18 Queens' I         -1  0 +1 -3 =  -3
+ 19 1st Trinity III   +1 +1 +1  0 =  +3
+ 20 LMBC II            0 -1 -1  0 =  -2
+ 21 1st Trinity IV    -1 -1  0  0 =  -2
+ 22 Jesus II          +1 +1  0 +1 =  +3
+ 23 Sidney Sussex I   -1 -1 -1 -1 =  -4
+ 24 Caius II          +1 +1 +1 +3 =  +6 blades
+ 25 Clare I           -1  0 +1  0 =   0
+ 26 Trinity Hall III  +1 +1  0  0 =  +2
+ 27 1st Trinity V      0 -1  0  0 =  -1
+ 28 Christ's I        -1 -1  0  0 =  -2
+ 29 Emmanuel I        +1 +1  0 +1 =  +3
+ 30 Selwyn I           0 +1  0  0 =  +1
+ 31 Non-Collegiate I   0  0  0  0 =   0

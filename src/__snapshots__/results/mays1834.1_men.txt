@@ -1,0 +1,20 @@
+May Bumps Men 1834 February March
+full_set: true
+div_size: 8 8 | 8 8 | 8 8 | 8 8 | 8 8
+
+  1 Christ's I                    -1  0  0 -1 -1 =  -3
+  2 Queens' I                     +1  0  0  0 -1 =   0
+  3 1st Trinity (Black Prince) I   0 -1 +1 +1 +1 =  +2
+  4 Caius I                       -1  0 -1 -1 -1 =  -4
+  5 2nd Trinity (Queen Bess) I    +1 +1 -1  0 +1 =  +2
+  6 Magdalene I                   -1 -1  0  0 -1 =  -3
+  7 LMBC I                        +1  0 +1  0 -1 =  +1
+  8 Jesus I                       -1  0 -1  0 -1 =  -3
+  9 3rd Trinity (Dolphin) I       +1 +1  0 +1 +1 =  +4
+ 10 St Catharine's I               0 -1  0 -1 -1 =  -3
+ 11 LMBC II                       -1  0 -1  0 +1 =  -1
+ 12 Clare I                       +1 +1 +1  0 +2 =  +5
+ 13 Corpus Christi I               0  0 +1 +1 +1 =  +3
+ 14 Trinity Hall I                 0  0  0 -1 -1 =  -2
+ 15  I                             0  0  0 +1  0 =  +1
+ 16 1st Trinity II                 0  0  0  0 +1 =  +1

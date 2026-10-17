@@ -1,0 +1,9 @@
+Summer Eights Men 1833
+full_set: true
+div_size: 5 | 4 | 4 | 4
+
+  1 Christ Church I  -1  0 +1 -1 =  -1
+  2 Queen's I        +1  0 -1 +1 =  +1 blades
+  3 Exeter I         -1  ? =   ? withdrawn
+  4 Jesus I          +1  0  0  0 =  +1
+  5 Brasenose I       0 +1  0  0 =  +1

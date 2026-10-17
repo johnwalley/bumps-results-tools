@@ -1,0 +1,26 @@
+Summer Eights Men 1906
+full_set: true
+div_size: 10 12 | 10 12 | 10 12 | 10 12 | 10 12 | 10 12
+
+  1 Magdalen I         0  0  0  0  0  0 =   0 blades
+  2 University I      -1 -1  0 -1  0  0 =  -3
+  3 New College I     +1  0  0  0  0  0 =  +1
+  4 Christ Church I    0 +1  0  0  0  0 =  +1
+  5 Balliol I          0  0 -1  0  0  0 =  -1
+  6 Brasenose I        0 -1 -1 -1  0 -1 =  -4
+  7 Keble I           -1 -1 -1 -1  0 -1 =  -5
+  8 Trinity I         +1 +1 +1 +1  0  0 =  +4
+  9 Merton I          -1 -1 -1 -1  0 -1 =  -5
+ 10 St John's I       +1 +1 +1  0  0 -1 =  +2
+ 11 Exeter I          -1 -1 -1 -1 -1  0 =  -5
+ 12 Pembroke I        +1 +1 +1 +1  0 +1 =  +5
+ 13 Lincoln I          0 +1 +1 +1  0 +1 =  +4
+ 14 Queen's I          0 -1 -1 -1 -1  0 =  -4
+ 15 Hertford I        -1 -1 -1 -1  0  0 =  -4
+ 16 Corpus Christi I  +1 +1 +1 +1  0 +1 =  +5
+ 17 Worcester I        0 +1 +1 +1  0 +1 =  +4
+ 18 Oriel I           -1  0  0 +1 +1  0 =  +1
+ 19 Jesus I           +1  0 +1 +1 +1  0 =  +4
+ 20 Wadham I           0  0  0  0  0 -1 =  -1
+ 21 S.E.H. I           0  0  0 -1  0  0 =  -1
+ 22 St Catherine's I   0  0  0 +1  0 +1 =  +2

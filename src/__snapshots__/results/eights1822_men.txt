@@ -1,0 +1,6 @@
+Summer Eights Men 1822
+full_set: true
+div_size: 2
+
+  1 Brasenose I   0 =   0 blades
+  2 Jesus I       0 =   0

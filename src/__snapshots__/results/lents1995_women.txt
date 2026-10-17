@@ -1,0 +1,55 @@
+Lent Bumps Women 1995
+full_set: true
+div_size: 17 17 17 | 17 17 17 | 17 17 17 | 17 17 17
+
+  1 Emmanuel I          0  0  0  0 =   0 blades
+  2 Jesus I             0 -1 -1  0 =  -2
+  3 Newnham I          -3 -1 -1  0 =  -5
+  4 LMBC I             -1  0  0 -1 =  -2
+  5 Queens' I          +1  0 +1 +1 =  +3
+  6 Trinity Hall I     +3 +1  0 -1 =  +3
+  7 St Catharine's I   -1  0 +1  0 =   0
+  8 New Hall I         +1 +1  0 +1 =  +3
+  9 Selwyn I           -1 -1 -1 -1 =  -4
+ 10 Clare I            +1  0 -1  0 =   0
+ 11 Sidney Sussex I    -1  0 +1  0 =   0
+ 12 Churchill I        +1 +1 +1  0 =  +3
+ 13 Girton I            0 -1  0  0 =  -1
+ 14 1st and 3rd I      -1 -1 -1 -1 =  -4
+ 15 Christ's I         +1 +1  0 +1 =  +3
+ 16 Caius I             0 +1  0 -1 =   0
+ 17 Magdalene I        -1 -1  0 -1 =  -3
+ 18 Pembroke I         +1  0 +1 +1 =  +3
+ 19 Downing I           0 +1  0 +1 =  +2
+ 20 Homerton I         -1 -1 -1 -1 =  -4
+ 21 Corpus Christi I   +1  0 -1 -1 =  -1
+ 22 Robinson I         -3 +1  0 +1 =  -1
+ 23 LMBC II            -1 -1 -1 -1 =  -4
+ 24 Fitzwilliam I      +1  0 +1 +1 =  +3
+ 25 CCAT I             +3 +1 +1 +1 =  +6 blades
+ 26 Jesus II           -1 +1 +1  0 =  +1
+ 27 QMABC I            +1 -1 -1 -1 =  -2
+ 28 Wolfson I           0  0 +1 +1 =  +2
+ 29 Newnham II          0  0 -1 -1 =  -2
+ 30 Emmanuel II        -1 +1 +1 +1 =  +2
+ 31 Selwyn II          +1 -1 -1 -1 =  -2
+ 32 New Hall II         0  0 +1 +1 =  +2
+ 33 Clare II            0 -1 -1  0 =  -2
+ 34 Peterhouse I        0 +1  0 +1 =  +2
+ 35 St Edmund's I       0 -1  0  0 =  -1
+ 36 Sidney Sussex II   -1  0  0 -1 =  -2
+ 37 St Catharine's II  +1 +1 +1  0 =  +3
+ 38 Girton II          -1 -1 -1 +1 =  -2
+ 39 Homerton II        +1  0 -1  0 =   0
+ 40 Queens' II          0 +1 +1 +1 =  +3
+ 41 Addenbrooke's I    -1 +1 +1 -1 =   0
+ 42 Trinity Hall II    +1 -1  0  0 =   0
+ 43 Churchill II        0 -1 -1 -1 =  -3
+ 44 Pembroke II        -1 -1 -1 -1 =  -4
+ 45 Christ's II        +1 +1  0 -1 =  +1
+ 46 Caius II            0 +1 +1 +1 =  +3
+ 47 CCAT II             0 -1 -1  0 =  -2
+ 48 Downing II         -1  0 +1 +1 =  +1
+ 49 1st and 3rd II     +1 +1 +1 +1 =  +4 blades
+ 50 Girton III         -1  0 +1  0 =   0
+ 51 Robinson II        +1  0 -1  0 =   0

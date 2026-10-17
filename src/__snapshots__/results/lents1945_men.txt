@@ -1,0 +1,50 @@
+Lent Bumps Men 1945
+full_set: true
+div_size: 15 15 16 | 15 15 16 | 15 15 16
+
+  1 Jesus I                        0  0  0 =   0 blades
+  2 Pembroke I                    -1 -1  0 =  -2
+  3 LMBC I                        +1  0  0 =  +1
+  4 1st and 3rd I                  0 +1  0 =  +1
+  5 Trinity Hall I                 0  0 -1 =  -1
+  6 Clare I                        0 -1  0 =  -1
+  7 Christ's I                     0 +1 +1 =  +2
+  8 Selwyn I                      -1 -1  0 =  -2
+  9 St Catharine's I              +1  0 -1 =   0
+ 10 Jesus II                       0 +1 +1 =  +2
+ 11 Caius I                       -1  0  0 =  -1
+ 12 Peterhouse I                  +1  0  0 =  +1
+ 13 1st and 3rd II                -1  0 -1 =  -2
+ 14 LMBC II                       +1  0  0 =  +1
+ 15 Queens' I                      0  0 +1 =  +1
+ 16 Magdalene I                    0  0  0 =   0
+ 17 Emmanuel I                     0  0  0 =   0
+ 18 Queen Mary I                   0  0 -1 =  -1
+ 19 Corpus Christi I               0 -1 -1 =  -2
+ 20 Trinity Hall II               -1 -1  0 =  -2
+ 21 Sidney Sussex I               +1 +1 +1 =  +3 blades
+ 22 King's I                      -1  0 -1 =  -2
+ 23 Christ's II                   +1 +1 +1 =  +3 blades
+ 24 Downing I                      0  0 +1 =  +1
+ 25 Jesus III                      0  0  0 =   0
+ 26 St. Batholemew's I             0  0  0 =   0
+ 27 Clare II                      -1 -1 -1 =  -3
+ 28 Emmanuel II                   +1  0 -1 =   0
+ 29 Pembroke II                   -1 -1  0 =  -2
+ 30 St Catharine's II             +1 +1 +1 =  +3 blades
+ 31 Caius II                       0 +1 +1 =  +2
+ 32 1st and 3rd III                0  0  0 =   0
+ 33 LMBC III                       0  0  0 =   0
+ 34 London School of Economics I   0  0  0 =   0
+ 35 Queens' II                     0  0  0 =   0
+ 36 Christ's III                   0  0  0 =   0
+ 37 Queen Mary II                 -1  0 -1 =  -2
+ 38 St. Batholemew's II           +1  0  0 =  +1
+ 39 1st and 3rd IV                 0 -1 -1 =  -2
+ 40 Peterhouse II                 -1  0 +1 =   0
+ 41 Downing II                    +1 +1 +1 =  +3 blades
+ 42 Caius III                     -1 -1 -1 =  -3
+ 43 Magdalene II                  +1  0 -1 =   0
+ 44 Downing III                    0 +1 +1 =  +2
+ 45 Trinity Hall III               0  0 +1 =  +1
+ 46 Emmanuel III                   0  0  0 =   0

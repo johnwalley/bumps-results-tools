@@ -1,0 +1,37 @@
+May Bumps Women 1979
+full_set: true
+div_size: 16 17 | 16 17 | 16 17 | 16 17
+
+  1 Churchill I       -1 -1  0 -1 =  -3
+  2 Newnham I         +1  0 -1  0 =   0
+  3 New Hall I        -1  0 -1  0 =  -2
+  4 Clare I           +1 +1 +1  0 =  +3 blades
+  5 QMABC I           -1 -1 -1 -1 =  -4
+  6 New Hall II       +1 -3 +1  0 =  -1
+  7 Selwyn I           0 +1  0  0 =  +1
+  8 Newnham II        -1  0 -1 -1 =  -3
+  9 Girton I          +1 +3 +1 +1 =  +6 blades
+ 10 Newnham III        0 -1 -1 -1 =  -3
+ 11 Wolfson I         -1 -1 -1 -1 =  -4
+ 12 Addenbrooke's I   +1 +1 +1 +1 =  +4 blades
+ 13 Clare II           0 +1 +1 +1 =  +3
+ 14 Darwin I          -1 -1 -1  0 =  -3
+ 15 Girton II         +1  0 +1 +1 =  +3
+ 16 Homerton I        -1 -1  0  0 =  -2
+ 17 Sidney Sussex I   -1 +1 +1  0 =  +1
+ 18 Trinity Hall I    +2 +1  0 +1 =  +4
+ 19 1st and 3rd I      0  0  0  0 =   0
+ 20 Hughes Hall I     -1 -1 -1  0 =  -3
+ 21 Selwyn II         +1  0  0 -1 =   0
+ 22 New Hall III      -1  0 +1  0 =   0
+ 23 Girton III        +1 +1  0 +1 =  +3
+ 24 Newnham IV        -1  0 -1 -1 =  -3
+ 25 Darwin II         +1  0  0 -1 =   0
+ 26 Churchill II       0 -1 -1  0 =  -2
+ 27 Clare III         -1 -1 -1 -1 =  -4
+ 28 Girton IV         +1 +1 +1 +1 =  +4 blades
+ 29 Sidney Sussex II  -1 -1 -1  0 =  -3
+ 30 Girton V          +1 +1 +1 +1 =  +4 blades
+ 31 New Hall IV       -1 -1  0  0 =  -2
+ 32 Addenbrooke's II  +1 +1 +1  0 =  +3
+ 33 Girton VI          0 +1 +1 +1 =  +3

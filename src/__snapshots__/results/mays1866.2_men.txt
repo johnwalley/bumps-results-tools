@@ -1,0 +1,44 @@
+May Bumps Men 1866 May
+full_set: true
+div_size: 20 20 | 20 20 | 20 20 | 20 20 | 20 20 | 20 20
+
+  1 3rd Trinity I       0 -1  0  0  0  0 =  -1
+  2 Trinity Hall I     -1  0  0  0  0  0 =  -1
+  3 1st Trinity I      +1 +1  0  0  0  0 =  +2 blades
+  4 LMBC I              0  0  0  0  0  0 =   0
+  5 Emmanuel I          0  0  0  0  0  0 =   0
+  6 1st Trinity II     -1 -1 -1  0  0 -1 =  -4
+  7 Corpus Christi I   +1  0 -1 -1 +1  0 =   0
+  8 Caius I            -1  0 +1 +1 -1  0 =   0
+  9 Pembroke I         +1 +1 +1  0  0  0 =  +3
+ 10 Christ's I          0  0  0  0  0 +1 =  +1
+ 11 Trinity Hall II     0  0  0 -1 -1  0 =  -2
+ 12 Magdalene I         0  0 -1 -1  0  0 =  -2
+ 13 Clare I            -1 -1 -1 -1 -1  0 =  -5
+ 14 Jesus I            +1 -3 +1  0 -1  0 =  -2
+ 15 2nd Trinity I       0 +1  0 +1 +1  0 =  +3
+ 16 Sidney Sussex I     0 +3 +1 +1  0  0 =  +5
+ 17 1st Trinity III     0  0  0 +1 +1  0 =  +2
+ 18 Peterhouse I        0  0  0  0 +1  0 =  +1
+ 19 LMBC II             0 -1  0 +1 -1  0 =  -1
+ 20 King's I            0 +1  0 -1 +1  0 =  +1
+ 21 Emmanuel II        -1  0  0 -1 -3  0 =  -5
+ 22 Corpus Christi II  +1  0  0  0 -1  0 =   0
+ 23 1st Trinity IV     -1 -1 -1 -1  0  0 =  -4
+ 24 St Catharine's I   +1  0 -1 -1 +1  0 =   0
+ 25 Queens' I          -1  0 +1 +1 -1  0 =   0
+ 26 Christ's II        +1 +1 +1 +1 +1  0 =  +5
+ 27 LMBC III           -1  0  0  0  0  0 =  -1
+ 28 3rd Trinity II     +1  0  0 +1 +3  0 =  +5
+ 29 Trinity Hall III    0  0 -1 -1 -1  0 =  -3
+ 30 Caius II            0  0 +1  0 -1  0 =   0
+ 31 Pembroke II         0 -1 -1 -1 -1  0 =  -4
+ 32 Clare II           -1 -1 -1 -1 -1  0 =  -5
+ 33 2nd Trinity II     +1 +1  0 +1 +1  0 =  +4
+ 34 Jesus II            0 +1 +1  0 +1  0 =  +3
+ 35 Emmanuel III        0 -1  0 +1 +1  0 =  +1
+ 36 1st Trinity V      -1  0  0  0 +1  0 =   0
+ 37 Sidney Sussex II   +1 +1 +1 +1  0  0 =  +4
+ 38 LMBC IV            -1 +1 -1 +1 -1  0 =  -1
+ 39 1st Trinity VI     +1 -1 +1 -1 +1  0 =  +1
+ 40 Downing I           0  0  0  0  0  0 =   0

@@ -1,0 +1,17 @@
+Summer Eights Women 1977
+full_set: true
+div_size: 13 | 13 | 13 | 13
+
+  1 Wadham I            0  0 -1  0 =  -1
+  2 L.M.H. I            0  0 +1  0 =  +1 blades
+  3 St Hugh's I         0  0 -1  0 =  -1
+  4 Wolfson I          -1 -1  0 +1 =  -1
+  5 St Catherine's I   +1  0 +1  0 =  +2
+  6 Somerville I        0 +1  0 -1 =   0
+  7 Jesus I            -1  0  0 -1 =  -2
+  8 St Hilda's I       +1  0  0  0 =  +1
+  9 Wadham II          -1 +1 -1 -1 =  -2
+ 10 Hertford I         +1 -1 +1 +1 =  +2
+ 11 Somerville II      -1 -1  0  0 =  -2
+ 12 St Anne's I        +1  0  0 +1 =  +2
+ 13 St Catherine's II   0 +1  0  0 =  +1

@@ -1,0 +1,53 @@
+Torpids Women 1986
+full_set: true
+div_size: 12 12 12 13 | 12 12 12 13 | 12 12 12 13 | 12 12 12 13
+
+  1 St Hugh's I         0  0  0 -1 =  -1
+  2 St Catherine's I    0 -1  0  0 =  -1
+  3 L.M.H. I           -1 -1  0  0 =  -2
+  4 Osler House I      +1 +1  0 +1 =  +3 blades
+  5 St Hilda's I       -1  0  0  0 =  -1
+  6 Somerville I       +1 +1  0  0 =  +2
+  7 University I        0  0  0 -1 =  -1
+  8 Worcester I         0 -1  0  0 =  -1
+  9 Balliol I          -1  0  0  0 =  -1
+ 10 Wadham I           +1 +1  0 +1 =  +3
+ 11 St Anne's I         0 -1  0 -1 =  -2
+ 12 Pembroke I         -1  0  0 -1 =  -2
+ 13 Trinity I          -1 -2  0  0 =  -3
+ 14 Jesus I            +2 +1  0  0 =  +3
+ 15 St Hugh's II       -1 +1  0  0 =   0
+ 16 Brasenose I        +1 +1  0 +2 =  +4
+ 17 Keble I             0  0  0  0 =   0
+ 18 Lincoln I           0  0  0 -2 =  -2
+ 19 Corpus Christi I    0 -2  0  0 =  -2
+ 20 Exeter I           -2  0  0 -1 =  -3
+ 21 Wolfson I          +1 +1  0 +1 =  +3
+ 22 New College I      +1 +1  0 +1 =  +3
+ 23 Hertford I          0 -2  0 +1 =  -1
+ 24 St Hilda's II      -1 -1  0 -2 =  -4
+ 25 Queen's I          +1 +1  0 +1 =  +3
+ 26 S.E.H. I            0 +2  0 -1 =  +1
+ 27 St Hugh's III       0 -2  0  0 =  -2
+ 28 Somerville II       0 +1  0 +1 =  +2
+ 29 Magdalen I         -1  0  0 -1 =  -2
+ 30 Christ Church I    +1 +1  0 +1 =  +3
+ 31 St John's I         0 -1  0 -2 =  -3
+ 32 Merton I           -1  0  0 +1 =   0
+ 33 St Peter's I       +1 +1  0 +1 =  +3
+ 34 Trinity II          0 -3  0 -3 =  -6
+ 35 Pembroke II        -2 +1  0  0 =  -1
+ 36 St John's II       +1 +1  0 +1 =  +3
+ 37 S.E.H. II          +1 +1  0  0 =  +2
+ 38 Worcester II       -3 +1  0 +1 =  -1
+ 39 St Hugh's IV       +1 -1  0 +1 =  +1
+ 40 St Hugh's V         0 -2  0  0 =  -2
+ 41 University II      +2 +1  0 +1 =  +4
+ 42 St Hugh's VI       -4 +1  0 -2 =  -5
+ 43 New College II     +1 +1  0  0 =  +2
+ 44 Keble II            0  0  0  0 =   0
+ 45 Jesus II           +2  0  0  0 =  +2
+ 46 Jesus III          +1 -4  0 +1 =  -2
+ 47 Trinity III        -1  0  0 -1 =  -2
+ 48 St Catherine's II  +1 +1  0 +1 =  +3
+ 49 Hertford II         0 +2  0 +1 =  +3

@@ -1,0 +1,54 @@
+Torpids Men 1949
+full_set: true
+div_size: 12 12 12 14 | 12 12 12 14 | 12 12 12 14 | 12 12 12 14
+
+  1 Christ Church I     0  0 -1  0 =  -1
+  2 Trinity I           0 -1  0  0 =  -1
+  3 New College I       0 +1 +1  0 =  +2 blades
+  4 Brasenose I        -1  0 -1  0 =  -2
+  5 Balliol I          +1  0  0 -1 =   0
+  6 Magdalen I          0 -1  0 -1 =  -2
+  7 St John's I        -1  0 -1 -1 =  -3
+  8 S.E.H. I           +1 +1 +1 +1 =  +4 blades
+  9 University I        0 -1 -1  0 =  -2
+ 10 Corpus Christi I   -1 -1 -1 -1 =  -4
+ 11 Pembroke I         +1 +1 +1 +1 =  +4 blades
+ 12 Worcester I         0 +1 +1 +1 =  +3
+ 13 Oriel I             0  0 +1  0 =  +1
+ 14 Lincoln I           0  0  0 +1 =  +1
+ 15 Wadham I            0  0  0 -1 =  -1
+ 16 Exeter I           -1 -1  0 -1 =  -3
+ 17 St Peter's I       +1  0 -1  0 =   0
+ 18 Merton I            0 +1 +1 +1 =  +3
+ 19 Jesus I             0 -1 +1 +1 =  +1
+ 20 Keble I             0 +1 -1  0 =   0
+ 21 Balliol II         -1 -1 -1 -1 =  -4
+ 22 New College II     +1  0  0  0 =  +1
+ 23 St Catherine's I    0 +1  0  0 =  +1
+ 24 Queen's I          -1 -1 -1  0 =  -3
+ 25 Brasenose II       +1  0 +1  0 =  +2
+ 26 Hertford I          0 +1  0 +1 =  +2
+ 27 Christ Church II   -1  0 -1 -1 =  -3
+ 28 S.E.H. II          +1  0 +1  0 =  +2
+ 29 Exeter II          -1 -1 -1 -1 =  -4
+ 30 Keble II           +1  0 +1  0 =  +2
+ 31 Pembroke II         0 +1  0 +1 =  +2
+ 32 Trinity II          0 -1 -1 -1 =  -3
+ 33 St Peter's II      -1 -1 -1 -1 =  -4
+ 34 Lincoln II         +1 +1 +1  0 =  +3
+ 35 St John's II       -1 -1  0 +1 =  -1
+ 36 Merton II          +1 +1 +1 +1 =  +4 blades
+ 37 University II       0 +1 +1 +1 =  +3
+ 38 Oriel II            0  0  0  0 =   0
+ 39 St Catherine's II   0  0  0  0 =   0
+ 40 Jesus II            0  0  0  0 =   0
+ 41 Wadham II           0  0  0  0 =   0
+ 42 New College III     0  0  0 -1 =  -1
+ 43 Magdalen II         0  0 -1  0 =  -1
+ 44 Balliol III         0 -1  0 -1 =  -2
+ 45 Christ Church III  -1 -1 -1  0 =  -3
+ 46 Worcester II       +1 +1 +1 +1 =  +4 blades
+ 47 Queen's II         -1  0 +1  0 =   0
+ 48 Brasenose III      +1 +1  0 +1 =  +3
+ 49 Jesus III           0  0  0  0 =   0
+ 50 Keble III           0  0  0  0 =   0

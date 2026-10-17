@@ -1,0 +1,45 @@
+May Bumps Men 1875 May
+full_set: true
+div_size: 14 15 12 | 14 15 12 | 14 15 12 | 14 15 12 | 14 15 12 | 14 15 12
+
+  1 1st Trinity I      -1 -1  0  0  0  0 =  -2
+  2 Jesus I            +1  0  0  0  0  0 =  +1 blades
+  3 1st Trinity II      0 +1  0  0  0  0 =  +1
+  4 LMBC I             -1  0 +1 -1  0  0 =  -1
+  5 3rd Trinity I      +1  0 -1 +1  0  0 =  +1
+  6 Trinity Hall I     -1  0  0  0 -1  0 =  -2
+  7 1st Trinity III    +1  0  0  0  0  0 =  +1
+  8 2nd Trinity I       0  0  0 -1  0  0 =  -1
+  9 Emmanuel I          0  0 -1 -1 -1 -1 =  -4
+ 10 Corpus Christi I    0 -1 -1 -1 -1 -1 =  -5
+ 11 King's I           -1  0 +1 +1  0 -1 =   0
+ 12 Sidney Sussex I    +1 +1 +1 +1 +1  0 =  +5
+ 13 St Catharine's I    0  0 -1  0 +1 +1 =  +1
+ 14 Christ's I          0 -1 -1 -1  0  0 =  -3
+ 15 Clare I             0 -1 +1  0  0 +1 =  +1
+ 16 LMBC II             0 +2 +1 +1 +1 +1 =  +6
+ 17 Caius I             0  0  0 +1  0  0 =  +1
+ 18 1st Trinity IV      0  0  0  0  0  0 =   0
+ 19 Queens' I           0  0  0  0  0  0 =   0
+ 20 1st Trinity V       0 -1  0 -1  0  0 =  -2
+ 21 Jesus II           -1 -1 -1 -1  0  0 =  -4
+ 22 Pembroke I         +1 +1  0  0  0  0 =  +2
+ 23 LMBC III            0 +1  0 +1  0  0 =  +2
+ 24 Caius II            0  0 +1  0  0  0 =  +1
+ 25 3rd Trinity II      0  0  0 +1  0  0 =  +1
+ 26 Trinity Hall III    0  0  0  0  0  0 =   0
+ 27 Trinity Hall II    -1 -1  0  0  0  0 =  -2
+ 28 St. John's I       +1  0  0  0  0  0 =  +1
+ 29 1st Trinity VI      0 +1  0  0  0  0 =  +1
+ 30 Corpus Christi II   0  0  0  0  0  0 =   0
+ 31 Pembroke II         0  0  0  0  0  0 =   0
+ 32 Peterhouse I        0  0  0  0  0  0 =   0
+ 33 Downing I           0  0  0  0  0  0 =   0
+ 34 Magdalene I         0  0  0  0  0  0 =   0
+ 35 LMBC IV             0  0  0  0  0  0 =   0
+ 36 Sidney Sussex II    0  0  0  0  0  0 =   0
+ 37 Caius III           0  0  0  0  0  0 =   0
+ 38 Emmanuel II         0  0  0  0  0  0 =   0
+ 39 2nd Trinity II      0  0  0  0  0  0 =   0
+ 40 Christ's II         0  0  0  0  0  0 =   0
+ 41 Non-Collegiate I    0  0  0  0  0  0 =   0

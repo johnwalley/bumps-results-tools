@@ -1,0 +1,18 @@
+Torpids Men 1850
+full_set: true
+div_size: 14 | 14 | 14 | 14 | 12 | 12 | 12 | 12
+
+  1 Wadham I          0 -1  0  0  0  0 -1  0 =  -2
+  2 Lincoln I        -1  0  0  0  0 -1  0 -1 =  -3
+  3 Brasenose I      +1 +1  0  0  0  0  0  0 =  +2 blades
+  4 Exeter I          0  0 -1 -1 -1 -1  0 +1 =  -3
+  5 Christ Church I   0 -1 -1 -1  ? =   ? withdrawn
+  6 University I      0 +1 +1  0 -1 -1 -1 -1 =  -2
+  7 Worcester I      -1 -1  0 -1  0 -1 -1  0 =  -5
+  8 St John's I      +1 -1  0 +1 +1 +1  0 +1 =  +4
+  9 Pembroke I       -1  0 -1  0  ? =   ? withdrawn
+ 10 Balliol I        +1 +2 +1 +1 +1 +1 +1  0 =  +8
+ 11 Queen's I         0  0 +1 +1 +1 +1 +1  0 =  +5
+ 12 Jesus I          -1 +1  0  0 +3  0  0 -1 =  +2
+ 13 Magdalen Hall I  +1 -1  0  0 +2 +1  0 +1 =  +4
+ 14 Oriel I           0  0  0  0 +2  0 +1  0 =  +3

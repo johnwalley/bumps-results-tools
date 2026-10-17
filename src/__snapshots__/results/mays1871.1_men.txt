@@ -1,0 +1,44 @@
+May Bumps Men 1871 March
+full_set: true
+div_size: 14 15 11 | 14 15 11 | 14 15 11 | 14 15 11
+
+  1 1st Trinity I       0  0  0  0 =   0
+  2 LMBC I              0  0  0  0 =   0
+  3 3rd Trinity I       0  0  0  0 =   0
+  4 Trinity Hall I      0  0  0  0 =   0
+  5 Sidney Sussex I     0  0  0  0 =   0
+  6 1st Trinity II      0  0  0  0 =   0
+  7 Corpus Christi I    0  0  0  0 =   0
+  8 Jesus I             0  0  0  0 =   0
+  9 Emmanuel I          0  0  0  0 =   0
+ 10 Christ's I          0  0  0  0 =   0
+ 11 King's I            0  0  0  0 =   0
+ 12 Trinity Hall II     0  0  0  0 =   0
+ 13 Magdalene I         0  0  0  0 =   0
+ 14 Clare I             0  0  0  0 =   0
+ 15 Caius I             0 -1  0  0 =  -1
+ 16 3rd Trinity II     -1 -1  0  0 =  -2
+ 17 1st Trinity III    +1 +1  0  0 =  +2
+ 18 2nd Trinity I       0 +1  0  0 =  +1
+ 19 St Catharine's I    0  0  0  0 =   0
+ 20 Peterhouse I        0  0  0  0 =   0
+ 21 Pembroke I          0  0  0  0 =   0
+ 22 Sidney Sussex II   -1  0 -1 -1 =  -3
+ 23 Corpus Christi II  +1  0  0  0 =  +1
+ 24 1st Trinity IV      0 -1  0 +1 =   0
+ 25 Caius II            0 +1 +1  0 =  +2
+ 26 Trinity Hall III   -1 -1 +1  0 =  -1
+ 27 LMBC II            +1  0  0  0 =  +1
+ 28 Queens' I           0 +1 -1  0 =   0
+ 29 Emmanuel II        -1 -3 -1 -1 =  -6
+ 30 Christ's II        -1 -1  0 -1 =  -3
+ 31 Jesus II           +2  0  0  0 =  +2
+ 32 Downing I          -1 +3  0  0 =  +2
+ 33 Clare II           +1 +1  0  0 =  +2
+ 34 LMBC III            0  0 +1 +1 =  +2
+ 35 Pembroke II        -1 -1 -1 -1 =  -4
+ 36 1st Trinity V      +1  0  0 +1 =  +2
+ 37 Emmanuel III       -1 -1 -1  0 =  -3
+ 38 2nd Trinity II     +1 +1  0 -1 =  +1
+ 39 1st Trinity VI     -1  0 +1 +1 =  +1
+ 40 Trinity Hall IV    +1 +1 +1 +1 =  +4 blades

@@ -1,0 +1,42 @@
+Town Bumps Men 1973
+full_set: true
+div_size: 15 15 8 | 15 15 8 | 15 15 8 | 15 15 8
+
+  1 Rob Roy 1             0  0  0  0 =   0 blades
+  2 99 1                  0 -1  0  0 =  -1
+  3 Rob Roy 2            -1 -1  0  0 =  -2
+  4 Scouts 1             +1 +1  0  0 =  +2
+  5 Cantabs 1            -1  0 -1  0 =  -2
+  6 City 1               +1 +1  0  0 =  +2
+  7 99 2                  0 -1  0  0 =  -1
+  8 ACUA 1               -1  0  0  0 =  -1
+  9 Churchill 1          +1 +1 +1  0 =  +3
+ 10 99 3                 -1 -1 -1 -1 =  -4
+ 11 Rob Roy 3            +1  0 -1 +1 =  +1
+ 12 City 2               -1 -1 -1 -1 =  -4
+ 13 Cantabs 2            +1 +1 +1 -1 =  +2
+ 14 99 4                  0 +1 +1  0 =  +2
+ 15 Leckhampton 1         0  0 +1 +1 =  +2
+ 16 Grammarians 1         0  0 -1 -1 =  -2
+ 17 Cambs High School 1   0  0 +1 +1 =  +2
+ 18 Churchill 2           0  0 -1  0 =  -1
+ 19 Rob Roy 4             0 -1 -1  0 =  -2
+ 20 ACUA 2               -1 -1 -1 -1 =  -4
+ 21 King's 1             +1 +1 +1 +1 =  +4 blades
+ 22 Fitzwilliam 1         0 +1 +1  0 =  +2
+ 23 Cantabs 3            -1  0 -1 -1 =  -3
+ 24 Scouts 2             +1  0 +1  0 =  +2
+ 25 Telephones 1          0  0 +1 +1 =  +2
+ 26 Cantabs 4            -1 -1 -1 -1 =  -4
+ 27 Lady Somerset 1      +1  0 -1 -1 =  -1
+ 28 Magdalene 1           0 +1 +1 +1 =  +3
+ 29 Scouts 3             -1 -1 -1 -1 =  -4
+ 30 Consultant Owls 1    +1  0 +1 +1 =  +3
+ 31 City 3                0 +1  0 +1 =  +2
+ 32 ACUA 3                0  0 +1  0 =  +1
+ 33 Grammarians 2         0 -1  0  0 =  -1
+ 34 Telephones 2         -1  0  0  0 =  -1
+ 35 Goldilocks 1         +1 +1  0 +1 =  +3
+ 36 Bean Group 1          0  0  0  0 =   0
+ 37 Rob Roy 5             0  0  0  0 =   0
+ 38 Cantabs 5             0  0  0  0 =   0

@@ -1,0 +1,54 @@
+Town Bumps Men 1980
+full_set: true
+div_size: 16 16 18 | 16 16 18 | 16 16 18 | 16 16 18
+
+  1 Rob Roy 1        -1  0 -1  0 =  -2
+  2 City 1           +1  0  0  0 =  +1 blades
+  3 99 1              0  0 +1  0 =  +1
+  4 TTFNTT 1         -1 +1  0  0 =   0
+  5 City 2           +1 -1  0  0 =   0
+  6 99 2              0  0  0  0 =   0
+  7 Churchill 1      -1 -1 -1 -1 =  -4
+  8 Rob Roy 2        +1  0  0  0 =  +1
+  9 MacDonalds 1     -1 -1 -1  0 =  -3
+ 10 99 3             +1 +1  0  0 =  +2
+ 11 Rob Roy 3        -1 -1  0 -1 =  -3
+ 12 City 3           +1 +1 +1  0 =  +3
+ 13 Cantabs 1        -1  0 -1  0 =  -2
+ 14 St Ives 1        +1 +1 +1 +1 =  +4 blades
+ 15 Univ Sports 1     0 -1  0  0 =  -1
+ 16 Telephones 1     -1 -1  0  0 =  -2
+ 17 99 4             -1 +1  0  0 =   0
+ 18 Free Press 1     +2 +1 +1 +1 =  +5 blades
+ 19 99 5              0  0  0 -1 =  -1
+ 20 99 6              0 -1 -1  0 =  -2
+ 21 MacDonalds 2      0 +1 -3 -1 =  -3
+ 22 Rob Roy 4        -1 -1 -1 -1 =  -4
+ 23 City 4           +1  0 +1  0 =  +2
+ 24 Fitzwilliam 1     0 +1 +3 +1 =  +5
+ 25 Telephones 2      0 -1 -1 -1 =  -3
+ 26 Darwin 1         -1 -1 -1 -1 =  -4
+ 27 Cam RUFC 1       +1 +1 +1 +1 =  +4 blades
+ 28 Cavendish Lab 1  -3 -1 -1  0 =  -5
+ 29 Leckhampton 1    -1  0 -1  0 =  -2
+ 30 Free Press 2     +1  0 +1 +1 =  +3
+ 31 Univ Sports 2    +3 +1 +1 +1 =  +6 blades
+ 32 City 5           -1  0 -1 -1 =  -3
+ 33 Churchill 2      -1 -1 -1 -1 =  -4
+ 34 99 7             +2 +1 +1 +1 =  +5 blades
+ 35 99 8              0 +1 +2  0 =  +3
+ 36 Telephones 3      0 -1 -1 -1 =  -3
+ 37 MacDonalds 3     -1 -1  0 +1 =  -1
+ 38 Univ Sports 3    +1 +1 +1 +1 =  +4 blades
+ 39 City 6           -1  0 -1  0 =  -2
+ 40 Free Press 3     +1 +1 +1 +1 =  +4 blades
+ 41 Telephones 4     -3 -1 -1 -1 =  -6
+ 42 99 9             -1  0 -1 -1 =  -3
+ 43 Univ Sports 4    +1 +1 +1  0 =  +3
+ 44 City 7           +3 -1  0 -1 =  +1
+ 45 99 10             0 +1 +1 +1 =  +3
+ 46 City Ladies 1     0 -1  0 +1 =   0
+ 47 99 11            -1  0  0  0 =  -1
+ 48 Univ Sports 5    +1 +1 +1 +1 =  +4 blades
+ 49 Rob Roy 5        -1  0  0  0 =  -1
+ 50 City Ladies 2    +1  0  0  0 =  +1

@@ -1,0 +1,11 @@
+Summer Eights Men 1834
+full_set: true
+div_size: 7 | 7 | 7 | 7 | 7
+
+  1 Queen's I         -1  0  0 -1  0 =  -2
+  2 Christ Church I   +1  0  0  0  0 =  +1 blades
+  3 Jesus I            0  0 -1  0  0 =  -1
+  4 Exeter I          -1  0  0  0  0 =  -1
+  5 Worcester I       +1  0 +1 +1  0 =  +3
+  6 Trinity I          0  0  0  0 -1 =  -1
+  7 Corpus Christi I   0  0  0  0 +1 =  +1

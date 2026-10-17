@@ -1,0 +1,14 @@
+Torpids Men 1859
+full_set: true
+div_size: 10 | 10 | 10 | 10 | 10 | 10
+
+  1 Pembroke I        -1 -1  0  0  0  0 =  -2
+  2 Brasenose I       +1  0 -1  0  0  0 =   0
+  3 Exeter I           0 +1 +1  0  0  0 =  +2 blades
+  4 University I      -1 -1 -1 -1  0  0 =  -4
+  5 Christ Church I   +1  0  0  0  0  0 =  +1
+  6 Trinity I          0 +1  0  0  0  0 =  +1
+  7 Balliol I          0  0 +1  0  0  0 =  +1
+  8 Corpus Christi I   0  0  0 +1  0  0 =  +1
+  9 Oriel I            0  0  0 -1  0 +1 =   0
+ 10 Wadham I           0  0  0 +1  0 -1 =   0

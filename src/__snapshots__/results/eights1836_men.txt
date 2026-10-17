@@ -1,0 +1,11 @@
+Summer Eights Men 1836
+full_set: true
+div_size: 7 | 7 | 6 | 6 | 4
+
+  1 Christ Church I    0  0  0  0  0 =   0 blades
+  2 Exeter I           0 -1 -1  0  0 =  -2
+  3 Brasenose I       -1 -1 -1  0  ? =   ? withdrawn
+  4 Jesus I           +1 +1  0 -1  0 =  +1
+  5 Balliol I          0 +1 -1  0  ? =   ? withdrawn
+  6 Oriel I            0  0 +3 +1  0 =  +4
+  7 Christ Church II   0  0  ? =   ? withdrawn

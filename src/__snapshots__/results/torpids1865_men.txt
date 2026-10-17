@@ -1,0 +1,19 @@
+Torpids Men 1865
+full_set: true
+div_size: 15 | 15 | 15 | 14 | 14
+
+  1 Exeter I           0  0  0  0  0 =   0 blades
+  2 Brasenose I        0  0  0  0  0 =   0
+  3 Christ Church I   -1 -1 -1 -1  0 =  -4
+  4 University I      +1  0  0  0  0 =  +1
+  5 Corpus Christi I   0 +1  0  0  0 =  +1
+  6 Balliol I          0  0 +1  0  0 =  +1
+  7 Queen's I          0  0  0 +1  0 =  +1
+  8 Magdalen I        -1 -1 -1 -1 -1 =  -5
+  9 Trinity I         +1  0 -1 -1 -1 =  -2
+ 10 Pembroke I         0 +1 +1  0 -1 =  +1
+ 11 Jesus I           -1  0  0  ? =   ? withdrawn
+ 12 Wadham I          +1  0 +1 +1 +1 =  +4
+ 13 Worcester I        0  0 -1 +1 +1 =  +1
+ 14 Lincoln I          0  0 +1 +2 +1 =  +4
+ 15 St John's I        0  0  0 +1  0 =  +1

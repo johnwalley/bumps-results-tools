@@ -1,0 +1,21 @@
+Torpids Women 1979
+full_set: true
+div_size: 7 10 | 8 9 | 9 8 | 10 7
+
+  1 Hertford I         -1 -1  0  0 =  -2
+  2 Jesus I            -1 +1  0  0 =   0
+  3 Wadham I           +2  0  0  0 =  +2 blades
+  4 L.M.H. I           -3 -2 +3 +2 =   0
+  5 Brasenose I        +1 -2 -4 +1 =  -4
+  6 St Anne's I        -2 +1 -2 -2 =  -5
+  7 Somerville I       +2 +1 -1 -2 =   0
+  8 St Catherine's I   -2  0 -3 +3 =  -2
+  9 Wolfson I          +3 +1 +1 -1 =  +4
+ 10 St Hugh's I        +1 +1 +1 +1 =  +4 blades
+ 11 Linacre I           0  0 +3  0 =  +3
+ 12 St Catherine's II  -1  0 +2 -1 =   0
+ 13 L.M.H. II          -2 +3  0 -1 =   0
+ 14 Linacre II         +2 -3  0 +1 =   0
+ 15 St Hilda's I       +1  0  0 -1 =   0
+ 16 Hertford II         0  0  0  0 =   0
+ 17 L.M.H. III          0  0  0  0 =   0

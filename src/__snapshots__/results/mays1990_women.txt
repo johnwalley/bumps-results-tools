@@ -1,0 +1,54 @@
+May Bumps Women 1990
+full_set: true
+div_size: 16 16 18 | 16 16 18 | 16 16 18 | 16 16 18
+
+  1 Churchill I         0  0  0  0 =   0 blades
+  2 Jesus I            -1 -1 -1  0 =  -3
+  3 Emmanuel I         +1  0  0  0 =  +1
+  4 Vet School I       -1  0 +1  0 =   0
+  5 LMBC I             +1 +1  0  0 =  +2
+  6 Queens' I           0  0  0  0 =   0
+  7 Trinity Hall I      0  0  0  0 =   0
+  8 St Catharine's I    0  0  0  0 =   0
+  9 Newnham I           0  0  0  0 =   0
+ 10 Downing I           0  0  0  0 =   0
+ 11 Homerton I          0  0  0 -1 =  -1
+ 12 Clare I            -1 -1  0  0 =  -2
+ 13 Pembroke I         +1  0 -1  0 =   0
+ 14 New Hall I         -1  0  0  0 =  -1
+ 15 Girton I           +1 +1 +1 +1 =  +4 blades
+ 16 Robinson I          0  0  0  0 =   0
+ 17 LMBC II             0 -1  0  0 =  -1
+ 18 Sidney Sussex I     0 +1  0  0 =  +1
+ 19 Christ's I          0  0  0  0 =   0
+ 20 QMABC I             0  0  0  0 =   0
+ 21 Caius I            -1 -1  0  0 =  -2
+ 22 1st and 3rd I      +1  0 -1  0 =   0
+ 23 Corpus Christi I   -1 -1  0  0 =  -2
+ 24 Selwyn I           +1 +1 +1  0 =  +3
+ 25 Jesus II            0 +1  0  0 =  +1
+ 26 Jesus III          -1 -1  0 -1 =  -3
+ 27 Addenbrooke's I    +1  0 -1  0 =   0
+ 28 New Hall II         0 +1 +1  0 =  +2
+ 29 Peterhouse I        0  0 -1  0 =  -1
+ 30 Girton II           0  0 +1 +1 =  +2
+ 31 Newnham II          0 -1 -1  0 =  -2
+ 32 Queens' II         -1  0 -1 -1 =  -3
+ 33 Pembroke II        +1 +1  0  0 =  +2
+ 34 St Catharine's II  -1 +1 +2  0 =  +2
+ 35 Magdalene I        +1 -1 -1 -1 =  -2
+ 36 Homerton II         0 -1  0 +1 =   0
+ 37 Clare II            0 +1 +1 +1 =  +3
+ 38 Selwyn II           0 -1 -1  0 =  -2
+ 39 Fitzwilliam I       0 +1  0 -1 =   0
+ 40 Wolfson I          -1  0 -1 -1 =  -3
+ 41 CCAT I             +1  0 +1 +1 =  +3
+ 42 Caius II            0 -1  0 +1 =   0
+ 43 Churchill II       -1 -1 -1 -1 =  -4
+ 44 New Hall III       +1 +1 +1  0 =  +3
+ 45 LMBC III            0 +1  0  0 =  +1
+ 46 Robinson II        -1 -1 -1 -1 =  -4
+ 47 Homerton III       +1  0 +1  0 =  +2
+ 48 Christ's II        -1 -1  0 +1 =  -1
+ 49 Girton III         +1 +1  0 +1 =  +3
+ 50 LMBC IV             0 +1 +1  0 =  +2

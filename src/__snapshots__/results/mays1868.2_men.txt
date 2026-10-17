@@ -1,0 +1,44 @@
+May Bumps Men 1868 May
+full_set: true
+div_size: 19 21 | 19 21 | 19 21 | 19 21 | 19 21 | 19 21
+
+  1 1st Trinity I        0  0  0  0  0  0 =   0 blades
+  2 3rd Trinity I        0  0  0  0 -1  0 =  -1
+  3 LMBC I               0  0  0  0 +1  0 =  +1
+  4 Trinity Hall I       0  0  0  0 -1  0 =  -1
+  5 Emmanuel I           0  0  0  0 +1  0 =  +1
+  6 1st Trinity II       0 -1  0  0  0  0 =  -1
+  7 Christ's I           0 +1  0  0  0  0 =  +1
+  8 Pembroke I          -1 -1 -1 -1 -1 -1 =  -6
+  9 Sidney Sussex I     +1  0  0  0  0  0 =  +1
+ 10 2nd Trinity I       -1 -1 -1 -3 -1 -1 =  -8
+ 11 Trinity Hall II     +1 +1  0 -1 -1 -1 =  -1
+ 12 Caius I             -1 -1  0 -1  0 -1 =  -4
+ 13 Clare I             +1 +1 +1 +1  0 -1 =  +3
+ 14 Corpus Christi I     0 +1 +1 +1 +1 +1 =  +5
+ 15 LMBC II             -1 -1 -1 -1 -1  0 =  -5
+ 16 Magdalene I         +1  0 -1 +3 +1 +1 =  +5
+ 17 Jesus I              0 +1 +1 +1  0 +1 =  +4
+ 18 Peterhouse I        -1 -1 -1 +1 +1  0 =  -1
+ 19 1st Trinity III     +1  0 +1  0 +1 +1 =  +4
+ 20 King's I             0 +1  0 +1  0 +1 =  +3
+ 21 3rd Trinity II      -1  0 -1  0  0  0 =  -2
+ 22 Corpus Christi II   +1  0 +1 -1  0  0 =  +1
+ 23 1st Trinity IV       0 -1  0  0  0  0 =  -1
+ 24 Christ's II         -1  0  0  0  0  0 =  -1
+ 25 Emmanuel II         +1 +1 +1  0  0  0 =  +3
+ 26 Sidney Sussex II     0  0  0  0  0  0 =   0
+ 27 Queens' I            0  0  0  0  0  0 =   0
+ 28 2nd Trinity II       0  0  0 -1  0  0 =  -1
+ 29 Trinity Hall III     0  0 -1 -1  0  0 =  -2
+ 30 Caius II            -1 +1 +1 +1  0  0 =  +2
+ 31 LMBC III            +1 -1 -1 -1  0  0 =  -2
+ 32 Jesus II            -1 +1 +1 +1  0  0 =  +2
+ 33 St Catharine's I    +1 -1  0 +1  0  0 =  +1
+ 34 Clare II             0 -1 -1 -1  0  0 =  -3
+ 35 1st Trinity VI      -1 -1 -1  0  0  0 =  -3
+ 36 Downing I           +1 +1  0  0  0  0 =  +2
+ 37 Pembroke II          0 +1 +1  0  0  0 =  +2
+ 38 Corpus Christi III   0 -1  0 -1  0  0 =  -2
+ 39 1st Trinity V       -1  0  0 +1  0  0 =   0
+ 40 Emmanuel III        +1 +1 +1 +1  0  0 =  +4

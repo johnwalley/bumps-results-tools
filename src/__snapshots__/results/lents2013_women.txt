@@ -1,0 +1,56 @@
+Lent Bumps Women 2013
+full_set: true
+div_size: 17 17 18 | 17 17 18 | 17 17 18 | 17 17 18
+
+  1 Downing I            0  0  0  0 =   0 blades
+  2 Emmanuel I           0 -1 -1  0 =  -2
+  3 1st and 3rd I        0 +1  0  0 =  +1
+  4 Pembroke I          -1 -1  0  0 =  -2
+  5 Jesus I             +1  0 +1  0 =  +2
+  6 Clare I             -1 -1 -1  0 =  -3
+  7 Christ's I          +1 +1  0  0 =  +2
+  8 Caius I              0 +1  0 -1 =   0
+  9 Queens' I           -1  0  0 -1 =  -2
+ 10 Newnham I           +1  0 +1 +1 =  +3
+ 11 St Catharine's I     0  0  0 +1 =  +1
+ 12 Trinity Hall I      -1 -1  0 -1 =  -3
+ 13 LMBC I              +1  0 -1  0 =   0
+ 14 King's I             0 +1 +1  0 =  +2
+ 15 Magdalene I         -1 -1 -1 -1 =  -4
+ 16 Peterhouse I        +1  0 -1  0 =   0
+ 17 Selwyn I            -1 -1  0 +1 =  -1
+ 18 Murray Edwards I    +1 +1 +1 +1 =  +4 blades
+ 19 Churchill I          0 +1 +1  0 =  +2
+ 20 Girton I            -1 +1  0  0 =   0
+ 21 LMBC II             +1 -1  0 -1 =  -1
+ 22 Emmanuel II          0  0 -1 -1 =  -2
+ 23 Sidney Sussex I     -3 +1  0 -1 =  -3
+ 24 Robinson I          -1 -1 -3 -1 =  -6
+ 25 Fitzwilliam I       +1 +1 +1 +1 =  +4 blades
+ 26 Homerton I          +3 -1  0 +1 =  +3
+ 27 Hughes Hall I        0  0 -1  0 =  -1
+ 28 1st and 3rd II      -1 -1 -1  0 =  -3
+ 29 Jesus II            +1  0 +1  0 =  +2
+ 30 Christ's II          0 +1 +3 +1 =  +5
+ 31 Pembroke II         -1 -1 +1  0 =  -1
+ 32 Newnham II          +1  0 +1 +1 =  +3
+ 33 Caius II            -1  0 -1 -1 =  -3
+ 34 St Edmund's I       +1 +1 -1 -1 =   0
+ 35 Downing II           0  0 +1 +1 =  +2
+ 36 Clare II             0 -1 -1 -1 =  -3
+ 37 Trinity Hall II     -1 -1 -1 -1 =  -4
+ 38 Darwin I            +1 +1  0 +1 =  +3
+ 39 Wolfson I           -1 -1  0 +1 =  -1
+ 40 Peterhouse II       +1 +1 +1  0 =  +3
+ 41 Sidney Sussex II    -1 -1 -1  0 =  -3
+ 42 Murray Edwards II   +1 +1 +1 +1 =  +4 blades
+ 43 Clare Hall I         0 +1  0 -1 =   0
+ 44 St Catharine's II   -3 -1 -1  0 =  -5
+ 45 Emmanuel III        -1 +1  0  0 =   0
+ 46 Churchill II        +1 -1 -1 +1 =   0
+ 47 Homerton II         +3  0 +1 +1 =  +5
+ 48 Murray Edwards III  -1 -1  0 -1 =  -3
+ 49 King's II           +1 +1 +1 -1 =  +2
+ 50 Darwin II           -1  0  0 +1 =   0
+ 51 Queens' II          +1 +1 +1  0 =  +3
+ 52 Queens' III          0  0  0  0 =   0

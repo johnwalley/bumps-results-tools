@@ -1,0 +1,21 @@
+Torpids Men 1869
+full_set: true
+div_size: 17 | 17 | 17 | 17 | 17 | 17
+
+  1 Exeter I          -1 -1  0 -1 -1  0 =  -4
+  2 University I      +1  0  0  0  0  0 =  +1 blades
+  3 Balliol I         -1 -1  0 -1 -1  0 =  -4
+  4 Christ Church I   +1 +1  0  0  0  0 =  +2
+  5 Brasenose I        0 +1  0 +1  0  0 =  +2
+  6 Pembroke I         0 -1  0  0 +1  0 =   0
+  7 Queen's I          0 +1  0 +1 +1  0 =  +3
+  8 Worcester I        0 -1 -1  0  0  0 =  -2
+  9 Wadham I           0 +1  0 -1  0  0 =   0
+ 10 Trinity I          0 -1  0  0  0 -1 =  -2
+ 11 Exeter II         -1 -1 -1 -1  0  0 =  -4
+ 12 Oriel I           +1 +1 +1 +1  0  0 =  +4
+ 13 Corpus Christi I   0 +1  0  0 -1  0 =   0
+ 14 Lincoln I          0 -1 -1  0  0  0 =  -2
+ 15 St John's I       -1  0 +1 +1  0  0 =  +1
+ 16 New College I     +1 +1 +1  0 +1 +1 =  +5
+ 17 St Mary Hall I     0  0  0  0  0  0 =   0

@@ -1,0 +1,39 @@
+Torpids Men 1910
+full_set: true
+div_size: 11 11 13 | 11 11 13 | 11 11 13 | 11 11 13 | 11 11 13 | 11 11 13
+
+  1 Christ Church I     0  0  0  0  0  0 =   0 blades
+  2 Balliol I           0  0  0  0  0  0 =   0
+  3 New College I       0  0  0  0 -1  0 =  -1
+  4 Magdalen I          0 -1  0 -1  0 -1 =  -3
+  5 University I       -1 -1 -1 -1 -1  0 =  -5
+  6 St John's I        +1 +1  0  0 +1  0 =  +3
+  7 Oriel I            -1  0 +1  0 -1  0 =  -1
+  8 Brasenose I        +1 +1  0 +1  0  0 =  +3
+  9 Trinity I          -1 +1  0 +1 +1 +1 =  +3
+ 10 Magdalen II        +1 -1  0  0 +1  0 =  +1
+ 11 Balliol II          0  0  0  0  0 -1 =  -1
+ 12 Exeter I            0 -1 -1 -1 -1 -1 =  -5
+ 13 New College II     -1 -1 -1 -1 -1 -1 =  -6
+ 14 Pembroke I         +1 +1  0 -1  0  0 =  +1
+ 15 Corpus Christi I   -1  0 +1 +1  0 -1 =   0
+ 16 Keble I            +1 +1 +1 +1  0 +1 =  +5
+ 17 Hertford I         -1  0  0  0 +1 +1 =  +1
+ 18 Christ Church II   +1  0  0 +1 +1 +1 =  +4
+ 19 Queen's I          -1 -1  0  0  0 -1 =  -3
+ 20 Merton I           +1  0 -1  0  0  0 =   0
+ 21 University II      -1 -1 -1 -1 -1  0 =  -5
+ 22 Worcester I        +1 +1 +1  0  0 +1 =  +4
+ 23 Wadham I            0 +1  0  0 -1  0 =   0
+ 24 Lincoln I           0  0 +1  0 -1  0 =   0
+ 25 Trinity II         -1 -1 -1 -1 -1 -1 =  -6
+ 26 Jesus I            +1  0 -1  0 +1  0 =  +1
+ 27 St John's II        0 +1 +1 +1 +2 +1 =  +6
+ 28 Oriel II           -1 -1 +1 +1  0 -1 =  -1
+ 29 Wadham II          +1  0 +1  0  0  0 =  +2
+ 30 Brasenose II        0 +1 -1 -1 -1 -1 =  -3
+ 31 Christ Church III   0  0  0 +1 +1 +1 =  +3
+ 32 Queen's II          0 -1 -1  0  0  0 =  -2
+ 33 St Catherine's I   -1 -1  0  0  0  0 =  -2
+ 34 Keble II           +1 +1  0 -1  0 +1 =  +2
+ 35 S.E.H. I            0 +1 +1 +1 +1 +1 =  +5

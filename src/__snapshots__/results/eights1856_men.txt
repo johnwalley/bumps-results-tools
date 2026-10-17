@@ -1,0 +1,18 @@
+Summer Eights Men 1856
+full_set: true
+div_size: 14 | 14 | 13 | 13 | 12 | 12 | 12 | 12
+
+  1 Balliol I          0  0 -1  0 -1  0  0  0 =  -2
+  2 Brasenose I        0 -1  0 -1 -1 -1 -1 -1 =  -6
+  3 Christ Church I   -1  0 -1  0 +1  0  0  0 =  -1
+  4 Wadham I          +1 +1 +1  0  0  0  0  0 =  +3 blades
+  5 Exeter I           0  0 +1 +1 +1  0  0  0 =  +3
+  6 Queen's I          0  0 -1 -1 -1  0  0 -1 =  -4
+  7 University I       0  0 +1  0  0 +1  0  0 =  +2
+  8 Trinity I          0  0  0 +1  0  0 +1  0 =  +2
+  9 Magdalen Hall I   -1 -1  ? =   ? withdrawn
+ 10 Pembroke I        +1  0  0 -1  0  0 -1 -1 =  -2
+ 11 St John's I       -1 -1  0  0  ? =   ? withdrawn
+ 12 Lincoln I         +1 +1 -1  0  0 -1  0 +1 =  +1
+ 13 Christ Church II  -1  0 +2  0  0 +1 +1 +1 =  +4
+ 14 Oriel I           +1 +1 +2 +1 +1  0  0 +1 =  +7

@@ -1,0 +1,32 @@
+May Bumps Men 1841 February March
+full_set: true
+div_size: 28 | 28 | 28 | 28
+
+  1 Caius I           -1 +1  0  0 =   0
+  2 1st Trinity I     +1 -1 -1  0 =  -1
+  3 3rd Trinity I     -1 -1  0 -1 =  -3
+  4 Jesus I           +1  0 +1  0 =  +2
+  5 1st Trinity II    -1  0 -1 -1 =  -3
+  6 Magdalene I       +1 +1  0  0 =  +2
+  7 King's I           0 -1 -1  0 =  -2
+  8 Peterhouse I      -1  0 +1 +1 =  +1
+  9 LMBC I            +1 +1 +1 +1 =  +4 blades
+ 10 2nd Trinity I      0  0 -1 +1 =   0
+ 11 LMBC II            0  0 +1 -1 =   0
+ 12 Christ's I        -1 -1 +1  0 =  -1
+ 13 2nd Trinity II    +1  0  0  0 =  +1
+ 14 Clare I           -1 -1 -1 -1 =  -4
+ 15 Pembroke I        +1 +1 -1 -1 =   0
+ 16 1st Trinity III   -1 -1  0 -1 =  -3
+ 17 Emmanuel I        +1 +1  0 +1 =  +3
+ 18 Corpus Christi I   0 +1 +1  0 =  +2
+ 19 Caius II           0  0 -1 -1 =  -2
+ 20 LMBC III          -1 +1 +1 +2 =  +3
+ 21 3rd Trinity II    +1 -1  0 +1 =  +1
+ 22 Jesus II          -1  0  0 -1 =  -2
+ 23 St Catharine's I  +1  0  0  0 =  +1
+ 24 LMBC IV            0  0 -1 -1 =  -2
+ 25 Magdalene II       0  0 +1 +1 =  +2
+ 26 Emmanuel II        0  0  0 +1 =  +1
+ 27 Sidney Sussex I    0  0  0  0 =   0
+ 28 Trinity Hall I     0  0  0  0 =   0
