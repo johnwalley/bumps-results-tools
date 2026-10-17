@@ -1,5 +1,11 @@
 import { beforeAll, describe, expect, test } from "vitest";
-import { processResults, readFile, stepOn, writeString } from "./bumps";
+import {
+  processResults,
+  readEvent,
+  readFile,
+  stepOn,
+  writeString,
+} from "./bumps";
 
 import type { Event } from "./types";
 
@@ -146,5 +152,34 @@ urruru ruuuurruuur rruuurruuurr rrrruuurrruru ruuuruurrrur
 `;
 
     expect(writeString(event)).toEqual(expected);
+  });
+});
+
+describe("stepOn", () => {
+  test("drops withdrawn crews", async () => {
+    const parsed = await readFile("./results/tg_format/eights1828_men.txt");
+    const event = processResults(parsed!)!;
+    const nextYear = stepOn(event);
+
+    expect(event.crews_withdrawn).toBe(1);
+    expect(nextYear.crews).toHaveLength(event.crews.length - 1);
+    expect(nextYear.crews.every((c) => c !== null)).toBe(true);
+    expect(writeString(nextYear)).toContain("Year,1829");
+  });
+
+  test("falls back to <year>.next for non-numeric years", () => {
+    const event = readEvent(`Set,May Bumps
+Short,Mays
+Gender,Men
+Year,Unknown
+Days,1
+
+Division,Ca,L
+
+Results
+r
+`)!;
+
+    expect(stepOn(processResults(event)!).year).toBe("Unknown.next");
   });
 });

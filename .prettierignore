@@ -5,6 +5,3 @@ output/
 dist/
 pnpm-lock.yaml
 src/__snapshots__/
-
-# Legacy code kept for reference only
-src/archive/
