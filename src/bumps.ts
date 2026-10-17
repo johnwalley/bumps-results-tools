@@ -718,7 +718,8 @@ export function processResults(
       nc = nc - m;
     }
 
-    // TODO: Check this logic
+    // Winning the Headship earns Blades unconditionally. Events flagged
+    // skip_headship aren't the last of their year, so they don't decide it.
     if (nc === 0 && !event["flags"].includes("skip_headship")) {
       blades = true;
     }
