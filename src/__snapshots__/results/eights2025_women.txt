@@ -18,8 +18,8 @@ div_size: 12 12 12 12 12 12 13 | 12 12 12 12 12 12 13 | 12 12 12 12 12 12 13 | 1
  14 Lincoln I           +2 +1 +1  0 =  +4
  15 St Anne's I         -1 -1 -1 -1 =  -4
  16 Green Templeton I   +1  0 -1  0 =   0
- 17 Linacre I           -1  0 +1  0 =   0
- 18 Exeter I            +1 +1 +1 +1 =  +4 blades
+ 17 Exeter I            -1  0 +1  0 =   0
+ 18 Linacre I           +1 +1 +1 +1 =  +4 blades
  19 Hertford I           0  0  0 +1 =  +1
  20 Mansfield I         -1 -1 -1  0 =  -3
  21 L.M.H. I            +1  0 -1 -1 =  -1
