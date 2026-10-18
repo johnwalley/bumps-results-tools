@@ -62,13 +62,10 @@ function addCrew(
     crewState[club] = 1;
   }
 
+  // A crew listed twice or a skipped number is almost always a typo in the
+  // club code. Crews that really did race out of order are marked with `*`.
   if (num !== crewState[club] && escape !== "*" && club.length > 0) {
-    // TODO: Sometimes it's legitimate to have a crew out of order, e.g. Town Bumps 1868,
-    /*     console.log(
-      `Club ${club} crews out of order (found ${num}, expecting ${crewState[club]})`,
-    );
-
-    return false; */
+    return `Club ${club} crews out of order at "${str}" (found ${num}, expecting ${crewState[club]}); add * to the crew if this is intended`;
   }
 
   crewState[club] = num + 1;

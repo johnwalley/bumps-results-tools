@@ -68,7 +68,7 @@ div_size: 17 17 17 17 12 | 17 17 17 17 12 | 17 17 17 17 12 | 17 17 17 17 12
  64 Churchill III        0  0  0 -1 =  -1
  65 Lucy Cavendish II   -1 -1 -1 -1 =  -4
  66 Clare III           +1  0 -1 -1 =  -1
- 67 LMBC V              -1 -1 -1 -1 =  -4
+ 67 LMBC IV             -1 -1 -1 -1 =  -4
  68 Darwin II           +1 +1 +1 +1 =  +4 blades
  69 Fitzwilliam III      0 +1 +1 +1 =  +3
  70 Downing III          0 -1  0 +1 =   0
@@ -78,7 +78,7 @@ div_size: 17 17 17 17 12 | 17 17 17 17 12 | 17 17 17 17 12 | 17 17 17 17 12
  74 1st and 3rd IV      +1  0 -1 -1 =  -1
  75 Peterhouse IV       -1 -1 -1 -1 =  -4
  76 St Edmund's II      +1 +1 +1 +1 =  +4 blades
- 77 Clare II             0 +1 +1 +1 =  +3
+ 77 Clare Hall II        0 +1 +1 +1 =  +3
  78 Trinity Hall III     0  0 +1 +1 =  +2
  79 King's III           0 -1 +1 +1 =  +1
  80 Queens' III          0 +1 -1  0 =   0

@@ -85,5 +85,5 @@ div_size: 12 12 12 12 12 12 13 | 12 12 12 12 12 12 13 | 12 12 12 12 12 12 13 | 1
  81 L.M.H. II           -1  0 +1  0 =   0
  82 University V        +1 +1 +1  0 =  +3
  83 St Catherine's III   0 -1  0  0 =  -1
- 84 St Anne's I         -1  0  0  0 =  -1
+ 84 St Anne's III       -1  0  0  0 =  -1
  85 Christ Church IV    +1 +1  0 +1 =  +3
