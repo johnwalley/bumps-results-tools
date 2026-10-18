@@ -86,7 +86,7 @@ React app rendered through Vite. `App.tsx` is a split-pane editor:
 - **process_tg_file.ts** - Filter: reads TG from stdin (or a path), runs `processResults`, writes JSON to stdout and errors to stderr (exit 1 on error)
 - **convert_rssbc_to_tg.ts** - Converts the historical RSSBC JSON (under `results/rssbc/`) to TG format
 - **download_rssbc_results.ts** - Fetches RSSBC API data into `results/rssbc/`
-- **convert_tg_to_ad.ts** - Writes `results/ad_format/` from the TG files (`pnpm run generate:ad`). The AD files are committed, and CI fails if they don't match what this script produces, so rerun it after editing TG data
+- **convert_tg_to_ad.ts** - Writes `results/ad_format/` from the TG files (`pnpm run generate:ad`), one AD file per TG file (`mays1848.1_men.txt` → `m1848.1m.txt`). It exits non-zero if two TG files would map to the same AD name, and deletes AD files that no longer have a TG source. The AD files are committed, and CI fails if they don't match what this script produces, so rerun it after editing TG data
 - **convert_ad_to_tg.js**, **normalize_ad.js**, **normalize.js** - Legacy converters for the Anu Dudhia (`ad`) format
 - **data/** - Cached RSSBC raw text dumps used by the converters
 

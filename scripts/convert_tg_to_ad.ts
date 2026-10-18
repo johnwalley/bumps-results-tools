@@ -58,28 +58,31 @@ function writeAd(event: Event): string {
   return out;
 }
 
-if (!fs.existsSync("./results/ad_format/")) {
-  fs.mkdirSync("./results/ad_format/");
+const tgDir = "./results/tg_format/";
+const adDir = "./results/ad_format/";
+
+if (!fs.existsSync(adDir)) {
+  fs.mkdirSync(adDir);
 }
 
-const files = fs.readdirSync("./results/tg_format/").sort();
-let numConverted = 0;
+const files = fs.readdirSync(tgDir).sort();
+// AD file name -> TG file it was converted from
+const written = new Map<string, string>();
 let numSkipped = 0;
 
 for (const file of files) {
-  const setMatch = /^[a-z]+/.exec(file);
-  const yearMatch = /[0-9]+/.exec(file);
-  const allWords = file.match(/[a-z]+/g);
+  // e.g. mays1848.1_men.txt: years with more than one race have a suffix
+  const match = /^([a-z]+)([0-9]+)(\.[0-9]+)?_([a-z]+)\.txt$/.exec(file);
 
-  if (!setMatch || !yearMatch || !allWords || allWords.length < 2) {
+  if (!match) {
     console.warn(`Skipping ${file}: unrecognised filename`);
     numSkipped++;
     continue;
   }
 
-  const set = setMap[setMatch[0]];
-  const gender = genderMap[allWords[1]];
-  const year = yearMatch[0];
+  const set = setMap[match[1]];
+  const gender = genderMap[match[4]];
+  const year = match[2] + (match[3] ?? "");
 
   if (!set || !gender) {
     console.warn(`Skipping ${file}: unknown set/gender`);
@@ -87,9 +90,7 @@ for (const file of files) {
     continue;
   }
 
-  const { event, errors: parseErrors } = await readFile(
-    "./results/tg_format/" + file,
-  );
+  const { event, errors: parseErrors } = await readFile(tgDir + file);
 
   if (!event || event.crews.length === 0) {
     console.warn(`Skipping ${file}: parse failed or no crews`, parseErrors);
@@ -107,14 +108,31 @@ for (const file of files) {
 
   const newFile = `${set}${year}${gender}.txt`;
 
+  const existing = written.get(newFile);
+  if (existing) {
+    console.error(`${file} and ${existing} both convert to ${newFile}`);
+    process.exit(1);
+  }
+
   try {
     const ad = writeAd(processed);
-    fs.writeFileSync("./results/ad_format/" + newFile, ad);
-    numConverted++;
+    fs.writeFileSync(adDir + newFile, ad);
+    written.set(newFile, file);
   } catch (err) {
     console.error(`Failed to convert ${file}:`, err);
     numSkipped++;
   }
 }
 
-console.log(`Converted ${numConverted} files, skipped ${numSkipped}`);
+// Remove AD files whose TG file has gone or been renamed
+let numRemoved = 0;
+for (const file of fs.readdirSync(adDir)) {
+  if (!written.has(file)) {
+    fs.unlinkSync(adDir + file);
+    numRemoved++;
+  }
+}
+
+console.log(
+  `Converted ${written.size} files, skipped ${numSkipped}, removed ${numRemoved} stale`,
+);
