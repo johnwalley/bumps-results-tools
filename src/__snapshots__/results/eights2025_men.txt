@@ -68,7 +68,7 @@ div_size: 12 12 12 12 12 12 13 | 12 12 12 12 12 12 13 | 12 12 12 12 12 12 13 | 1
  64 Oriel IV            -1 -1 -1 -1 =  -4
  65 Mansfield II        +1  0 +1 +1 =  +3
  66 University IV       -1 -1 -1  0 =  -3
- 67 Somerville II       +1 +1  0 +1 =  +3
+ 67 St Hilda's II       +1 +1  0 +1 =  +3
  68 New College IV      -1 -1 -1 +1 =  -2
  69 St John's II        +1 +1 +1  0 =  +3
  70 S.E.H. III          +7 +1 +2 +1 = +11 blades

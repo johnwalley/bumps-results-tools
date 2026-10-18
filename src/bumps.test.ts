@@ -203,6 +203,47 @@ ${results}
     expect(event).toBeNull();
     expect(errors).toHaveLength(1);
   });
+
+  describe("crew order", () => {
+    const parse = (division: string) =>
+      readEvent(`Set,May Bumps
+Short,Mays
+Gender,Men
+Year,2024
+Days,1
+
+Division,${division}
+`);
+
+    test("a club's crews in order", () => {
+      expect(parse("Ca,L,Ca2,L2,Ca3").errors).toEqual([]);
+    });
+
+    test("the same crew twice", () => {
+      const { event, errors } = parse("Cl,Ca,Cl2,Cl");
+      expect(event).toBeNull();
+      expect(errors).toEqual([
+        'Club Clare crews out of order at "Cl" (found 1, expecting 3); add * to the crew if this is intended',
+      ]);
+    });
+
+    test("a skipped crew number", () => {
+      const { errors } = parse("L,L2,L3,L5");
+      expect(errors).toEqual([
+        'Club LMBC crews out of order at "L5" (found 5, expecting 4); add * to the crew if this is intended',
+      ]);
+    });
+
+    test("* allows a crew out of order", () => {
+      const { event, errors } = parse("Ca,Ca3*,Ca2*");
+      expect(errors).toEqual([]);
+      expect(event!.crews.map((c) => c.num_name)).toEqual([
+        "Caius I",
+        "Caius III",
+        "Caius II",
+      ]);
+    });
+  });
 });
 
 describe("stepOn", () => {
