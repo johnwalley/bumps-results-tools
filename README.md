@@ -1,5 +1,8 @@
 # Bumps Results Tools
 
+> [!IMPORTANT]
+> The results tools and data are now in [johnwalley/rowing](https://github.com/johnwalley/rowing/tree/main/packages/bumps-results-tools), alongside the other rowing packages. This repository is archived: make results changes there, where merging still opens the sync PRs for the site and [bumps-results](https://github.com/johnwalley/bumps-results).
+
 ![](https://github.com/johnwalley/bumps-results-tools/workflows/Node%20CI/badge.svg)
 
 Tools for manipulating bumps results data.
